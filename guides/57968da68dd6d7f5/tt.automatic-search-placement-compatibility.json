@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.automatic-search-placement-compatibility",
+    "name": "Automatic search placement compatibility",
+    "vendor": "TikTok",
+    "platform": "Search Ads Campaign",
+    "capability_ids": [
+      "tiktok.search.availability.automatic-search-placement-compatibility"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The TikTok Search Ads Campaign complements automatic search placement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.availability",
+                "source_url": "https://ads.tiktok.com/help/article/search-ads-campaign-availability?lang=en",
+                "locator": "Automatic Search Placement Compatibility",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A Search Ads Campaign will not impact keyword targeting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.availability",
+                "source_url": "https://ads.tiktok.com/help/article/search-ads-campaign-availability?lang=en",
+                "locator": "Automatic Search Placement Compatibility",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "When a search query matches a campaign keyword, the Search Ads campaign takes priority over automatic search placement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.availability",
+                "source_url": "https://ads.tiktok.com/help/article/search-ads-campaign-availability?lang=en",
+                "locator": "Automatic Search Placement Compatibility",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If no keyword matches but the query is relevant to an enabled campaign's ad creative, automatic search placement is eligible to capture the relevant search.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.availability",
+                "source_url": "https://ads.tiktok.com/help/article/search-ads-campaign-availability?lang=en",
+                "locator": "Automatic Search Placement Compatibility",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Advertisers running keyword-targeted Search Ads campaigns can keep automatic search placement enabled to pick up relevant queries their keywords do not cover, without the two competing for the same query.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.availability",
+                "source_url": "https://ads.tiktok.com/help/article/search-ads-campaign-availability?lang=en",
+                "locator": "Automatic Search Placement Compatibility",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The packet documents only the compatibility behavior between Search Ads campaigns and automatic search placement, not any steps to configure or enable either; no setup path can be reconstructed.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The packet describes placement priority behavior only and provides no metrics, KPIs, or performance outcomes for this capability.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Search Ads Campaign keyword targeting and automatic search placement coexist rather than substitute: keyword match wins when it applies; automatic placement is eligible only when no keyword matches.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.availability",
+                "source_url": "https://ads.tiktok.com/help/article/search-ads-campaign-availability?lang=en",
+                "locator": "Automatic Search Placement Compatibility",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Official source: TikTok Ads Help Center article 'Search Ads Campaign Availability' (source_id tiktok.search.availability).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.availability",
+                "source_url": "https://ads.tiktok.com/help/article/search-ads-campaign-availability?lang=en",
+                "locator": "Automatic Search Placement Compatibility",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet supplies no check date for this source.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.search.availability": "af0620c72fc1c6a5fd94d9391871f1c399401433ccde9272765209fa3e5c1140"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

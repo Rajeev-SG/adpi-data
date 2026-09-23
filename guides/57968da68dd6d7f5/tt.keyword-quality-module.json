@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.keyword-quality-module",
+    "name": "Keyword quality module",
+    "vendor": "TikTok",
+    "platform": "Search Ads Campaign",
+    "capability_ids": [
+      "tiktok.search.keyword_quality.keyword-quality-module"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "The module is a campaign-creation aid showing keyword search volume.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The Keyword Quality module appears during Search Ads Campaign creation and displays a search volume label for the selected ad group keywords and their settings.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Search volume is the estimated number of monthly searches the keywords get in the targeting country, shown as a High, Medium, or Low label.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The High/Medium/Low label indicates comparable size within the account's industry vertical, not an absolute count.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The label is relative to industry vertical and varies with match type; the packet does not describe an underlying scoring algorithm.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The displayed volume number may change according to the match type setting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The label reflects comparable size within the account's industry vertical, so it is a relative signal rather than an absolute traffic guarantee.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "How the estimate is computed internally is not documented in the packet.",
+            "status": "not_documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The packet only implies a use case (choosing keywords with higher volume); TikTok recommends a High label for performance.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Keyword selection can use the label as a signal: TikTok recommends maintaining a High label for best ad group performance.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Per the applicable conditions, if the search volume label is unavailable (certain industries), aim for at least 1M monthly searches per ad group.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Applicable conditions",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The packet states the module appears automatically during campaign creation; no manual setup path is documented.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "The module appears during campaign creation in Ads Manager; no separate manual enablement steps are documented.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Availability of the search volume label is limited to certain industries; otherwise a 1M monthly searches per ad group target applies.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Applicable conditions",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The packet links the High label to 'best ad group performance' but defines no KPIs or guarantees; treat as directional.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "TikTok recommends a High search volume label for best ad group performance, but no specific KPIs, uplift magnitude, or guarantee is documented.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The module is a reporting/diagnostic signal, not a control; the 1M monthly searches figure is a goal to aim for, not a billing or attribution metric.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet contains no cross-platform comparisons or alternative features, so no relationship claims can be made.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "One official TikTok Ads Manager help article is provided; the packet carries no check date.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Source: TikTok Business Help Center article 'About keyword quality in TikTok Ads Manager' (source_id: tiktok.search.keyword_quality), https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Keyword quality module and Search volume",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet provides no date on which the source was checked.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.search.keyword_quality": "d9f5cbd86f6ab4a94c5422dc86952910cd986cac1a77b95deb04313c5a6c2098"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": null,
+    "verified_at": null
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.negative-keyword-broad-match",
+    "name": "Negative keyword broad match",
+    "vendor": "TikTok",
+    "platform": "Automatic Search Placement",
+    "capability_ids": [
+      "tiktok.search.automatic_placement.negative-keyword-broad-match"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "TikTok's Automatic Search Placement documentation names 'broad match' as a match type for negative keywords.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": "What are the definitions of TikTok's exact match, phrase match, and broad match?",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The page states that negative keyword match types are aligned with industry standards used by other search engines, including Google and Microsoft.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": "What are the definitions of TikTok's exact match, phrase match, and broad match?",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The evidence names broad match as a negative keyword match type but does not describe the matching rules or how it blocks search queries.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The evidence names the match type but gives no use-case guidance; the following is an inference from standard industry behavior the page itself references.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Broad-match negative keywords would likely be used to exclude a wider set of search queries than exact or phrase matching, given the page states these match types align with industry standards for other search engines.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The evidence contains no steps, menu paths, or conditions for adding a broad-match negative keyword, so the setup process is not documented.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The evidence offers no metrics, KPIs, or measurement guidance for this capability.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The evidence only supports a generic relation to other search engines' negative match types; no specific competing feature equivalences are established.",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "One official TikTok source is provided; no check date is included in the packet.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "TikTok Ads Help Center FAQ for Automatic Search Placement (https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en) is the official source supplied; the packet carries no check date.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": "What are the definitions of TikTok's exact match, phrase match, and broad match?",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "google.ads.negative-keyword-broad-match",
+        "name": "Negative keyword broad match",
+        "vendor": "Google",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok states its negative keyword match types are aligned with industry standards including Google's, but alignment is not documented equivalence; exact matching rules, scope, and platform behavior may differ.",
+        "context": "Negative keyword management in search advertising.",
+        "evidence": [],
+        "status": "inferred"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.search.automatic_placement": "11f13c083b5204097fd92038c6394b5e1e5be842a752f695f1c71faf82a5b283"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-21T06:02:46.863349Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

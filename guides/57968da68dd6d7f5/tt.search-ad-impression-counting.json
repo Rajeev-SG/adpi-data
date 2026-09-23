@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.search-ad-impression-counting",
+    "name": "Search ad impression counting",
+    "vendor": "TikTok",
+    "platform": "Search Ads Campaign",
+    "capability_ids": [
+      "tiktok.search.reporting.search-ad-impression-counting"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "For TikTok Search Ads, an impression is counted when a single pixel of a search ad is shown.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/reporting-on-search-ads-campaigns?lang=en",
+                "locator": "impression counting definition",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A search ad impression can occur on the search results page or as a full-screen ad within the search feed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/reporting-on-search-ads-campaigns?lang=en",
+                "locator": "impression surfaces",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A click on a search ad within the search results page counts only one impression for both the results page and the full-screen search feed ad (i.e., not counted twice across the two surfaces).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/reporting-on-search-ads-campaigns?lang=en",
+                "locator": "deduplication rule",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Returning to a search ad after navigating away counts an additional impression.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/reporting-on-search-ads-campaigns?lang=en",
+                "locator": "re-exposure rule",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "This is an automatic, reporting-side signal rule; the packet gives no indication advertisers can configure how impressions are counted.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/reporting-on-search-ads-campaigns?lang=en",
+                "locator": "impression counting definition",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The evidence does not describe use cases directly; these are editorial inferences from the documented counting rules.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Advertisers can use the counting rules to interpret impression metrics for search ads delivered on both the results page and the search feed.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/reporting-on-search-ads-campaigns?lang=en",
+                "locator": "impression surfaces",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Interpretation of reported impressions, not a documented workflow"
+            ]
+          },
+          {
+            "text": "Marketers analyzing repeat exposures should account for the fact that navigating away and back to a search ad generates an additional impression, so impression counts may exceed unique ad exposures.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/reporting-on-search-ads-campaigns?lang=en",
+                "locator": "re-exposure rule",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Derived from the documented re-exposure rule; no uplift is implied"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The packet documents only how impressions are counted, not any configuration steps, menu paths or toggles for impression counting.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The packet documents the impression metric's counting rules (reporting-signal context); downstream KPI interpretation such as CTR is inference only.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Impressions is the directly documented metric for search ads campaign reporting.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/reporting-on-search-ads-campaigns?lang=en",
+                "locator": "impression counting definition",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Reporting-only signal; attributed metric, not an incremental outcome; no performance uplift is implied"
+            ]
+          },
+          {
+            "text": "Because a results-page click yields one impression across two surfaces, metrics computed against impressions (such as CTR) would use this deduplicated count.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Editorial reasoning; the packet does not state metric formulas"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet describes only TikTok's own impression counting and names no other platform features to compare against, so no cross-platform relationship can be stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Official source: TikTok Ads Help Center article 'Reporting on Search Ads Campaigns' (source_id: tiktok.search.reporting).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/reporting-on-search-ads-campaigns?lang=en",
+                "locator": "article",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet carries no check date for this source; none can be stated.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.search.reporting": "b1627c44ca74a74f2d0b6988c02ac4827a237dea9602bbe957a897e7a44cb862"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": null,
+    "verified_at": null
+  }
+}

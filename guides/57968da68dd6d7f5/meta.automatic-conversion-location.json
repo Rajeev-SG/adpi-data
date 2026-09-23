@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "meta.automatic-conversion-location",
+    "name": "Automatic conversion location selection",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.image.automatic-conversion-location-selection"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The conversion location is the place where people are directed to take action.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Choose a conversion location section",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For some objectives, Meta selects the conversion location automatically instead of requiring the advertiser to choose it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Choose a conversion location section",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "applicable condition (eligibility)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In the image ad configuration shown in the guide, the conversion location is 'On your ad'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Choose a conversion location section",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Stated for the image ad configuration shown; the packet does not present this as a general default."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Automatic selection applies only for some objectives.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "applicable condition (eligibility)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Where automatic selection does not apply, the conversion location is left to advertiser choice.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Inferred from the guide's contrast between automatic selection and advertiser choice; the packet does not list which objectives are eligible."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Advertisers creating image ads under an eligible objective need not choose the conversion location themselves, because Meta sets it (shown as 'On your ad').",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Inference from the automatic-selection statement and the image ad example; availability depends on the objective selected."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The packet describes what automatic selection does but gives no steps, menu labels, or configuration path for enabling or using it, so setup cannot be documented.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The evidence contains no performance metrics, measurement guidance, or outcome data for automatic conversion location selection, so no KPI claims can be made.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet provides no cross-platform or cross-feature comparisons for conversion location selection, so no relationship claims can be evidenced.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The evidence comes from Meta's Ads Guide page for image ads, provided as source_id 'meta.ads.guide.image' at https://www.facebook.com/business/ads-guide/update/image, covering the conversion-location guidance and the eligibility note.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Choose a conversion location section",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "applicable condition (eligibility)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet provides no check or verification date for these sources.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.image": "cb0591963b41c74fdf514cef3cbe605abf4fc904346e74de7d17b2f4220152b9+cb0591963b41c74fdf514cef3cbe605abf4fc904346e74de7d17b2f4220152b9"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-21T15:51:59.635502Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

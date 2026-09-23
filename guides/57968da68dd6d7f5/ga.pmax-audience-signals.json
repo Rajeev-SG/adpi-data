@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "ga.pmax-audience-signals",
+    "name": "Audience signals (Performance Max)",
+    "vendor": "Google Ads",
+    "platform": "Performance Max",
+    "capability_ids": [
+      "google.pmax.audience_signals.audience-signals",
+      "google.pmax.overview.audience-signals",
+      "google.pmax.asset_groups.audience-signals",
+      "google.ads.audience_segments.performance-max-audience-signals"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Audience signals are optional audience suggestions added to a Performance Max campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "Definition paragraph",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.pmax.asset_groups",
+                "source_url": "https://support.google.com/google-ads/answer/10724492?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Audience signals help Google AI optimize for the goals selected for the campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.pmax.asset_groups",
+                "source_url": "https://support.google.com/google-ads/answer/10724492?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Audience signals represent customer intent preferences shared by the advertiser.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "Table row 'Audience signals'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Audience signals guide Google's machine learning models by sharing high-intent audiences, which Google says can accelerate campaign learning.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.ads.audience_segments",
+                "source_url": "https://support.google.com/google-ads/answer/2497941?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Audience signals are an input/signal to Google AI, not a serving restriction; Google AI determines the actual ad serving.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.audience_segments",
+                "source_url": "https://support.google.com/google-ads/answer/2497941?hl=en",
+                "locator": "'not a guarantee' span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Performance Max may still show ads to users outside the audience signals if those users have a strong likelihood of converting, and ads will be served outside the signals if other segments are converting well.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.ads.audience_segments",
+                "source_url": "https://support.google.com/google-ads/answer/2497941?hl=en",
+                "locator": "'other segments converting well' span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use case: advertisers who want to share their customer intent preferences to guide campaign learning in Performance Max.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "Table row 'Audience signals'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use case: advertisers who believe they know which users are most likely to convert and want to help speed up Google AI's learning.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.audience_segments",
+                "source_url": "https://support.google.com/google-ads/answer/2497941?hl=en",
+                "locator": "Performance Max paragraph",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The evidence describes what audience signals are and how they influence Google AI, but no packet span documents the concrete steps, menu locations, or interface for adding audience signals in a campaign or asset group.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The evidence claims audience signals can speed up learning and guide optimization, but it documents no attributed metrics, measurement methodology, or performance outcomes, so no KPI claims are supported.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet contains only Google Ads Performance Max documentation and no evidence about corresponding features on other advertising platforms, so cross-platform relationships cannot be established.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help: 'About Performance Max audience signals' (source_id google.pmax.audience_signals, https://support.google.com/google-ads/answer/14530785?hl=en).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google Ads Help: Performance Max overview (source_id google.pmax.overview, https://support.google.com/google-ads/answer/10724817?hl=en).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google Ads Help: Create an asset group (source_id google.pmax.asset_groups, https://support.google.com/google-ads/answer/10724492?hl=en).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.asset_groups",
+                "source_url": "https://support.google.com/google-ads/answer/10724492?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google Ads Help: About audience segments (source_id google.ads.audience_segments, https://support.google.com/google-ads/answer/2497941?hl=en).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.audience_segments",
+                "source_url": "https://support.google.com/google-ads/answer/2497941?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet carries no check date for these sources.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.ads.audience_segments": "55e85a4817259b13104a98331cf2f72a9fafee5dca0b2ace29a6715dff06b300+55e85a4817259b13104a98331cf2f72a9fafee5dca0b2ace29a6715dff06b300",
+        "google.pmax.asset_groups": "163e5b24590518028442927074770de4615b53493fd2272f2cb80fa0a29e059b",
+        "google.pmax.audience_signals": "e7c023bf934bce9975e97d0c79f6ebd2b7f8d752e965c09713a26ef0e567d153",
+        "google.pmax.overview": "b72cb32e865f3d682a80fa6492da683e447d2c06b81cc9157193c6a567fc6904"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

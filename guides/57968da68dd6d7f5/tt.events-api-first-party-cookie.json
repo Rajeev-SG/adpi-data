@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.events-api-first-party-cookie",
+    "name": "First-party cookie sharing with Events API",
+    "vendor": "TikTok",
+    "platform": "Events API",
+    "capability_ids": [
+      "tiktok.events_api.matching.first-party-cookie-sharing-with-events-api"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The feature shares unique identifiers saved in the ttp first-party cookie with the Events API when the Events API is used alongside TikTok Pixel.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The identifiers involved are limited to the advertiser's domain.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Unique identifiers are saved in the ttp first-party cookie.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "That cookie is first-party and scoped to the advertiser's own domain.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The saved identifiers are shared with the Events API when Pixel is used alongside it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Within the source's context of setting up matching events with the Events API, the shared identifiers serve event matching across Pixel and Events API data.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Editorial inference from the source article's subject; the packet does not describe how the Events API consumes the identifiers."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Advertisers running TikTok Pixel alongside the Events API can use this sharing so identifiers saved by the Pixel cookie are also available to Events API events.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the documented 'used alongside Pixel' condition and the source's matching context; the packet lists no explicit use cases.",
+              "No performance or uplift outcome is claimed."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "TikTok's help article on setting up matching events with the Events API includes a '1st Party Cookie' item that applies when using Pixel.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "That item is described as covering unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The packet's evidence is the TikTok Ads Help Center article on setting up matching events with the Events API (source_id: tiktok.events_api.matching).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.events_api.matching",
+                "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+                "locator": "1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tiktok.pixel",
+        "name": "TikTok Pixel",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok Pixel is the companion product whose ttp first-party cookie stores the unique identifiers on the advertiser's domain; this feature is the sharing of those stored identifiers with the Events API. Pixel is a condition for the sharing, not an equivalent or alternative to it.",
+        "context": "Per the packet's single span, the sharing applies when the Events API is used alongside Pixel.",
+        "evidence": [],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.events_api.matching": "653933a57f6ad15c1d7317601cf66b83622b227e003b60971d4ae9772b3594dd"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

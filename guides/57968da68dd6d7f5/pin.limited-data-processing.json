@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "pin.limited-data-processing",
+    "name": "Limited Data Processing flag",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.measurement.conversions_api.limited-data-processing-flag"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest's Conversions API supports a Limited Data Processing flag.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "Important things to remember — Limited Data Processing flag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The flag's stated purpose is to let advertisers comply with state privacy laws.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "Important things to remember — Limited Data Processing flag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "The Limited Data Processing flag appears to be an advertiser-applied compliance control within the Conversions API, rather than an automatic setting or a reporting-only output.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "Important things to remember — Limited Data Processing flag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the span's framing that the Conversions API supports the flag so advertisers can comply with state privacy laws.",
+              "The evidence does not describe what the flag changes about data processing, how it is set or triggered, or any effect on delivery, attribution, or reporting."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Advertisers can use the flag to comply with state privacy laws.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "Important things to remember — Limited Data Processing flag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "As far as the evidence goes, the use case is framed for advertisers sending data through Pinterest's Conversions API.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "Important things to remember — Limited Data Processing flag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "The evidence presents the flag only as a Conversions API capability; availability in other Pinterest products or surfaces is not documented."
+            ]
+          },
+          {
+            "text": "Which specific state privacy laws the flag addresses is not stated in the evidence.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The sole source is the Pinterest Business Help Center article 'Getting started with the Conversions API' (source_id: pinterest.measurement.conversions_api), which mentions the Limited Data Processing flag in its 'Important things to remember' part.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "Important things to remember — Limited Data Processing flag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.measurement.conversions_api": "a54890f7738cfcb160c2973f3bd433e5a7c2f3f8ba5cc8f9314ca495eb7816fa"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

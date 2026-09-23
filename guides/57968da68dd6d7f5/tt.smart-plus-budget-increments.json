@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.smart-plus-budget-increments",
+    "name": "20% daily budget increments",
+    "vendor": "TikTok",
+    "platform": "Smart+",
+    "capability_ids": [
+      "tiktok.smart_plus.auto_budget.20-daily-budget-increments"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "Auto budget increase: system raises Smart+ daily budget by 20% of original budget.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Smart+ auto budget increase automatically raises the daily budget by 20% of the original budget when applicable conditions are met.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.auto_budget",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-auto-budget-increase-cost-cap-minimum-roas-target-roas?lang=en",
+                "locator": "the system will automatically increase the daily budget by 20% of the original budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "Increments of 20% of the original budget, up to 10 times per day, resetting to the last manual input next day.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Each increment equals 20% of the original budget.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.auto_budget",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-auto-budget-increase-cost-cap-minimum-roas-target-roas?lang=en",
+                "locator": "each increment equals 20% of the original budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The budget can increase up to 10 times per day.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.auto_budget",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-auto-budget-increase-cost-cap-minimum-roas-target-roas?lang=en",
+                "locator": "The budget can increase up to 10 times per day",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The budget resets to the last manual input at the start of the next day.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.auto_budget",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-auto-budget-increase-cost-cap-minimum-roas-target-roas?lang=en",
+                "locator": "the budget resets to the last manual input at the start of the next day",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Increases occur only when the system's applicable conditions are met; the specific triggering conditions are not detailed in the supplied span.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The supplied evidence describes the mechanics of the auto budget increase but does not state any recommended use cases or scenarios.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "setup",
+        "summary": "The evidence does not provide any setup steps or menu paths for enabling auto budget increase; the packet's conditions are not supplied.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "No attributed metrics or performance outcomes for this feature are stated in the evidence; no uplift should be assumed.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet provides no evidence about cross-platform alternatives or related features, so no relationships can be stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "One official TikTok Ads help article; packet carries no check date.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The evidence comes from the official TikTok Ads help article 'About Smart+ auto budget increase' (source_id tiktok.smart_plus.auto_budget).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.auto_budget",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-auto-budget-increase-cost-cap-minimum-roas-target-roas?lang=en",
+                "locator": "article page",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet supplies no check date for this source.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.smart_plus.auto_budget": "5982bb41edbf542aaf770c7470408a5a3862067b7a9b49fa17e88349bb63cfdc"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.smart-plus-automatic-targeting",
+    "name": "Automatic Targeting (Smart+)",
+    "vendor": "TikTok",
+    "platform": "Smart+",
+    "capability_ids": [
+      "tiktok.smart_plus.targeting.automatic-targeting"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Automatic Targeting is the default targeting strategy in TikTok's upgraded Smart+ experience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": "By default, TikTok will use automatic targeting to identify and optimize toward the best-performing audience with minimal input from you.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under this strategy, TikTok selects the audience it judges best-performing and optimizes delivery toward it, requiring little input from the advertiser.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": "By default, TikTok will use automatic targeting to identify and optimize toward the best-performing audience with minimal input from you.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "TikTok automatically identifies the best-performing audience and optimizes delivery toward it with minimal advertiser input.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": "By default, TikTok will use automatic targeting to identify and optimize toward the best-performing audience with minimal input from you.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Advertisers can set baseline parameters through Audience Controls: Location, Minimum Age (18-25), Languages, and Exclude Audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Audience expansion is not applied for this targeting option, according to the source's options table.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Automatic optimization therefore operates within the baseline parameters set via Audience Controls rather than expanding beyond them.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the options table showing audience expansion = NO for automatic targeting; the source does not explicitly state how the baseline bounds delivery."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Automatic Targeting suits advertisers who want TikTok to handle audience selection instead of building detailed targeting themselves.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the documented default behavior of optimizing toward the best-performing audience with minimal input; no use case is stated in the source."
+            ]
+          },
+          {
+            "text": "Advertisers trade detailed audience definition for TikTok-managed optimization: the only documented inputs are the Audience Controls baseline parameters.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the minimal-input description and the listed Audience Controls fields; the source does not discuss control trade-offs explicitly."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Automatic Targeting is the default targeting strategy in the upgraded Smart+ experience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": "By default, TikTok will use automatic targeting to identify and optimize toward the best-performing audience with minimal input from you.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Baseline parameters can be set through Audience Controls: Location, Minimum Age (18-25), Languages, and Exclude Audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet provides no menu path or step-by-step instructions for selecting or changing this targeting option.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The evidence is TikTok's Ads help center article on targeting for the upgraded Smart+ experience (source_id: tiktok.smart_plus.targeting).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.targeting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.smart_plus.targeting": "ee4e2cb546a9f771316c408ef5db088772b96238805eb8b7c61783588fc44e4c"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": null,
+    "verified_at": null
+  }
+}

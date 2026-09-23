@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "ga.search-negative-keywords",
+    "name": "Negative keywords (Search)",
+    "vendor": "Google Ads",
+    "platform": "Search",
+    "capability_ids": [
+      "google.search.campaigns.create.negative-keywords"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "Negative keywords are keywords used to exclude searches from triggering ads on Google Ads Search.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Negative keywords let advertisers exclude searches from triggering their ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.campaigns.create",
+                "source_url": "https://support.google.com/google-ads/answer/9510373?hl=en",
+                "locator": "Negative keywords",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A negative keyword is written by adding a minus sign (-) in front of the keyword.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.campaigns.create",
+                "source_url": "https://support.google.com/google-ads/answer/9510373?hl=en",
+                "locator": "Negative keywords: Add a minus sign - in front of your keyword to exclude searches.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The packet only states the minus-sign syntax and the exclusion effect; broader matching mechanics are not covered.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Adding a minus sign in front of a keyword causes searches containing it to not trigger the ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.campaigns.create",
+                "source_url": "https://support.google.com/google-ads/answer/9510373?hl=en",
+                "locator": "Negative keywords",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "No use case is stated in the evidence; the only editorial inference is avoiding unwanted search queries.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Advertisers plausibly use negative keywords to stop irrelevant searches from triggering ads, reducing wasted impressions/clicks.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Editorial reasoning from the documented exclusion effect; no source states a use case or quantified savings."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The packet documents only the syntax (a minus sign before the keyword), not any menu path or step-by-step procedure.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The documented setup element is the syntax: place a minus sign (-) in front of the keyword to be excluded.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.campaigns.create",
+                "source_url": "https://support.google.com/google-ads/answer/9510373?hl=en",
+                "locator": "Negative keywords: Add a minus sign - in front of your keyword to exclude searches.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The evidence does not document which menus, screens, or steps are used to add negative keywords.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The evidence says nothing about metrics, reporting, or performance effects of negative keywords.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet provides no cross-platform or cross-feature comparisons, so no relationship can be stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "One official Google support source is provided; the packet carries no check date.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Official source: Google Ads support, campaign creation guidance (source_id google.search.campaigns.create).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.campaigns.create",
+                "source_url": "https://support.google.com/google-ads/answer/9510373?hl=en",
+                "locator": "Negative keywords",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet supplies no date on which the source was checked.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.search.campaigns.create": "3c22195323d5720178e5b3ac7ffc5c77a7186c1826d677c6455d5aaf261bb4c5"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T07:41:57.312970Z",
+    "source_checked_at": null,
+    "verified_at": null
+  }
+}

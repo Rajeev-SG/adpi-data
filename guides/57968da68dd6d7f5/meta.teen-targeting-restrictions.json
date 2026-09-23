@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "meta.teen-targeting-restrictions",
+    "name": "Teen Targeting Restrictions",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.lookalike_audiences.countries.teen-targeting-restrictions"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta limits the targeting options available for audiences that include people under 18.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences.countries",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "Targeting options are limited for audiences that include people under 18 (or older in some countries).",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.lookalike_audiences.countries",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "applicable condition (eligibility)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies when the audience includes people under 18, or people above that age where a higher country threshold applies"
+            ]
+          },
+          {
+            "text": "In some countries, the age threshold for these restrictions is higher than 18.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences.countries",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "Targeting options are limited for audiences that include people under 18 (or older in some countries).",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Country-specific; the packet does not name which countries or which higher ages apply"
+            ]
+          },
+          {
+            "text": "The packet frames the restriction as an eligibility condition tied to audience composition rather than as a setting the advertiser configures.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences.countries",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "applicable condition (eligibility)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The restriction is evidenced only within Meta's lookalike audiences documentation; the packet does not show how the same restriction applies on other Meta targeting surfaces.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences.countries",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "Targeting options are limited for audiences that include people under 18 (or older in some countries).",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "setup",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The packet's evidence comes from Meta's Business Help Center lookalike audiences article, identified as source_id meta.lookalike_audiences.countries at https://www.facebook.com/business/help/1108247545961158.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences.countries",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "Targeting options are limited for audiences that include people under 18 (or older in some countries).",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Both evidence spans in the packet come from this single source.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences.countries",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "Targeting options are limited for audiences that include people under 18 (or older in some countries).",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.lookalike_audiences.countries",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "applicable condition (eligibility)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.lookalike_audiences.countries": "a1666c19c25b500b871d8ad6477b7b22849fd7dca49ff428f50342533709d37e+a1666c19c25b500b871d8ad6477b7b22849fd7dca49ff428f50342533709d37e"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

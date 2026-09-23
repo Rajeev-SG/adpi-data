@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.split-testing-experiment-manager",
+    "name": "Split testing via Experiment Manager",
+    "vendor": "TikTok",
+    "platform": "Smart+",
+    "capability_ids": [
+      "tiktok.smart_plus.traffic_campaigns.split-testing-via-experiment-manager"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Split testing is supported for TikTok Smart+ Traffic campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "table row: 'Split testing' col: 'Experiment Manager & Campaign List: Supported (using multi-variable test)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Scoped to Smart+ Traffic campaigns; the packet does not state availability for other Smart+ campaign types."
+            ]
+          },
+          {
+            "text": "The supported split-testing method for Smart+ Traffic campaigns is the multi-variable test.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "table row: 'Split testing' col: 'Experiment Manager & Campaign List: Supported (using multi-variable test)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Split testing for Smart+ Traffic campaigns is supported in both Experiment Manager and Campaign List.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "table row: 'Split testing' col: 'Experiment Manager & Campaign List: Supported (using multi-variable test)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Split testing for Smart+ Traffic campaigns is carried out as multi-variable tests.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "table row: 'Split testing' col: 'Experiment Manager & Campaign List: Supported (using multi-variable test)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Experiment Manager and Campaign List are the surfaces through which these multi-variable tests are run.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "table row: 'Split testing' col: 'Experiment Manager & Campaign List: Supported (using multi-variable test)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The 'multi-variable test' designation indicates that the test involves multiple variables; the packet does not enumerate which variables can be tested.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "table row: 'Split testing' col: 'Experiment Manager & Campaign List: Supported (using multi-variable test)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "setup",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Official source: the TikTok Ads help-center article about Smart+ Traffic campaigns (source_id: tiktok.smart_plus.traffic_campaigns; https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en), cited for the split-testing support statement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "table row: 'Split testing' col: 'Experiment Manager & Campaign List: Supported (using multi-variable test)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet provides no check or retrieval date for this source.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.smart_plus.traffic_campaigns": "db10daba19896206492ae29d89539183b48fcffac6a3c43dc620116de91ed369"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

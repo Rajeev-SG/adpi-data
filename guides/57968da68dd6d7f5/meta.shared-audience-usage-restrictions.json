@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "meta.shared-audience-usage-restrictions",
+    "name": "Shared audience usage restrictions",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.audience_sharing.shared-audience-usage-restrictions"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "The packet defines shared audiences and states the recipient-side usage restriction that gives this feature its name; the sharing sentence is truncated, so destinations beyond ad accounts are unknown.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Shared audiences let an audience owner give other people access to audiences the owner created for their ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Shared audiences definition sentence",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Custom audiences and lookalike audiences can be shared between ad accounts, individually or in bulk.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Sharing scope sentence",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The defining restriction: a recipient of a shared custom audience can use it but cannot share it onward to another ad account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Recipient permission sentence",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Whether audiences can be shared with destinations other than ad accounts is not stated; the sharing sentence is cut off mid-list.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The packet states the restriction as a fixed condition of receiving a shared custom audience — use in ad sets is granted, onward re-sharing is not — and mentions no setting that changes it.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A recipient of a shared custom audience can create ad sets that use that audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Recipient permission sentence",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A recipient of a shared custom audience cannot share that audience onward to another ad account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Recipient permission sentence",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet presents the restriction as inherent to receiving a shared custom audience rather than as a configurable setting.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Recipient permission sentence",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In function this is an access control on redistribution, not a targeting signal, automatic delivery behavior, or reporting element.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Recipient permission sentence",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Whether the same use-without-re-sharing rule applies to shared lookalike audiences is not documented.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "Only one concrete use is documented — recipients building ad sets from the shared audience — and the broader scenarios that make the restriction valuable are editorial inference.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A recipient ad account can create ad sets that use a shared custom audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Recipient permission sentence",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The restriction supports controlled distribution: an owner lets another ad account use the audience while preventing that recipient from passing it to further ad accounts.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Recipient permission sentence",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet names no specific usage scenarios (e.g., agency, partner, or multi-account workflows); only the mechanics of ad-set creation and re-share prohibition are supported.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The evidence describes what sharing is and what recipients may and may not do, but contains no steps, menu labels, or conditions for how to share an audience or configure any restriction, so the setup path cannot be stated without inventing steps.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The evidence covers only audience access permissions; it names no metrics, measurements, or performance effects of shared audience usage restrictions.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet provides no cross-platform or cross-feature comparisons, so any relationship to similarly named sharing features in other ad platforms would be unsupported; the relationships list is therefore left empty.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "The packet carries exactly one usable source — Meta's Audience Sharing help page — and no check date, which is reported as-is rather than invented.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Sole evidence source: Meta Audience Sharing help documentation (meta.audience_sharing) at https://www.facebook.com/business/help/1676733802590358.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.audience_sharing",
+                "source_url": "https://www.facebook.com/business/help/1676733802590358",
+                "locator": "Whole packet",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet supplies no check or retrieval date for this source.",
+            "status": "not_applicable",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.audience_sharing": "b26b8af8093e896eb03fe95868d33ed9f7a757df31b317dfa80e0a748a6fedc2"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

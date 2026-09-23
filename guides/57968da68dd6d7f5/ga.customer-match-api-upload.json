@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "ga.customer-match-api-upload",
+    "name": "Google Ads API list upload (Customer Match)",
+    "vendor": "Google Ads",
+    "platform": "Google Ads",
+    "capability_ids": [
+      "google.customer_match.match_rates.google-ads-api-list-upload"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The Google Ads API list upload for Customer Match is performed through the Customer Match section of the Google Ads API.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "API upload",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Describes the API upload path; Google recommends Data Manager or the Data Manager API for new Customer Match integrations."
+            ]
+          },
+          {
+            "text": "The same API section is used both to upload data files and to manage audiences.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "API upload",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use of the API upload is restricted to account owners or administrators.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "Account owners or administrators can use the Customer Match section of the Google Ads API",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Access condition stated for the API upload path."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Data files are uploaded via the Customer Match section of the Google Ads API, and audiences can be managed through the same section.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "API upload",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The upload is an advertiser-controlled action (the account owner or administrator initiates uploads and audience management), not an automatic or reporting-only process.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "API upload",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Editorial inference from the documented upload/manage actions; the packet does not use control/signal terminology."
+            ]
+          },
+          {
+            "text": "How uploaded data is matched to users (for example hashing or match-rate calculation) is not described in the packet.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The API upload is used to upload Customer Match data files and manage audiences.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "API upload",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For new Customer Match integrations, Google recommends using Data Manager or the Data Manager API rather than the Google Ads API.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "It's recommended that you avoid using the Google Ads API for new Customer Match integrations",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Scoped to new integrations; the packet states no deadline or deprecation date for the API path."
+            ]
+          },
+          {
+            "text": "The API upload path is therefore best understood as serving integrations that already exist, with Data Manager or the Data Manager API as the recommended route for new ones.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "It's recommended that you avoid using the Google Ads API for new Customer Match integrations",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Editorial inference from the recommendation; the packet does not explicitly label the API path as legacy or deprecated."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Only account owners or administrators can use the API upload.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "Account owners or administrators can use the Customer Match section of the Google Ads API",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The upload and audience management take place in the Customer Match section of the Google Ads API.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "API upload",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step-by-step setup instructions (such as API client configuration, authentication, or the exact upload request format) are not documented in the packet, so the setup path stops at the access prerequisite.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The evidence comes from the official Google Ads support page at https://support.google.com/google-ads/answer/10534785?hl=en, provided under source_id google.customer_match.match_rates.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "API upload",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "Account owners or administrators can use the Customer Match section of the Google Ads API",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "It's recommended that you avoid using the Google Ads API for new Customer Match integrations",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "All three evidence spans in the packet come from this single source.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "API upload",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "Account owners or administrators can use the Customer Match section of the Google Ads API",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.customer_match.match_rates",
+                "source_url": "https://support.google.com/google-ads/answer/10534785?hl=en",
+                "locator": "It's recommended that you avoid using the Google Ads API for new Customer Match integrations",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet provides no check or verification date for this source.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "google.data-manager",
+        "name": "Data Manager",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Google recommends Data Manager as the path forward for new Customer Match integrations in place of the Google Ads API upload; the packet does not document feature parity between the two paths.",
+        "context": "Choosing where to upload Customer Match data when starting a new integration.",
+        "evidence": [],
+        "status": "documented"
+      },
+      {
+        "feature_id": "google.data-manager-api",
+        "name": "Data Manager API",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Google recommends the Data Manager API as the path forward for new Customer Match integrations in place of the Google Ads API upload; the packet does not document feature parity between the two paths.",
+        "context": "Choosing where to upload Customer Match data when starting a new integration.",
+        "evidence": [],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.customer_match.match_rates": "97118cfd55e1e5cb9d817a4bd0d39d0d44088e4d6fdd960c1669940bcb253615+97118cfd55e1e5cb9d817a4bd0d39d0d44088e4d6fdd960c1669940bcb253615+97118cfd55e1e5cb9d817a4bd0d39d0d44088e4d6fdd960c1669940bcb253615"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": null,
+    "verified_at": null
+  }
+}

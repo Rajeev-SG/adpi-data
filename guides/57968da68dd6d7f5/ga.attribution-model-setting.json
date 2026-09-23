@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "ga.attribution-model-setting",
+    "name": "Attribution model setting",
+    "vendor": "Google Ads",
+    "platform": "Google Ads",
+    "capability_ids": [
+      "google.ads.attribution.attribution-model-setting"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "Official Help Center article defines the setting.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The attribution model setting in Google Ads conversion tracking lets you decide how to attribute conversions for each conversion action.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": "About attribution models for conversions and bidding — 'The Attribution model setting in conversion tracking...'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The evidence states how the setting affects counting.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Changing the attribution model affects how conversions are counted going forward in the 'Conversions' and 'All conversions' columns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": "About attribution models for conversions and bidding — effect on 'Conversions' and 'All conversions' columns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The setting applies only to the conversion action it is set on, not account-wide.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": "About attribution models for conversions and bidding — 'only affects the conversion action to which it is applied'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The setting is a reporting/attribution counting control over how conversions are credited; the packet does not state that changing it affects bidding eligibility or historical figures, so no such effect should be assumed.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The packet identifies which conversion action types can use the setting.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The setting can be used for website and Google Analytics conversion actions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": "About attribution models for conversions and bidding — 'You can use this setting for website and Google Analytics conversion actions.'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The evidence confirms the setting exists and its scope, but supplies no navigation path or steps for configuring it, so no setup procedure can be given.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "No KPIs are named in the evidence; the only reasonable inference is that the setting changes values in the 'Conversions' and 'All conversions' columns, which are attributed metrics, not incremental outcomes.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Values in the 'Conversions' and 'All conversions' columns change as the attribution model changes; these are attributed metrics under the chosen model and should not be read as guaranteed or incremental uplift.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet contains no evidence about other platforms' attribution settings or about how this setting compares to Google Analytics' own attribution configuration, so no cross-platform relationship can be honestly stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "The packet supplies one official source; it carries no check date.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help Center article 'About attribution models for conversions and bidding' (source_id: google.ads.attribution), https://support.google.com/google-ads/answer/6259715?hl=en; the packet provides no date checked.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.ads.attribution": "c8786d7a648e36e0ecd705fc98d6f342f41385515edb6163675cd8820386985b+c8786d7a648e36e0ecd705fc98d6f342f41385515edb6163675cd8820386985b"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

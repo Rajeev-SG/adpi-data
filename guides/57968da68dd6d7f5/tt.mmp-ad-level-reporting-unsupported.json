@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.mmp-ad-level-reporting-unsupported",
+    "name": "MMP ad level reporting unsupported",
+    "vendor": "TikTok",
+    "platform": "Smart+",
+    "capability_ids": [
+      "tiktok.smart_plus.reporting.mmp-ad-level-reporting-unsupported"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "The capability is a documented reporting limitation: ad-level name and data from upgraded Smart+ campaigns are not reported to MMPs; it is not a setting or control.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "For upgraded Smart+ campaigns, the ad-level name and ad-level data are not reported to mobile measurement partners (MMPs).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-reporting-for-the-upgraded-smart-experience?lang=en",
+                "locator": "Explanation of ad-level non-reporting on MMPs (4-level Smart+ structure vs 3-level MMP support)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Scope given by the packet: upgraded Smart+ campaigns; the packet makes no statement about other TikTok campaign types."
+            ]
+          },
+          {
+            "text": "This is a reporting-scope limitation (what MMPs receive), not a control, delivery setting, or optimisation option.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-reporting-for-the-upgraded-smart-experience?lang=en",
+                "locator": "Explanation of ad-level non-reporting on MMPs (4-level Smart+ structure vs 3-level MMP support)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Editorial scoping based on the packet's reporting context; the packet is silent on delivery or controls."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The evidence explains the limitation causally as a mismatch between the number of reporting levels in upgraded Smart+ and what MMPs support.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The gap is caused by a hierarchy mismatch: upgraded Smart+ campaigns have four levels of reporting, while MMPs support only three levels of campaign structure.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-reporting-for-the-upgraded-smart-experience?lang=en",
+                "locator": "Explanation of ad-level non-reporting on MMPs (4-level Smart+ structure vs 3-level MMP support)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because the MMP model has only three levels, the ad level of the Smart+ structure has no MMP-side counterpart, so its name and data cannot be carried into MMP reporting.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-reporting-for-the-upgraded-smart-experience?lang=en",
+                "locator": "Explanation of ad-level non-reporting on MMPs (4-level Smart+ structure vs 3-level MMP support)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the documented 4-vs-3 mismatch plus the documented absence of ad-level data on MMPs; the packet does not state an explicit level-by-level mapping."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The packet documents only the limitation and its cause; it describes no usage scenarios, workflows, or advertiser cases, so no use cases can be stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "setup",
+        "summary": "The evidence describes a structural non-support with no menus, settings, or configuration steps, so no setup path is documented or reconstructed here.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The packet names no metrics or KPI guidance; its only measurement statement is that ad-level name and data are absent from MMP reporting, so which KPIs remain visible on the MMP side cannot be characterised.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "Answered by the relationships list: the packet documents a structural non-equivalence between upgraded Smart+ reporting and MMP reporting, not a substitute feature.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "MMP reporting of upgraded Smart+ campaigns is not equivalent to Smart+ in-platform reporting: MMPs support three levels of campaign structure while upgraded Smart+ has four, so the ad level is missing on the MMP side.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-reporting-for-the-upgraded-smart-experience?lang=en",
+                "locator": "Explanation of ad-level non-reporting on MMPs (4-level Smart+ structure vs 3-level MMP support)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "One official TikTok Ads help-centre source backs the packet; the packet carries no check date, so none is stated here.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The sole evidence source for this guide is TikTok's official Ads help article on reporting for the upgraded Smart+ experience (source_id: tiktok.smart_plus.reporting), at the URL given in the evidence reference.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.reporting",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-reporting-for-the-upgraded-smart-experience?lang=en",
+                "locator": "Explanation of ad-level non-reporting on MMPs (4-level Smart+ structure vs 3-level MMP support)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tiktok.smart_plus.reporting.mmp-ad-level-reporting-unsupported",
+        "name": "MMP reporting of upgraded Smart+ campaigns",
+        "vendor": "TikTok (upgraded Smart+) vs third-party MMPs",
+        "kind": "partial_alternative",
+        "difference": "MMPs support only three levels of campaign structure against upgraded Smart+'s four reporting levels, so the ad-level name and data are not reported on MMPs; Smart+ in-platform reporting retains all four levels.",
+        "context": "When upgraded Smart+ campaign results are consolidated through an MMP dashboard, the Smart+ ad level has no counterpart in the MMP's three-level structure.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.reporting",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-reporting-for-the-upgraded-smart-experience?lang=en",
+            "locator": "Explanation of ad-level non-reporting on MMPs (4-level Smart+ structure vs 3-level MMP support)",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.smart_plus.reporting": "84db32a19b2d5754dc524824061a13b1f7c71e7a7d7eae6f4348eb202a168ebb"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

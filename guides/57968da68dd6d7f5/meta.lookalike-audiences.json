@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "meta.lookalike-audiences",
+    "name": "Lookalike audiences",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.lookalike_audience.percent_range.lookalike-audiences",
+      "meta.lookalike_audience.percent_range.gap.lookalike-audiences"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A lookalike audience is a way for ads to reach new people who are likely to be interested in the business because they share similar characteristics to the advertiser's existing customers.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audience.percent_range",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "definition span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.lookalike_audience.percent_range.gap",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "definition span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The system leverages demographics, interests and behaviours from the source audience to find new people who share similar qualities.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audience.percent_range",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "definition span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.lookalike_audience.percent_range.gap",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "definition span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Ads are then delivered to that similar audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audience.percent_range.gap",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "definition span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Audience construction is performed by Meta's system from the source audience rather than by manual selection of individuals; the evidence does not document advertiser-controlled build inputs such as size or country settings.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Reasoning from the documented statement that the system leverages source-audience attributes"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The core use case is prospecting: reaching new people beyond the advertiser's existing customer base, selected for similarity to those customers.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Editorial reasoning from the documented definition; the packet does not list use cases explicitly"
+            ]
+          },
+          {
+            "text": "Lookalike audiences are limited or unavailable for some ads about financial products and services, employment or housing opportunities.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audience.percent_range",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "restriction span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.lookalike_audience.percent_range.gap",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "restriction span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies to some ads about financial products and services, employment or housing opportunities"
+            ]
+          },
+          {
+            "text": "Changes driven by efforts to align products with evolving privacy rules in Europe may affect campaigns advertising to people in the European Region.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audience.percent_range",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "Europe privacy span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.lookalike_audience.percent_range.gap",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "Europe privacy span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Campaigns advertising to people in the European Region"
+            ]
+          },
+          {
+            "text": "Targeting options are limited for audiences that include people under 18 (or older in some countries).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audience.percent_range",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": "under-18 span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Audiences that include people under 18, or older in some countries"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Official source: Meta Business Help Center page on lookalike audiences, supplied in the packet under source ids meta.lookalike_audience.percent_range and meta.lookalike_audience.percent_range.gap at https://www.facebook.com/business/help/1108247545961158.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audience.percent_range",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.lookalike_audience.percent_range.gap",
+                "source_url": "https://www.facebook.com/business/help/1108247545961158",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet carries no check date for these sources.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.lookalike_audience.percent_range": "a1666c19c25b500b871d8ad6477b7b22849fd7dca49ff428f50342533709d37e+a1666c19c25b500b871d8ad6477b7b22849fd7dca49ff428f50342533709d37e+a1666c19c25b500b871d8ad6477b7b22849fd7dca49ff428f50342533709d37e+a1666c19c25b500b871d8ad6477b7b22849fd7dca49ff428f50342533709d37e",
+        "meta.lookalike_audience.percent_range.gap": "a1666c19c25b500b871d8ad6477b7b22849fd7dca49ff428f50342533709d37e+a1666c19c25b500b871d8ad6477b7b22849fd7dca49ff428f50342533709d37e+a1666c19c25b500b871d8ad6477b7b22849fd7dca49ff428f50342533709d37e"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": null,
+    "verified_at": null
+  }
+}

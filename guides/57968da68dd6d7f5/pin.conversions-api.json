@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "pin.conversions-api",
+    "name": "Conversions API",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.measurement.conversions_api.conversions-api",
+      "pinterest.api.conversions.pinterest-conversions-api"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "What it is: Pinterest's server-to-server interface for advertisers to send conversion events from their own systems to Pinterest.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest describes the Conversions API as its interface for sending conversion events to Pinterest from the advertiser's own systems.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "overview: interface for sending conversion events; setup and deployment options",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It enables advertisers to send conversions directly to Pinterest over a server-to-server connection.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.api.conversions",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/the-pinterest-api-for-conversions",
+                "locator": "server-to-server description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Read together, the documented descriptions present the API as an event-delivery (signal) path; the packet does not describe any bidding, budget or campaign-control function for it.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "How it works per the evidence: events flow server-to-server from advertiser systems, authenticated by an access token, and are used by Pinterest for optimisation, targeting and reporting.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Conversion events are sent from the advertiser's systems directly to Pinterest via a server-to-server connection.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "overview: interface for sending conversion events; setup and deployment options",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "pinterest.api.conversions",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/the-pinterest-api-for-conversions",
+                "locator": "server-to-server description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "An access token verifies that requests are made and sent back to the correct user's account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "access token requirement",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest states the sent conversions are used for campaign optimisation, targeting and conversion reporting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.api.conversions",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/the-pinterest-api-for-conversions",
+                "locator": "server-to-server description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "Stated purposes are campaign optimisation, targeting and conversion reporting, with deployment standalone or alongside existing tagging/measurement tools.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Sending conversion events to Pinterest to support campaign optimisation.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.api.conversions",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/the-pinterest-api-for-conversions",
+                "locator": "server-to-server description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Sending conversion events to support targeting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.api.conversions",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/the-pinterest-api-for-conversions",
+                "locator": "server-to-server description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Sending conversion events to support conversion reporting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.api.conversions",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/the-pinterest-api-for-conversions",
+                "locator": "server-to-server description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The API can run standalone or alongside the Pinterest Tag or Mobile Measurement Partners.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "overview: interface for sending conversion events; setup and deployment options",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Documented prerequisites and entry points: a Pinterest Business account, a token generated via the Conversions page in Ads Manager, setup directly or with a partner from the Set up API page in Ads Manager, and Business Access for accounts you do not own; the packet stops there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A Pinterest Business account is required.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "business account requirement",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "pinterest.api.conversions",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/the-pinterest-api-for-conversions",
+                "locator": "eligibility: business account and token via the Conversions page in Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "An access token must be generated; it verifies that requests are made and sent back to the correct user's account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "access token requirement",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The token is generated through the Conversions page in Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.api.conversions",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/the-pinterest-api-for-conversions",
+                "locator": "eligibility: business account and token via the Conversions page in Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Setup can be done directly or with a partner, from the Set up API page in Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "overview: interface for sending conversion events; setup and deployment options",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Accessing an account you do not own requires setting up Business Access.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "eligibility: Business Access for accounts you do not own",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Beyond these prerequisites and entry points, the packet documents no further step-by-step setup procedure.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The evidence names conversion reporting as a purpose of the API but defines no specific KPIs, metrics, attribution methodology or expected outcomes, so no KPI claims can be supported and no uplift should be implied.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The evidence supports co-existence with the Pinterest Tag and Mobile Measurement Partners (standalone or alongside) but supplies no feature identifiers for those products and no cross-platform equivalence claims, so the relationships list is left empty rather than minting ids.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The Conversions API can run standalone.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "overview: interface for sending conversion events; setup and deployment options",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It can run alongside the Pinterest Tag.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "overview: interface for sending conversion events; setup and deployment options",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It can run alongside Mobile Measurement Partners.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "overview: interface for sending conversion events; setup and deployment options",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet supplies no feature identifiers for the Pinterest Tag or Mobile Measurement Partners and no cross-platform alternative claims, so no relationship records are emitted.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "Two official Pinterest Help Centre articles supplied in the packet; the packet provides no check date, so none is stated.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Official source: Pinterest Help Centre article on getting started with the Conversions API (source_id: pinterest.measurement.conversions_api).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.conversions_api",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+                "locator": "overview: interface for sending conversion events; setup and deployment options",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Official source: Pinterest Help Centre article on the Pinterest API for Conversions (source_id: pinterest.api.conversions).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.api.conversions",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/the-pinterest-api-for-conversions",
+                "locator": "server-to-server description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet carries no check date for either source.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.api.conversions": "959055d190bdf922da69dc64f94cf630b283e4b0e11faaa4ecf4d273b3f2fd9a+959055d190bdf922da69dc64f94cf630b283e4b0e11faaa4ecf4d273b3f2fd9a",
+        "pinterest.measurement.conversions_api": "a54890f7738cfcb160c2973f3bd433e5a7c2f3f8ba5cc8f9314ca495eb7816fa+a54890f7738cfcb160c2973f3bd433e5a7c2f3f8ba5cc8f9314ca495eb7816fa+a54890f7738cfcb160c2973f3bd433e5a7c2f3f8ba5cc8f9314ca495eb7816fa+a54890f7738cfcb160c2973f3bd433e5a7c2f3f8ba5cc8f9314ca495eb7816fa"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "tt.search-broad-match",
+    "name": "Broad match (Search Ads)",
+    "vendor": "TikTok",
+    "platform": "Search Ads Campaign",
+    "capability_ids": [
+      "tiktok.search.keyword_quality.broad-match",
+      "tiktok.search.optimization.broad-match"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Broad match is a keyword match type for TikTok Search Ads that can help maximize search volume, increase flexibility, and drive more impressions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Search volume tips",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Broad match has the highest reach among match types for Search Ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Broad: highest reach; best for launch and learning.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Broad match appears to work by relaxing exact keyword constraints so queries matching intent variants can trigger the ad, which explains the higher reach and impression volume the sources report.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Broad: highest reach; best for launch and learning.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "TikTok recommends broad match as the default match type for all keywords, especially when the search volume label is medium or low.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Search volume tips",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Broad match is recommended at campaign launch and during learning to capture intent variants and learn quickly.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Broad: highest reach; best for launch and learning.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The packet describes the match type and its recommendations but does not document the menu path or steps for selecting it when building a Search Ads campaign, so setup instructions are abstained from.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "No packet span reports attributed metrics or incremental outcomes for broad match; only the qualitative direction (more impressions, higher reach) is stated, so KPI evidence is absent.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet provides no cross-platform or cross-feature comparison evidence, so no relationship entries can be honestly filled.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Source tiktok.search.keyword_quality (TikTok Ads Manager help, 'about keyword quality'), URL: https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.keyword_quality",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-keyword-quality-in-tiktok-ads-manager?lang=en",
+                "locator": "Search volume tips",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Source tiktok.search.optimization (TikTok Ads Manager help, 'Search Ads optimization'), URL: https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Broad: highest reach; best for launch and learning.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet carries no check date for either source.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.search.keyword_quality": "d9f5cbd86f6ab4a94c5422dc86952910cd986cac1a77b95deb04313c5a6c2098",
+        "tiktok.search.optimization": "da818697d90d03979f3e1541874e2e94f215238d390acd17bbcd515d88d038e4"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": null,
+    "verified_at": null
+  }
+}

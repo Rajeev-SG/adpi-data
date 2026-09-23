@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "meta.manual-reels-placement",
+    "name": "Manual Reels placement selection",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.reels.instagram_ads.manual-reels-placement-selection"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Advertisers can manually include Reels among the placements they select for a campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram_ads",
+                "source_url": "https://www.facebook.com/business/help/4023434621109377",
+                "locator": "To manually choose specific placements for your campaign and include reels among your selections, click Show more settings",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies when Advantage+ placements is not used for the campaign."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "To manually choose specific placements for a campaign and include Reels among the selections, the advertiser clicks 'Show more settings'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram_ads",
+                "source_url": "https://www.facebook.com/business/help/4023434621109377",
+                "locator": "To manually choose specific placements for your campaign and include reels among your selections, click Show more settings",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Advantage+ placements is not used for the campaign."
+            ]
+          },
+          {
+            "text": "How Reels is then picked within the placement options, and how the selection is confirmed, are not documented in the packet.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "A supportable use case is a campaign whose advertiser prefers to control placements manually and wants Reels included in the selected set.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram_ads",
+                "source_url": "https://www.facebook.com/business/help/4023434621109377",
+                "locator": "To manually choose specific placements for your campaign and include reels among your selections, click Show more settings",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the documented capability; the packet states no audience, creative-fit, or performance rationale for choosing Reels.",
+              "No outcome or uplift is implied; the packet contains no performance data."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Click 'Show more settings' to manually choose specific placements for the campaign and include Reels among the selections.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram_ads",
+                "source_url": "https://www.facebook.com/business/help/4023434621109377",
+                "locator": "To manually choose specific placements for your campaign and include reels among your selections, click Show more settings",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies when Advantage+ placements is not used for the campaign."
+            ]
+          },
+          {
+            "text": "No setup steps beyond clicking 'Show more settings' are documented in the packet, so the path cannot be completed from this evidence alone.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The packet's sole source is a Meta Business Help Center page, referenced as source_id 'meta.reels.instagram_ads' at https://www.facebook.com/business/help/4023434621109377.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram_ads",
+                "source_url": "https://www.facebook.com/business/help/4023434621109377",
+                "locator": "To manually choose specific placements for your campaign and include reels among your selections, click Show more settings",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet provides no date on which the source was checked.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.reels.instagram_ads": "aed4cad414926132550d759177443290805a5c9d0beb71d2c496a1f4eeb8636a"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

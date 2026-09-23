@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "pin.negative-exact-match",
+    "name": "Negative exact match",
+    "vendor": "Pinterest",
+    "platform": "Search",
+    "capability_ids": [
+      "pinterest.search.keywords.negative-exact-match"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Negative exact match is a Pinterest Search keyword match type that stops the advertiser's Pins from being shown when a search matches the keyword exactly.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Negative exact match'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The exact-match comparison is order-sensitive.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Negative exact match'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "When a search matches the negative keyword exactly, the advertiser's Pins are not shown for that search.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Negative exact match'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The keyword is specified with a minus sign together with square brackets in Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Negative exact match'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "This behaves as a delivery-side exclusion control rather than a reporting-only signal or an automatic optimization.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Negative exact match'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the documented behavior of suppressing serving; the packet does not use control/signal terminology."
+            ]
+          },
+          {
+            "text": "Searches that do not match the keyword exactly, including the same words in a different order, fall outside the documented exclusion.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Negative exact match'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from 'matches exactly' plus 'order matters'; the packet does not state behavior for non-exact searches."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "An advertiser that does not want Pins served for one specific search phrase can add that phrase as a negative exact match.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Negative exact match'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the documented exclusion behavior; the packet offers no recommended scenarios or best-practice guidance."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The keyword is entered in Ads Manager using a minus sign and square brackets.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Negative exact match'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest Ads are not yet available in all regions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Region availability notice",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Access to this feature may vary by region.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Region availability notice",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the regional-availability statement; the packet does not list affected regions or confirm this setting's availability per region."
+            ]
+          },
+          {
+            "text": "Step-by-step Ads Manager navigation for adding the negative keyword is not documented; the packet stops at the entry syntax.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Official source: Pinterest Help Center, keyword targeting article (source_id: pinterest.search.keywords; https://help.pinterest.com/en-gb/business/article/keyword-targeting).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Negative exact match'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Region availability notice",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet provides no check or retrieval date for these sources.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.search.keywords": "da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa+da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

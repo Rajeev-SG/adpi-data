@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "ga.enhanced-conversions-web",
+    "name": "Enhanced conversions for web",
+    "vendor": "Google Ads",
+    "platform": "Google Ads",
+    "capability_ids": [
+      "google.enhanced_conversions.web.setup_gtm.enhanced-conversions-for-web"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Enhanced conversions for web improves the accuracy of conversion measurement by supplementing existing conversion tags with securely sent, hashed first-party conversion data from the website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "Enhanced conversions for web improves the accuracy of your conversion measurement...",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is a Google Ads feature enabled at the account or conversion action level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "Enabled at account or conversion action level in Google Ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "First-party customer data such as email addresses is hashed with SHA256 one-way hashing before being sent from the website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "using SHA256 one-way hashing on first-party customer data such as email addresses",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The hashed data is matched with signed-in Google accounts to attribute campaign conversions to ad events such as clicks or views.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "the hashed data is matched with signed-in Google accounts to attribute campaign conversions to ad events such as clicks or views",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Turning enhanced conversions off does not affect existing conversion data.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "turning it off does not affect existing conversion data",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Enhanced conversions data is used for bidding and reporting in Google Ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "used for bidding and reporting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because the feature supplements existing conversion tags rather than replacing them, it is positioned as an accuracy improvement layered on top of existing conversion measurement; the evidence does not quantify any uplift, so any expected performance gain is an inference and not a documented outcome.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "It supplements your existing conversion tags by securely sending hashed first-party conversion data from your website.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Enhanced conversions for web can be set up via Google Tag Manager, the Google tag, or the Google Ads API.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "set up via Google Tag Manager, the Google tag, or the Google Ads API",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "User-provided data collection will not begin until the terms of service are accepted in the Google Ads or Google Analytics account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "user-provided data collection won't begin until you accept the terms of service",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "To enable enhanced conversions, the advertiser must confirm that the Google Ads Data Processing Terms apply and must comply with the enhanced conversion Customer data policies.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "To enable enhanced conversions you must confirm that the Google Ads Data Processing Terms apply...",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "First-party customer data such as email, full name and home address, and/or phone number must be available on the page where the conversion tracking tag fires.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "Make sure there is first-party customer data available on the page where your conversion tracking tag fires",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "At least one match key must be provided: email (preferred), address (first name, last name, postal code, and country required), or phone number.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "At least one of the following fields must be provided",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If conversion tracking is set up using URL, enhanced conversions can only use the JavaScript or CSS selectors options or automatic enhanced conversions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "If you set up conversion using URL, you can only set up enhanced conversions using the JavaScript or CSS selectors options or automatic enhanced conversions",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Enhanced conversions data sent via a method different from the one selected in Google Ads may not be processed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "If you send Google enhanced conversions data in a way that's different from what you've already selected in Google Ads, that data may not be processed",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet names the setup channels and the applicable conditions but does not provide step-by-step menu paths or click-by-click instructions for any of the three setup methods; the setup section therefore stops at the documented prerequisites and method list.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "set up via Google Tag Manager, the Google tag, or the Google Ads API",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "No KPI, metric definition, or performance outcome is stated in the evidence packet; the packet only mentions that the feature is used for bidding and reporting without defining any attributed or incremental metrics.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "The evidence packet contains no cross-platform or cross-feature comparison material, so no alternative or equivalent relationship can be stated without inventing one.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The packet provides one official source: Google Ads Help, 'Enhanced conversions for web' (source_id: google.enhanced_conversions.web.setup_gtm), at https://support.google.com/google-ads/answer/13262500?hl=en, covering the definition, mechanism, setup channels, and applicable conditions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web.setup_gtm",
+                "source_url": "https://support.google.com/google-ads/answer/13262500?hl=en",
+                "locator": "Enhanced conversions for web improves the accuracy of your conversion measurement...",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet carries no check date, so no verification date can be stated for this source.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.enhanced_conversions.web.setup_gtm": "144c5a1607f0e252ba1ce9c08edba46618bffd98386e8767e145a71326024f0a+144c5a1607f0e252ba1ce9c08edba46618bffd98386e8767e145a71326024f0a+144c5a1607f0e252ba1ce9c08edba46618bffd98386e8767e145a71326024f0a+144c5a1607f0e252ba1ce9c08edba46618bffd98386e8767e145a71326024f0a+144c5a1607f0e252ba1ce9c08edba46618bffd98386e8767e145a71326024f0a+144c5a1607f0e252ba1ce9c08edba46618bffd98386e8767e145a71326024f0a+144c5a1607f0e252ba1ce9c08edba46618bffd98386e8767e145a71326024f0a"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-21T06:02:46.863349Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

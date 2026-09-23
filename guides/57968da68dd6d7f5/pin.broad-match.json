@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "pin.broad-match",
+    "name": "Broad match",
+    "vendor": "Pinterest",
+    "platform": "Search",
+    "capability_ids": [
+      "pinterest.search.keywords.broad-match"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Broad match is Pinterest's default keyword match type.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Broad match (default)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "With broad match, Pins can appear for the advertiser's own keyword as well as for misspellings, synonyms and other related search terms.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Broad match (default)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Word order does not matter in broad match.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Broad match (default)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest Ads are not yet available in all regions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "It looks as though you're viewing this from a region where Ads aren't available yet.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Stated as a general availability condition; the packet does not list affected regions."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Broad match extends query eligibility beyond the entered keyword to misspellings, synonyms and other related search terms, without regard to word order.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Broad match (default)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The advertiser supplies the keyword, and broad match then determines the additional searches the Pin can appear for.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Inference from the documented 'your own keyword' behavior; the packet does not describe the matching system itself."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Broad match fits advertisers who want eligibility for a wider set of related searches rather than only the exact keyword.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Editorial inference from the documented matching behavior; the packet states no intended use cases."
+            ]
+          },
+          {
+            "text": "Because misspellings and synonyms are matched automatically, an advertiser would not need to enter each variant separately to be eligible for those searches.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Inference from the documented matching behavior; the packet does not describe keyword-list management."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The evidence for this guide comes from Pinterest's official Help Center article on keyword targeting (source_id: pinterest.search.keywords).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Target specific keyword match types — 'Broad match (default)'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "It looks as though you're viewing this from a region where Ads aren't available yet.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.search.keywords": "da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa+da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "meta.advantage-plus-reels-placement",
+    "name": "Advantage+ placements automatic Reels inclusion",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.reels.instagram_ads.advantage-placements-automatic-reels-inclusion"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "Automatic inclusion of Reels placements as part of Advantage+ placements.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Advantage+ placements can run automatically, and when it is on, Reels ads are included in campaigns without manual placement selection.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram_ads",
+                "source_url": "https://www.facebook.com/business/help/4023434621109377",
+                "locator": "when Advantage+ placements is automatically on, we'll include Reels ads in your campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "Automation replaces manual Reels placement selection.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "With Advantage+ placements automatically on, Reels ads are added to campaigns without the advertiser selecting Reels manually.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram_ads",
+                "source_url": "https://www.facebook.com/business/help/4023434621109377",
+                "locator": "when Advantage+ placements is automatically on, we'll include Reels ads in your campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "No explicit use cases in evidence; inferred from automatic inclusion.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Advertisers who want their ads to run in Reels placements without managing placements individually could rely on this automatic inclusion, assuming standard delivery goals apply.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram_ads",
+                "source_url": "https://www.facebook.com/business/help/4023434621109377",
+                "locator": "when Advantage+ placements is automatically on, we'll include Reels ads in your campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The evidence states only that automatic Advantage+ placements includes Reels; it does not document the settings path or steps to enable it.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The packet provides no metrics, results, or performance data for this feature.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet contains no evidence about alternative or comparable features on other platforms.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "One Meta Business Help Center source; no check date supplied.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Single official Meta source: meta.reels.instagram_ads, https://www.facebook.com/business/help/4023434621109377. The packet carries no check date.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram_ads",
+                "source_url": "https://www.facebook.com/business/help/4023434621109377",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.reels.instagram_ads": "aed4cad414926132550d759177443290805a5c9d0beb71d2c496a1f4eeb8636a"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

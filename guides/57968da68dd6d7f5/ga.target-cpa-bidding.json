@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "ga.target-cpa-bidding",
+    "name": "Target CPA bidding",
+    "vendor": "Google Ads",
+    "platform": "Search",
+    "capability_ids": [
+      "google.search.tcpa.target-cpa-bidding"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Target CPA bidding is an automated bid strategy that sets bids to get as many conversions or customer actions as possible at the advertiser's desired average cost per conversion.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Some conversions may cost more or less than the target, but Google Ads tries to keep the average cost per conversion at the target.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is available as a standard strategy on a single campaign or as a portfolio strategy across multiple campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is usable with no conversion history and is described as effective for campaigns of all sizes.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Bidding is automatic: Google Ads sets the bid each time an ad is eligible to appear, rather than the advertiser setting bids manually.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The advertiser's control input is the desired average cost per conversion (the target CPA).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Bid calculation draws on historical campaign information plus auction-time contextual and real-time signals, including device, browser, location, time of day, and remarketing list.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The system aims to keep the average cost per conversion at the target; individual conversions may cost more or less than the target.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Suits advertisers whose goal is as many conversions or customer actions as possible at a desired average cost per conversion.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Can be used by campaigns without prior conversion history and by campaigns of all sizes.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Supports deployment as a standard strategy on a single campaign or as a portfolio strategy across multiple campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Conversion tracking must be set up before you can set up a Target CPA bid strategy.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "applicable condition (prerequisite)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google recommends reviewing budget settings and being comfortable spending up to 2 times the average daily budget, while not exceeding the monthly charging limit.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "applicable condition (spend)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Stated as a Google recommendation, not as a documented hard requirement."
+            ]
+          },
+          {
+            "text": "Starting June 2026 the strategy label changes from 'Maximize conversions with a Target CPA' to 'Target CPA'; the underlying bidding behavior is unchanged.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "applicable condition (other)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet does not document the step-by-step interface path for creating the strategy, so those steps are not reconstructed here.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Average cost per conversion relative to the target is the natural success metric, because the system tries to keep average cost per conversion at the target.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Conversion or customer-action volume is the other relevant outcome, because the strategy aims to get as many conversions as possible at the target cost.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The conversions counted are conversion-tracked (attributed) actions, since conversion tracking is a prerequisite; the packet does not establish any incremental uplift.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "applicable condition (prerequisite)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet documents no KPI benchmarks, thresholds, or guaranteed uplift for this strategy.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          },
+          {
+            "text": "Starting August 17, 2026, bidding system updates may cause temporary performance and traffic fluctuations for budget-limited campaigns using Target CPA or Target ROAS, so short-term KPI readings may be noisy.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "applicable condition (other)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies to budget-limited campaigns.",
+              "Fluctuations are described as temporary."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The evidence comes from the official Google Ads Help article on Target CPA bidding (source_id: google.search.tcpa; https://support.google.com/google-ads/answer/6268632?hl=en).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "Target CPA bidding is an automated bid strategy that sets bids for you to get as many conversions or customer actions as possible.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "All five evidence spans in the packet share this source_id and URL.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "applicable condition (prerequisite)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.search.tcpa",
+                "source_url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+                "locator": "applicable condition (other)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet carries no check date, so no verification date is stated.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.search.tcpa": "2ec61890ae8ac1f29a6e9dde1c7f29933c0e277c34a0e375fc18996941f7ad7c+2ec61890ae8ac1f29a6e9dde1c7f29933c0e277c34a0e375fc18996941f7ad7c+2ec61890ae8ac1f29a6e9dde1c7f29933c0e277c34a0e375fc18996941f7ad7c+2ec61890ae8ac1f29a6e9dde1c7f29933c0e277c34a0e375fc18996941f7ad7c+2ec61890ae8ac1f29a6e9dde1c7f29933c0e277c34a0e375fc18996941f7ad7c"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T07:41:57.312970Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T07:41:57.312970Z"
+  }
+}

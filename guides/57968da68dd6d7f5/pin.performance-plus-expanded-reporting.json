@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "pin.performance-plus-expanded-reporting",
+    "name": "Performance+ expanded reporting breakdowns",
+    "vendor": "Pinterest",
+    "platform": "Performance+",
+    "capability_ids": [
+      "pinterest.performance_plus.performance-expanded-reporting-breakdowns"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "The source defines the feature as additional breakdown views on Performance+ campaign results, with an explicit dimension list and explicit exclusions.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Performance+ expanded reporting adds breakdown views for Performance+ campaigns that split results by selected dimensions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Breakdown availability in Performance+ campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Available breakdown dimensions are Ad group, Age, Gender, Geography (country, region and town/city where available), Placement, Device, and Audience list (when a customer list is included).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "List of available breakdown dimensions",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Town/city-level geography applies only where available",
+              "Audience list breakdown applies only when a customer list is included"
+            ]
+          },
+          {
+            "text": "Interests, Keywords and Language breakdowns are not available.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Statement that Interests, Keywords and Language breakdowns are not available",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The source describes where the breakdowns appear, that they are read-only insights rather than targeting controls, and that existing metrics continue.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Expanded reporting breaks results down by the listed dimensions across Ad reporting, the Insights page, Custom reports and the Ads API.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Surfaces where expanded reporting breakdowns appear",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The breakdown views are insights only and cannot be used to directly set or adjust targeting, i.e. they are reporting/signal surfaces rather than controls.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Insights-only restriction on the breakdown views",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Standard delivery and performance metrics continue in Ads Manager alongside the expanded views.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Standard delivery and performance metrics continue in Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "Use cases are inferred from the documented capability and its insights-only nature; the packet itself names no workflows.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "A plausible use is comparing results across dimensions such as device, placement, age, gender, geography or audience list to understand where performance differs; this is editorial reasoning from the documented dimension list, not a workflow the source describes.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Breakdown dimensions and insights-only restriction",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because the views are insights only, any resulting targeting decision would be taken through separate controls; the packet documents no workflow for acting on these insights.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Insights-only restriction on the breakdown views",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet does not describe concrete use cases, recommended analyses or workflows for the breakdowns.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The source states what the breakdowns show and the surfaces where they appear but gives no steps for enabling, configuring or accessing them, so no setup path is stated and the missing steps are not reconstructed.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "Only metric continuity is documented; no specific KPI names, attributed-vs-incremental distinctions, or uplift claims appear in the packet.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Standard delivery and performance metrics continue in Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Standard delivery and performance metrics continue in Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet does not name the specific metrics or KPI definitions available in the expanded views, does not distinguish attributed metrics from incremental outcomes, and makes no uplift or improvement claims.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet contains no evidence about equivalent or alternative reporting features on other platforms, so no cross-platform relationships are asserted and the relationships list is left empty rather than filled by name similarity.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "One official Pinterest Help Center source is provided; the packet carries no check date.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The packet's single source is Pinterest's official Help Center article on Performance+ (source_id: pinterest.performance_plus; https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Whole span",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet provides no check date for this source, so none is stated.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.performance_plus": "380b571546e1912ce95f4e93bc73db6a8b4fc0d018ef6c040241d2b7aaf9b339"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

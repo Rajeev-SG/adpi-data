@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "pin.performance-plus-automatic-ad-groups",
+    "name": "Performance+ automatic ad groups",
+    "vendor": "Pinterest",
+    "platform": "Performance+",
+    "capability_ids": [
+      "pinterest.performance_plus.performance-automatic-ad-groups"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "Automatic ad groups are ad groups Pinterest Performance+ generates on the advertiser's behalf during campaign creation.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Performance+ automatically creates ad groups during the campaign create flow.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "All Pinterest Performance+ campaigns automatically receive one automatically generated ad group",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Every Performance+ campaign automatically receives one auto-generated ad group.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "All Pinterest Performance+ campaigns automatically receive one automatically generated ad group",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The evidence specifies which ad groups are generated for which campaign types, plus stated limits on control.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A second (remarketing) ad group is generated when a customer list is included.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "All Pinterest Performance+ campaigns automatically receive one automatically generated ad group",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "a customer list is added"
+            ]
+          },
+          {
+            "text": "For Sales campaigns, a prospecting ad group (All Products) plus a Dynamic Retargeting ad group are generated, with a third ad group when a customer list is added.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "All Pinterest Performance+ campaigns automatically receive one automatically generated ad group",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Sales campaign objective"
+            ]
+          },
+          {
+            "text": "The Dynamic Retargeting ad group cannot be opted out of during the create flow.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "applicable condition (other)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Sales campaigns"
+            ]
+          },
+          {
+            "text": "The percentage of spend per ad group cannot be controlled.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "applicable condition (other)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "No evidence span describes use cases directly; this is editorial reasoning from the documented mechanism.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Advertisers running Performance+ campaigns who want ad-group structure handled automatically (e.g., separating prospecting and retargeting) are the implied users.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "All Pinterest Performance+ campaigns automatically receive one automatically generated ad group",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "using Performance+ campaigns",
+              "Sales campaigns for the prospecting/retargeting split"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Setup is implicit: ad groups are created during the create flow; the evidence does not describe any opt-out or configuration steps beyond the stated limits.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Ad groups are generated automatically during the campaign create flow; no manual setup steps are described.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "All Pinterest Performance+ campaigns automatically receive one automatically generated ad group",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The Dynamic Retargeting ad group cannot be opted out of during the create flow and spend-per-ad-group percentages cannot be controlled.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "applicable condition (other)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The evidence spans do not report any metrics, KPIs, or performance outcomes for automatically generated ad groups.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet provides no evidence about comparable features on other platforms, so no cross-platform relationship can be stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "One official source is provided; the packet carries no check date.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Business Help Center, 'Pinterest Performance+' article (source_id: pinterest.performance_plus), https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "All Pinterest Performance+ campaigns automatically receive one automatically generated ad group",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet supplies no check date for the evidence.",
+            "status": "not_applicable",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.performance_plus": "380b571546e1912ce95f4e93bc73db6a8b4fc0d018ef6c040241d2b7aaf9b339+380b571546e1912ce95f4e93bc73db6a8b4fc0d018ef6c040241d2b7aaf9b339"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

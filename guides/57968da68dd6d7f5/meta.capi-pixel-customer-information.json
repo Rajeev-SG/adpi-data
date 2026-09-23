@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "meta.capi-pixel-customer-information",
+    "name": "Pixel-side customer information sending (CAPI)",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.capi.customer_information.pixel-side-customer-information-sending"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Many of the customer information parameters used with the Conversions API can also be sent through the Meta Pixel.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "You can send many of the customer information parameters through the Meta Pixel",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "'Pixel-side' here means browser-side sending via the Meta Pixel, alongside the server-side Conversions API channel for the same parameters.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "You can send many of the customer information parameters through the Meta Pixel",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "external_id is an example of a customer information parameter sent explicitly through the Meta Pixel via the fbq('init') call.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "You can send many of the customer information parameters through the Meta Pixel",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Some customer information parameters, such as client_user_agent, are sent automatically through the Meta Pixel rather than by an explicit send step.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "You can send many of the customer information parameters through the Meta Pixel",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Browser-side and server-side implementations must share the same set of customer information parameters.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "applicable condition (prerequisite)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "You can send many of the customer information parameters through the Meta Pixel",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "A supported scenario is sending the shared customer information parameter set through the Meta Pixel so that browser-side events carry the same customer information as server-side Conversions API events.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "You can send many of the customer information parameters through the Meta Pixel",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "applicable condition (prerequisite)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "The evidence says 'many' parameters can be sent through the Pixel, not that every customer information parameter is available pixel-side.",
+              "No outcome or benefit (for example a match-rate or performance effect) is claimed by the evidence."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "For external_id, the documented pixel-side setup example is the fbq('init') call.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "You can send many of the customer information parameters through the Meta Pixel",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The evidence comes from Meta's developer documentation on Conversions API customer information parameters, supplied in the packet as source_id 'meta.capi.customer_information' at https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "You can send many of the customer information parameters through the Meta Pixel",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.capi.customer_information",
+                "source_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/parameters/customer-information-parameters",
+                "locator": "applicable condition (prerequisite)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.capi.customer_information": "25e74815a92bd03507d818129cdc25ea0b0a7ca4da93b91ce03090dc05e6160f+25e74815a92bd03507d818129cdc25ea0b0a7ca4da93b91ce03090dc05e6160f"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-21T06:02:46.863349Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "meta.automatic-advanced-matching",
+    "name": "Automatic advanced matching",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.advanced_matching.web.automatic-advanced-matching-website",
+      "meta.advanced_matching.best_practices.automatic-advanced-matching"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Automatic advanced matching is the automatic version of advanced matching for websites: it captures customer information such as email address, phone number, name and location fields from website form fields for identity matching.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Feature description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is turned on from Meta Events Manager without editing website code.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Feature description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The mechanism is capture of customer details (email address, phone number, name, location) entered into website form fields, used for identity matching.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Feature description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is enabled from Meta Events Manager without editing website code.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Feature description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Results may take up to 48 hours to appear in Meta Events Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Feature description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It requires the Meta pixel to be placed on the web pages where people are most likely to enter the relevant information.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Pixel placement prerequisite",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Stated eligibility condition"
+            ]
+          },
+          {
+            "text": "The pixel must not be placed in an iframe.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Iframe condition",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Automatic advanced matching is unavailable when an IMG pixel is used; IMG pixels are not supported.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "IMG pixel condition",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Effective capture depends on visitors actually entering the requested information into form fields on pixel-covered pages.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Feature description; form-field and pixel-placement prerequisites",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Editorial inference from the documented form-field and pixel-placement conditions"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Identity matching of website visitors who submit forms containing contact details (e.g. email, phone).",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Feature description; form-field prerequisite",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Building larger custom audiences: Meta's table presents increased custom audience size as an outcome of the automatic type.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.best_practices",
+                "source_url": "https://www.facebook.com/business/help/930861050579797",
+                "locator": "Comparison table, column 'Automatic advanced matching'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Campaign measurement against attributed conversions and cost per conversion, which the table presents as affected outcomes.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.best_practices",
+                "source_url": "https://www.facebook.com/business/help/930861050579797",
+                "locator": "Comparison table, column 'Automatic advanced matching'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Attributed metrics, not incremental outcomes"
+            ]
+          },
+          {
+            "text": "The packet does not name vertical-specific or campaign-type-specific use cases.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The feature is turned on from Meta Events Manager without editing website code.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Feature description",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prerequisite: the business must not be categorised as being in a restricted vertical (examples given include banking, lending, financial services, insurance, pharmaceuticals and health).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Restricted verticals condition",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prerequisite: the website must have sources such as form fields that ask for the information to be matched (e.g. email address, phone number).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Form-field prerequisite",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prerequisite: the Meta pixel must be placed on web pages where people are most likely to enter the relevant information.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Pixel placement prerequisite",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prerequisite: the pixel must not be in an iframe.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Iframe condition",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prerequisite: an IMG pixel cannot be used; automatic advanced matching is unavailable with an IMG pixel.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "IMG pixel condition",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet does not document the detailed in-product steps (menu path) inside Meta Events Manager for switching the feature on.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta's comparison table states that automatic advanced matching increases custom audience size.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.best_practices",
+                "source_url": "https://www.facebook.com/business/help/930861050579797",
+                "locator": "Comparison table, column 'Automatic advanced matching'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Meta-stated table entry; not an independently verified outcome"
+            ]
+          },
+          {
+            "text": "The table states it increases the number of attributed conversions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.best_practices",
+                "source_url": "https://www.facebook.com/business/help/930861050579797",
+                "locator": "Comparison table, column 'Automatic advanced matching'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Attributed metric; not evidence of incremental lift"
+            ]
+          },
+          {
+            "text": "The table states it decreases cost per conversion.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.best_practices",
+                "source_url": "https://www.facebook.com/business/help/930861050579797",
+                "locator": "Comparison table, column 'Automatic advanced matching'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Meta-stated table entry; not an independently verified outcome"
+            ]
+          },
+          {
+            "text": "These effects are attributed outcomes as stated by Meta; the packet contains no lift-study or incremental results, so they should not be read as guaranteed uplift.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.best_practices",
+                "source_url": "https://www.facebook.com/business/help/930861050579797",
+                "locator": "Comparison table, column 'Automatic advanced matching'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Editorial inference; trade-off: table claims may reflect attribution effects rather than incremental behaviour change"
+            ]
+          },
+          {
+            "text": "The packet does not document incremental uplift or experiment results for this feature.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta's best-practices page presents automatic advanced matching as one of two types of advanced matching for web, compared in a single table that marks the automatic type as requiring no coding.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.best_practices",
+                "source_url": "https://www.facebook.com/business/help/930861050579797",
+                "locator": "Comparison table, column 'Automatic advanced matching'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Official source: Meta Business Help Center page on automatic advanced matching for websites (source_id: meta.advanced_matching.web).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.web",
+                "source_url": "https://www.facebook.com/business/help/1993001664341800",
+                "locator": "Feature description and prerequisites",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Official source: Meta Business Help Center best-practices page comparing types of advanced matching for web (source_id: meta.advanced_matching.best_practices).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.advanced_matching.best_practices",
+                "source_url": "https://www.facebook.com/business/help/930861050579797",
+                "locator": "Comparison table, column 'Automatic advanced matching'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet provides no check date for either source.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.advanced_matching.web.other-type",
+        "name": "Second type of advanced matching for web (not named in the packet)",
+        "vendor": "Meta",
+        "kind": "related_not_equivalent",
+        "difference": "The packet establishes only that a second type of advanced matching for web exists alongside the automatic type and states no properties for it, so no equivalence or substitution is claimed; the table does mark the automatic type as 'No coding required'.",
+        "context": "Meta's advanced-matching best-practices page compares the two types of advanced matching for web side by side in one table.",
+        "evidence": [],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.advanced_matching.best_practices": "a2f59a43f2e3d1f2bc043895843bdb7be76213b0275b872e1f74043c37ca53ef",
+        "meta.advanced_matching.web": "88c63ea02924685fb80dc68cd1af515a1311cf187ee7f5b857f3be733571b67e+88c63ea02924685fb80dc68cd1af515a1311cf187ee7f5b857f3be733571b67e+88c63ea02924685fb80dc68cd1af515a1311cf187ee7f5b857f3be733571b67e+88c63ea02924685fb80dc68cd1af515a1311cf187ee7f5b857f3be733571b67e+88c63ea02924685fb80dc68cd1af515a1311cf187ee7f5b857f3be733571b67e+88c63ea02924685fb80dc68cd1af515a1311cf187ee7f5b857f3be733571b67e"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

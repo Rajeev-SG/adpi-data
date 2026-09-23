@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "meta.website-custom-audience",
+    "name": "Website custom audience",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.custom_audiences.website.website-custom-audience"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A website custom audience is a custom audience built from people who visited the advertiser's website, using standard or custom events tracked by the Meta pixel.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Its stated purpose is to retarget website visitors who did not complete a desired action, such as a purchase.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is created in Ads Manager by choosing the Website source.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Membership is drawn from standard or custom events tracked by the Meta pixel on the website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The stated prerequisite is a Meta pixel that is installed, active, and tracking standard events, custom events or custom conversions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "'Before you begin' steps 1-3",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "At creation the advertiser selects the specific pixel and chooses the visitor type that defines who is included.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Membership is assembled by the platform from the selected pixel's events and the chosen visitor type, rather than entered manually.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the creation description; the packet does not state how or when membership refreshes"
+            ]
+          },
+          {
+            "text": "Targeting options are limited for audiences that include people under 18, or older in some countries.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Page note",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies when the audience includes minors; the age threshold can be higher in some countries"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Retargeting website visitors who did not complete a desired action, such as a purchase.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "No other use cases (for example exclusions, suppression or lookalike seeding) are named in the supplied evidence.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Prerequisite: the Meta pixel is installed on the website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "'Before you begin' steps 1-3",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prerequisite: standard or custom events are set up; the requirement statement lists standard events, custom events or custom conversions as the tracked event types.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "'Before you begin' steps 1-3",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prerequisite: the Meta pixel is confirmed active.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "'Before you begin' steps 1-3",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In Ads Manager, create an audience, select Custom audience, choose Website and continue.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The Website source selection includes Account Centre accounts meeting Any or All criteria; the packet does not elaborate how those criteria are applied.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select the pixel and choose the visitor type.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Any steps after choosing the visitor type are not covered by the supplied evidence.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The packet supplies one official source: Meta Business Help Center, 'Create a website custom audience' (source_id: meta.custom_audiences.website) at https://www.facebook.com/business/help/666509013483225.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website",
+                "source_url": "https://www.facebook.com/business/help/666509013483225",
+                "locator": "Heading 'Create a website custom audience'",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet carries no check date for this source, so no verification date can be stated.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.custom_audiences.website": "736e6f1dde8a02f9eb64109cf04369ee103de86596b8683e3885e3c003c4141d+736e6f1dde8a02f9eb64109cf04369ee103de86596b8683e3885e3c003c4141d+736e6f1dde8a02f9eb64109cf04369ee103de86596b8683e3885e3c003c4141d"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T07:41:57.312970Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T07:41:57.312970Z"
+  }
+}

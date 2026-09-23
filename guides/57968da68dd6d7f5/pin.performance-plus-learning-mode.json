@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "pin.performance-plus-learning-mode",
+    "name": "Performance+ learning mode",
+    "vendor": "Pinterest",
+    "platform": "Performance+",
+    "capability_ids": [
+      "pinterest.performance_plus.performance-learning-mode"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Performance+ learning mode is an initial phase in which the system shows ads to different audiences to learn who is most likely to convert.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A Learning icon appears on the Ads Reporting dashboard while a new campaign is still finding the right audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Ads Reporting dashboard icon",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "During learning, Pinterest shows ads to different audiences to learn which users are most likely to convert.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The learning indicator is removed on average after two weeks, once conversion events stabilise.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Changes made to the campaign during learning mode can reset it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The evidence describes the indicator and learning behaviour but does not enumerate advertiser use cases; the one stated here is an inference from the documented fluctuation warning.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "The Learning indicator is a signal that helps advertisers interpret early campaign performance as potentially unrepresentative, since performance may fluctuate during learning.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "No advertiser action is described: the Learning icon appears automatically on new Performance+ campaigns on the Ads Reporting dashboard.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance_plus",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet documents no steps to enable, disable, or shorten learning mode.",
+            "status": "not_documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance_plus",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The packet mentions only that performance may fluctuate during learning; it reports no attributed or incremental KPI metrics for learning mode.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet names no other platform features or equivalents, so no cross-platform relationships can be established from the evidence.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Center article on Pinterest Performance+ (pinterest.performance_plus) at help.pinterest.com/en-gb/business/article/pinterest-performance-plus is the sole source; the packet carries no check date.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.performance_plus": "380b571546e1912ce95f4e93bc73db6a8b4fc0d018ef6c040241d2b7aaf9b339"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T06:13:58.465476Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-09-23T06:13:58.465476Z"
+  }
+}

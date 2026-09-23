@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "ga.broad-match",
+    "name": "Broad match",
+    "vendor": "Google Ads",
+    "platform": "AI Max for Search",
+    "capability_ids": [
+      "google.search.ai_max.about.broad-match",
+      "google.search.ai_max.about.broad-match-expansion"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Broad match is a keyword-expansion capability offered as part of AI Max for Search campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.ai_max.about",
+                "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+                "locator": "Offered as part of AI Max for Search campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "AI Max expands keywords with broad match to find untapped, performant queries.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.ai_max.about",
+                "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+                "locator": "Expand your keywords to find untapped, performant queries with broad match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.search.ai_max.about",
+                "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+                "locator": "Maximize reach and drive performance",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Broad match is part of the AI Max suite and is available when AI Max is activated in the Search campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.ai_max.about",
+                "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+                "locator": "Advertisers that activate AI Max in Search campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Within AI Max, broad match works by expanding the advertiser's keywords to surface queries that were previously untapped.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.ai_max.about",
+                "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+                "locator": "Expand your keywords to find untapped, performant queries with broad match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Broad match expansion is presented as one of several reach mechanisms in AI Max, alongside asset-based targeting and keywordless technology.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.ai_max.about",
+                "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+                "locator": "Expand your keywords to find untapped, performant queries with broad match, asset-based targeting and keywordless technology",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Broad match within AI Max is suited to advertisers who want to reach search queries beyond the keywords they have explicitly entered.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.search.ai_max.about",
+                "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+                "locator": "Expand your keywords to find untapped, performant queries with broad match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Inferred from the documented premise that AI Max expands keywords with broad match to find untapped queries; the source does not name specific advertiser use cases."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Broad match is available when AI Max is activated in a Search campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.ai_max.about",
+                "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+                "locator": "Advertisers that activate AI Max in Search campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The supplied evidence does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The evidence for this guide comes from the official Google Ads Help Center article on AI Max for Search (source_id: google.search.ai_max.about, URL: https://support.google.com/google-ads/answer/15910366?hl=en). The packet carries no check date, so none is stated.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.ai_max.about",
+                "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.search.ai_max.about": "c023bfbf3867395c2dba5a7576946245eaf39d619f9f4092046b55fec72c2b98+c023bfbf3867395c2dba5a7576946245eaf39d619f9f4092046b55fec72c2b98+c023bfbf3867395c2dba5a7576946245eaf39d619f9f4092046b55fec72c2b98+c023bfbf3867395c2dba5a7576946245eaf39d619f9f4092046b55fec72c2b98"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

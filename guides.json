@@ -1,0 +1,960 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "generated_at": "2026-09-23T08:58:48.867426+00:00",
+  "freshness_note": "generated_at is publication time, never evidence freshness. Per guide, generated_at is when the prose was written, source_checked_at is when its sources were last examined, and verified_at is when an independent check ran; these are deliberately distinct.",
+  "coverage_note": "substantive_count counts sections with at least one claim. An explicit not_documented/not_applicable section is honest but is not substantive coverage, so an all-abstaining guide cannot look complete here.",
+  "detail_dir": "guides/57968da68dd6d7f5",
+  "guide_count": 40,
+  "guides": [
+    {
+      "feature_id": "ga.attribution-affects-bidding",
+      "name": "Attribution model affects automated bidding",
+      "vendor": "Google Ads",
+      "platform": "Google Ads",
+      "summary": "The feature links the attribution model of a conversion action to how conversion-optimizing automated bid strategies compute bids.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "ga.attribution-affects-bidding",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/ga.attribution-affects-bidding.json"
+    },
+    {
+      "feature_id": "ga.attribution-model-setting",
+      "name": "Attribution model setting",
+      "vendor": "Google Ads",
+      "platform": "Google Ads",
+      "summary": "Official Help Center article defines the setting.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "ga.attribution-model-setting",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/ga.attribution-model-setting.json"
+    },
+    {
+      "feature_id": "ga.broad-match",
+      "name": "Broad match",
+      "vendor": "Google Ads",
+      "platform": "AI Max for Search",
+      "summary": "Broad match is a keyword-expansion capability offered as part of AI Max for Search campaigns.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.broad-match",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/ga.broad-match.json"
+    },
+    {
+      "feature_id": "ga.customer-match-api-upload",
+      "name": "Google Ads API list upload (Customer Match)",
+      "vendor": "Google Ads",
+      "platform": "Google Ads",
+      "summary": "The Google Ads API list upload for Customer Match is performed through the Customer Match section of the Google Ads API.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.customer-match-api-upload",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": null,
+      "verified_at": null,
+      "detail": "guides/57968da68dd6d7f5/ga.customer-match-api-upload.json"
+    },
+    {
+      "feature_id": "ga.customer-match-eea-restriction",
+      "name": "IP and timestamp matching unsupported in EEA/UK/CH",
+      "vendor": "Google Ads",
+      "platform": "Google Ads",
+      "summary": "Google Ads Customer Match does not support IP and timestamp matching in the EEA, UK, or Switzerland.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.customer-match-eea-restriction",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/ga.customer-match-eea-restriction.json"
+    },
+    {
+      "feature_id": "ga.enhanced-conversions-web",
+      "name": "Enhanced conversions for web",
+      "vendor": "Google Ads",
+      "platform": "Google Ads",
+      "summary": "Enhanced conversions for web improves the accuracy of conversion measurement by supplementing existing conversion tags with securely sent, hashed first-party conversion data from the website.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.enhanced-conversions-web",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 7
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-21T06:02:46.863349+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/ga.enhanced-conversions-web.json"
+    },
+    {
+      "feature_id": "ga.pmax-audience-signals",
+      "name": "Audience signals (Performance Max)",
+      "vendor": "Google Ads",
+      "platform": "Performance Max",
+      "summary": "Audience signals are optional audience suggestions added to a Performance Max campaign.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "ga.pmax-audience-signals",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/ga.pmax-audience-signals.json"
+    },
+    {
+      "feature_id": "ga.pmax-negative-keywords",
+      "name": "Negative keywords (Performance Max)",
+      "vendor": "Google Ads",
+      "platform": "Performance Max",
+      "summary": "Advertisers can add negative keywords to a Performance Max campaign so its ads do not show for Search and Shopping queries containing those terms.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.pmax-negative-keywords",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-09-23T07:41:57.312970+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-09-23T07:41:57.312970+00:00",
+      "detail": "guides/57968da68dd6d7f5/ga.pmax-negative-keywords.json"
+    },
+    {
+      "feature_id": "ga.search-negative-keywords",
+      "name": "Negative keywords (Search)",
+      "vendor": "Google Ads",
+      "platform": "Search",
+      "summary": "Negative keywords are keywords used to exclude searches from triggering ads on Google Ads Search.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.search-negative-keywords",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T07:41:57.312970+00:00",
+      "source_checked_at": null,
+      "verified_at": null,
+      "detail": "guides/57968da68dd6d7f5/ga.search-negative-keywords.json"
+    },
+    {
+      "feature_id": "ga.target-cpa-bidding",
+      "name": "Target CPA bidding",
+      "vendor": "Google Ads",
+      "platform": "Search",
+      "summary": "Target CPA bidding is an automated bid strategy that sets bids to get as many conversions or customer actions as possible at the advertiser's desired average cost per conversion.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.target-cpa-bidding",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-09-23T07:41:57.312970+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T07:41:57.312970+00:00",
+      "detail": "guides/57968da68dd6d7f5/ga.target-cpa-bidding.json"
+    },
+    {
+      "feature_id": "meta.advantage-plus-reels-placement",
+      "name": "Advantage+ placements automatic Reels inclusion",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Automatic inclusion of Reels placements as part of Advantage+ placements.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "meta.advantage-plus-reels-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/meta.advantage-plus-reels-placement.json"
+    },
+    {
+      "feature_id": "meta.automatic-advanced-matching",
+      "name": "Automatic advanced matching",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Automatic advanced matching is the automatic version of advanced matching for websites: it captures customer information such as email address, phone number, name and location fields from website form fields for identity matching.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.automatic-advanced-matching",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 7
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/meta.automatic-advanced-matching.json"
+    },
+    {
+      "feature_id": "meta.automatic-conversion-location",
+      "name": "Automatic conversion location selection",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "The conversion location is the place where people are directed to take action.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "meta.automatic-conversion-location",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-21T15:51:59.635502+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/meta.automatic-conversion-location.json"
+    },
+    {
+      "feature_id": "meta.brand-suitability-delivery-reports",
+      "name": "Delivery reports for brand suitability",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Delivery reports provide reporting on brand safety delivery.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.brand-suitability-delivery-reports",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": null,
+      "verified_at": null,
+      "detail": "guides/57968da68dd6d7f5/meta.brand-suitability-delivery-reports.json"
+    },
+    {
+      "feature_id": "meta.capi-pixel-customer-information",
+      "name": "Pixel-side customer information sending (CAPI)",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Many of the customer information parameters used with the Conversions API can also be sent through the Meta Pixel.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.capi-pixel-customer-information",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-21T06:02:46.863349+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/meta.capi-pixel-customer-information.json"
+    },
+    {
+      "feature_id": "meta.lookalike-audiences",
+      "name": "Lookalike audiences",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "A lookalike audience is a way for ads to reach new people who are likely to be interested in the business because they share similar characteristics to the advertiser's existing customers.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "meta.lookalike-audiences",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": null,
+      "verified_at": null,
+      "detail": "guides/57968da68dd6d7f5/meta.lookalike-audiences.json"
+    },
+    {
+      "feature_id": "meta.manual-reels-placement",
+      "name": "Manual Reels placement selection",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Advertisers can manually include Reels among the placements they select for a campaign.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.manual-reels-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/meta.manual-reels-placement.json"
+    },
+    {
+      "feature_id": "meta.shared-audience-usage-restrictions",
+      "name": "Shared audience usage restrictions",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "The packet defines shared audiences and states the recipient-side usage restriction that gives this feature its name; the sharing sentence is truncated, so destinations beyond ad accounts are unknown.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "meta.shared-audience-usage-restrictions",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/meta.shared-audience-usage-restrictions.json"
+    },
+    {
+      "feature_id": "meta.teen-targeting-restrictions",
+      "name": "Teen Targeting Restrictions",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Meta limits the targeting options available for audiences that include people under 18.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "meta.teen-targeting-restrictions",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "sources"
+        ],
+        "substantive_count": 2
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/meta.teen-targeting-restrictions.json"
+    },
+    {
+      "feature_id": "meta.website-custom-audience",
+      "name": "Website custom audience",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "A website custom audience is a custom audience built from people who visited the advertiser's website, using standard or custom events tracked by the Meta pixel.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.website-custom-audience",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T07:41:57.312970+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T07:41:57.312970+00:00",
+      "detail": "guides/57968da68dd6d7f5/meta.website-custom-audience.json"
+    },
+    {
+      "feature_id": "pin.broad-match",
+      "name": "Broad match",
+      "vendor": "Pinterest",
+      "platform": "Search",
+      "summary": "Broad match is Pinterest's default keyword match type.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "pin.broad-match",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/pin.broad-match.json"
+    },
+    {
+      "feature_id": "pin.conversions-api",
+      "name": "Conversions API",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "What it is: Pinterest's server-to-server interface for advertisers to send conversion events from their own systems to Pinterest.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.conversions-api",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/pin.conversions-api.json"
+    },
+    {
+      "feature_id": "pin.limited-data-processing",
+      "name": "Limited Data Processing flag",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "Pinterest's Conversions API supports a Limited Data Processing flag.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "pin.limited-data-processing",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/pin.limited-data-processing.json"
+    },
+    {
+      "feature_id": "pin.negative-exact-match",
+      "name": "Negative exact match",
+      "vendor": "Pinterest",
+      "platform": "Search",
+      "summary": "Negative exact match is a Pinterest Search keyword match type that stops the advertiser's Pins from being shown when a search matches the keyword exactly.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.negative-exact-match",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/pin.negative-exact-match.json"
+    },
+    {
+      "feature_id": "pin.negative-keywords",
+      "name": "Negative keywords",
+      "vendor": "Pinterest",
+      "platform": "Search",
+      "summary": "Negative keywords let advertisers exclude certain search terms from triggering their ads on Pinterest.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.negative-keywords",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/pin.negative-keywords.json"
+    },
+    {
+      "feature_id": "pin.performance-plus-automatic-ad-groups",
+      "name": "Performance+ automatic ad groups",
+      "vendor": "Pinterest",
+      "platform": "Performance+",
+      "summary": "Automatic ad groups are ad groups Pinterest Performance+ generates on the advertiser's behalf during campaign creation.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.performance-plus-automatic-ad-groups",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T08:03:36.949052+00:00",
+      "detail": "guides/57968da68dd6d7f5/pin.performance-plus-automatic-ad-groups.json"
+    },
+    {
+      "feature_id": "pin.performance-plus-expanded-reporting",
+      "name": "Performance+ expanded reporting breakdowns",
+      "vendor": "Pinterest",
+      "platform": "Performance+",
+      "summary": "The source defines the feature as additional breakdown views on Performance+ campaign results, with an explicit dimension list and explicit exclusions.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "pin.performance-plus-expanded-reporting",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/pin.performance-plus-expanded-reporting.json"
+    },
+    {
+      "feature_id": "pin.performance-plus-learning-mode",
+      "name": "Performance+ learning mode",
+      "vendor": "Pinterest",
+      "platform": "Performance+",
+      "summary": "Performance+ learning mode is an initial phase in which the system shows ads to different audiences to learn who is most likely to convert.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.performance-plus-learning-mode",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/pin.performance-plus-learning-mode.json"
+    },
+    {
+      "feature_id": "pin.pinterest-tag",
+      "name": "Pinterest Tag",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "The Pinterest Tag is a piece of code that an advertiser adds to their website.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.pinterest-tag",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 7
+      },
+      "generated_at": "2026-09-23T07:41:57.312970+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-09-23T07:41:57.312970+00:00",
+      "detail": "guides/57968da68dd6d7f5/pin.pinterest-tag.json"
+    },
+    {
+      "feature_id": "pin.top-of-search-api-v5",
+      "name": "Top of Search API v5 support",
+      "vendor": "Pinterest",
+      "platform": "Search",
+      "summary": "v5 of the Pinterest API lets advertisers build and promote Top of Search campaigns via an API parameter.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.top-of-search-api-v5",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T08:03:36.949052+00:00",
+      "source_checked_at": null,
+      "verified_at": null,
+      "detail": "guides/57968da68dd6d7f5/pin.top-of-search-api-v5.json"
+    },
+    {
+      "feature_id": "tt.automatic-search-placement-compatibility",
+      "name": "Automatic search placement compatibility",
+      "vendor": "TikTok",
+      "platform": "Search Ads Campaign",
+      "summary": "The TikTok Search Ads Campaign complements automatic search placement.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "tt.automatic-search-placement-compatibility",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/tt.automatic-search-placement-compatibility.json"
+    },
+    {
+      "feature_id": "tt.events-api-first-party-cookie",
+      "name": "First-party cookie sharing with Events API",
+      "vendor": "TikTok",
+      "platform": "Events API",
+      "summary": "The feature shares unique identifiers saved in the ttp first-party cookie with the Events API when the Events API is used alongside TikTok Pixel.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.events-api-first-party-cookie",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/tt.events-api-first-party-cookie.json"
+    },
+    {
+      "feature_id": "tt.keyword-quality-module",
+      "name": "Keyword quality module",
+      "vendor": "TikTok",
+      "platform": "Search Ads Campaign",
+      "summary": "The module is a campaign-creation aid showing keyword search volume.",
+      "availability": "inferred",
+      "coverage": {
+        "feature_id": "tt.keyword-quality-module",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": null,
+      "verified_at": null,
+      "detail": "guides/57968da68dd6d7f5/tt.keyword-quality-module.json"
+    },
+    {
+      "feature_id": "tt.mmp-ad-level-reporting-unsupported",
+      "name": "MMP ad level reporting unsupported",
+      "vendor": "TikTok",
+      "platform": "Smart+",
+      "summary": "The capability is a documented reporting limitation: ad-level name and data from upgraded Smart+ campaigns are not reported to MMPs; it is not a setting or control.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "tt.mmp-ad-level-reporting-unsupported",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/tt.mmp-ad-level-reporting-unsupported.json"
+    },
+    {
+      "feature_id": "tt.negative-keyword-broad-match",
+      "name": "Negative keyword broad match",
+      "vendor": "TikTok",
+      "platform": "Automatic Search Placement",
+      "summary": "TikTok's Automatic Search Placement documentation names 'broad match' as a match type for negative keywords.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "tt.negative-keyword-broad-match",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 3
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-21T06:02:46.863349+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/tt.negative-keyword-broad-match.json"
+    },
+    {
+      "feature_id": "tt.search-ad-impression-counting",
+      "name": "Search ad impression counting",
+      "vendor": "TikTok",
+      "platform": "Search Ads Campaign",
+      "summary": "For TikTok Search Ads, an impression is counted when a single pixel of a search ad is shown.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "tt.search-ad-impression-counting",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": null,
+      "verified_at": null,
+      "detail": "guides/57968da68dd6d7f5/tt.search-ad-impression-counting.json"
+    },
+    {
+      "feature_id": "tt.search-broad-match",
+      "name": "Broad match (Search Ads)",
+      "vendor": "TikTok",
+      "platform": "Search Ads Campaign",
+      "summary": "Broad match is a keyword match type for TikTok Search Ads that can help maximize search volume, increase flexibility, and drive more impressions.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "tt.search-broad-match",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "sources"
+        ],
+        "substantive_count": 4
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": null,
+      "verified_at": null,
+      "detail": "guides/57968da68dd6d7f5/tt.search-broad-match.json"
+    },
+    {
+      "feature_id": "tt.smart-plus-automatic-targeting",
+      "name": "Automatic Targeting (Smart+)",
+      "vendor": "TikTok",
+      "platform": "Smart+",
+      "summary": "Automatic Targeting is the default targeting strategy in TikTok's upgraded Smart+ experience.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.smart-plus-automatic-targeting",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "sources"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": null,
+      "verified_at": null,
+      "detail": "guides/57968da68dd6d7f5/tt.smart-plus-automatic-targeting.json"
+    },
+    {
+      "feature_id": "tt.smart-plus-budget-increments",
+      "name": "20% daily budget increments",
+      "vendor": "TikTok",
+      "platform": "Smart+",
+      "summary": "Auto budget increase: system raises Smart+ daily budget by 20% of original budget.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "tt.smart-plus-budget-increments",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "sources"
+        ],
+        "substantive_count": 3
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/tt.smart-plus-budget-increments.json"
+    },
+    {
+      "feature_id": "tt.split-testing-experiment-manager",
+      "name": "Split testing via Experiment Manager",
+      "vendor": "TikTok",
+      "platform": "Smart+",
+      "summary": "Split testing is supported for TikTok Smart+ Traffic campaigns.",
+      "availability": "not_documented",
+      "coverage": {
+        "feature_id": "tt.split-testing-experiment-manager",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "sources"
+        ],
+        "substantive_count": 3
+      },
+      "generated_at": "2026-09-23T06:13:58.465476+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-09-23T06:13:58.465476+00:00",
+      "detail": "guides/57968da68dd6d7f5/tt.split-testing-experiment-manager.json"
+    }
+  ]
+}

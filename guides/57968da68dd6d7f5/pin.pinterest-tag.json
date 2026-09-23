@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "pin.pinterest-tag",
+    "name": "Pinterest Tag",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.measurement.tag.pinterest-tag"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The Pinterest Tag is a piece of code that an advertiser adds to their website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "The Pinterest Tag is a piece of code that you add to your website.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It lets Pinterest track visitors to the advertiser's site and the actions those visitors take after seeing a Pinterest ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "It lets Pinterest track visitors to your site, as well as the actions they take on your site after seeing your Pinterest ad.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The stated purpose of this tracking is to measure how effective Pinterest ads are.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "so you can measure how effective your ads are",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The tag operates from code installed on the advertiser's website, where it tracks site visitors.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "A piece of code you add to your website that lets Pinterest track visitors to your site",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It records actions visitors take after seeing a Pinterest ad, which is what enables ad-effectiveness measurement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "as well as the actions they take on your site after seeing your Pinterest ad",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Measuring the effectiveness of Pinterest ads is the documented use case for the tag.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "so you can measure how effective your ads are",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A Pinterest business account is required before adding the Pinterest Tag to a website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Before you can add the Pinterest Tag to your website, you need to: Get a Pinterest business account",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies before adding the tag to the website",
+              "Requires a Pinterest business account (packet applicable condition)"
+            ]
+          },
+          {
+            "text": "A Pinterest advertiser account is required before adding the Pinterest Tag to a website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Before you can add the Pinterest Tag to your website, you need to: Create an advertiser account",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies before adding the tag to the website",
+              "Requires an advertiser account (packet applicable condition)"
+            ]
+          },
+          {
+            "text": "After installation, the tag can take up to 24 hours to be reflected in Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "After you've installed the Pinterest Tag, it can take up to 24 hours to be reflected in Ads Manager.",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies after the tag has been installed",
+              "Can take up to 24 hours after installation (packet applicable condition)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "The evidence names ad-effectiveness measurement as the tag's purpose but does not document any specific KPIs, metrics, or reporting fields.",
+            "status": "not_documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "so you can measure how effective your ads are",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "The evidence packet contains no cross-platform relationship information for the Pinterest Tag.",
+            "status": "not_documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Full packet: all four spans come from the single Pinterest Tag installation article",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The packet's evidence comes from Pinterest's official Help Center article on installing the Pinterest Tag (source_id: pinterest.measurement.tag).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "All four evidence spans cite this URL",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The packet carries no check date, so no verification date can be stated.",
+            "status": "not_documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "No check date appears anywhere in the packet",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.measurement.tag": "3cc366bc60eff8f833469d07dc35e4e6babf0ac17bdeffa21ae8470d703a3ba9+3cc366bc60eff8f833469d07dc35e4e6babf0ac17bdeffa21ae8470d703a3ba9+3cc366bc60eff8f833469d07dc35e4e6babf0ac17bdeffa21ae8470d703a3ba9+3cc366bc60eff8f833469d07dc35e4e6babf0ac17bdeffa21ae8470d703a3ba9"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T07:41:57.312970Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-09-23T07:41:57.312970Z"
+  }
+}

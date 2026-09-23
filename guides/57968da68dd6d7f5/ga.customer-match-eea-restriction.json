@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "ga.customer-match-eea-restriction",
+    "name": "IP and timestamp matching unsupported in EEA/UK/CH",
+    "vendor": "Google Ads",
+    "platform": "Google Ads",
+    "capability_ids": [
+      "google.customer_match.policy.ip-and-timestamp-matching-unsupported-in-eea-uk-ch"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Customer Match does not support IP and timestamp matching in the EEA, UK, or Switzerland.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.policy",
+                "source_url": "https://support.google.com/google-ads/answer/6299717?hl=en",
+                "locator": "Ads doesn't support IP and timestamp matching in the EEA, UK, or Switzerland. Exclude IP sharing for these regions",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The restriction is a market-based policy condition rather than an account setting: the capability applies to these regions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.policy",
+                "source_url": "https://support.google.com/google-ads/answer/6299717?hl=en",
+                "locator": "applicable condition (market)",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Because IP and timestamp matching is unsupported in the EEA, UK, and Switzerland, IP sharing must be excluded for these regions to comply with the policy.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.policy",
+                "source_url": "https://support.google.com/google-ads/answer/6299717?hl=en",
+                "locator": "Ads doesn't support IP and timestamp matching in the EEA, UK, or Switzerland. Exclude IP sharing for these regions",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The underlying matching pipeline is not detailed in the evidence; only that IP/timestamp matching is unsupported in these markets and that IP sharing must be excluded there.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The evidence describes only the regional restriction and the IP-sharing exclusion requirement; no supported or alternative use cases are documented.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Where the policy applies (EEA, UK, Switzerland), IP sharing must be excluded for those regions; the evidence provides no step-by-step interface path.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.policy",
+                "source_url": "https://support.google.com/google-ads/answer/6299717?hl=en",
+                "locator": "Exclude IP sharing for these regions",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The evidence is a policy restriction statement and contains no metrics, measurement guidance, or performance expectations.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The evidence mentions only Customer Match's IP/timestamp matching restriction and no other named features or platforms to compare against, so no evidence-backed relationship can be stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The packet's sole source is Google Ads Customer Match policy documentation (google.customer_match.policy, https://support.google.com/google-ads/answer/6299717?hl=en); the packet carries no check date.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match.policy",
+                "source_url": "https://support.google.com/google-ads/answer/6299717?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.customer_match.policy": "3435d04134384aee6b8519938407ba478c11bf5a80058dc1a1a95ab53f414074+3435d04134384aee6b8519938407ba478c11bf5a80058dc1a1a95ab53f414074"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}

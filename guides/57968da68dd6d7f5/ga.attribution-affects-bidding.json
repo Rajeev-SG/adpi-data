@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "release": "57968da68dd6d7f5",
+  "guide": {
+    "feature_id": "ga.attribution-affects-bidding",
+    "name": "Attribution model affects automated bidding",
+    "vendor": "Google Ads",
+    "platform": "Google Ads",
+    "capability_ids": [
+      "google.ads.attribution.attribution-model-affects-automated-bidding"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "The feature links the attribution model of a conversion action to how conversion-optimizing automated bid strategies compute bids.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The attribution model selected for a conversion action affects any bid strategies that use the data in the 'Conversions' column.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": "About attribution models for conversions and bidding",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For automated bid strategies that optimize for conversions — such as Target CPA, ECPC, or Target ROAS — the selected attribution model affects how bids are optimized.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": "automated bid strategies optimizing for conversions",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The mechanism is data-driven: the attribution model changes the conversion data in the 'Conversions' column, which conversion-optimizing bid strategies consume.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Bid strategies that use the 'Conversions' column are affected by the attribution model chosen for a conversion action, so the model changes the input data the bidding algorithm optimizes against.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": "bid strategies that use the data in the 'Conversions' column",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "The evidence does not enumerate use cases; this is editorial reasoning from the documented conditions.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Advertisers using Target CPA, ECPC, or Target ROAS should be aware that switching a conversion action's attribution model can change how their bids are optimized.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": [
+              "Applies only when using an automated bid strategy that optimizes for conversions (e.g., Target CPA, ECPC, Target ROAS)"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The packet describes when the behavior applies but provides no menu paths, configuration steps, or defaults for setting an attribution model or a bid strategy.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "kpis",
+        "summary": "The evidence states that bids are affected but gives no metrics, KPI definitions, or performance expectations.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "The packet contains no evidence about cross-platform features or alternatives, so no relationship claims can be made.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "One official Google Ads source was provided in the packet; the packet carries no check date.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help Center article 'About attribution models for conversions and bidding' (source_id: google.ads.attribution).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.ads.attribution": "c8786d7a648e36e0ecd705fc98d6f342f41385515edb6163675cd8820386985b+c8786d7a648e36e0ecd705fc98d6f342f41385515edb6163675cd8820386985b"
+      },
+      "grouping_version": "2026-09-23",
+      "prompt_version": "writer-v4",
+      "schema_version": "1",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v3",
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-09-23T08:03:36.949052Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-09-23T08:03:36.949052Z"
+  }
+}
