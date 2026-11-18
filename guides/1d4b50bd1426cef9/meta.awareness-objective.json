@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.awareness-objective",
+    "name": "Awareness objective",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.image.awareness-objective"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Awareness is the Meta campaign objective for building reach and recall rather than driving a click or purchase. You choose it at campaign level, and the performance goal you pick later decides what Meta actually optimises for.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": "Campaign level in Meta Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is one of six objectives in Ads Manager: Awareness, Traffic, Engagement, Leads, App promotion and Sales. It is supported for image ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Supported objectives",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Your objective choice determines which placements and calls to action are available for the ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Supported objectives: 'Awareness'",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Awareness takes no conversion location selection (the location is on your ad) and needs no conversion event.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Awareness",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta maps older objectives onto Awareness through a performance goal: Ad recall lift (from Brand awareness), Reach or impressions (from Reach), and ThruPlay or 2-second continuous video views (from Video views). Store traffic maps to Awareness with Store locations features turned on, only for Pages with store locations set up.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when your current goal is building awareness and reaching new people, for example ad recall, reach, or video views, rather than a purchase or sign-up.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "(none)",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need purchases, leads or other conversions. Awareness has no conversion event, so Meta is not told to optimise for those actions; Sales or Leads fit better.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Awareness",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it to recreate older Brand awareness, Reach, Video views or Store traffic campaigns now that those objectives no longer exist.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents only where the objective is chosen and which performance goals map to it. It does not document the exact menu labels or full creation flow, so the steps stop there.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Start a new campaign in Meta Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "(none)",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "At campaign level, select Awareness as the ad objective.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": "Campaign level in Meta Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose the performance goal that matches your aim: Ad recall lift, Reach or impressions, or ThruPlay or 2-second continuous video views.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Skip conversion location and conversion event: neither needs a selection for Awareness.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Awareness",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Assess the metric you select for Awareness, such as ad recall lift, reach, impressions or video views. This setup does not require a conversion event, so these measures answer a different question from purchases or leads.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": "da2a2d959695bf2784ac865c14e10a20d7313333f63ba8eab96c48ba4c463739",
+                "cleaned_sha256": "3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4"
+              },
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": "cd1534eaabc75aa08e3208b938809de1e4445098f6f7e7a84f6652effda15f78",
+                "cleaned_sha256": "bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Only TikTok's Reach objective is a loose counterpart. The other candidates are lead, sales or consideration objectives, so they are not alternatives.",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-09.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Image ad specifications: https://www.facebook.com/business/ads-guide/update/image",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — How to choose an ad objective in Meta Ads Manager: https://www.facebook.com/business/help/1438417719786914",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Available conversion locations and events by objective in Meta Ads Manager: https://www.facebook.com/business/help/2035196646663270",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create ad campaigns in Meta Ads Manager: https://www.facebook.com/business/help/621956575422138",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tt.reach-objective",
+        "name": "Reach objective",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok's documentation lists Reach only as the supported ad objective for TopSearch campaigns. Meta's Awareness is a broader objective in which reach is one performance goal alongside ad recall lift and video views.",
+        "context": "Compare only for reach-focused buying. TikTok's documented context is TopSearch in Ads Manager, which does not match Meta's Awareness.",
+        "evidence": [
+          {
+            "source_id": "tiktok.search.topsearch",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-topsearch?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About TopSearch",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.image": "baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a",
+        "meta.guide.ads": "b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e+b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e",
+        "meta.guide.campaign": "3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4+3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4",
+        "meta.guide.conversion_locations": "bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88+bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:58:39.259090Z",
+    "source_checked_at": "2026-11-09T06:09:44.472014Z",
+    "verified_at": "2026-11-18T08:58:39.259090Z"
+  }
+}

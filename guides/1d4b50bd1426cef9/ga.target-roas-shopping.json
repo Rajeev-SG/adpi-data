@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.target-roas-shopping",
+    "name": "Target ROAS (Shopping)",
+    "vendor": "Google Ads",
+    "platform": "Standard Shopping",
+    "capability_ids": [
+      "google.shopping.automated_bidding.target-roas"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Target ROAS is a Smart Bidding strategy for Shopping campaigns that sets bids to maximize conversion value while reaching an average return on ad spend the advertiser chooses.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2: \"Target return on ad spend (ROAS) sets your bids to maximize your conversion value, while reaching an average return on ad spend that you choose. Requires conversions.\"",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Standard Shopping campaigns"
+            ]
+          },
+          {
+            "text": "It requires conversions, i.e. conversion tracking must be in place for the strategy to work.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The target expresses how much revenue you want to earn for each dollar spent on Google Ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2: \"Your Target ROAS represents how much revenue you want to earn for each dollar you spend on Google Ads.\"",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Automated bid strategies for Shopping monitor campaign performance and set a bid in every auction to help achieve the advertiser's goal.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "About automated bidding for Shopping campaigns",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The strategy aims to maximize conversion value while reaching the average ROAS target you set — an averaging objective, not a guarantee for every product or auction.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when your Shopping goal is revenue efficiency — earning more conversion value per dollar — rather than maximizing clicks or total conversions.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Conversion tracking is active",
+              "You have enough conversion value data for the strategy to learn from"
+            ]
+          },
+          {
+            "text": "Do not rely on it when you lack conversions or conversion values, because the strategy explicitly requires conversions and cannot operate without them.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If your goal is the most clicks for your budget, the source directs you to Maximize Clicks instead, which does not require conversions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2: Maximize Clicks \"Doesn't require conversions.\"",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "The strategy can be applied at the campaign level or the ad group level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1: \"Where to apply it: Campaigns, ad groups\"",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Conversion tracking must be enabled before the strategy can run.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google's help page links to a separate setup article, but the step-by-step click path for setting the Target ROAS value is not on Google Ads' page.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Track your campaign's actual return on ad spend against the target you set, since the strategy works toward an average ROAS rather than a guaranteed one.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Conversion value is the quantity the bidding strategy optimizes, so monitoring total reported conversion value alongside ROAS shows what the strategy is trading off: a tighter target should tend to protect ROAS at the cost of scale if the campaign reaches it, though the direction of that trade-off is an expectation, not a documented outcome.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Conversion tracking reports value correctly"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Meta's lowest cost bidding is a related but different option: it aims for the most results for the budget without limiting the bid amount, whereas Target ROAS constrains delivery to a revenue-efficiency target and requires conversion values.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-10-05.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — About automated bidding for Shopping campaigns: https://support.google.com/google-ads/answer/6309029?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.automated_bidding",
+                "source_url": "https://support.google.com/google-ads/answer/6309029?hl=en",
+                "locator": "Table 1 row 2: \"Target return on ad spend (ROAS) sets your bids to maximize your conversion value, while reaching an average return on ad spend that you choose. Requires conversions.\"",
+                "source_site": "Google Ads Help",
+                "source_title": "About automated bidding for Shopping campaigns",
+                "raw_sha256": "39ab899007e22e59e5f305a9363bad2f49ccbaf18c36c4314001fd231c615676",
+                "cleaned_sha256": "64fa78dd0e152272effd7f77e55cb72af1b4b2b762056df2b0582a52242621ae"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.lowest-cost-bidding",
+        "name": "Lowest cost bidding (Meta / Paid Social)",
+        "vendor": "Meta",
+        "kind": "related_not_equivalent",
+        "difference": "Lowest cost bidding gets the most results for the budget without limiting bid amount; Target ROAS instead bids to reach an average return on ad spend the advertiser chooses, so it needs conversion values rather than just event counts.",
+        "context": "Shopping on Google Ads, where the advertiser optimizes toward a return-on-ad-spend target.",
+        "evidence": [
+          {
+            "source_id": "meta.ads.campaign_bid_strategy",
+            "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+            "locator": "Field bid_strategy: 'LOWEST_COST_WITHOUT_CAP: Designed to get the most results for your budget based on your ad set optimization_goal without limiting your bid amount... also known as automatic bidding'",
+            "source_site": "Meta for Developers",
+            "source_title": "Ad Campaign bid strategies",
+            "raw_sha256": "c43e8b74877433c765e517ccff8270fa7a7bcc7e7d044334703b05cff48131cc",
+            "cleaned_sha256": "f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294"
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "meta.cost-cap",
+        "name": "Cost cap bidding (Meta / Paid Social)",
+        "vendor": "Meta",
+        "kind": "related_not_equivalent",
+        "difference": "Meta's cost cap limits the actual average cost per optimization event to a specified amount; Target ROAS optimizes conversion value against an average return on ad spend, which is a value-efficiency goal, not a cost-per-event cap.",
+        "context": "Shopping on Google Ads with a revenue-efficiency objective rather than a per-event cost objective.",
+        "evidence": [
+          {
+            "source_id": "meta.ads.campaign_bid_strategy",
+            "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+            "locator": "Field bid_strategy: 'COST_CAP: Designed to get the most results for your budget based on your ad set optimization_goal while limiting actual average cost per optimization event'",
+            "source_site": "Meta for Developers",
+            "source_title": "Ad Campaign bid strategies",
+            "raw_sha256": "c43e8b74877433c765e517ccff8270fa7a7bcc7e7d044334703b05cff48131cc",
+            "cleaned_sha256": "f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294"
+          }
+        ],
+        "status": "inferred"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.shopping.automated_bidding": "64fa78dd0e152272effd7f77e55cb72af1b4b2b762056df2b0582a52242621ae+64fa78dd0e152272effd7f77e55cb72af1b4b2b762056df2b0582a52242621ae+64fa78dd0e152272effd7f77e55cb72af1b4b2b762056df2b0582a52242621ae"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.475840Z",
+    "source_checked_at": "2026-10-05T06:04:47.965928Z",
+    "verified_at": "2026-11-17T23:26:30.475840Z"
+  }
+}

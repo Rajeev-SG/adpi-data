@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.shopping-ads",
+    "name": "Shopping ads",
+    "vendor": "Google Ads",
+    "platform": "Standard Shopping",
+    "capability_ids": [
+      "google.shopping.standard.shopping-ads"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Shopping ads show a product photo, title, price, store name and more, giving users a clear view of the product before they click.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "About Shopping ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "They are managed in Google Ads through Shopping campaigns or Performance Max campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "About Shopping ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google states the format can promote online and local inventory, boost traffic to a website or local store, and find better qualified leads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "About Shopping ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Shopping ads use Merchant Center product data, not keywords, to decide how and where ads show; submitted product details are matched to a user's search to show the most relevant products.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "How Shopping ads work",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google may use landing page, image, feed and other signals, including content created by Google AI, to enrich the ads; you can opt out via your account manager or contact form, with requests typically processed in 3-5 business days.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "How Shopping ads work",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Performance Max is a goal-based campaign type that looks at inputs such as budget and product feed and optimises performance based on them.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "How Shopping ads work",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Ads may also serve on Google Search Partner websites, but only if the campaign is set to include search partners.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "Google Search Partner websites (if your campaign is set to include search partners)",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you are a retailer wanting to promote online and local inventory and drive traffic to your website or local store.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "About Shopping ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need keyword-targeted text ads: Shopping ads match on product data rather than keywords, so keyword-level targeting control is not how the format works.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "About Shopping ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Local Inventory Ads turn on automatically once a local products inventory feed is attached to the campaign, so attach that feed when you want local store inventory surfaced.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "Opted in automatically when a local products inventory feed is attached to the campaign",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Link your Google Ads account to Merchant Center.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "Learn how to Link a Google Ads account to Merchant Center",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Manage your Shopping ads in Google Ads using a Shopping or Performance Max campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "How Shopping ads work",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In CSS program countries, participate through one or several Comparison Shopping Services of your choice.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "Note: In Comparison Shopping Service (CSS) program countries, you participate in Shopping ads through one or several CSSs of your choice.",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For Performance Max Vehicle ads, ensure the Merchant Center account is opted into the Vehicle ads program and a supported objective (Leads or Sales) is selected; for Shopping campaign Vehicle ads, select a Vehicle Feed and ensure approved vehicle offers exist in Merchant Center.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "If your Merchant Center account is opted in for the Vehicle ads program and one of the supported objectives (Leads, Sales) have been selected, you will be automatically opted in.",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google Ads does not document a complete step-by-step wizard path for creating the campaign itself, so this guide stops at the documented setup requirements.",
+            "status": "not_documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "About Shopping ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "A useful indicator is the quality of leads reaching your site: since Shopping ads give users a clear view of the product (photo, title, price, store name) before they click, Google attributes the format with producing more qualified leads. A practical metric to watch is click-to-purchase conversion rate on Shopping traffic, because the causal path runs: richer pre-click product information -> better-matched, better-informed clicks -> a higher share of clicks that convert. The trade-off is that this is an attributed reporting outcome, not an incremental uplift measurement, and it assumes your product data is accurate and current.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "About Shopping ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Because Shopping ads show price and product details before the click, the search match may pre-qualify clicks; this is a documented qualitative claim, not a measured uplift figure."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Not applicable here.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-02.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — About Shopping ads: https://support.google.com/google-ads/answer/2454022?hl=en (covers the ad format, product-data matching, AI enrichment and opt-out, campaign types, CSS note and Local Inventory Ads behaviour).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.shopping.standard",
+                "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+                "locator": "About Shopping ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Shopping ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.shopping-ads",
+        "name": "Shopping ads",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Pinterest shopping ads are built from product groups created within Pinterest's tools, whereas Google's Shopping ads are generated from a Merchant Center product feed linked to a Google Ads account.",
+        "context": "Retailers promoting products on visual social platforms rather than the Google search network.",
+        "evidence": [
+          {
+            "source_id": "pinterest.shopping.product_groups",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+            "locator": "What's next? — 'Once you've created your product groups, you can create shopping ads.'",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Manage your product groups",
+            "raw_sha256": "01af1c81e3cb4a0b215929247bf3e048b9712f95df085acc23f1dee925c5128b",
+            "cleaned_sha256": "b10aa03b734361bcf9f3f60d8943ecaa78b588cd8dbdda3aea22d7536127c2a6"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "meta.collection-ads",
+        "name": "Collection ads",
+        "vendor": "Meta",
+        "kind": "related_not_equivalent",
+        "difference": "Collection ads are a mobile visual discovery format (cover creative plus product imagery in the feed), not search-matched product listings driven by Merchant Center product data.",
+        "context": "Mobile app-style discovery formats versus search-triggered product listings.",
+        "evidence": [
+          {
+            "source_id": "meta.ads.guide.collection",
+            "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+            "locator": "\"You can use the collection format in the Facebook Feed... A collection ad in Facebook Feed includes a cover image or video followed by three product images.\"",
+            "source_site": "Meta Business Help Centre",
+            "source_title": "Collection ad specifications",
+            "raw_sha256": "79891118da41897d437b87c423428f91232986ab87f3b883f4979a9b37b88b4c",
+            "cleaned_sha256": "4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.max-width-collections-ads",
+        "name": "Max width collections ads",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "A Pinterest full-width collections format built from hero and secondary pins in Ads Manager; it serves as a feed-based showcase but is not a Merchant Center-driven search ad and cannot substitute for Google's shopping ad distribution.",
+        "context": "Retailers wanting a large visual product showcase in a social feed rather than search-based shopping listings.",
+        "evidence": [
+          {
+            "source_id": "pinterest.formats.collection",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/max-width-collection-ads",
+            "locator": "\"To manually create a customised max width collections ad, you’ll first need to create a collections Pin, then promote it.\"",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Max Width collection ads",
+            "raw_sha256": "7461d774db664a5e2e696b057840810ac2d58ef7311ad64168004939f02ce3eb",
+            "cleaned_sha256": "c796c8ffe9fa403b8b596904998578a7a2693023aa0dbba86f8c1163195463d5"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.shopping.standard": "0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916+0b3421e5fc50366c1d59dfe6188b8801085d78ae0edb1369e1d1bde6618fc916"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.289231Z",
+    "source_checked_at": "2026-11-02T06:10:46.198802Z",
+    "verified_at": "2026-11-17T23:26:30.289231Z"
+  }
+}

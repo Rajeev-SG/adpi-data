@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "tt.instant-form",
+    "name": "Instant Form",
+    "vendor": "TikTok",
+    "platform": "Lead Generation",
+    "capability_ids": [
+      "tiktok.lead_gen.instant_form.instant-form"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Instant Form is a native in-app lead capture form for TikTok Lead Generation ads that lets customers share contact information, answer your questions, and learn about your business.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Instant Form allows customers to share their contact information, answer your questions, and learn about your business.",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Customers can engage with the lead ad in two ways: by clicking the ad CTA to open an Instant Form, or by answering a question directly through the Form Card on the in-feed video.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Customers can engage with your lead generation ad in two ways",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The form opens in-app when a user clicks the ad's call-to-action, so the lead capture happens without leaving TikTok.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "customers open it by clicking the ad CTA",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The form is built in TikTok Ads Manager, either via Tools > Instant Page or during campaign creation.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Built in TikTok Ads Manager via Tools > Instant Page or during campaign creation.",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The form is composed of components such as a banner, introduction, welcome page, questions, privacy section, and optional custom content blocks (product details, testimonials, FAQ, images, and more), with availability differing between form and card layouts.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Form Components table",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The Questions section lets you create custom questions about your business or products and gather personal information (name, email, phone number) for future contact.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Questions section",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The Privacy section requires your company name and a link to your privacy policy; you can optionally add custom disclaimers, and required consents must be given before a user can submit the form.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Privacy section",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because the form collects contact details and answers to custom questions, the form completion rate and the quality of submitted leads are the natural metrics to watch, with the trade-off that required consent steps and longer question sets may reduce completions while improving lead qualification.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Questions and Privacy sections",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to capture leads natively in the TikTok app, letting users share contact information and answer your questions without leaving the platform.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "in-app instant form solution offers flexibility in lead capture and management",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you cannot meet the compliance requirements, since a privacy policy URL is mandatory and your lead ad questions must be reviewed against the Lead Ads Terms and TikTok Advertising Policies.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "You need a privacy policy URL link for your organization.",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Review the questions you plan to ask in the lead ad campaign",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want to build trust and context before the ask, by choosing the rich content form template or adding custom content blocks such as testimonials, product details, and FAQs.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Rich content form template; Custom Components",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want to qualify leads, by choosing the lead qualification form template with pre-filled custom questions based on user responses.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Lead qualification form",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Before you start, confirm you have a privacy policy URL for your organization (an existing one can be used) and review your planned lead ad questions against the Lead Ads Terms and TikTok Advertising Policies.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "You need a privacy policy URL link for your organization.",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Review the questions you plan to ask",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 1: Log in to TikTok Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Step 1: Access the Instant Form Editor",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: Open the Instant Form Editor either from the Tools tab (choose Instant Page, click Create, then select the Instant Form tab) or during campaign creation (create a Lead Generation campaign, select Instant Form as the Optimization Location at the ad group level, then click + Create in the Destination section at the ad level).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Option 1: From the Tools tab; Option 2: During campaign creation",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: Select a form template — simple sign-up, rich content, lead qualification, vertical templates, AI-generated, blank form, or card layout — and click Confirm.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Start with selecting a form template",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 4: Use the drop-down menus at the top of the form creation page to set the color scheme and language of your form.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "set up the color scheme and language",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 5: On the Content tab, customize the form components (banner, introduction, welcome page, questions, privacy, custom components), noting that the Questions and Privacy sections are required for all forms.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "On the Content tab, customize the following components",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 6: Once the Content is set up, click the Final Page tab to add a Thank You page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "click on the Final Page tab to add a Thank",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "TikTok's page ends at the Final Page step, so any later publishing or campaign-launch steps are not covered here.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Track form completion rate: the mechanism is an in-app form opened from the ad CTA or Form Card, so the share of users who open the form and submit it is the direct performance measure; the trade-off is that required consent steps and more questions may lower completion while raising lead quality.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "customers open it by clicking the ad CTA; Privacy section required consents",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Track lead quality via your custom question answers: the lead qualification template and custom questions are designed for more effective lead qualification, so the conditional causal path is that richer question data improves downstream qualification of submitted leads.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Lead qualification form: pre-filled custom questions based on user responses for more effective lead qualification",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "No vendor-reported uplift or benchmark figures for Instant Form are published by TikTok, so any expected performance improvement cannot be stated.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "TikTok Ads Help Center — How to create an Instant Form: https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.lead_gen.instant_form",
+                "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+                "locator": "Instant Form allows customers to share their contact information, answer your questions, and learn about your business.",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "How to create an Instant Form",
+                "raw_sha256": "c7fca6ae377e00abe4d71c355f82827f18fb2525fbfb638ff1dabf0a705de3b9",
+                "cleaned_sha256": "d3e26eb98eb757c69d2db0a87d9ab7754465fac8c820104a856767a72f7f517f"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.lead-ads",
+        "name": "Lead ads",
+        "vendor": "Pinterest",
+        "kind": "equivalent_for_use",
+        "difference": "Pinterest Lead ads let people fill in a form within the ad without leaving Pinterest, delivering their information to the advertiser; TikTok Instant Form is the equivalent native in-app lead capture for TikTok Lead Generation ads, opened via the ad CTA or a Form Card on the in-feed video.",
+        "context": "Both are native, in-platform lead capture forms for paid social lead generation; the difference is the platform and the specific engagement surfaces (TikTok CTA/Form Card vs Pinterest in-ad form).",
+        "evidence": [
+          {
+            "source_id": "pinterest.formats.lead_ads",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+            "locator": "\"Lead ads are not available to everyone on Pinterest just yet. If you're interested in trying them out, contact your account manager.\"",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Lead ads",
+            "raw_sha256": "1354c500a178361189b56abc78fec937cd22dabae92f2ab711daa1b6acf19920",
+            "cleaned_sha256": "4653929f5dbbce20d477e525fcc82301a6bfeb74ca4dc4bc7a88d53b2d087f26"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.lead_gen.instant_form": "d3e26eb98eb757c69d2db0a87d9ab7754465fac8c820104a856767a72f7f517f+d3e26eb98eb757c69d2db0a87d9ab7754465fac8c820104a856767a72f7f517f+d3e26eb98eb757c69d2db0a87d9ab7754465fac8c820104a856767a72f7f517f+d3e26eb98eb757c69d2db0a87d9ab7754465fac8c820104a856767a72f7f517f+d3e26eb98eb757c69d2db0a87d9ab7754465fac8c820104a856767a72f7f517f"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.231154Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-11-17T23:26:30.231154Z"
+  }
+}

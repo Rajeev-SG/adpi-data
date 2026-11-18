@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.shopping-ads",
+    "name": "Shopping ads",
+    "vendor": "Pinterest",
+    "platform": "Shopping",
+    "capability_ids": [
+      "pinterest.shopping.product_groups.shopping-ads-from-product-groups"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "Shopping ads are Pinterest ad units created from product groups in Catalogues.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Shopping ads on Pinterest are an ad format created from product groups built in Catalogues.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "What's next?",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest names shopping ads as the next step after building product groups.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "What's next?",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "Ads are generated from filtered product groups, so catalogue data quality and filters shape what is advertised.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Product groups must be created before shopping ads can be created from them.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "Once you've created your product groups, you can create shopping ads.",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Product groups are defined by filters (e.g. price, with one currency per group) applied to catalogue data sources, so the audience-facing ad content derives from the filtered product set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "Filters",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A product group can draw from all data sources (catalogue-level) or a single data source.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "Catalogue-level",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "Best suited to advertisers with catalogue data who want filtered product sets promoted.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you already run a Pinterest catalogue and want to advertise a curated subset of products defined by filters.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "What's next?",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Catalogues availability varies by region"
+            ]
+          },
+          {
+            "text": "Do not rely on it when Catalogues is not yet available in your region — the help page itself displayed such a notice, so availability must be confirmed first.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "It looks as though you're viewing this from a region where Catalogues isn't available yet",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Catalogues availability varies by region"
+            ]
+          },
+          {
+            "text": "Retailers using Shopify-linked catalogues can maintain product groups through Shopify, keeping advertised product sets in sync with store data.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "Save product groups to boards",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Setup begins with product groups; the final ad-creation steps are not detailed by Pinterest.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Step 1: Log in to your Pinterest business account from desktop.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "Manage business > Catalogues and product groups",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: Under Manage business, click Catalogues and product groups, then Product groups in the left-hand menu.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "Manage business > Catalogues and product groups",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: Create or edit a product group, choosing catalogue-level or a single data source, and set filters (with operators such as is / is not; price filters allow one currency per group).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "Filters",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 4: Once the product group is created, create shopping ads from it — Pinterest confirms this is the next step but the detailed ad-creation steps are not documented by Pinterest.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "What's next?",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prerequisite: confirm Catalogues is available in your region before starting; the help page displayed a notice that it was not yet available in the viewer's region.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "It looks as though you're viewing this from a region where Catalogues isn't available yet",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "No vendor performance figures are supplied; only a mechanism-based KPI inference is possible.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "A useful indicator is click-through on shopping ads relative to the breadth of the product group's filters: tighter filters should concentrate ads on more relevant products, which may raise relevance-driven engagement — but this is a conditional expectation from the filtering mechanism, not a guaranteed uplift, and narrower groups also reduce reach.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.shopping.product_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/manage-your-product-groups",
+                "locator": "Filters",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Manage your product groups",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "No vendor-reported performance figures are present by Pinterest"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "One official Pinterest help page supplied; it covers product groups and names shopping ads as the next step. Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.shopping-ads",
+        "name": "Shopping ads (Google Ads / Standard Shopping)",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Google Standard Shopping ads are generated directly from Merchant Center product data and managed through Shopping or Performance Max campaigns; Pinterest shopping ads depend on first building filtered product groups in Catalogues.",
+        "context": "Both advertise products from a product feed, but Google's format is generated from Merchant Center product data and managed via Shopping or Performance Max campaigns in Google Ads, whereas Pinterest's shopping ads are created from product groups defined by filters in Catalogues.",
+        "evidence": [
+          {
+            "source_id": "google.shopping.standard",
+            "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "About Shopping ads",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "meta.collection-ads",
+        "name": "Collection ads (Meta / Paid Social)",
+        "vendor": "Meta",
+        "kind": "related_not_equivalent",
+        "difference": "Meta collection ads pair a cover image or video with three product images for mobile browsing in Feed; Pinterest shopping ads are generated from catalogue product groups and are not described as a cover-plus-products creative format.",
+        "context": "Meta's collection ads are a creative format combining a cover image or video with product images in Feed, while Pinterest shopping ads are driven by catalogue product groups rather than a fixed cover-plus-products creative layout.",
+        "evidence": [
+          {
+            "source_id": "meta.ads.guide.collection",
+            "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+            "locator": null,
+            "source_site": "Meta Business Help Centre",
+            "source_title": "Collection ad specifications",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.shopping.product_groups": "b10aa03b734361bcf9f3f60d8943ecaa78b588cd8dbdda3aea22d7536127c2a6+b10aa03b734361bcf9f3f60d8943ecaa78b588cd8dbdda3aea22d7536127c2a6+b10aa03b734361bcf9f3f60d8943ecaa78b588cd8dbdda3aea22d7536127c2a6+b10aa03b734361bcf9f3f60d8943ecaa78b588cd8dbdda3aea22d7536127c2a6"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.247329Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.247329Z"
+  }
+}

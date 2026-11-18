@@ -1,0 +1,525 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.keyword-targeting",
+    "name": "Keyword targeting",
+    "vendor": "Pinterest",
+    "platform": "Search",
+    "capability_ids": [
+      "pinterest.search.keywords.keyword-targeting"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Keyword targeting reaches people as they search for a specific idea on Pinterest, using keywords related to the promoted ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": "Keyword targeting lets you reach people as they search for a specific idea on Pinterest.",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For example, a living room furniture ad can target searches like 'living room décor' or 'home décor ideas'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Keywords are configured per ad group, in Ads Manager or Bulk Editor.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The ad is triggered when a person's search matches a selected keyword; match types control how loosely or tightly that matching happens.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Phrase match requires the entire phrase to be included in the search; exact match limits serving to the keyword itself.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Negative keywords exclude certain search terms from triggering ads and can be set at the ad group level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because delivery depends on search queries matching your keyword list, a very small list narrows reach; broad match widens it but risks less relevant matches — this is a reach-vs-precision trade-off, not a guaranteed performance difference.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "conditional on search matching the selected keywords",
+              "after campaign review is complete"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to reach people with clear commercial or inspiration intent, such as shoppers searching for a specific product idea like living room décor.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you need precise control over which searches trigger your ad, for example by narrowing to phrase or exact matches.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when some searches should never trigger your ad — negative keywords let you exclude specific terms.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your goal is audience characteristics rather than search intent — the mechanism is triggered by what people search, not by who they are.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You need a Pinterest business account in a region where Pinterest Ads are available; Ads are not yet available in all regions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 1: Log in to your Pinterest business account, click the hamburger icon at the top left, and under Manage campaigns click Create campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: Click Manual campaign, then Get started, and choose New ad group from the left-side navigation, then select a targeting strategy.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: Under Interests and keywords, tick Enable keywords, then click Add keywords and either type a comma-separated list or search and add keywords.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 4: Optionally specify match types by formatting each keyword (quotation marks for phrase, brackets for exact, minus signs for negative matches).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 5: Set Budget and schedule, Optimisation and delivery, and Ads; review your information and click Publish.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Bulk Editor route: download a sample sheet, enter each keyword on its own row in the Keyword column, optionally set match types in the Match Type column, then upload the template.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "To edit later, open the ad in Ad account overview, go to the Keywords tab, and use Create keywords, Create negative keywords, or Archive to remove unwanted keywords.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Limit on volume: up to 20,000 keywords per ad group; Ads Manager allows adding or removing up to 5,000 or updating up to 2,500 at a time, while Bulk Editor handles up to 20,000 in one operation.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "After launch, campaigns are reviewed against Advertising guidelines, which can take up to 24 hours before ads are distributed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest recommends using at least 25 keywords per ad group for best results.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A useful metric to watch is the volume of searches your keyword list covers: because ads serve only when a search matches your keywords, an under-sized list can limit impressions; Pinterest's 25-keyword minimum recommendation reflects this, though the trade-off is that broader matching trades precision for reach.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "if delivery reporting shows a very small share of eligible searches triggering the ad"
+            ]
+          },
+          {
+            "text": "Pinterest reports no performance uplift, conversion or cost benchmarks for keyword targeting, so no outcome figures can be stated.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Coverage answered via the relationships list above.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Centre — Keyword targeting: https://help.pinterest.com/en-gb/business/article/keyword-targeting This page supplies all mechanism, setup, limits and match-type details in this guide.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.search.keywords",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Keyword targeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.search-negative-keywords",
+        "name": "Negative keywords (Search)",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Negative keywords only exclude searches from triggering ads, whereas Pinterest keyword targeting is primarily a positive match that reaches people searching specific ideas, with negatives as an exclusion layer.",
+        "context": "Both platforms use negative keyword syntax to stop ads serving for unwanted search queries.",
+        "evidence": [
+          {
+            "source_id": "google.search.campaigns.create",
+            "source_url": "https://support.google.com/google-ads/answer/9510373?hl=en",
+            "locator": "\"**Negative keywords**: Add a minus sign - in front of your keyword to exclude searches.\"",
+            "source_site": "Google Ads Help",
+            "source_title": "Create a Search campaign",
+            "raw_sha256": "fd953c561a5e7c4d065961426f2a1fbb06c80226b59a198be629316507bc79da",
+            "cleaned_sha256": "fee11641f8abf48387184a8266955336e8f2093373d9ab0b91ffb5c74be974d8"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.pmax-negative-keywords",
+        "name": "Negative keywords (Performance Max)",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest keyword targeting is a positive control on which searches trigger the ad; Google Performance Max negative keywords are an exclusion control across Search and Shopping inventory with no equivalent positive keyword list.",
+        "context": "Comparison for advertisers planning search-triggered ad delivery across platforms.",
+        "evidence": [
+          {
+            "source_id": "google.pmax.negative_keywords",
+            "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+            "locator": "By adding negative keywords to your Performance Max campaigns or account, you can avoid your campaigns showing for queries that contain those terms on Search and Shopping inventory.",
+            "source_site": "Google Ads Help",
+            "source_title": "Negative keywords in Performance Max campaigns",
+            "raw_sha256": "1502a185437e8510720ebbf2cf9f66ffdde5f1ef2c51de45c89213c6da7c696a",
+            "cleaned_sha256": "a9b8473685d9bf84cdb92630ec4c791b83ec391e9d4ba5ace9ef029a718752a6"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.search.keywords": "da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa+da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa+da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa+da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa+da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa+da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa+da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.475840Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.475840Z"
+  }
+}

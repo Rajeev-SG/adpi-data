@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.demand-gen-channel-controls",
+    "name": "Demand Gen channel controls",
+    "vendor": "Google Ads",
+    "platform": "Demand Gen",
+    "capability_ids": [
+      "google.demand_gen.channels.demand-gen-channel-controls"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "Channel controls are a Demand Gen setting that decides which Google surfaces your ads can appear on.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Channel controls in Demand Gen campaigns let you choose where your ads appear across Google's visual-first surfaces, including YouTube, Gmail, Discover, Maps, and the Google Display Network.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The control is set at the ad group level, so different ad groups within the same campaign can serve on different channels.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "How to use channel controls in Demand Gen",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For example, you can tailor a campaign to serve specifically on YouTube Shorts.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "Controls are applied per ad group, with a manual selection option and an automatic all-channels option.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You can either select channels manually for an ad group or choose All Google channels to let Google set them automatically.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "How to use channel controls in Demand Gen",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google states that its system is designed to achieve the best possible results by using all channels and available ad inventory, and recommends All Google channels for most advertisers because it supports efficient budget allocation and cost control.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "How to use channel controls in Demand Gen",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A stated benefit is channel-level performance transparency: you can check a detailed performance breakdown by channel and use it to inform optimization decisions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Not all channels are compatible with every ad type or audience, so available options depend on your ad format and audience settings.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "applicable condition",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "Best suited to strategies that need a specific surface or want to extend a social approach onto Google; less suited when maximum reach matters most.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you have format-specific creative, such as vertical video, and want it to show on a specific surface like YouTube Shorts for an optimal mobile experience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want to extend a social strategy onto YouTube, including YouTube Shorts, beyond paid social platforms.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your priority is maximum reach and you have no surface-specific constraints: the source explicitly recommends all-channel selection for most advertisers, and restricting channels can only reduce available inventory.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "How to use channel controls in Demand Gen",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your ad type or audience is incompatible with your intended channels; Google Ads states channel compatibility varies by ad type and audience.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "applicable condition",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Channel controls are configured within the Demand Gen ad group settings; only the ad-group-level location and the manual vs. automatic choice are documented.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In a Demand Gen campaign, open an ad group and find the Channel controls setting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "How to use channel controls in Demand Gen",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose either manual channel selection or All Google channels for that ad group.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "How to use channel controls in Demand Gen",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Check channel compatibility with your ad type and audience before selecting channels, since not all channels work with every ad type or audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "applicable condition",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "The documented measurement angle is a per-channel performance breakdown; no vendor uplift figures are provided.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Demand Gen reports performance broken down by channel, which you can review to guide campaign optimization.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A useful metric to watch is channel-level cost and conversion performance (e.g., conversions or cost per conversion per channel from the channel breakdown): if you restrict to a channel like YouTube Shorts, delivery shifts to that surface, so per-channel results show the reallocation. Trade-off: narrower channel selection reduces total inventory, which can raise costs even as fit improves.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "How to use channel controls in Demand Gen",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "The mechanism is channel-level performance reporting; any uplift is conditional on your own before/after comparison, not guaranteed by Google."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "No alternative features are documented, so no cross-platform relationships can be stated.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Evidence comes from Google's official Help Center article on Demand Gen channel controls. Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — Demand Gen channel controls: https://support.google.com/google-ads/answer/15973205?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google Ads Help — Demand Gen channel controls: https://support.google.com/google-ads/answer/15973205?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "applicable condition",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.demand_gen.channels": "f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5+f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5+f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5+f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.134821Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.134821Z"
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.customer-match",
+    "name": "Customer Match",
+    "vendor": "Google Ads",
+    "platform": "Google Ads",
+    "capability_ids": [
+      "google.customer_match.customer-match"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Customer Match lets you upload your own customer data to reach and re-engage those customers on Google surfaces. Easy to miss: it needs an uploaded list, and ads only reach people signed in to their Google account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "About Customer Match",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It works across Search, the Shopping tab, Gmail, YouTube and Display, using your online and offline first-party data.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "About Customer Match",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You upload a customer list data file of customer information. Google then targets ads to those customers and to other customers like them.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Ads are shown only to users signed in to their Google account, so your list reach is limited to people who are signed in when they browse.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "On Search and the Shopping tab you can adjust bids based on what you know about your customers' activities.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "About Customer Match",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Third-party ad serving creatives aren't supported with Customer Match.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "applicable condition (other)",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you hold first-party customer data and want to re-engage existing customers, or reach similar people, on Search, Shopping, Gmail, YouTube or Display.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "About Customer Match",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your creatives are served through a third-party ad server, which Customer Match doesn't support.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "applicable condition (other)",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it for full list reach: only signed-in users see the ads, and iOS 14 traffic may be affected, so expect fluctuation in web conversion performance.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "Recent updates to Customer Match",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it for EEA partner-exchange inventory: since early March 2024, lists activated there (including UK and Switzerland) are no longer available for web and app.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "About Customer Match",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Google Ads documents the prerequisites and the recommended upload route, but not the exact menu path or field names, so the steps stop there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Prepare a customer list data file of your customer information.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Upload the list using Data Manager or the Data Manager API, which Google recommends over the Google Ads API for new integrations.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "About Customer Match",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If an upload partner handles data for EEA users, confirm with them that the required consent signals are passed to Google.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "EU user consent policy for Customer Match upload partners",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Conversion rate or CPA: if your list holds high-value customers, bidding up on them in Search and Shopping may lift conversion rate. The trade-off is a smaller audience and higher CPCs, and only signed-in users are reachable.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "About Customer Match",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Reach among new prospects: because ads also target customers like your list, you may gain incremental reach on YouTube, Gmail and Display. Quality depends on your seed list, and attributed results are not proof of incrementality.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": "About Customer Match",
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-10-12.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — About Customer Match: https://support.google.com/google-ads/answer/6379332?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.customer_match",
+                "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About Customer Match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.customer-list-custom-audiences",
+        "name": "Customer list Custom Audiences",
+        "vendor": "Meta",
+        "kind": "equivalent_for_use",
+        "difference": "Both build an audience from your own customer list. Meta's version is a Custom Audience listed under Create: Your Sources. Google's version is limited to signed-in Google users and its own surfaces.",
+        "context": "Use for re-engaging existing customers on Meta instead of Google.",
+        "evidence": [
+          {
+            "source_id": "meta.custom_audiences",
+            "source_url": "https://www.facebook.com/business/help/744354708981227",
+            "locator": null,
+            "source_site": "Meta Business Help Centre",
+            "source_title": "About custom audiences",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "pin.customer-list-audiences",
+        "name": "Customer list audiences",
+        "vendor": "Pinterest",
+        "kind": "equivalent_for_use",
+        "difference": "Pinterest uploads existing customers' emails or mobile ad IDs via single-column CSV to match people on Pinterest. Pinterest does not describe a lookalike expansion inside the same feature.",
+        "context": "Use for re-engaging existing customers on Pinterest.",
+        "evidence": [
+          {
+            "source_id": "pinterest.audience.targeting_setup",
+            "source_url": "https://help.pinterest.com/en/business/article/audience-targeting",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Set up audience targeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "tt.lookalike-audiences",
+        "name": "Lookalike Audiences",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok's documentation covers only prospecting from a Custom Audience, matching the 'customers like them' part of Customer Match, not the customer-list upload itself.",
+        "context": "Compare only for the prospecting side of Customer Match.",
+        "evidence": [
+          {
+            "source_id": "tiktok.custom_audiences",
+            "source_url": "https://ads.tiktok.com/help/article/custom-audiences?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Custom Audiences",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.customer_match": "73bf6d5952ffdbbf0942d2e9fa8733768e2cfa01f666eb6ac5c175e038d17c70+73bf6d5952ffdbbf0942d2e9fa8733768e2cfa01f666eb6ac5c175e038d17c70+73bf6d5952ffdbbf0942d2e9fa8733768e2cfa01f666eb6ac5c175e038d17c70+73bf6d5952ffdbbf0942d2e9fa8733768e2cfa01f666eb6ac5c175e038d17c70+73bf6d5952ffdbbf0942d2e9fa8733768e2cfa01f666eb6ac5c175e038d17c70+73bf6d5952ffdbbf0942d2e9fa8733768e2cfa01f666eb6ac5c175e038d17c70"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T04:03:30.949286Z",
+    "source_checked_at": "2026-10-12T06:04:49.234932Z",
+    "verified_at": "2026-11-18T04:03:30.949286Z"
+  }
+}

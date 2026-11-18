@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.leads-objective",
+    "name": "Leads objective",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.objectives.simplified.leads-objective"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Leads campaigns drive non-transactional outcomes such as sign-ups and leads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Leads campaigns drive non-transactional outcomes, such as sign-ups and leads",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Leads replaced the legacy Conversions objective for non-transactional events optimised with CPM bidding.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Conversions | Non-transactional events (CPM) | Leads | Pins",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The objective you choose signals which conversion events you intend to optimise toward, so pick Leads when the goal event is non-transactional (for example sign up, subscribe, lead) rather than a purchase event.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "When choosing between Leads and Sales objectives, select the objective that aligns with the specific conversion event you want to optimise for",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The objective determines which conversion events the campaign optimises for; non-transactional events (sign up, subscribe, submit application, start trial, lead, schedule, contact, and custom events mapped to non-transactional events) belong under Leads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Leads objective events (non-transactional) table: Sign up, Subscribe, Submit application, Start trial, Lead, Schedule, Contact, Custom event mapped to a non-transactional event",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Leads campaigns use CPM bidding, inherited from the legacy Conversions setup for non-transactional events.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Conversions | Non-transactional events (CPM) | Leads",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest states you will not experience performance changes as a result of the objective update, and campaign ramp times remain the same based on your creative source.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "You won't experience any performance changes as a result of these updates, and campaign ramp times will remain the same based on your creative source",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when your goal is a sign-up, subscription, application, trial start, or other non-transactional lead action rather than a purchase.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Leads campaigns drive non-transactional outcomes, such as sign-ups and leads",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you are migrating an existing Conversions campaign that optimised non-transactional events with CPM bidding and need the updated equivalent.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Conversions | Non-transactional events (CPM) | Leads",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your goal is transactional — the Sales objective covers add to basket, checkout, and purchase-type events, so Leads is the wrong home for those.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Sales objective events (transactional) table: Add to basket, Checkout, Initiate checkout, Add payment info, Add to wishlist, Customise product, Find location",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Note that Leads campaigns use standard Pins as the creative source; Pinterest ties Product catalogue as a creative source to the Consideration and Sales objectives, not to Leads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Conversions | Non-transactional events (CPM) | Leads | Pins; catalogue creative-source instructions apply to Consideration and Sales",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Step 1: Log in to your Pinterest business account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Log in to your Pinterest business account",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: Click the hamburger icon at the top left of the page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Click on the hamburger icon at the top left of the page",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: Under Manage campaigns, click Create campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Under Manage campaigns, click Create campaign",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 4: Select Manual campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Select Manual campaign",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 5: Under Campaign objective, select Leads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Under Campaign objective, select Consideration, Leads or Sales",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 6: Add your campaign details and click Continue.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Add your Campaign details and click Continue",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 7: Enter your ad group details, targeting, budget & schedule, and optimisation & delivery preferences.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Enter your Ad group details, Targeting, Budget & schedule and Optimisation & delivery preferences",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 8: Under Ads, pick the Pin(s) you'd like to promote and click Launch.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Under Ads pick the Pin(s) you’d like to promote and click Launch",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Alternatively, in the bulk editor: download your bulk sheet, update the Campaign Objective column (Column B) with Leads, fill in the rest of the sheet as usual, and upload it. Note the Creative_Source column instructions are documented only for Consideration and Sales, so Pinterest does not state what to enter there for Leads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Download your bulk sheet; Update the Campaign Objective column (Column B); Fill in the rest of your bulk sheet as usual; Upload your bulk sheet; Creative_Source instructions given only for Consideration and Sales",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Duplicating a legacy-objective campaign automatically selects the corresponding updated objective.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "If you duplicate a campaign that uses a legacy objective, it automatically selects the corresponding updated objective",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Expect to read out the non-transactional conversion events the campaign optimises for (such as sign-ups or leads), since the objective determines which events it targets — but Pinterest publishes no benchmark figures, so treat any uplift or efficiency gain as unproven.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Leads objective events (non-transactional) table; When choosing between Leads and Sales objectives, select the objective that aligns with the specific conversion event you want to optimise for",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Trade-off: because Leads optimises toward non-transactional events rather than revenue, volume-focused metrics may look strong while the downstream value of each lead is not addressed by this objective alone.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Conversions | Non-transactional events (CPM) | Leads",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Not applicable here.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Centre — Simplified objectives: https://help.pinterest.com/en-gb/business/article/simplified-objectives — this article is the sole basis for the definitions, event mapping, setup steps and transition notes in this guide.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Leads campaigns drive non-transactional outcomes, such as sign-ups and leads",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest Help Centre — Simplified objectives: https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+            "status": "not_documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.objectives.simplified",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+                "locator": "Leads campaigns drive non-transactional outcomes, such as sign-ups and leads",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Simplified objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.leads-objective",
+        "name": "Leads objective (Meta / Paid Social)",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Both are lead-generation campaign objectives, but Meta only documents that Leads is a supported objective for image ads and that objective choice controls available placements and calls to action; it does not document Meta's event taxonomy or bidding, so equivalence beyond 'lead-generation objective exists on both platforms' cannot be claimed.",
+        "context": "Marketer choosing a paid-social objective for sign-up or lead generation campaigns.",
+        "evidence": [
+          {
+            "source_id": "meta.ads.guide.image",
+            "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+            "locator": "Leads is listed as a supported objective for image ads; selecting an objective determines which placements and calls to action are available.",
+            "source_site": "Meta Business Help Centre",
+            "source_title": "Image ad specifications",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "tt.lead-generation-objective-search-ads",
+        "name": "Lead Generation objective (Search Ads) (TikTok)",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok offers Lead Generation as an objective for its Search Ads Campaign (setup can start with it pre-selected), which is search-driven inventory, whereas Pinterest Leads is a non-transactional conversion objective in Ads Manager campaigns, not a search campaign type.",
+        "context": "Marketer deciding where to run lead generation across platforms.",
+        "evidence": [
+          {
+            "source_id": "tiktok.search.setup",
+            "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-a-search-ads-campaign-in-tiktok-ads-manager?lang=en",
+            "locator": "Lead Generation is a supported campaign objective for the Search Ads Campaign; setup can start with the Lead Generation objective pre-selected and Search campaign selected.",
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "Set up a Search Ads Campaign",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.objectives.simplified": "458b449288915df227090b4024daff7a17228f523776042506fde11c79023cea+458b449288915df227090b4024daff7a17228f523776042506fde11c79023cea"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.654345Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.654345Z"
+  }
+}

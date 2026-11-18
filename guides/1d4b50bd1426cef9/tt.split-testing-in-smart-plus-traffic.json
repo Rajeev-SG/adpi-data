@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "tt.split-testing-in-smart-plus-traffic",
+    "name": "Split testing in Smart+ Traffic",
+    "vendor": "TikTok",
+    "platform": "Smart+",
+    "capability_ids": [
+      "tiktok.smart_plus.traffic_campaigns.smart-traffic-split-testing"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Split testing is available for Smart+ Traffic campaigns, run through Experiment Manager or the Campaign List using a multi-variable test.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "Available settings table, Split testing row",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Traffic Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The test is set up as a multi-variable test, meaning you can compare variations across more than one element at a time.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "Available settings table, Split testing row",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Traffic Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you run web traffic campaigns optimizing toward clicks or landing page views and are flexible about audience, targeting, and creative delivery choices.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "When to use Smart+ Traffic Campaigns",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Traffic Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Your campaign optimizes toward clicks or landing page views"
+            ]
+          },
+          {
+            "text": "Use it when you want to highlight time-sensitive promotions, such as seasonal sales or retailer events, while still optimizing for website traffic.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "When to use Smart+ Traffic Campaigns",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Traffic Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need optimization based on landing page content or user actions; Smart+ Traffic optimizes on TikTok first-party metrics such as load metrics, with limited data share.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "Key benefits",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Traffic Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Start from Experiment Manager or the Campaign List and choose a multi-variable test.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "Available settings table, Split testing row",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Traffic Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "TikTok does not document the remaining step-by-step setup path (how to select the Smart+ Traffic campaign, configure test variables, or launch the test), so those steps cannot be listed here.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A useful KPI to watch is cost per click or landing-page volume: because Smart+ Traffic aims to drive more users likely to click or land on your site at lower cost, a split test that identifies better variants should, if the mechanism works as described, show lower cost per click or higher landing volume — though this is an attributed platform metric, not proof of incremental uplift, and it trades off against on-site action data since optimization uses only TikTok first-party metrics.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": "Key benefits",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Traffic Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "If split testing leads you to creative or setup variants that genuinely attract more qualified visitors",
+              "Measured as attributed platform metrics, not proven incremental outcomes"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "No candidate alternatives are documented, so no cross-platform comparisons can be stated.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-10-12.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.smart_plus.traffic_campaigns": "746f8308a95708eb13967fc9922cb9edf6640edbb26aaae42187fee0259aa10c+746f8308a95708eb13967fc9922cb9edf6640edbb26aaae42187fee0259aa10c+746f8308a95708eb13967fc9922cb9edf6640edbb26aaae42187fee0259aa10c"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.494551Z",
+    "source_checked_at": "2026-10-12T06:04:49.234932Z",
+    "verified_at": "2026-11-17T23:26:30.494551Z"
+  }
+}

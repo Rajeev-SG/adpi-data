@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.website-custom-audience",
+    "name": "Website Custom Audiences",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.custom_audiences.website.about.website-custom-audiences"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A website custom audience is a Meta audience of people who visited your site, which you can then target with ads. It only works if the Meta pixel is tracking your visitors, and it starts filling from creation, not from past traffic.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website.about",
+                "source_url": "https://www.facebook.com/business/help/610516375684216",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Website Custom Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The Meta pixel records visits to your website. You build the audience from a pixel, choose which events or pages qualify, and set an audience retention period in days.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The audience populates from the moment you create it. It will not backfill earlier visitors.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You can combine up to five rules per audience, using include-more and exclude-people options.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "European privacy changes may affect campaigns reaching people in the European region. Audience options are also limited where the audience includes people under 18 (older in some countries).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website.about",
+                "source_url": "https://www.facebook.com/business/help/610516375684216",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Website Custom Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "European region",
+              "audiences including under-18s"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when you have a working Meta pixel and want to reach people who have already shown interest by visiting your site, for example key product or checkout pages.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website.about",
+                "source_url": "https://www.facebook.com/business/help/610516375684216",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Website Custom Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your pixel is not installed, when you need to capture visitors from before the audience existed, or when you advertise to teens or in the European region, where options and reporting may be restricted.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.custom_audiences.website.about",
+                "source_url": "https://www.facebook.com/business/help/610516375684216",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Website Custom Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "These are the documented steps for Ads Manager on desktop.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager on desktop, open Audiences.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Create audience, then Custom audience. If you have never made one, select Create a custom audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Website, then Next.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose whether people must meet Any or All of your criteria, then pick your Source from your pixels.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose Events. For People who visited specific web pages, paste Events Manager parameters or type URLs, using the minimum needed to identify the page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Set Audience retention in days.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Optionally add Include more people or Exclude people rules, up to five per audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Optionally choose an Audience label, then enter an Audience name and, optionally, a description.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Create audience. You return to the Audiences home page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Conversion rate and CPA: if people who visited key pages are more likely to convert than cold traffic, targeting them may raise conversion rate and lower CPA. The trade-off is a small, fast-saturating audience, so frequency rises and reach is capped.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website.about",
+                "source_url": "https://www.facebook.com/business/help/610516375684216",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Website Custom Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Reported conversions: a retargeting audience can attribute sales that would have happened anyway, so attributed results may overstate incremental impact. Use holdout or exclusion tests before crediting it with new demand.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — About Website Custom Audiences: https://www.facebook.com/business/help/610516375684216",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences.website.about",
+                "source_url": "https://www.facebook.com/business/help/610516375684216",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Website Custom Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create a website custom audience: https://www.facebook.com/business/help/1474662202748341",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.website_audience",
+                "source_url": "https://www.facebook.com/business/help/1474662202748341",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a website custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.website-visitor-audiences",
+        "name": "Website visitor audiences",
+        "vendor": "Pinterest",
+        "kind": "equivalent_for_use",
+        "difference": "Pinterest builds visitor audiences from event tags or pages visited, with a lookback window in days, optional past traffic and filters. Meta's audience is built from pixel events or pages, starts from creation and does not backfill.",
+        "context": "Website retargeting of past visitors; check each platform's tracking tag and lookback options before planning parity.",
+        "evidence": [
+          {
+            "source_id": "pinterest.audience.targeting_setup",
+            "source_url": "https://help.pinterest.com/en/business/article/audience-targeting",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Set up audience targeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.custom-audiences",
+        "name": "Custom Audiences",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok Custom Audiences is a broader feature covering file uploads, website or app activity, TikTok engagement and activation partners. Meta's website custom audience covers only the website-visitor source.",
+        "context": "Use TikTok's website activity source for the closest match to Meta's website audience.",
+        "evidence": [
+          {
+            "source_id": "tiktok.custom_audiences",
+            "source_url": "https://ads.tiktok.com/help/article/custom-audiences?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Custom Audiences",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.custom_audiences.website.about": "5ecbb2683cd770e82c5433bbf4f99ccfd7ae507580b6513fd9924ade6b2f6b15+5ecbb2683cd770e82c5433bbf4f99ccfd7ae507580b6513fd9924ade6b2f6b15+5ecbb2683cd770e82c5433bbf4f99ccfd7ae507580b6513fd9924ade6b2f6b15+5ecbb2683cd770e82c5433bbf4f99ccfd7ae507580b6513fd9924ade6b2f6b15+5ecbb2683cd770e82c5433bbf4f99ccfd7ae507580b6513fd9924ade6b2f6b15+5ecbb2683cd770e82c5433bbf4f99ccfd7ae507580b6513fd9924ade6b2f6b15",
+        "meta.guide.website_audience": "d04e1cb9a2baaba4697c31686e2ca40880c0f48c676e91fca74c946559cc9587+d04e1cb9a2baaba4697c31686e2ca40880c0f48c676e91fca74c946559cc9587"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:58:39.259090Z",
+    "source_checked_at": "2026-11-18T07:42:13.794554Z",
+    "verified_at": "2026-11-18T08:58:39.259090Z"
+  }
+}

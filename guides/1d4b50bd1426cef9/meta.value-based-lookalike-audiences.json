@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.value-based-lookalike-audiences",
+    "name": "Value-based Lookalike Audiences",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.lookalike_audiences.value-based-lookalike-audience"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A value-based Lookalike Audience finds new people who resemble your existing customers, using a source audience that carries a value column. Choose a source that reflects the customers you want more of, because source quality shapes the result.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.value_lookalike",
+                "source_url": "https://www.facebook.com/business/help/458132024732845",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a value-based Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is a variant of standard lookalike audiences, created from a custom audience that includes a value column. It is an audience you build and then use in ad sets, so it acts as a targeting input.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta's system uses information such as demographics, interests and behaviours from your source audience to find new people with similar qualities, then delivers your ad to that audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You choose audience size with a percentage range. Smaller percentages match the source more closely; larger ones give a broader audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.value_lookalike",
+                "source_url": "https://www.facebook.com/business/help/458132024732845",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a value-based Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "How the value column changes the modelling is not explained by Meta, so do not assume it weights the match by value.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you have a custom audience with a value column and want to reach new people who resemble your customers. Meta notes that a source built from your best customers may give better results than one built from all customers, depending on your goals.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your ads are about financial products and services, employment or housing opportunities, because lookalike audiences are limited or unavailable for these. Options are also limited for audiences that include people under 18.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it unchanged for campaigns reaching people in the European Region, where privacy-driven changes may affect campaigns and reporting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The documented steps start once your source audience with a value column is ready; creating that source is covered in a separate Meta guide not supplied here.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Go to Audiences in Meta's ads tools.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.value_lookalike",
+                "source_url": "https://www.facebook.com/business/help/458132024732845",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a value-based Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click the Create audience drop-down menu and select Lookalike Audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.value_lookalike",
+                "source_url": "https://www.facebook.com/business/help/458132024732845",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a value-based Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For your source, choose the custom audience with a value column that you created.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.value_lookalike",
+                "source_url": "https://www.facebook.com/business/help/458132024732845",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a value-based Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose your desired audience size with the slider.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.value_lookalike",
+                "source_url": "https://www.facebook.com/business/help/458132024732845",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a value-based Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Create audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.value_lookalike",
+                "source_url": "https://www.facebook.com/business/help/458132024732845",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a value-based Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Find the audience under All audiences. The Status column shows Populating until it becomes Ready.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.value_lookalike",
+                "source_url": "https://www.facebook.com/business/help/458132024732845",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a value-based Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per acquisition may fall if a tighter audience size, built from a high-quality source, reaches people closer to your best customers. The trade-off is smaller reach and potentially higher CPMs or slower delivery. Your results are attributed outcomes, not proven incremental gains.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Reach and prospecting volume may rise with larger percentages, at the cost of weaker similarity to the source and possibly lower conversion rate.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Each counterpart below is a lookalike-style audience on another platform; no other platform shows value-based sourcing there.",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Create a value-based Lookalike Audience: https://www.facebook.com/business/help/458132024732845",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.value_lookalike",
+                "source_url": "https://www.facebook.com/business/help/458132024732845",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a value-based Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — About Lookalike Audiences: https://www.facebook.com/business/help/164749007013531",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.actalike-audiences",
+        "name": "Actalike audiences",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Pinterest builds a new audience from an existing source audience, with an actalike country and percentage range, and excludes the source audience. Pinterest does not mention value-based sources.",
+        "context": "Use for prospecting on Pinterest from a customer list; do not assume value-weighted modelling.",
+        "evidence": [
+          {
+            "source_id": "pinterest.audience.targeting_setup",
+            "source_url": "https://help.pinterest.com/en/business/article/audience-targeting",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Set up audience targeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.lookalike-audiences",
+        "name": "Lookalike Audiences",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok lists lookalike audiences, created from a Custom Audience, as a prospecting benefit. TikTok's page gives no detail on value-based sources or size controls.",
+        "context": "Prospecting from a custom audience on TikTok; match to Meta's value-based option is unconfirmed.",
+        "evidence": [
+          {
+            "source_id": "tiktok.custom_audiences",
+            "source_url": "https://ads.tiktok.com/help/article/custom-audiences?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Custom Audiences",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.lookalike-segments",
+        "name": "Lookalike segments (Demand Gen)",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "In Demand Gen the seed list acts as a signal, and Google's models may reach users outside similarity thresholds to optimise for goals such as conversions. Google Ads' page does not describe value-based seeds.",
+        "context": "Demand Gen campaigns only; advertisers can opt out of the suggestion behaviour via a targeting constraint.",
+        "evidence": [
+          {
+            "source_id": "google.lookalike_segments",
+            "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "Use Lookalike segments to grow your audience",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.guide.value_lookalike": "a37bcc1e993aa54abf6183f393efd5238d1836e67459e93c6f94ec9fc62a9872+a37bcc1e993aa54abf6183f393efd5238d1836e67459e93c6f94ec9fc62a9872",
+        "meta.lookalike_audiences": "b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12+b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12+b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-18T07:42:13.794554Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

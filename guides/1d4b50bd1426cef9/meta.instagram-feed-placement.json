@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.instagram-feed-placement",
+    "name": "Instagram Feed placement",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.video.video-ads-in-instagram-feed"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Instagram Feed is a placement you choose for where Meta shows your ad, including video ads. It is a delivery location, not a creative format, so check that your objective supports Instagram before you plan around it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": "Choose your ad placement: \"Instagram feed\"",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": "Select Instagram as an ad placement in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta lists Instagram Feed separately from Instagram Stories, Explore home and Reels, so each is a distinct placement option.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": "Choose a placement",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You choose placements in the Placements section when you build the ad set. Meta recommends including all available placements so ads run across several Meta platforms, Instagram among them.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": "Select Instagram as an ad placement in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choosing Instagram under Platforms limits delivery to Instagram. Advantage+ may show as On in the Audience and Placements sections.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": "Select Instagram as an ad placement in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta publishes a placement-by-format table that shows which ad formats each placement supports. Instagram Explore home, for example, only supports a 1:1 aspect ratio.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placement_objectives",
+                "source_url": "https://www.facebook.com/business/help/279271845888065",
+                "locator": "Feeds",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available ad placements for marketing objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when your video creative is built for the Instagram feed and you want to control or review Instagram delivery separately from other Meta surfaces.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": "Choose your ad placement: \"Instagram feed\"",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your chosen objective does not support Instagram as a placement, or when you expect Feed alone to carry delivery. Meta recommends all available placements for best value.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": "Select Instagram as an ad placement in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents selecting Instagram as a platform in Ads Manager. It does not document a way to select Instagram Feed alone, so the steps stop there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Go to Meta Ads Manager and click Create.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": "Select Instagram as an ad placement in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose an objective that supports Instagram as a placement, then click Continue.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": "Select Instagram as an ad placement in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Set your budget, schedule and audience. In Placements, select Show more settings.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": "Select Instagram as an ad placement in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Platforms, select Instagram to show ads only on Instagram, or keep all available placements, which Meta recommends. Then click Next.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": "Select Instagram as an ad placement in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per result: if Instagram Feed is a strong delivery surface for your creative and audience, including it can lower cost per result. Restricting to Instagram only narrows the delivery pool, which can raise costs.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": "Select Instagram as an ad placement in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-15.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Video ad specifications: https://www.facebook.com/business/ads-guide/update/video",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create Instagram ads in Meta Ads Manager: https://www.facebook.com/business/help/1513393428972189",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instagram",
+                "source_url": "https://www.facebook.com/business/help/1513393428972189",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create Instagram ads in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Available ad placements for marketing objectives: https://www.facebook.com/business/help/279271845888065",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placement_objectives",
+                "source_url": "https://www.facebook.com/business/help/279271845888065",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available ad placements for marketing objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "See the relationships listed below.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.browse-placement",
+        "name": "Browse placement",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Browse shows ads among home feeds and related Pins. It is one of several ad group placement options in Ads Manager and Bulk Editor. Instagram Feed is a separate Meta placement with its own format and objective support.",
+        "context": "Both are feed-style placements you can select. They are different inventories, so do not carry over expectations on cost or reach.",
+        "evidence": [
+          {
+            "source_id": "pinterest.placements",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Ad placements",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.discover-placement-demand-gen",
+        "name": "Discover placement (Demand Gen)",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Discover is a channel you can select in Demand Gen manual channel selection. Instagram Feed is chosen in Meta's Placements settings.",
+        "context": "Both let you choose a feed-like surface. The campaign type and selection controls differ.",
+        "evidence": [
+          {
+            "source_id": "google.demand_gen.channels",
+            "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "Demand Gen channel controls",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.automatic-placement",
+        "name": "Automatic placement",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "Automatic placement is the Smart+ default, where TikTok selects placements unless you switch to Select placement. It is not a single feed placement like Instagram Feed.",
+        "context": "It is comparable to Meta's recommended all-placements option, not to Instagram Feed itself.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.updates",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About upgrades to Smart+",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.video": "69ee782e720bf7588c2a292d48a5f7056d68e666037f9eadadba34e6c204d12f+69ee782e720bf7588c2a292d48a5f7056d68e666037f9eadadba34e6c204d12f+69ee782e720bf7588c2a292d48a5f7056d68e666037f9eadadba34e6c204d12f",
+        "meta.guide.instagram": "966b7fe18b2f7f16f7831614e97a6ec2516c1d5586a7421ab8b64abd64c3dc56+966b7fe18b2f7f16f7831614e97a6ec2516c1d5586a7421ab8b64abd64c3dc56",
+        "meta.guide.placement_objectives": "83477a24126eba40eaf8d5d5b0b15a623aa04fd01df03d500ef2557aa66564cb+83477a24126eba40eaf8d5d5b0b15a623aa04fd01df03d500ef2557aa66564cb"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:58:39.259090Z",
+    "source_checked_at": "2026-11-15T22:30:36.891800Z",
+    "verified_at": "2026-11-18T08:58:39.259090Z"
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.teen-targeting-restrictions",
+    "name": "Teen targeting restrictions",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.guide.teen_targeting.teen-ad-targeting-restrictions"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta automatically removes some audience and campaign options when your ads can reach people under 18 (older in some countries). The easy mistake is assuming a setup that works for adults will carry over unchanged to teens.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Some audience and campaign options are not available when you create ads that include people under 18 (or older in some countries) in your desired audience.",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta presents these limits as part of its teen privacy and safety efforts. They are set by the platform, not chosen by you.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Some audience and campaign options are not available when you create ads that include people under 18 (or older in some countries) in your desired audience.",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Worldwide, Meta publishes a list of audience options and a list of campaign options that are unavailable for showing ads to teens. Check Meta's page for the exact items, as they are not reproduced here.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Worldwide restrictions on advertising to teens",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Optimisation goals still available for teens: app installs, impressions, reach, daily unique reach, link clicks, off-site conversions and, for Instagram ads, More profile visits (set on Instagram, not in Ads Manager).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Worldwide restrictions on advertising to teens",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Placements still available for teens: Facebook Feed, right column, Stories, in-stream video (mobile) and Reels; Instagram Feed, Explore, Stories and Reels; and WhatsApp Status.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Worldwide restrictions on advertising to teens",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta automatically adjusts the minimum audience age for all Advantage+ app campaigns, and these campaigns can't be used to reach teens.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Worldwide restrictions on advertising to teens",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Ads with locations in the EU, EEA or Switzerland can't deliver to people under 18. They keep delivering to people aged 18 or over. Further capabilities that would need teens' information for ads may also be unavailable.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Restrictions on advertising to teens in the EU, EEA and Switzerland",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you are planning a campaign whose audience could include under-18s outside the EU, EEA and Switzerland. Check the unavailable options list, then build around the goals and placements that remain open to teens.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Worldwide restrictions on advertising to teens",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you want to reach teens in the EU, EEA or Switzerland. Ads with locations there can't deliver to under-18s at all.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Restrictions on advertising to teens in the EU, EEA and Switzerland",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on Advantage+ app campaigns to reach teens. Meta raises their minimum age automatically.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Worldwide restrictions on advertising to teens",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents only how to set an age limit in the ad set. It does not give a path for choosing teen-specific options, so this stops there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager, open the ad set and find Audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ad_sets",
+                "source_url": "https://www.facebook.com/business/help/151999381652364",
+                "locator": "Limit age and gender targeting",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set age targeting when creating an ad",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Further limit your audience (or Further limit the reach of your ads), then confirm in the popup.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ad_sets",
+                "source_url": "https://www.facebook.com/business/help/151999381652364",
+                "locator": "Limit age and gender targeting",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set age targeting when creating an ad",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select age and choose your range. In some setups, untick Use as a suggestion for each choice. Meta then won't target beyond your age setting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ad_sets",
+                "source_url": "https://www.facebook.com/business/help/151999381652364",
+                "locator": "Limit age and gender targeting",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set age targeting when creating an ad",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "By default, age and gender are only suggestions, so Meta may show ads beyond them. Minimum age is the exception and is an audience control.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ad_sets",
+                "source_url": "https://www.facebook.com/business/help/151999381652364",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set age targeting when creating an ad",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Reach and impressions: if you plan within the remaining goals and placements, teen delivery stays possible. The trade-off is a narrower toolset than for adults, so scale may be lower.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Worldwide restrictions on advertising to teens",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Cost per result: if your usual goal or audience option is unavailable for teens, you may need a substitute goal such as link clicks. Results may then not be comparable with adult campaigns, so compare them cautiously.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": "Worldwide restrictions on advertising to teens",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Only TikTok and Pinterest candidates touch age targeting, and neither is an equivalent. Meta's feature is a platform-enforced restriction.",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Advertising options to reach teens: https://www.facebook.com/business/help/229435355723442",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.teen_targeting",
+                "source_url": "https://www.facebook.com/business/help/229435355723442",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advertising options to reach teens",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Set age targeting when creating an ad: https://www.facebook.com/business/help/151999381652364",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ad_sets",
+                "source_url": "https://www.facebook.com/business/help/151999381652364",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set age targeting when creating an ad",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tt.smart-plus-audience-controls",
+        "name": "Smart+ audience controls",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok lets you adjust a Minimum Age setting (18-25) under Smart+ automatic targeting. Meta's teen limits are fixed by the platform and are not an advertiser setting.",
+        "context": "Both involve minimum age, but TikTok's is a baseline audience parameter you choose. It does not restrict which campaign options are available.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.targeting",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "Upgraded Smart+ targeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.demographic-targeting",
+        "name": "Demographic targeting",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest lets you refine by age, gender, location, language or device as an advertiser choice. It is not a platform restriction on teen ads.",
+        "context": "Useful for setting age ranges, but it does not document teen-specific limits.",
+        "evidence": [
+          {
+            "source_id": "pinterest.targeting.overview",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/targeting-overview",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Targeting overview",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.guide.ad_sets": "8cdb5faa66a6ea482e1f2e2376f9146f2b8fa367375d596582c72cb5eb593dfa+8cdb5faa66a6ea482e1f2e2376f9146f2b8fa367375d596582c72cb5eb593dfa",
+        "meta.guide.teen_targeting": "85cb56c7ea8b8a4d971a2cbeb4441404851f6286b78f20c9747f5f2cb0780a2c+85cb56c7ea8b8a4d971a2cbeb4441404851f6286b78f20c9747f5f2cb0780a2c+85cb56c7ea8b8a4d971a2cbeb4441404851f6286b78f20c9747f5f2cb0780a2c+85cb56c7ea8b8a4d971a2cbeb4441404851f6286b78f20c9747f5f2cb0780a2c+85cb56c7ea8b8a4d971a2cbeb4441404851f6286b78f20c9747f5f2cb0780a2c"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-18T08:15:35.271451Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.video-ads",
+    "name": "Video ads",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.video-ad-format"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Video is one of Meta's core ad formats, alongside image, carousel and collection. Check the format specifications before you upload: the Feed footer (headline, description, button) can disappear for awareness and reach-style goals.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide",
+                "source_url": "https://www.facebook.com/business/ads-guide",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Meta Ads guide",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The Meta Ads Guide provides design specifications and technical requirements for video, such as dimensions and file sizes.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide",
+                "source_url": "https://www.facebook.com/business/ads-guide",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Meta Ads guide",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Video is a creative format, not a targeting or bidding control. It sets what people see, not who sees it or how delivery is optimised.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You build the video at the ad level, the bottom tier of Ads Manager. Audience, placement, budget and schedule are shared by every ad in the same ad set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For Facebook Feed, Meta recommends MP4, MOV or GIF at 4:5 and 1440 x 1800 pixels. It also recommends H.264 compression and stereo AAC audio at 128 kbps or higher. Captions and sound are optional but recommended.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Technical requirements for Facebook Feed video: duration from 1 second to 241 minutes, maximum file size 4 GB, and minimum 120 x 120 pixels. Recommended text is 50-150 characters for primary text and 27 characters for the headline.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If your video ad objective is awareness, or your performance goal is Maximise reach of ads, 2-second continuous video views, impressions or post engagement, the headline, description and call-to-action button are not shown on Facebook Feed on mobile.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want movement and sound to show a product's features or tell a brand story in Facebook Feed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your goal is awareness or reach and you need the headline or call-to-action button to be seen on mobile Facebook Feed. Those elements are not displayed there, so the video must carry the message.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "With some objectives you can use a 360 video, which lets viewers turn their device or drag to explore every angle.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents the three-level structure but not the exact Ads Manager menu labels for choosing the video format, so these steps stop at the level where you design the ad.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "At campaign level in Ads Manager, choose your ad objective. Your objective and performance goal decide whether the Feed footer shows.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "At ad set level, set the audience, placements, budget and schedule. Every ad in the set shares them.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "At ad level, design the ad and add your video file, checking it against the file type, ratio, resolution, size and duration requirements for your placement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Interpret click-through rate in context. For the mobile Feed reach and awareness video specifications, a headline and call-to-action button are not shown. A video view measures a different action from a click.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": "a55d15d1e35960799d57d968ae121a9806e509726015a327780dd6906d592bd8",
+                "cleaned_sha256": "f898c5f1b75fa19b61fa46c726d9e553d1ea61e0a2781439e8eab778c52a00d2"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "No counterpart features on other platforms are documented, so no equivalents are stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Sources: Meta ads guide (https://www.facebook.com/business/ads-guide); Meta ads guide, Video (https://www.facebook.com/business/ads-guide/update/video); The three advertising levels in Meta Ads Manager (https://www.facebook.com/business/help/621956575422138); Video ad specifications for Meta Audience Network advertisers (https://www.facebook.com/business/help/179080809286633).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide",
+                "source_url": "https://www.facebook.com/business/ads-guide",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Meta Ads guide",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.video",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.video_creative",
+                "source_url": "https://www.facebook.com/business/help/179080809286633",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Video ad specifications for Meta Audience Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide": "ae4877f4533112109ad2ef98815281f2cf9776413af1935d9d8dcbe88ee2e912+ae4877f4533112109ad2ef98815281f2cf9776413af1935d9d8dcbe88ee2e912+ae4877f4533112109ad2ef98815281f2cf9776413af1935d9d8dcbe88ee2e912",
+        "meta.ads.guide.video": "f898c5f1b75fa19b61fa46c726d9e553d1ea61e0a2781439e8eab778c52a00d2+f898c5f1b75fa19b61fa46c726d9e553d1ea61e0a2781439e8eab778c52a00d2",
+        "meta.guide.ads": "b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e+b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e",
+        "meta.guide.video_creative": "98399fcf6488ba23e5086189ed7fd2abd1cf79d392b59de5dfdaeea632c2661d+98399fcf6488ba23e5086189ed7fd2abd1cf79d392b59de5dfdaeea632c2661d"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T09:03:47.970984Z",
+    "source_checked_at": "2026-11-18T07:53:57.111708Z",
+    "verified_at": "2026-11-18T09:03:47.970984Z"
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "tt.automatic-placement",
+    "name": "Automatic placement",
+    "vendor": "TikTok",
+    "platform": "Smart+",
+    "capability_ids": [
+      "tiktok.smart_plus.updates.automatic-placement"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Automatic placement is a Smart+ ad group setting in which TikTok selects the placements for your ads automatically.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Automatic placement is set by default",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is the default setting for Smart+ ad groups; advertisers who want control can switch to Select placement instead.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Automatic placement is set by default",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Under Automatic placement, placements are selected automatically by the system rather than chosen by the advertiser.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Automatic placement is set by default",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The setting lives at the ad group level, alongside brand safety options in the Placements and brand safety section.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Placements and brand safety",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choosing Select placement lets you manually include specific placements instead.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "If you prefer more manual control, choose the Select placement option",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want a hands-off Smart+ setup and are comfortable letting TikTok decide where your ads serve across its placements.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Automatic placement is set by default",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need to guarantee your ads appear on specific placements; in that case switch to Select placement and choose the placements you want.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "If you prefer more manual control, choose the Select placement option and choose the specific placements you'd like to include",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It applies only within the upgraded Smart+ experience, which is available for the Traffic, Sales, Lead Generation, and App Promotion objectives.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Upgraded Smart+ experience is available only for the Traffic, Sales, Lead Generation, and App Promotion objectives",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Automatic placement is set by default when you create a Smart+ ad group, so no action is needed to enable it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Automatic placement is set by default",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "To change it, go to the Placements and brand safety settings at the ad group level and choose Select placement, then pick the specific placements to include.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Placements and brand safety",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The upgraded Smart+ experience may not be available to all accounts yet; contact your TikTok account manager or customer support if you cannot access it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Feature may not be available to all accounts yet",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Because Automatic placement lets the system decide where ads serve, delivery and conversion volume by placement is the natural thing to monitor; if Smart+ creative-level reporting is available, use it to see which creative combinations perform, and compare against a Select placement period if you want to judge whether automatic delivery helps or hurts. The trade-off: automatic delivery may reach placements you would not have chosen manually, which can raise volume while diluting placement-level control.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.updates",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+                "locator": "Reporting updates",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About upgrades to Smart+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.advantage-plus-placements",
+        "name": "Advantage+ placements",
+        "vendor": "Meta",
+        "kind": "equivalent_for_use",
+        "difference": "Meta's Advantage+ placements is an Ads Manager option the advertiser selects to let Meta decide where to publish ads, including Facebook reel overlay ads; TikTok's Automatic placement is the default Smart+ ad group setting where placements are selected automatically unless the advertiser switches to Select placement.",
+        "context": "Both are automated placement delivery options on their respective platforms; TikTok's is on by default in Smart+ ad groups, while Meta's is an opt-in Ads Manager selection.",
+        "evidence": [
+          {
+            "source_id": "meta.business.reels",
+            "source_url": "https://www.facebook.com/business/help/437348354643456",
+            "locator": "\"You can also select **Advantage+ placements** to publish Facebook reel overlay ads.\"",
+            "source_site": "Meta Business Help Centre",
+            "source_title": "About ads on Reels",
+            "raw_sha256": "f918772a08e7c7e8a2d89c229d86ef12700ccb8b5107337c4b361f093f380117",
+            "cleaned_sha256": "e1c180ed14ca9c8baf9342ea0473c7eeb6e9a77b26f4702844fcefc5fcde40e4"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.discover-placement-demand-gen",
+        "name": "Discover placement (Demand Gen)",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "In Google Demand Gen, Discover is a channel placement the advertiser can select in manual channel selection; TikTok's Automatic placement instead removes manual selection entirely, letting the system choose placements by default.",
+        "context": "Both concern where ads serve, but Google's option is a manual channel choice within Demand Gen, whereas TikTok's Automatic placement is the automated default for Smart+ ad groups.",
+        "evidence": [
+          {
+            "source_id": "google.demand_gen.channels",
+            "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+            "locator": "Manual channel selection list: \"Discover\"",
+            "source_site": "Google Ads Help",
+            "source_title": "Demand Gen channel controls",
+            "raw_sha256": "eac3e8d774f59788817396e8b87b553b2b79c7765c0bbfb688a502600e777571",
+            "cleaned_sha256": "f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.placement-exclusions",
+        "name": "Placement exclusions",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Google's placement exclusions stop ads serving on specific pages, sites, mobile apps, and videos in Performance Max; TikTok's Automatic placement is about automatic selection of placements rather than excluding specific ones.",
+        "context": "Both relate to controlling where ads appear, but exclusions are a negative control over specific surfaces, while Automatic placement is a positive automated delivery default.",
+        "evidence": [
+          {
+            "source_id": "google.pmax.brand_suitability",
+            "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+            "locator": "\"Performance Max campaigns will respect all account-level and MCC-level placement exclusions.\"",
+            "source_site": "Google Ads Help",
+            "source_title": "How to use brand suitability features in Performance Max",
+            "raw_sha256": "77fdbde41a761a14d794ee416753f0a1c1ef5acc0837d098ab006aeba99134eb",
+            "cleaned_sha256": "46feed61da710c04c6b1aadcf6c634d6025e24f2f83a948a095aa6a58f76e560"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.smart_plus.updates": "b5ef89681988584e28c8421bdc18f348c5aff2e6d0996941c77e9c160bd1d5ff+b5ef89681988584e28c8421bdc18f348c5aff2e6d0996941c77e9c160bd1d5ff+b5ef89681988584e28c8421bdc18f348c5aff2e6d0996941c77e9c160bd1d5ff+b5ef89681988584e28c8421bdc18f348c5aff2e6d0996941c77e9c160bd1d5ff+b5ef89681988584e28c8421bdc18f348c5aff2e6d0996941c77e9c160bd1d5ff"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.399016Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.399016Z"
+  }
+}

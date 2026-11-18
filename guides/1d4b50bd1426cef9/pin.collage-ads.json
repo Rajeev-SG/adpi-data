@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.collage-ads",
+    "name": "Collage ads",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.formats.collage.collage-ads"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "Collage ads let advertisers combine multiple product cutouts into one interactive image on Pinterest.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Collage ads are an interactive ad format on Pinterest designed to help advertisers visualise products by combining multiple product cutouts into a single image.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "When people tap on a cutout, they see more details and a link to the advertiser's website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "Interaction is driven by tappable cutouts, each of which reveals product details and a destination link.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Each cutout in the collage is interactive: tapping it shows more details and a link to the advertiser's website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In Ads Manager, a collage ad can be set as a multi-destination collage, where each cutout links to its specific product page, or a single-destination collage, where all cutouts link to one destination URL.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because cutouts are tappable and can each carry their own destination, tapping and outbound clicks per cutout are the attributable interaction signals; downstream outcomes such as deeper sales-funnel engagement are conditional results the format is designed to encourage, not guaranteed uplift.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "Best suited to visualising a range of related products, with landing-page strategy matched to whether you want browsing or a hero-product focus.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want people to visualise and explore a range of products from one cohesive theme or category, with each tap revealing details and a relevant link.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your imagery cannot be cut out cleanly: the format assumes Pins with white or plain backgrounds and imagery you own or are licensed to use, so busy or unlicensed visuals are a poor fit.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use multi-item landing pages when you want people to browse a product range and drive deeper sales-funnel engagement; use single-item landing pages when you want to focus attention on one hero product.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Build the collage as an organic Pin first, then promote it in Ads Manager; the documented steps stop at that published procedure.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Prerequisites: create a board and save the Pins to include, ensure all Pins have a white or plain background, ensure each Pin has a title, description and outbound URL, and verify you own or hold licences for all imagery. A business account is required.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 1: Log in to your Pinterest business account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: Open the collapsed menu icon at the top left, then click 'Create Pin for Collage ad' under 'Create content'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: Select a Pin from the right or upload an image via the sticker-image icon, using the tabs to choose from more ideas, your boards, image uploads or drafts.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 4: Add content — click the plus icon on a Pin to add it whole, or open a Pin in close-up, move the cropper and tap 'Add cutout' to add a portion.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 5: Select and rearrange layers on the left-hand side, edit with the collage tools, then select 'Next'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 6: Add a title and description, toggle remixing off, and tap 'Create'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 7: Once the collage Pin is published to a public board, promote it in Ads Manager: click the hamburger icon, choose 'Manage Campaign' then 'Create campaign'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 8: Choose an Awareness or Consideration campaign objective and enter campaign details, targeting, and budget & schedule.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 9: Under Ads, choose 'Select Pins' and pick your collage Pin.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 10: Choose the ad URL destination type (multi-destination or single-destination collage), tick the box confirming you own or have rights to the images, and click 'Publish'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "No vendor performance figures are provided, so KPIs below are inferred from the documented interactive mechanics.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Track taps on individual cutouts and click-throughs to destinations, since the documented mechanic is that tapping a cutout shows details and a website link.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If you use a multi-destination collage, compare per-cutout click-throughs by destination to see which products pull interest; the causal path from richer cutouts to more clicks is conditional on creative quality, and the documented trade-off is that more, larger cutouts (6+ recommended) give more interaction points but require clean-background imagery you must licence for every item.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Documented creative signals that may support engagement — showing prices (e.g. via Product Pins), moderate promotional callouts, and eye-contact imagery — are vendor guidance, not measured outcomes; measure their effect against your own baseline rather than assuming uplift.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "No candidate alternatives are documented for this feature, so no cross-platform comparison can be evidenced.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "The guide draws on one official Pinterest help article. Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Centre — Collage ads: https://help.pinterest.com/en-gb/business/article/collage-ads — the sole official source used.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.collage",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/collage-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Collage ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.formats.collage": "38f65bb373f56dd0f8eb0dd83578845644b4e4ae77ea3ee965668ffa629872f6+38f65bb373f56dd0f8eb0dd83578845644b4e4ae77ea3ee965668ffa629872f6+38f65bb373f56dd0f8eb0dd83578845644b4e4ae77ea3ee965668ffa629872f6+38f65bb373f56dd0f8eb0dd83578845644b4e4ae77ea3ee965668ffa629872f6"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.231154Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.231154Z"
+  }
+}

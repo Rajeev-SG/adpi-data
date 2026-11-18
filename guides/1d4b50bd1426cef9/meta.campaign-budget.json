@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.campaign-budget",
+    "name": "Campaign budget sharing",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.campaign_bid_strategy.campaign-shared-budget"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You set one budget on the campaign and Meta shares it across the ad sets underneath. This is an automated allocation: spend is not split evenly, so judge results at campaign level, not ad set by ad set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget",
+                "source_url": "https://www.facebook.com/business/help/153514848493595",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Budget sits at the campaign level or the ad set level, never both. In Ads Manager Meta calls this Advantage+ campaign budget (also campaign budget, or budget with Advantage+ on).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": null,
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.budget",
+                "source_url": "https://www.facebook.com/business/help/153514848493595",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The central budget is distributed in real time to the ad sets with the best opportunities, so Meta can spend more on strong ad sets and less on weak ones.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget",
+                "source_url": "https://www.facebook.com/business/help/153514848493595",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The budget can be daily or lifetime. With a lifetime budget you can run on a schedule, and optimisation still works when active ad sets have different start and end times.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget",
+                "source_url": "https://www.facebook.com/business/help/153514848493595",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For auction buying in the Marketing API, set bid strategy at campaign level when campaign budget optimisation is on. With it off, set bid strategy at ad set level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": null,
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": "c43e8b74877433c765e517ccff8270fa7a7bcc7e7d044334703b05cff48131cc",
+                "cleaned_sha256": "f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294"
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A campaign can hold more than 70 ad sets (up to 200) with campaign budget, but edits after publishing are limited. Through the API, such campaigns cannot edit bid strategy or turn campaign budget off.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": null,
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when your campaign has at least two ad sets and you want Meta to move spend towards the ad sets with the best opportunities instead of you fixing each ad set's budget.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget",
+                "source_url": "https://www.facebook.com/business/help/153514848493595",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need each ad set to receive an even or guaranteed share. Meta may put most of the budget into one ad set if that gives the best overall result.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget",
+                "source_url": "https://www.facebook.com/business/help/153514848493595",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on being able to switch it off quickly. There is a required two-hour minimum when switching it on or off.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents setup during campaign creation only; it does not cover editing an existing campaign.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "During campaign creation, turn on the Advantage+ campaign budget toggle. Sales, leads and app promotion campaigns have it on by default.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose whether the campaign budget is a daily budget or a lifetime budget.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Enter the budget amount.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose a campaign bid strategy.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If you chose a lifetime budget and want a schedule, you set the specific schedule inside each ad set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Next.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Budget and schedule, choose your start date.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Finalise your ad set settings for your budget.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Track actual spend against the campaign budget and check how much each ad set received. Meta allocates the shared budget across ad sets, so unequal spend can reflect allocation. It does not by itself show which ad set was more effective.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget",
+                "source_url": "https://www.facebook.com/business/help/153514848493595",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage campaign budget",
+                "raw_sha256": "8fd1e0e6e86a89229b2b61dcd85d98845b6a59ac666e544a980927de1be6964f",
+                "cleaned_sha256": "1621987e43e59e7230d844941d10ac5d186cab10f57fb4ad6e3564710d6b6d43"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "No candidate counterparts on other platforms are documented, so none are stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-17.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — About Advantage campaign budget: https://www.facebook.com/business/help/153514848493595",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget",
+                "source_url": "https://www.facebook.com/business/help/153514848493595",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Set up Advantage+ campaign budget: https://www.facebook.com/business/help/343242619559352",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_setup",
+                "source_url": "https://www.facebook.com/business/help/343242619559352",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Set up Advantage+ campaign budget",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Advantage campaign budget best practices: https://www.facebook.com/business/help/2177212182495139",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.budget_practices",
+                "source_url": "https://www.facebook.com/business/help/2177212182495139",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Advantage campaign budget best practices",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta for Developers — Ad Campaign bid strategies: https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": null,
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.campaign_bid_strategy": "f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294",
+        "meta.guide.budget": "1621987e43e59e7230d844941d10ac5d186cab10f57fb4ad6e3564710d6b6d43+1621987e43e59e7230d844941d10ac5d186cab10f57fb4ad6e3564710d6b6d43",
+        "meta.guide.budget_practices": "687dc525ada70a75e40186744bb37f4e3242578978559fa490065503bab19d43+687dc525ada70a75e40186744bb37f4e3242578978559fa490065503bab19d43",
+        "meta.guide.budget_setup": "de45559cff49a47dc2b07337ab96fdf7ea41742df7b60492a55ed20a2c61fdd8+de45559cff49a47dc2b07337ab96fdf7ea41742df7b60492a55ed20a2c61fdd8"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:58:39.259090Z",
+    "source_checked_at": "2026-11-17T23:15:01.670975Z",
+    "verified_at": "2026-11-18T08:58:39.259090Z"
+  }
+}

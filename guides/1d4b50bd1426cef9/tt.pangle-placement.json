@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "tt.pangle-placement",
+    "name": "Pangle placement",
+    "vendor": "TikTok",
+    "platform": "Smart+",
+    "capability_ids": [
+      "tiktok.smart_plus.web_campaigns.tiktok-pangle-placement"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pangle placement is a placement option within TikTok Smart+ Web Campaigns, which are AI-powered campaigns for website conversion goals.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Smart+ Web Campaigns can serve ads on the TikTok Pangle placement in available markets through automatic placement selection.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pangle ads are available only in available markets for Pangle ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "applicable condition (market)",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Smart+ Web Campaigns, placement selection is automatic; TikTok's system decides where ads serve, including Pangle, rather than the advertiser choosing placements manually.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "TikTok assists in campaign setup and optimization to attempt to deliver the right ad to the right person as determined by its system.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because placement is automatic, you cannot exclude TikTok or TikTok Pangle within a Smart+ campaign; doing so requires creating a non-Smart+ campaign and manually selecting placements.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you run a Smart+ Web Campaign for a website sales objective and want the system to extend delivery beyond the main TikTok placement to Pangle in available markets.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need to exclude Pangle or control placements manually; Smart+ campaigns default to automatic placement selection, so you must use a non-Smart+ campaign for that.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when your campaign uses a supported configuration: Sales objective with Website destination and promotion type, any bidding strategy, and supported ad formats including Spark and non-Spark ads and catalog formats.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Create a Smart+ Web Campaign with the Sales objective, Website sales destination, and Website promotion type.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Leave placements on automatic selection; TikTok Pangle is included in available markets for Pangle ads, and manual placement selection is not supported in Smart+ campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose an optimization goal (Value, Conversion, Landing Page View, or Click) and a bidding strategy; all bidding strategies are supported.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Confirm your campaign location is within the available markets for Pangle ads before expecting Pangle delivery.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "applicable condition (market)",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Because the campaign optimizes toward a chosen goal (Value, Conversion, Landing Page View, or Click), track that optimization goal as your primary KPI; Pangle delivery is one automatic channel contributing to it, so any change in results is conditional on how the system allocates delivery and is not a guaranteed uplift.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Trade-off: automatic placement selection means you cannot isolate or exclude Pangle within a Smart+ campaign, so you cannot cleanly attribute performance to Pangle alone without a separate non-Smart+ campaign comparison.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.web_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-web-campaigns?lang=en",
+                "locator": "Available settings",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Web Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.discover-placement-demand-gen",
+        "name": "Discover placement (Demand Gen)",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Discover is a selectable channel placement in Google Demand Gen manual channel selection, whereas Pangle placement in Smart+ Web Campaigns is reached only through automatic placement selection and cannot be manually chosen or excluded.",
+        "context": "Both extend ad delivery beyond a platform's core feed, but Google's Demand Gen lets advertisers select Discover as a channel, while TikTok Smart+ defaults to automatic placement.",
+        "evidence": [
+          {
+            "source_id": "google.demand_gen.channels",
+            "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+            "locator": "Manual channel selection list: \"Discover\"",
+            "source_site": "Google Ads Help",
+            "source_title": "Demand Gen channel controls",
+            "raw_sha256": "eac3e8d774f59788817396e8b87b553b2b79c7765c0bbfb688a502600e777571",
+            "cleaned_sha256": "f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "meta.facebook-feed-placement",
+        "name": "Facebook Feed placement",
+        "vendor": "Meta",
+        "kind": "related_not_equivalent",
+        "difference": "Facebook Feed is a selectable placement for image ads in Meta's ads guide, described as a person's customized home-page stream; Pangle placement is an off-TikTok network placement in Smart+ Web Campaigns that is only served via automatic placement selection.",
+        "context": "Both are named placements within their platform's campaign options, but Meta's is directly selectable while TikTok's Smart+ Pangle delivery is automatic and market-restricted.",
+        "evidence": [
+          {
+            "source_id": "meta.ads.guide.image",
+            "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+            "locator": "Choose your ad placement: 'Facebook Feed'",
+            "source_site": "Meta Business Help Centre",
+            "source_title": "Image ad specifications",
+            "raw_sha256": "eeb9d50b01cbec17daf8477a6b0aa1d737f1a900346977ee0680ba70f83524cd",
+            "cleaned_sha256": "baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.browse-placement",
+        "name": "Browse placement",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest's Browse placement shows ads as people browse home feeds and related Pins and is one of the ad group placement options selectable in Ads Manager and Bulk Editor; Pangle placement is an external network placement in TikTok Smart+ Web Campaigns delivered only through automatic placement selection.",
+        "context": "Both are placement options within their platform's ad setup, but Pinterest's is manually selectable while TikTok's Smart+ Pangle delivery is automatic and limited to available Pangle markets.",
+        "evidence": [
+          {
+            "source_id": "pinterest.placements",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+            "locator": "Browse: Show your ads as people browse their home feeds and related Pins",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Ad placements",
+            "raw_sha256": "82e5f0a437f3acc009be11612a5b1c1156a418c0d165bdaf3f3f63223f0e9731",
+            "cleaned_sha256": "a4e0b6054b12bdc6577b04ee0742267bc4fb1979507e082b7f4fb18e3b594d67"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.smart_plus.web_campaigns": "b8b1ba143fad3c302c403df6e88510aa472f4f2ad426d5703005c12c4514179f+b8b1ba143fad3c302c403df6e88510aa472f4f2ad426d5703005c12c4514179f+b8b1ba143fad3c302c403df6e88510aa472f4f2ad426d5703005c12c4514179f+b8b1ba143fad3c302c403df6e88510aa472f4f2ad426d5703005c12c4514179f"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.289231Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-11-17T23:26:30.289231Z"
+  }
+}

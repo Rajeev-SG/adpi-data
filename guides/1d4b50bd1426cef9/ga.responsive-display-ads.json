@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.responsive-display-ads",
+    "name": "Responsive display ads",
+    "vendor": "Google Ads",
+    "platform": "Google Ads",
+    "capability_ids": [
+      "google.ads.display_gdn.responsive-display-ads"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Responsive display ads are the ad format used in Google Ads Display campaigns; you upload assets (images, headlines, logos, videos, descriptions) and Google AI determines the optimal combination, size, appearance, and format to fit available ad spaces.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "Display campaigns use responsive display ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The ads adjust their size, appearance, and format to fit just about any available ad space across websites, apps, YouTube, and Gmail.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "Get started on Responsive display ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The system combines your individual assets into ads that resize to fit any standard ad size or type, selecting the best combination for each impression.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "How ad creation and optimization works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Once assets have accrued enough data, you get reports on how well they perform, so you can learn what works and adjust your campaign to use the most effective images and text.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "How ad creation and optimization works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Responsive ads can render as 'native' ads that blend into the font and feel of the publisher's site.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "Get started on Responsive display ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to launch a Display campaign but don't know which images and text to use — you can enter your assets and let the system assemble and optimize the ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "How ad creation and optimization works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need full creative steering; for better control you can create and upload your own image ads (in different sizes or HTML5) instead.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "Other Display ad types",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want to reach people across millions of Display Network websites, apps, and Google-owned properties such as YouTube and Gmail, at all stages of the buying cycle.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "About Display ads and the Google Display Network",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Step 1: Create a Display campaign in Google Ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "Get started on Responsive display ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: Upload your assets — images, headlines, logos, videos, and descriptions — in Google Ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "Get started on Responsive display ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: Optionally use Google's library of images at no cost instead of (or alongside) your own uploads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "Get started on Responsive display ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 4: Run the campaign; the system combines assets into ads and shows them across the Display Network.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "How ad creation and optimization works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 5: Once assets accrue enough data, review performance reports and adjust your campaign to use the most effective images and text.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "How ad creation and optimization works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google Ads does not document asset quantity limits, specifications, or detailed menu paths, so those steps cannot be described here.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Because the system selects the best asset combination per impression and reports asset performance once enough data accrues, a useful KPI is per-asset (or per-combination) performance within the campaign's conversion and engagement reporting — the causal path is conditional: better-matching asset combinations may lift performance, but no guaranteed uplift is documented.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "How ad creation and optimization works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Trade-off: automated asset combination reduces your control over which creative shows on each impression, so gains in efficiency may come at the cost of creative steering.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": "Other Display ad types",
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Not applicable here.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-09.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — About Display ads and the Google Display Network: https://support.google.com/google-ads/answer/2404190?hl=en — covers how responsive display ads work, asset upload, optimization flow, and other Display ad types.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.display_gdn",
+                "source_url": "https://support.google.com/google-ads/answer/2404190?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About Display ads and the Google Display Network",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.ads.display_gdn": "ed07cb146ba1f4ea398813d9b790e1b7708db0f2dd91a58d258bfe1d9c45c67a+ed07cb146ba1f4ea398813d9b790e1b7708db0f2dd91a58d258bfe1d9c45c67a+ed07cb146ba1f4ea398813d9b790e1b7708db0f2dd91a58d258bfe1d9c45c67a"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.399016Z",
+    "source_checked_at": "2026-11-09T06:09:44.472014Z",
+    "verified_at": "2026-11-17T23:26:30.399016Z"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.advantage-plus-placements",
+    "name": "Advantage+ placements",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.business.reels.advantage-placements"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Advantage+ placements lets Meta decide where your ads run across its placements instead of you picking them one by one. The easy mistake is judging each placement by its own cost per result and switching some off.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.business.reels",
+                "source_url": "https://www.facebook.com/business/help/437348354643456",
+                "locator": "You can also select Advantage+ placements to publish Facebook reel overlay ads.",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": "Understanding per-placement cost differences",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is an option you select in Ads Manager. It is a delivery choice that hands placement decisions to Meta, and it can include Facebook reel overlay ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.business.reels",
+                "source_url": "https://www.facebook.com/business/help/437348354643456",
+                "locator": "How to control where Facebook reel overlay ads appear",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta's delivery system aims for the most optimisation events at the lowest average cost across all placements combined, not the lowest cost within each placement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It looks at all available opportunities across placements and picks the cheapest ones, without regard to what each placement's average cost per optimisation event will be.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta's worked example shows that removing a placement with a higher average cost can raise your overall cost. In it, dropping Instagram moved the overall average from $3.00 to $3.25 and cut events from nine to eight.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": "Understanding per-placement cost differences",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you bid with the highest volume strategy. Meta recommends Advantage+ placements (or placements with Advantage+ on) for that strategy.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want Facebook reel overlay banner ads to be eligible without choosing that placement yourself.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.business.reels",
+                "source_url": "https://www.facebook.com/business/help/437348354643456",
+                "locator": "How to control where Facebook reel overlay ads appear",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need to guarantee delivery on, or keep delivery off, a specific placement. In that case use the manual Placements selection, for example to select or deselect Facebook reel overlay.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.business.reels",
+                "source_url": "https://www.facebook.com/business/help/437348354643456",
+                "locator": "How to control where Facebook reel overlay ads appear",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you judge placements by their individual cost per result. A higher average in one placement does not necessarily mean it is inefficient.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": "Understanding per-placement cost differences",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents only where the control sits (the Placements section of Ads Manager). It does not give the full menu path, so this stops there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Meta Ads Manager, go to the Placements section of your ad set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.business.reels",
+                "source_url": "https://www.facebook.com/business/help/437348354643456",
+                "locator": "How to control where Facebook reel overlay ads appear",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Advantage+ placements so Meta decides where to publish your ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.business.reels",
+                "source_url": "https://www.facebook.com/business/help/437348354643456",
+                "locator": "How to control where Facebook reel overlay ads appear",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Check which placements and formats your objective supports before you rely on a given placement. Ads Manager may not show every placement the API supports.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placement_objectives",
+                "source_url": "https://www.facebook.com/business/help/279271845888065",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available ad placements for marketing objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per optimisation event (for example CPA): it may fall or hold steady when Meta can shift spend to the cheapest opportunities across all placements. The trade-off is less control, and individual placements may show uneven costs. This follows from Meta's description of how delivery works.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Volume of optimisation events: restricting placements can lower the total for the same budget, as in Meta's example where nine events became eight. The trade-off is that it is only an illustration, not a promise for your account.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": "Understanding per-placement cost differences",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-15.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — About ads on Reels: https://www.facebook.com/business/help/437348354643456",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.business.reels",
+                "source_url": "https://www.facebook.com/business/help/437348354643456",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — About Advantage+ placements: https://www.facebook.com/business/help/965529646866485",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Available ad placements for marketing objectives: https://www.facebook.com/business/help/279271845888065",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placement_objectives",
+                "source_url": "https://www.facebook.com/business/help/279271845888065",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available ad placements for marketing objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tt.automatic-placement",
+        "name": "Automatic placement (Smart+)",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok's Smart+ ad groups use automatic placement by default, with placements chosen automatically unless you switch to Select placement. On Meta, Advantage+ placements is an option you select, and Meta does not say it is the default.",
+        "context": "Both let the platform choose placements. TikTok covers Smart+ ad groups only, so do not assume the same behaviour or cost logic elsewhere.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.updates",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About upgrades to Smart+",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.youtube-shorts-placements",
+        "name": "YouTube Shorts placements (Demand Gen)",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Google's Demand Gen lets you manually select YouTube Shorts as a channel, for example to serve vertical creator video only there. That is a manual restriction, the opposite of handing placement choice to the platform.",
+        "context": "It is closer to Meta's manual placement selection than to Advantage+ placements.",
+        "evidence": [
+          {
+            "source_id": "google.demand_gen.channels",
+            "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "Demand Gen channel controls",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.business.reels": "e1c180ed14ca9c8baf9342ea0473c7eeb6e9a77b26f4702844fcefc5fcde40e4+e1c180ed14ca9c8baf9342ea0473c7eeb6e9a77b26f4702844fcefc5fcde40e4+e1c180ed14ca9c8baf9342ea0473c7eeb6e9a77b26f4702844fcefc5fcde40e4",
+        "meta.guide.placement_objectives": "83477a24126eba40eaf8d5d5b0b15a623aa04fd01df03d500ef2557aa66564cb+83477a24126eba40eaf8d5d5b0b15a623aa04fd01df03d500ef2557aa66564cb",
+        "meta.guide.placements": "d7b19703f595e90eabbd28b5ec1e5ef623424d08974c9d10e11c8e535db46cdd+d7b19703f595e90eabbd28b5ec1e5ef623424d08974c9d10e11c8e535db46cdd"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-15T22:30:36.891800Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

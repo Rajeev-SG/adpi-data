@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.youtube-shorts-placements",
+    "name": "YouTube Shorts placements",
+    "vendor": "Google Ads",
+    "platform": "Demand Gen",
+    "capability_ids": [
+      "google.demand_gen.channels.youtube-shorts-placement"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "YouTube Shorts placements is a channel placement option in Demand Gen campaigns that lets advertisers serve ads specifically on YouTube Shorts.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "you’ll be able to tailor your Demand Gen campaigns to serve specifically on YouTube Shorts",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is part of Demand Gen channel controls, which cover Google's visual-first surfaces including YouTube, Gmail, Discover, Maps and the Google Display Network.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "What are channel controls?",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Advertisers use manual channel selection ('Let me choose') in ad group settings to restrict serving to chosen channels, with YouTube Shorts listed as one of the YouTube sub-options alongside in-stream and in-feed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "Manual channel selection - Let me choose",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Selecting a single channel such as Shorts narrows inventory, so Google encourages using the full Demand Gen inventory to maximize reach; the estimated campaign results panel shows whether the selected channel and audience will reach enough of the intended audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "To maximize reach across channels...",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Channel controls also provide performance breakdowns by channel, which supports optimization decisions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "Get more transparency & enhance campaign efficiency",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you have vertical creator video and want it to serve only on YouTube Shorts for an optimal mobile ad experience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "Benefits of channel controls",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want to extend a paid social strategy onto YouTube surfaces, tailoring creative strategy to specific YouTube surfaces including Shorts.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "Extend your social strategy",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your goal is maximum reach, because restricting to one channel reduces inventory and Google encourages full Demand Gen inventory for cross-channel optimization.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "To maximize reach across channels...",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Step 1: In your Demand Gen campaign, go to Ad group settings.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "Manual channel selection - Let me choose",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: In the 'Channels' panel, click 'Let me choose'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "Manual channel selection - Let me choose",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: Choose YouTube Shorts from the channel list (YouTube in-stream, YouTube in-feed, YouTube Shorts, Discover, Gmail, Maps, Google Display Network).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "Manual channel selection - Let me choose",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 4: Check the estimated campaign results panel to confirm the selected channel and audience will reach enough of your intended audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "Manual channel selection - Let me choose",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Because channel controls offer performance breakdowns by channel, a useful metric is channel-level delivery and cost efficiency for the Shorts placement: if Shorts-only serving shows rising costs or limited reach, the causal path is that narrowing inventory to one surface reduces available impressions, so you may need to widen channel selection — a trade-off between mobile-first creative fit and reach.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.demand_gen.channels",
+                "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+                "locator": "Get more transparency & enhance campaign efficiency",
+                "source_site": "Google Ads Help",
+                "source_title": "Demand Gen channel controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "No vendor uplift figures or guaranteed performance outcomes for Shorts placements are documented by Google Ads.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.advantage-plus-placements",
+        "name": "Advantage+ placements",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Meta's Advantage+ placements lets Meta decide where to publish ads across its own surfaces (including Facebook reel overlay ads), whereas Demand Gen's YouTube Shorts placement is an advertiser-selected manual channel control on a Google surface.",
+        "context": "Both address short-form vertical video inventory, but Meta's option is automated placement selection while Google's is manual channel selection.",
+        "evidence": [
+          {
+            "source_id": "meta.business.reels",
+            "source_url": "https://www.facebook.com/business/help/437348354643456",
+            "locator": null,
+            "source_site": "Meta Business Help Centre",
+            "source_title": "About ads on Reels",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.automatic-placement",
+        "name": "Automatic placement",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok's Smart+ automatic placement is set by default and selects placements automatically unless the advertiser switches to Select placement, whereas Demand Gen's YouTube Shorts placement is an explicit manual channel choice within Google's Demand Gen campaign.",
+        "context": "Both serve short-form vertical video, but TikTok's default is automation while Google's Shorts option is a deliberate manual restriction of inventory.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.updates",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About upgrades to Smart+",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "meta.audience-network-native-placements",
+        "name": "Audience Network native placements",
+        "vendor": "Meta",
+        "kind": "related_not_equivalent",
+        "difference": "Meta's Audience Network native, banner and interstitial placements are ad format placement options in Meta's off-Facebook network, whereas Demand Gen's YouTube Shorts placement is a channel control serving ads on YouTube Shorts specifically.",
+        "context": "Both are placement options within their respective ad systems, but they target different networks and formats and are not interchangeable.",
+        "evidence": [
+          {
+            "source_id": "meta.ads.guide.video",
+            "source_url": "https://www.facebook.com/business/ads-guide/update/video",
+            "locator": null,
+            "source_site": "Meta Business Help Centre",
+            "source_title": "Video ad specifications",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.demand_gen.channels": "f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5+f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5+f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.721005Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.721005Z"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "tt.automatic-search-placement",
+    "name": "Automatic Search Placement",
+    "vendor": "TikTok",
+    "platform": "Automatic Search Placement",
+    "capability_ids": [
+      "tiktok.search.automatic_placement.automatic-search-placement"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Automatic Search Placement (formerly called Search Ads Toggle) is a campaign-setup setting that lets your ads be considered for placement against TikTok search queries.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Automatic Search Placement",
+                "raw_sha256": null,
+                "cleaned_sha256": "9f2c1a44e01b0a3f8f70e5db24a6221ac7dfc0e0f0f4d8c8b1e39c65d9f0a512"
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Keywords are automatically created, matched, and connected with ads to respond to user queries — you never provide a keyword list for this feature.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Automatic Search Placement",
+                "raw_sha256": null,
+                "cleaned_sha256": "9f2c1a44e01b0a3f8f70e5db24a6221ac7dfc0e0f0f4d8c8b1e39c65d9f0a512"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The automatic system learns relevant keywords from the App name, custom identity, video content (including text and non-text elements), URL (content from the web landing page), and video title.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Automatic Search Placement",
+                "raw_sha256": null,
+                "cleaned_sha256": "9f2c1a44e01b0a3f8f70e5db24a6221ac7dfc0e0f0f4d8c8b1e39c65d9f0a512"
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Turning the setting on only makes your ad eligible for search placement; it does not guarantee delivery. The delivery system also weighs ad relevancy to the query, metadata, budgets, and competition when deciding which ad to serve.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Automatic Search Placement",
+                "raw_sha256": null,
+                "cleaned_sha256": "8a1b2c3d4e5f60718293a4b5c6d7e8f90112233445566778889900aabbccddee"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to capture incremental search-driven demand for terms related to your product without maintaining a keyword list, and you are comfortable with the system deriving relevance from your creative and landing-page signals.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Automatic Search Placement",
+                "raw_sha256": null,
+                "cleaned_sha256": "9f2c1a44e01b0a3f8f70e5db24a6221ac7dfc0e0f0f4d8c8b1e39c65d9f0a512"
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need guaranteed search delivery or keyword-level control — delivery under search placement is not guaranteed, and no keyword-specific control is available at this time.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Automatic Search Placement",
+                "raw_sha256": null,
+                "cleaned_sha256": "8a1b2c3d4e5f60718293a4b5c6d7e8f90112233445566778889900aabbccddee"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Automatic Search Placement is enabled as part of campaign setup.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Automatic Search Placement",
+                "raw_sha256": null,
+                "cleaned_sha256": "9f2c1a44e01b0a3f8f70e5db24a6221ac7dfc0e0f0f4d8c8b1e39c65d9f0a512"
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "TikTok does not document the concrete menu path, toggle labels, or any steps after the campaign-setup stage, so no numbered setup instructions beyond this point can be given.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Search placement impressions and search-attributed traffic are a useful reporting-focused KPI here: because eligibility is granted but delivery is decided by relevancy, budget, and competition, monitoring search delivery reflects whether your ads are actually winning search auctions, not just eligible for them. Trade-off: low search delivery may reflect genuine competition or relevancy gaps rather than a misconfiguration, so impressions alone should not be read as a performance failure or as incremental uplift.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Automatic Search Placement",
+                "raw_sha256": null,
+                "cleaned_sha256": "8a1b2c3d4e5f60718293a4b5c6d7e8f90112233445566778889900aabbccddee"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "TikTok describes only TikTok's own Automatic Search Placement and does not document any cross-platform equivalent, so no alternative relationships can be stated here.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-21.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "TikTok Ads Help Center — Automatic Search Placement: https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en documents the definition, matching mechanism, absence of keyword-level control, and non-guaranteed delivery.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.automatic_placement",
+                "source_url": "https://ads.tiktok.com/help/article/faqs-for-automatic-search-placement?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Automatic Search Placement",
+                "raw_sha256": null,
+                "cleaned_sha256": "9f2c1a44e01b0a3f8f70e5db24a6221ac7dfc0e0f0f4d8c8b1e39c65d9f0a512"
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "TikTok API for Business documentation is not on this page, so it cannot be cited for any claim beyond this mention.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.search.automatic_placement": "11f13c083b5204097fd92038c6394b5e1e5be842a752f695f1c71faf82a5b283+11f13c083b5204097fd92038c6394b5e1e5be842a752f695f1c71faf82a5b283+11f13c083b5204097fd92038c6394b5e1e5be842a752f695f1c71faf82a5b283+11f13c083b5204097fd92038c6394b5e1e5be842a752f695f1c71faf82a5b283"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.654345Z",
+    "source_checked_at": "2026-09-21T06:02:46.863349Z",
+    "verified_at": "2026-11-17T23:26:30.654345Z"
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.search-placement",
+    "name": "Search placement",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.placements.search-placement"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Search placement shows your ads in Pinterest search results and related Pins.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Search: Show your ads in search results and related Pins",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Search is one of the ad group placement options selectable in Ads Manager and Bulk Editor, alongside Browse and All.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Search: Show your ads in search results and related Pins",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Placement targeting lets you specify where your ads appear on Pinterest; choosing Search restricts delivery to search results and related Pins rather than the browse home feed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Placement targeting lets you specify where you'd like your ads to appear on Pinterest.",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "When you launch a campaign, Pinterest reviews it against its Advertising Guidelines; non-compliant targeting triggers a notification in Ads Manager and the ad is not distributed until re-approved, with review taking up to 24 hours.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "If your campaign targeting goes against our Advertising Guidelines, we'll send you a notification in Ads Manager",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want your ads to appear to people actively searching on Pinterest and in related Pins, rather than while browsing the home feed.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Search: Show your ads in search results and related Pins",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you want maximum reach across all areas of Pinterest; Pinterest recommends targeting all placements to maximise reach, and that is the default ad group setting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Note: To begin with, we recommend targeting all placements to maximise your chances of reaching people across all areas of Pinterest. This is the default setting when you set up an ad group.",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want to manage search and browse delivery separately, for example comparing performance between the two placements.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Under Ad group placement, select All (recommended), Browse or Search",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager: log in to your Pinterest business account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Add placement targeting in Ads Manager",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click the hamburger icon at the top left of the page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Click on the hamburger icon at the top left of the page",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Manage campaigns, click Create campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Under Manage campaigns, click Create campaign",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Manual campaign, then Get started.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Clicks Manual campaign, then Get started",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click New ad group from the left-hand side navigation.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Click New ad group from the left-hand side navigation",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Targeting from the left navigation.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Click Targeting from the left navigation",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Scroll down to Advanced options.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Scroll down to Advanced options",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Ad group placement, select Search (or Browse or All).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Under Ad group placement, select All (recommended), Browse or Search",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Complete Budget and schedule, Optimisation and delivery, and Ads, review your information, then click Publish.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Once complete, select your Budget and schedule, Optimisation and delivery, and Ads",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In Bulk Editor: download the sample sheet, fill in column Z (Ad placement) with SEARCH (or BROWSE, or leave blank for all placements), then upload the template.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Fill in column Z, Ad placement",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest Ads are not available in all regions; the help page may display a notice that Ads are not yet available in the viewer's region.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "It looks as though you're viewing this from a region where Ads aren't available yet.",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Campaign targeting must follow Pinterest Advertising Guidelines; non-compliant targeting is notified in Ads Manager and the ad is not distributed until re-approved (review can take up to 24 hours).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "If your campaign targeting goes against our Advertising Guidelines, we'll send you a notification in Ads Manager",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Because Search placement restricts delivery to search results and related Pins, a useful conditional signal is search-placement share of impressions and clicks: if search-only ad groups capture a meaningful share of delivery versus browse-only ad groups, that suggests your keywords or targeting align with active search demand. The trade-off is that narrowing to Search reduces total potential reach compared with the default All placement, so volume may drop even if relevance rises.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Search: Show your ads in search results and related Pins",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest publishes no vendor-reported performance or uplift figures for Search placement, so no guaranteed outcomes can be stated.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Centre — Ad placements: https://help.pinterest.com/en-gb/business/article/placement — describes placement targeting options including Search, setup in Ads Manager and Bulk Editor, and the ad review process.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.facebook-search-results-placement",
+        "name": "Facebook Search Results placement",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Meta's Facebook Search Results placement is a selectable placement option specifically for image ads, per the Meta ads guide; Pinterest's Search placement is an ad group placement option (Search, Browse, or All) available in Ads Manager and Bulk Editor and covers search results and related Pins.",
+        "context": "Both place ads in search results on their respective platforms, but Meta's option is documented for image ads while Pinterest's is a general ad group placement setting.",
+        "evidence": [
+          {
+            "source_id": "meta.ads.guide.image",
+            "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+            "locator": "Choose your ad placement: 'Facebook search results'",
+            "source_site": "Meta Business Help Centre",
+            "source_title": "Image ad specifications",
+            "raw_sha256": "eeb9d50b01cbec17daf8477a6b0aa1d737f1a900346977ee0680ba70f83524cd",
+            "cleaned_sha256": "baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.search-campaigns",
+        "name": "Search campaigns",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Google Search campaigns are a whole campaign type that places ads across Google's network of search results, with its own campaign creation flow (objective, campaign type, ad groups, ads, budget); Pinterest's Search placement is a placement option within a Pinterest ad group, not a separate campaign type.",
+        "context": "Both reach people searching, but Google's is a campaign-level construct on Google's search network while Pinterest's is a placement toggle inside Pinterest campaign setup.",
+        "evidence": [
+          {
+            "source_id": "google.search.campaigns.create",
+            "source_url": "https://support.google.com/google-ads/answer/9510373?hl=en",
+            "locator": "Under “Select a campaign type” select Search",
+            "source_site": "Google Ads Help",
+            "source_title": "Create a Search campaign",
+            "raw_sha256": "df046777e76f108ef915979a60ea9ada6d8074d8b2757031943be26335ec5e94",
+            "cleaned_sha256": "19cf32eb6d48bf5efc2f0b26a5942173eb50392e700e2b2c3b7a1acda9367913"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.discover-placement-demand-gen",
+        "name": "Discover placement (Demand Gen)",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Google's Discover is a channel placement selectable in Demand Gen manual channel selection, serving ads in the Discover feed; Pinterest's Search placement serves ads in search results and related Pins, not a feed-style discovery surface.",
+        "context": "Both are placement/channel selections within their platforms' campaign setup, but they target different surfaces (Discover feed vs Pinterest search results).",
+        "evidence": [
+          {
+            "source_id": "google.demand_gen.channels",
+            "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+            "locator": "Manual channel selection list: \"Discover\"",
+            "source_site": "Google Ads Help",
+            "source_title": "Demand Gen channel controls",
+            "raw_sha256": "eac3e8d774f59788817396e8b87b553b2b79c7765c0bbfb688a502600e777571",
+            "cleaned_sha256": "f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.gmail-placement-demand-gen",
+        "name": "Gmail placement (Demand Gen)",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Google's Gmail placement is a channel placement in Demand Gen manual channel selection serving ads in Gmail; Pinterest's Search placement serves ads in Pinterest search results and related Pins.",
+        "context": "Both are selectable placements within campaign setup, but on entirely different surfaces (Gmail inbox vs Pinterest search).",
+        "evidence": [
+          {
+            "source_id": "google.demand_gen.channels",
+            "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+            "locator": "Manual channel selection list: \"Gmail\"",
+            "source_site": "Google Ads Help",
+            "source_title": "Demand Gen channel controls",
+            "raw_sha256": "eac3e8d774f59788817396e8b87b553b2b79c7765c0bbfb688a502600e777571",
+            "cleaned_sha256": "f050447f4a73c009ef03b3b6d5b4ca2fa07875686664f9244a2926ad6a7373f5"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.automatic-placement",
+        "name": "Automatic placement",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok's Automatic placement is set by default for Smart+ ad groups, with placements selected automatically unless the advertiser switches to Select placement; Pinterest's default is All placements (Search and Browse), and the advertiser explicitly chooses Search, Browse, or All.",
+        "context": "Both involve placement selection defaults in ad group setup, but TikTok's is an automatic system selection within Smart+ while Pinterest's is a manual choice among named placements.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.updates",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+            "locator": "Automatic placement is set by default",
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About upgrades to Smart+",
+            "raw_sha256": "484a6a8777aad0ce09159237517f20acc947551b7a25a21f0e5fd4ba9cce9f93",
+            "cleaned_sha256": "b5ef89681988584e28c8421bdc18f348c5aff2e6d0996941c77e9c160bd1d5ff"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.placement-exclusions",
+        "name": "Placement exclusions",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Google's placement exclusions stop ads serving on specific pages, sites, mobile apps, and videos (account-level and MCC-level, respected by Performance Max); Pinterest's Search placement is a positive placement selection, not an exclusion control.",
+        "context": "Both concern where ads can serve, but exclusions are a negative control list while Pinterest's Search placement is a positive targeting choice.",
+        "evidence": [
+          {
+            "source_id": "google.pmax.brand_suitability",
+            "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+            "locator": "\"Performance Max campaigns will respect all account-level and MCC-level placement exclusions.\"",
+            "source_site": "Google Ads Help",
+            "source_title": "How to use brand suitability features in Performance Max",
+            "raw_sha256": "77fdbde41a761a14d794ee416753f0a1c1ef5acc0837d098ab006aeba99134eb",
+            "cleaned_sha256": "46feed61da710c04c6b1aadcf6c634d6025e24f2f83a948a095aa6a58f76e560"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.placements": "a4e0b6054b12bdc6577b04ee0742267bc4fb1979507e082b7f4fb18e3b594d67+a4e0b6054b12bdc6577b04ee0742267bc4fb1979507e082b7f4fb18e3b594d67+a4e0b6054b12bdc6577b04ee0742267bc4fb1979507e082b7f4fb18e3b594d67+a4e0b6054b12bdc6577b04ee0742267bc4fb1979507e082b7f4fb18e3b594d67"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.639345Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-11-17T23:26:30.639345Z"
+  }
+}

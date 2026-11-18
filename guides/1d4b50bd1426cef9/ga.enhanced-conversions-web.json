@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.enhanced-conversions-web",
+    "name": "Enhanced conversions for web",
+    "vendor": "Google Ads",
+    "platform": "Google Ads",
+    "capability_ids": [
+      "google.enhanced_conversions.web.enhanced-conversions-for-web"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Enhanced conversions for web is a Google Ads feature for advertisers tracking sales and events that happen on a website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It supplements existing conversion tracking by sending hashed first-party conversion data to Google in a privacy-safe way.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is distinct from enhanced conversions for leads, which improves measurement of offline transactions that came from a website lead or visitor.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "When a customer converts on your website, first-party data such as email address, name, home address and/or phone number is captured in your conversion tracking tags, hashed with SHA256, and sent to Google in hashed form.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google normalizes and matches the hashed data with Google account data inside a confidential computing environment, using matches to signed-in Google accounts that engaged with your ads to enhance conversion measurement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If you use Google Ads tags with Google tag gateway, data is encrypted before transmission; with server-side Google Tag Manager, the Google Ads tag encrypts user data in the server-side container before transmission. Encryption is currently available only for Google Ads tags.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google states it only reports privacy-safe conversions and applies customer data policies to this data.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to improve measurement of online conversions — sales and events that happen on your website — by matching converting users to signed-in Google accounts that engaged with your ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your conversions happen off the website (for example, offline transactions from a website lead); that scenario is covered by enhanced conversions for leads instead.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It can unlock more powerful bidding because improved conversion accuracy feeds Smart Bidding signals.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Prerequisite: you must capture hashed first-party, user-provided data (e.g. email address, name, home address, phone number) from website conversions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Configuration is done via Google's dedicated 'Configure enhanced conversions for web' help article; Google Ads does not document the step-by-step settings path, so follow that article for the exact steps.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Watch conversion volume and conversion accuracy: because the feature matches converting users to signed-in Google accounts, a plausible effect is more conversions being attributed to your campaigns (conditional on users being signed in and data matching), which can change reported cost per conversion.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Trade-off: improved measurement depends on collecting user-provided data, so sites with low form completion or low Google sign-in rates will see smaller measurement gains.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.enhanced_conversions.web",
+                "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About enhanced conversions for web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-02.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.enhanced-match",
+        "name": "Enhanced match",
+        "vendor": "Pinterest",
+        "kind": "equivalent_for_use",
+        "difference": "Pinterest's enhanced match is an optional addition to the Pinterest tag that sends hashed email addresses to Pinterest to match site events/conversions with the person responsible when no Pinterest cookie is present, enabling cross-device checkout tracking; Google's enhanced conversions for web sends hashed first-party data (email, name, address, phone) from website conversions to match to signed-in Google accounts.",
+        "context": "Both are first-party hashed-data matching features for web conversion measurement on their respective ad platforms.",
+        "evidence": [
+          {
+            "source_id": "pinterest.measurement.tag.enhanced_match",
+            "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Enable optional enhanced match",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "meta.automatic-advanced-matching",
+        "name": "Automatic advanced matching",
+        "vendor": "Meta",
+        "kind": "equivalent_for_use",
+        "difference": "Meta's automatic advanced matching is implemented through the Events Manager instead of manual pixel code changes, whereas Google's enhanced conversions for web relies on hashed first-party data captured in your conversion tracking tags and matched to signed-in Google accounts.",
+        "context": "Both improve matching of site conversions to platform users using first-party data.",
+        "evidence": [
+          {
+            "source_id": "meta.advanced_matching.manual",
+            "source_url": "https://developers.facebook.com/docs/meta-pixel/advanced/advanced-matching/",
+            "locator": null,
+            "source_site": "Meta for Developers",
+            "source_title": "Advanced matching - Meta Pixel",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "meta.manual-advanced-matching",
+        "name": "Manual advanced matching",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Meta's manual advanced matching is for businesses that cannot use automatic advanced matching (restricted verticals, IMG pixel, pixel in an iframe, or SDK below 5.8.0) and requires editing website or app code; Google's enhanced conversions for web is configured through Google Ads and its tags rather than a manual pixel-code fallback.",
+        "context": "Both involve sending first-party data from the site for matching, but Meta's manual variant exists as a fallback when automatic matching is unavailable.",
+        "evidence": [
+          {
+            "source_id": "meta.advanced_matching.web",
+            "source_url": "https://www.facebook.com/business/help/1993001664341800",
+            "locator": null,
+            "source_site": "Meta Business Help Centre",
+            "source_title": "Set Up Automatic Advanced Matching for Web",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.conversions-api",
+        "name": "Conversions API",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest's Conversions API sends conversion events from the advertiser's systems (server-side) and can run standalone or alongside the Pinterest Tag; Google's enhanced conversions for web sends hashed first-party data from website conversion tags at conversion time to enhance measurement of online conversions.",
+        "context": "Both are conversion measurement mechanisms, but one is a server-side event interface and the other is a hashed-data supplement to web conversion tracking.",
+        "evidence": [
+          {
+            "source_id": "pinterest.measurement.conversions_api",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/getting-started-with-the-conversions-api",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Getting started with the Conversions API",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.pinterest-tag",
+        "name": "Pinterest Tag",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "The Pinterest Tag is a website code snippet that tracks visitors and their actions after seeing a Pinterest ad; Google's enhanced conversions for web is not a tracking tag itself but a supplement to existing conversion tracking that adds hashed first-party data for matching.",
+        "context": "Both relate to measuring website actions from ads, but one is the base tracking tag and the other is a measurement enhancement.",
+        "evidence": [
+          {
+            "source_id": "pinterest.measurement.tag",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Install the Pinterest tag",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.events-api-first-party-cookie",
+        "name": "First-party cookies with Events API",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok's approach saves unique identifiers in the ttp first-party cookie (limited to the advertiser's domain) shared with the Events API alongside Pixel; Google's enhanced conversions for web uses hashed user-provided data (email, name, address, phone) captured at conversion rather than a first-party cookie identifier.",
+        "context": "Both use first-party data to improve conversion matching, but via different data sources (cookie identifiers vs hashed user-provided data).",
+        "evidence": [
+          {
+            "source_id": "tiktok.events_api.matching",
+            "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "How to set up matching events with Events API",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.enhanced_conversions.web": "ede89f94091d27e8426a3a3b3a35c29774e0b74bb47d4fc3fa8e7ef611d64679+ede89f94091d27e8426a3a3b3a35c29774e0b74bb47d4fc3fa8e7ef611d64679+ede89f94091d27e8426a3a3b3a35c29774e0b74bb47d4fc3fa8e7ef611d64679+ede89f94091d27e8426a3a3b3a35c29774e0b74bb47d4fc3fa8e7ef611d64679"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.639345Z",
+    "source_checked_at": "2026-11-02T06:10:46.198802Z",
+    "verified_at": "2026-11-17T23:26:30.639345Z"
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.lowest-cost-bidding",
+    "name": "Lowest cost bidding",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.campaign_bid_strategy.lowest-cost-without-cap-bidding"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Lowest cost bidding tells Meta to get the most results from your budget without capping what it bids. It is a bid strategy, not a targeting control, and your costs can swing as you spend.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta also calls it automatic bidding. Its Help Centre describes the same approach as the highest volume bid strategy, which aims for the most results available from your budget.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "It works at campaign level when campaign budget optimization is on and the buying type is Auction. Results are judged against each ad set's optimisation goal.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta places no limit on your bid amount. This is the strategy to pick if cost efficiency matters most, but average cost may be harder to keep stable as you spend.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It does not optimise for a cost per action target. Cost per result moves with auction competition: it may fall when competition drops and rise when competition increases.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Each bid strategy may only be available for certain optimisation goals, so check your goal supports it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to spend your full budget for the most results and have no cost per action target or return on ad spend goal, for example driving as many people as possible to an event where cost per attendance does not matter.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need a predictable cost per action or a fixed return target. It does not optimise for CPA, so costs can climb if auction competition rises.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not plan to change it on a large campaign: a campaign with more than 70 ad sets using campaign budget optimization cannot edit its bid strategy or turn that budgeting off.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The Marketing API field and its prerequisites are documented. The sources do not give the Ads Manager menu path, so this stops at the API-level steps.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Set the campaign buying type to Auction.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Turn on campaign budget optimization for the campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Set the campaign bid_strategy field to LOWEST_COST_WITHOUT_CAP.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Confirm each ad set's optimisation goal is one this strategy supports.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Without campaign budget optimization, read the bid strategy at ad set level instead.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Results volume: if your budget is constrained and you have no cost target, leaving bids uncapped may let Meta win more auctions and deliver more results. The trade-off is less cost control, so cost per result may rise.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Cost per result: it may stay low when auction competition is soft, but it can rise when competition increases. Compare it against a cost cap or bid cap test before treating it as efficient.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-17.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta for Developers — Ad Campaign bid strategies: https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": null,
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — About highest volume bid strategy: https://www.facebook.com/business/help/721453268045071",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.maximize-conversions",
+        "name": "Maximize conversions",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Google's strategy sets auction-time bids to get the most conversions for the budget. Meta's version aims at results for each ad set's optimisation goal, which need not be conversions.",
+        "context": "Both spend the budget without a cost target. Check the goal you are optimising to before comparing results.",
+        "evidence": [
+          {
+            "source_id": "google.ads.maximize_conversions",
+            "source_url": "https://support.google.com/google-ads/answer/7381968?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "About Maximize conversions bidding",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "tt.maximum-delivery",
+        "name": "Maximum Delivery",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok only says it is an available bidding strategy for Smart+ Traffic Campaigns. It does not say how it bids, so do not treat it as the same.",
+        "context": "TikTok Smart+ Traffic campaigns only.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.traffic_campaigns",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Smart+ Traffic Campaigns",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "pin.custom-bidding",
+        "name": "Custom bidding",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest's Custom option is a manual way to control how much you bid. Meta's lowest cost strategy leaves bids uncapped.",
+        "context": "Set in Pinterest's optimisation and delivery settings at ad group level. It is closer to Meta's bid cap than to this strategy.",
+        "evidence": [
+          {
+            "source_id": "pinterest.structure.ad_groups",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/create-ad-group",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Create an ad group",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.campaign_bid_strategy": "f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294",
+        "meta.guide.highest_volume": "e8f36e294fc1815a5c0613d49aec917f2581870a42983dc2c53e3081c2d624bd+e8f36e294fc1815a5c0613d49aec917f2581870a42983dc2c53e3081c2d624bd"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-17T23:15:01.670975Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

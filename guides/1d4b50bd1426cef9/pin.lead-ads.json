@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.lead-ads",
+    "name": "Lead ads",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.formats.lead_ads.lead-ads"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Lead ads are a Pinterest ad format that delivers an in-ad form, so people can submit their information without leaving Pinterest.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Lead ads are not available to everyone on Pinterest; interested advertisers must contact their account manager to gain access.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The advertiser controls the text shown in the lead form's description, questions and confirmation sections.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The lead form is made of components: a call to action button, a privacy policy link, optional additional disclosure language, questions people answer with their information, and a completion message.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Questions are mandatory prompts such as 'Email'; you can select from a range of options or write your own.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "After submission, responses can be downloaded for up to 30 days via Pinterest Ads Manager or the Pinterest API, or through integrations with Zapier, Salesforce or Salesforce Sales Cloud.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Lead ad data is deleted 30 days after a lead is submitted and cannot be retrieved, so timely export is essential.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because submissions are captured in-platform rather than on a destination site, in-form completion depends on the form's own questions and messaging, which means shorter, purposeful forms are a practical way to protect lead volume — a trade-off against collecting richer answers.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A useful KPI to watch is cost per lead: the mechanism delivers raw lead responses, not verified downstream sales, so treat leads as an attributed signal, not proof of incremental revenue.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to reach people who are actively looking for, and interested in, your goods and services and collect their contact information.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you can act on leads quickly, since the data is only retrievable for 30 days after submission.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your team cannot commit to regular exports or a CRM integration, because lead data is permanently deleted 30 days after submission.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Access is gated: lead ads are not available to everyone, so first contact your Pinterest account manager to be enabled.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Log in to your Pinterest business account on desktop.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Manage campaigns, click Create campaign, then Manual campaign and Get started.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose the Conversions campaign objective, then set a campaign name, status, budget optimisation and schedule, and click Continue.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Enter ad group details, select a targeting strategy and enter targeting details, and set budget and schedule.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Optimisation & delivery, select a conversion data source, and choose the Lead event as the conversion event.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select your bidding strategy.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Below Ads, click Create ad, select an image or video, fill in the Pin details, and click Publish.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "After the campaign is set up, choose the Leads ad format, enter an ad name and a destination URL for after form completion, and pick a call to action.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Create the lead form: name it, add questions, enter your privacy policy link URL and any additional disclosure language, add policy links, and write a completion message.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Accept the terms, click Finish, then click Publish.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Lead ad creation must currently be done on desktop; mobile visitors are directed to the web instructions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager reporting you can add a lead column and a cost-per-lead column to your reporting table to see these metrics.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because the delivery mechanism is optimised to a Lead conversion event, submitted leads and cost per lead are the natural success metrics — but they measure form submissions, not downstream revenue or incremental impact.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Centre — Lead ads: https://help.pinterest.com/en-gb/business/article/lead-ads — the sole source used.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest Help Centre — Lead ads: https://help.pinterest.com/en-gb/business/article/lead-ads",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.formats.lead_ads",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/lead-ads",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Lead ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tt.instant-form",
+        "name": "Instant Form",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok's Instant Form is a native in-app lead capture form opened by clicking the ad CTA, built in TikTok Ads Manager (Tools > Instant Page or during campaign creation); Pinterest Lead ads are a Pinterest-specific ad format gated behind account manager access, so the two are same-goal alternatives on different platforms, not interchangeable setups.",
+        "context": "Comparing Pinterest Lead ads with TikTok's lead generation format.",
+        "evidence": [
+          {
+            "source_id": "tiktok.lead_gen.instant_form",
+            "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+            "locator": "Instant Form allows customers to share their contact information, answer your questions, and learn about your business.",
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "How to create an Instant Form",
+            "raw_sha256": "c7fca6ae377e00abe4d71c355f82827f18fb2525fbfb638ff1dabf0a705de3b9",
+            "cleaned_sha256": "d3e26eb98eb757c69d2db0a87d9ab7754465fac8c820104a856767a72f7f517f"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.formats.lead_ads": "4653929f5dbbce20d477e525fcc82301a6bfeb74ca4dc4bc7a88d53b2d087f26+4653929f5dbbce20d477e525fcc82301a6bfeb74ca4dc4bc7a88d53b2d087f26+4653929f5dbbce20d477e525fcc82301a6bfeb74ca4dc4bc7a88d53b2d087f26"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.494551Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.494551Z"
+  }
+}

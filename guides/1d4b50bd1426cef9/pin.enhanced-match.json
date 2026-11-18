@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.enhanced-match",
+    "name": "Enhanced match",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.measurement.tag.enhanced_match.enhanced-match"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Enhanced match is an optional addition to the Pinterest tag that matches conversion data with the person responsible for the conversion.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It sends hashed email addresses to Pinterest to match site events when there is no Pinterest cookie present.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It enables cross-device checkout tracking, which cannot be done otherwise.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The tag transmits a hashed email address to Pinterest, which checks whether it is associated with an existing Pinterest account for matching.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The JavaScript tag hashes un-hashed email addresses in the browser using SHA-256 before sending them, and data is transmitted over HTTPS.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest deletes the email address value after completing the matching process, and matched addresses are only used to match conversions to Pinterest activity.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "An external ID (a unique ID identifying a single user) can also be sent alongside conversions, on tag load or via set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want conversions reported in Ads Manager to reflect checkouts completed on other devices, where no Pinterest cookie is present.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your audience is unlikely to be logged in to Pinterest with an email address you can pass, since matching depends on the hashed email being associated with an existing Pinterest account.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Enroll the feature: log in to your Pinterest business account, click the hamburger icon at the top-left, under Manage business click Conversions, click Event quality on the left, click the chevron-down next to Show more product features, then click Enroll this feature next to Enhanced match.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In the JavaScript part of the tag, add the em parameter with the email address to the pintrk('load') function in the base code; event codes do not need modification.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In the <img> (noscript) part of the tag, you must hash the email yourself using SHA-256, SHA-1 or MD5, lowercase with spaces removed, and add it to every <img> tag URL (base code and event code) via the &pd[em]= parameter.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Optionally send an external ID via pintrk('load') or pintrk('set') alongside your track calls.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "After setup, verify the Pinterest tag to make sure everything works.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest Tag is not available in all regions; the help page notes some viewers may be in a region where it is not yet available.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Because enhanced match attributes conversions when no Pinterest cookie is present, the share of conversions reported in Ads Manager that were previously missed (cookieless/cross-device conversions) is a useful metric to watch; the causal path is conditional on the hashed email matching an existing Pinterest account, and the trade-off is that you are passing user email data to Pinterest for matching.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag.enhanced_match",
+                "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Enable optional enhanced match",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "relationships",
+        "summary": "See the relationships listed below.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.automatic-advanced-matching",
+        "name": "Automatic advanced matching",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Meta's automatic advanced matching is implemented through the Events Manager instead of manual pixel code changes, whereas Pinterest's enhanced match requires either enrolling in the feature and adding the em parameter to the tag base code, or manually hashing emails for the <img> tag.",
+        "context": "Both send hashed customer identifiers with pixel events to improve conversion matching; the setup path differs (automatic vs code changes).",
+        "evidence": [
+          {
+            "source_id": "meta.advanced_matching.manual",
+            "source_url": "https://developers.facebook.com/docs/meta-pixel/advanced/advanced-matching/",
+            "locator": "\"To automatically implement advanced matching use the Events Manager\"",
+            "source_site": "Meta for Developers",
+            "source_title": "Advanced matching - Meta Pixel",
+            "raw_sha256": "3b2ddc3e48e178cbf17cc033592f6d4f6ae838501bfc69a7ffa500ba87e7eeb4",
+            "cleaned_sha256": "183b963bb31e9c8b792dd17e2412a370e981fe827528bde40072b796e8932444"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "meta.manual-advanced-matching",
+        "name": "Manual advanced matching",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Meta's manual advanced matching is for businesses that cannot use automatic advanced matching (restricted verticals, IMG pixel, pixel in an iframe, or SDK below 5.8.0) and requires editing website or app code; Pinterest's enhanced match similarly requires code changes for the <img> tag but is an optional addition to the Pinterest tag with its own enrollment flow.",
+        "context": "Both involve editing pixel code to pass hashed identifiers; the platforms and eligibility conditions differ.",
+        "evidence": [
+          {
+            "source_id": "meta.advanced_matching.web",
+            "source_url": "https://www.facebook.com/business/help/1993001664341800",
+            "locator": "\"These businesses can set up advanced matching manually instead.\"",
+            "source_site": "Meta Business Help Centre",
+            "source_title": "Set Up Automatic Advanced Matching for Web",
+            "raw_sha256": "a6e94ab9f9b2a7eba2545861184a67c442d9e40f3b9c1147613109f9c4ceca4c",
+            "cleaned_sha256": "c27db915da60434f33f5316374094b1f9e6e5a81807a722af9204455f9db6489"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.enhanced-conversions-web",
+        "name": "Enhanced conversions for web",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Google's enhanced conversions for web sends hashed first-party user-provided data when a user converts to match customers to signed-in Google accounts that engaged with ads, improving measurement of online conversions; Pinterest's enhanced match sends hashed email addresses with the Pinterest tag to match site events to Pinterest accounts when no Pinterest cookie is present.",
+        "context": "Both are hashed first-party data matching for conversion measurement, but tied to different ad platforms and account systems.",
+        "evidence": [
+          {
+            "source_id": "google.enhanced_conversions.web",
+            "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+            "locator": "* [About enhanced conversions](https://support.google.com/google-ads/answer/9888656)",
+            "source_site": "Google Ads Help",
+            "source_title": "About enhanced conversions for web",
+            "raw_sha256": "b95da4732eac500995dacd48a9a37d5ee094929fed861c17bd1a2c9161661c5a",
+            "cleaned_sha256": "ede89f94091d27e8426a3a3b3a35c29774e0b74bb47d4fc3fa8e7ef611d64679"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.advanced-matching",
+        "name": "Advanced matching",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok's advanced matching matches customer information such as email, phone number and other identifiers with website actions using the TikTok Pixel, Events API or partner platforms; Pinterest's enhanced match is documented around hashed email addresses (and optional external IDs) sent via the Pinterest tag.",
+        "context": "Both match hashed customer identifiers to platform accounts for conversion attribution; TikTok supports more identifier types and more integration routes per its documentation.",
+        "evidence": [
+          {
+            "source_id": "tiktok.advanced_matching",
+            "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+            "locator": "\"Advanced Matching is a feature that helps you match customer information such as email, phone number, and other identifiers with actions people take on your website.\"",
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "Advanced Matching for Web",
+            "raw_sha256": "fd990b4989ecd76627a3fc08fb82fcf6fea44689fadfca6204ab857858d90f83",
+            "cleaned_sha256": "c9a2e545458f8edb201dc16e6467a32b1e8029712915f4167dcb99f722f06351"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.measurement.tag.enhanced_match": "0bebd39a1e481037b03ed787142aab388a603015960cef02ad1ceec3c9dd1746+0bebd39a1e481037b03ed787142aab388a603015960cef02ad1ceec3c9dd1746"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.289231Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.289231Z"
+  }
+}

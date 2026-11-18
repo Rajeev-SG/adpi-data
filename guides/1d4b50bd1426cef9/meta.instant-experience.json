@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.instant-experience",
+    "name": "Instant Experience",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.collection.instant-experience-landing-page"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Instant Experience is the full-screen mobile landing page that opens when someone taps a collection ad. It replaces an external page as the destination, so you build it inside Meta rather than send people to your site.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Collection",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It was previously known as Canvas. It is an immersive full-screen format for mobile devices, and on Instagram it is supported in both stories and feed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is a destination and creative format, not a targeting or bidding control. It does not steer who sees the ad.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A collection ad shows a cover image or video followed by three product images in Facebook Feed. Tapping it opens the Instant Experience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Collection",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You can build the page from the Storefront, Lookbook or Customer Acquisition templates, or create a custom Instant Experience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Collection",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The cover image or video in the collection ad uses the first media asset from your Instant Experience, so the order of your assets affects the ad itself.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Collection",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A custom build lets you choose the components and how they fit a mobile screen.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": "Create an Instant Experience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when you run collection ads and want people to browse and buy products in a visual, mobile-first page without leaving the app.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Collection",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For collection ads, an Instant Experience is required. You cannot run the format without one.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Collection",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on Instant Experience to send people straight to a website. This ad destination first opens a full-screen experience within the app.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": "4c2655adda1be9fbf2574657d43401843b5c7c153e643f0c961796177cb50704",
+                "cleaned_sha256": "5a7425a6cae8ce064df0b9e4ea784553d277c157702cce056958bbfa9b8192ba"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta is rolling out a new Ad setup and Ad creative experience, so labels and placement can differ in your account. The steps below follow the documented path and stop at Finish.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "1. In Ads Manager, open the ad you are editing and go to Ad format. Select Collection. If it is not shown in Ad setup, click More options, or pick it in Ad creative under Format display options.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": "Create an Instant Experience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "2. In the Destination section, select Instant Experience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": "Create an Instant Experience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "3. Click Create new to build a template, or search for an existing Instant Experience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": "Create an Instant Experience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "4. For a custom build, name it, select the components to add and how they fit a mobile screen, then select Save.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": "Create an Instant Experience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "5. Select Finish.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": "Create an Instant Experience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Treat taps that open an Instant Experience separately from purchases. Tapping the ad can open the full-screen experience; opening it does not demonstrate that someone completed a purchase.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": "4c2655adda1be9fbf2574657d43401843b5c7c153e643f0c961796177cb50704",
+                "cleaned_sha256": "5a7425a6cae8ce064df0b9e4ea784553d277c157702cce056958bbfa9b8192ba"
+              },
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": "723690dafdce69d1b24fde6ce2b8bc4b119585a294d36d7169bcdadcd15e1424",
+                "cleaned_sha256": "4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Only one candidate is supplied, from TikTok. No counterpart is evidenced for Google or Pinterest.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Collection ad specifications: https://www.facebook.com/business/ads-guide/update/collection",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create an Instant Experience for ads on Instagram: https://www.facebook.com/business/help/135270243759813",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.instant_experience",
+                "source_url": "https://www.facebook.com/business/help/135270243759813",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an Instant Experience for ads on Instagram",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tt.instant-form",
+        "name": "Instant Form",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok's Instant Form is an in-app lead capture form where people share contact details and answer questions. Meta's Instant Experience is a full-screen landing page for collection ads that showcases products. They share the in-app, no-external-site idea but serve different goals.",
+        "context": "Choose TikTok's form for lead generation. Choose Meta's Instant Experience to browse products from a collection ad. It is built in TikTok Ads Manager via Tools > Instant Page or during campaign creation.",
+        "evidence": [
+          {
+            "source_id": "tiktok.lead_gen.instant_form",
+            "source_url": "https://ads.tiktok.com/help/article/build-instant-form?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "How to create an Instant Form",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.collection": "4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48+4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48+4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48+4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48",
+        "meta.guide.ads": "b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e+b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e",
+        "meta.guide.instant_experience": "5a7425a6cae8ce064df0b9e4ea784553d277c157702cce056958bbfa9b8192ba+5a7425a6cae8ce064df0b9e4ea784553d277c157702cce056958bbfa9b8192ba"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T09:05:42.588953Z",
+    "source_checked_at": "2026-11-18T07:53:57.111708Z",
+    "verified_at": "2026-11-18T09:05:42.588953Z"
+  }
+}

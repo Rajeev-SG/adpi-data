@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.sales-objective",
+    "name": "Sales objective",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.image.sales-objective"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Sales is the campaign objective you pick when you want people to complete a purchase-type action. You set it at campaign level, and it only works well once you also choose where the outcome happens and which event counts.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Sales is one of six simplified objectives in Ads Manager, alongside Awareness, Traffic, Engagement, Leads and App promotion. It is supported for image ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Sales replaces the older Conversions objective for most purchase goals, and it also replaces Catalogue sales and some Messages campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The objective sets the overall goal at campaign level. Your conversion location then says where the outcome happens, and your conversion event tells Meta which action you want people to take.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For Sales, the conversion locations are Website, App, Website and app, Website and in store, Website and calls, Messenger and WhatsApp.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Website events include purchase, add to cart, initiate checkout, add payment info, view content and others. Shops ads support only add to cart, add to wishlist, initiate checkout, purchase and view content.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For Website and app, you can only optimise for Meta pixel events tracked by both Aggregated Event Measurement and your app SDK.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The objective also determines which placements and calls to action are available.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want purchases or other transactional actions, such as add to cart or checkout, on your website, in your app, or in Messenger or WhatsApp.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you are recreating an old Conversions or Catalogue sales campaign. For catalogue sales, choose your catalogue during setup. Meta recommends Advantage+ catalogue ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your goal is leads or sign-ups. Meta maps Lead generation and some Conversions campaigns to the Leads objective, and Messages to Messenger leads also maps to Leads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you run Shops ads and want events beyond the five supported ones. Events such as complete registration or subscribe are not available there.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents the choices to make, not the exact menu path or labels. This setup stops there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager, create a campaign and choose Sales as the campaign objective at campaign level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose the conversion location where you want the sale to happen: website, app, website and app, website and in store, website and calls, Messenger or WhatsApp.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose the conversion event, such as purchase, that matches the action you want. Not every location needs an event.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For a catalogue campaign, choose your catalogue during campaign setup.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Track purchases if you choose Purchase as the website conversion event. An earlier event such as Add to cart tracks a different action and does not count completed purchases.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": "cd1534eaabc75aa08e3208b938809de1e4445098f6f7e7a84f6652effda15f78",
+                "cleaned_sha256": "bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Pinterest has a counterpart objective; the TikTok candidates are different objectives and are not listed.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-09.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Image ad specifications: https://www.facebook.com/business/ads-guide/update/image",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — How to choose an ad objective in Meta Ads Manager: https://www.facebook.com/business/help/1438417719786914",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Available conversion locations and events by objective in Meta Ads Manager: https://www.facebook.com/business/help/2035196646663270",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create ad campaigns in Meta Ads Manager: https://www.facebook.com/business/help/621956575422138",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.sales-objective",
+        "name": "Sales objective",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Pinterest's Sales objective drives transactional outcomes such as add-to-baskets and checkouts. It replaces legacy Conversions (transactional events) and Catalogue sales. Meta's Sales also covers Messenger, WhatsApp and app conversion locations.",
+        "context": "Both are purchase-focused campaign objectives. The conversion locations, events and optimisation options differ, so do not copy a setup across platforms unchanged.",
+        "evidence": [
+          {
+            "source_id": "pinterest.objectives.simplified",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/simplified-objectives",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Simplified objectives",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.image": "baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a",
+        "meta.guide.ads": "b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e+b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e",
+        "meta.guide.campaign": "3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4+3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4",
+        "meta.guide.conversion_locations": "bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88+bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:58:39.259090Z",
+    "source_checked_at": "2026-11-09T06:09:44.472014Z",
+    "verified_at": "2026-11-18T08:58:39.259090Z"
+  }
+}

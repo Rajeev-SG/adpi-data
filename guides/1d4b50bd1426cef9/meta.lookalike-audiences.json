@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.lookalike-audiences",
+    "name": "Lookalike Audiences",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.lookalike_audiences.lookalike-audiences",
+      "meta.lookalike_audiences.lookalike-match-percentage-range"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A Lookalike Audience lets your ads reach new people who resemble a source audience you choose. Meta recommends choosing a source aligned with your goal.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is an audience you target, set up in Audience tools or Ads Manager. You can use several lookalike audiences in one ad set, and the ad set then reaches people in any of them.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.lookalike",
+                "source_url": "https://www.facebook.com/business/help/465262276878947",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is a targeting signal that Meta's system expands into a new audience. It does not give you a list of named people.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta uses demographics, interests and behaviours from your source audience to find new people with similar qualities, then delivers your ads to them.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You choose a percentage range. Smaller percentages match the source more closely. Larger ones give a bigger, broader audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You no longer pick a location when you create a lookalike. Meta uses the ad set's location settings instead. New lookalikes show no estimated audience size in Audience Manager. You see the estimate once the lookalike is used in an ad set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.lookalike",
+                "source_url": "https://www.facebook.com/business/help/465262276878947",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A source made from your best customers may perform better than one containing all customers, depending on your goal.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want prospecting reach beyond people who already know you, and you have a source audience of good customers to model from.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not assume lookalikes are available for audiences that include people under 18 (or older in some countries). Audience options are limited for them.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Changes driven by European privacy rules may affect campaigns reaching people in the European Region, so check your delivery there.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on Lookalike Audiences for housing, employment or financial products and services ads, including credit, where Meta limits or disables them. The restrictions apply to advertisers based in or reaching the US, and to advertisers reaching Canada and certain European countries.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.special_categories",
+                "source_url": "https://www.facebook.com/business/help/298000447747885",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Choose a Special Ad Category",
+                "raw_sha256": "17d05acff8f6007877f802bebe57ddda1d15034d10b53cca3f62f51b8af35246",
+                "cleaned_sha256": "4f3d9c55f689520b3104ee232dfba6d8b822fe60670c22a3429b59596a08c76b"
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Social issues, elections or politics ads follow separate rules. Meta does not allow these ads in the EU. In selected other countries, Meta requires authorisation and a special-category declaration for these ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.special_categories",
+                "source_url": "https://www.facebook.com/business/help/298000447747885",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Choose a Special Ad Category",
+                "raw_sha256": "17d05acff8f6007877f802bebe57ddda1d15034d10b53cca3f62f51b8af35246",
+                "cleaned_sha256": "4f3d9c55f689520b3104ee232dfba6d8b822fe60670c22a3429b59596a08c76b"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents how to start creating a lookalike and where it appears afterwards. It does not document the source-audience and percentage-range screens, so the steps stop there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Open Audience in Ads Manager. You can also start from the Audience section when creating an ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.lookalike",
+                "source_url": "https://www.facebook.com/business/help/465262276878947",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Create audience, then Lookalike audience. If you have never created an audience, select Create a Lookalike Audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.lookalike",
+                "source_url": "https://www.facebook.com/business/help/465262276878947",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not look for a location choice. Location comes from the ad set where you use the lookalike.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.lookalike",
+                "source_url": "https://www.facebook.com/business/help/465262276878947",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Return to Audience to see your new lookalike and its status.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.lookalike",
+                "source_url": "https://www.facebook.com/business/help/465262276878947",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per acquisition: a lookalike built from your best customers and set to a narrow percentage range may lower it, because delivery is steered towards people who resemble buyers. The trade-off is a smaller audience, which can raise CPM and cause fatigue sooner.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Reach and new-customer volume: a broader percentage range gives more people to reach, so it may scale spend. The trade-off is a looser match to your source, so conversion rate per click may fall.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Three candidate counterparts on other platforms are covered in the relationships list.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-16.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — About Lookalike Audiences: https://www.facebook.com/business/help/164749007013531",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.lookalike_audiences",
+                "source_url": "https://www.facebook.com/business/help/164749007013531",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Lookalike Audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create a Lookalike Audience: https://www.facebook.com/business/help/465262276878947",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.lookalike",
+                "source_url": "https://www.facebook.com/business/help/465262276878947",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a Lookalike Audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Choose a Special Ad Category: https://www.facebook.com/business/help/298000447747885",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.special_categories",
+                "source_url": "https://www.facebook.com/business/help/298000447747885",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Choose a Special Ad Category",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.actalike-audiences",
+        "name": "Actalike audiences",
+        "vendor": "Pinterest",
+        "kind": "equivalent_for_use",
+        "difference": "Pinterest's actalike audiences also model a new audience on a source audience and let you pick a percentage range. You also select an actalike country, and the source audience is excluded from the new audience.",
+        "context": "Prospecting from a customer or engagement list on Pinterest.",
+        "evidence": [
+          {
+            "source_id": "pinterest.audience.targeting_setup",
+            "source_url": "https://help.pinterest.com/en/business/article/audience-targeting",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Set up audience targeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.lookalike-segments",
+        "name": "Lookalike segments (Demand Gen)",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "In Demand Gen the seed list now acts as a signal for Google's models. Delivery may reach people outside similarity thresholds to chase your campaign goal. Meta's range sets how closely the audience matches. The original behaviour can be kept as a targeting constraint.",
+        "context": "Demand Gen campaigns on Google.",
+        "evidence": [
+          {
+            "source_id": "google.lookalike_segments",
+            "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "Use Lookalike segments to grow your audience",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.lookalike-audiences",
+        "name": "Lookalike Audiences",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok only lists audiences created from a Custom Audience for prospecting as a benefit. It does not document match controls, limits or restrictions, so you cannot assume parity with Meta's percentage range.",
+        "context": "Prospecting from a custom audience in TikTok Audience Manager.",
+        "evidence": [
+          {
+            "source_id": "tiktok.custom_audiences",
+            "source_url": "https://ads.tiktok.com/help/article/custom-audiences?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Custom Audiences",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.guide.lookalike": "f1a23d2d3a2381f9a37622289636133338510c625114c699df117db313a55652+f1a23d2d3a2381f9a37622289636133338510c625114c699df117db313a55652",
+        "meta.guide.special_categories": "4f3d9c55f689520b3104ee232dfba6d8b822fe60670c22a3429b59596a08c76b+4f3d9c55f689520b3104ee232dfba6d8b822fe60670c22a3429b59596a08c76b",
+        "meta.guide.special_targeting": "dc874cbb85f57b4ee8f42b358cf1d439072dc6ee389bcfc2ce1f5c9371576e10+dc874cbb85f57b4ee8f42b358cf1d439072dc6ee389bcfc2ce1f5c9371576e10",
+        "meta.lookalike_audiences": "b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12+b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12+b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12+b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12+483b639b1da87fd15385d88c1fb92ac73f5264b6d327cbf5fb91a3a11c856cc5+b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12+b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12+483b639b1da87fd15385d88c1fb92ac73f5264b6d327cbf5fb91a3a11c856cc5+483b639b1da87fd15385d88c1fb92ac73f5264b6d327cbf5fb91a3a11c856cc5"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:58:39.259090Z",
+    "source_checked_at": "2026-11-16T06:03:04.022861Z",
+    "verified_at": "2026-11-18T08:58:39.259090Z"
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.content-suitability-in-performance-max",
+    "name": "Content suitability in Performance Max",
+    "vendor": "Google Ads",
+    "platform": "Performance Max",
+    "capability_ids": [
+      "google.pmax.brand_suitability.content-theme-inventory-type-control"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Content suitability sets how much sensitive content your Performance Max ads can sit next to on YouTube, Display and Google Video Partners. It is an account-level control, and it is easy to forget that it cannot be set per campaign or ad group.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Target the right inventory type at the account-level",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You choose one of three inventory types: Maximum, Moderate or Limited. YouTube and Display both default to Maximum.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Target the right inventory type at the account-level",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Maximum shows ads across all available inventory. It is still subject to content policies and automatically excludes highly sensitive content.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Maximum inventory",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Moderate excludes strong profanity, dramatized violence and sexually suggestive themes.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Moderate inventory",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Limited excludes as much sensitive content as possible, including moderate profanity and sexually suggestive themes, even in mainstream content such as music videos or makeup tutorials.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Limited inventory",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Exclusions are applied on a best-efforts basis, so not every related placement is guaranteed to be blocked. Channel exclusions cannot be applied at ad group or campaign level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Target the right inventory type at the account-level",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when your brand has strict suitability requirements and you would rather give up some reach than risk appearing next to profanity, violence or suggestive themes.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Limited inventory note",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need guaranteed blocking, or when you need different settings per campaign or ad group. It is account-level and best-efforts.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Target the right inventory type at the account-level",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not expect brand exclusions to apply to Hotel Ads campaigns (Free booking link, Travel Promotion Ads) on Performance Max for travel goals. They do not support negative keywords or brand exclusions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Google Ads gives the path as the Tools menu and the Content Suitability Center. The page omits the exact page label, so the steps stop there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Open the Tools menu in your Google Ads account and go to the Content Suitability Center. The exact menu item label is not given in the source.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Target the right inventory type",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose an inventory type for YouTube, Display Network and Google Video Partners: Maximum, Moderate or Limited. This does not apply to App campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Target the right inventory type",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Save.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Target the right inventory type",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Brand suitability risk: moving to Moderate or Limited may reduce the share of impressions on content you consider unsuitable. The trade-off is that a narrower inventory can cut reach and performance, so watch volume and CPA.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Limited inventory note",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Reach and conversion volume: Maximum may keep the widest delivery and the most conversion opportunity. The cost is greater exposure to mainstream content you may find borderline. This is an inference; the source does not give uplift figures.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": "Maximum inventory",
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — How to use brand suitability features in Performance Max: https://support.google.com/google-ads/answer/13607727?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_suitability",
+                "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "How to use brand suitability features in Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.inventory-filter-for-in-content-ads",
+        "name": "Inventory filter for in-content ads",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Meta's filter sets the sensitivity of content next to in-content ads, which is close in purpose. It is documented only for Facebook in-stream reels and ads on Facebook Reels, whereas Google's setting covers YouTube, Display and Video Partners at account level.",
+        "context": "Use when comparing content-sensitivity tiers across platforms; the scope of inventory differs.",
+        "evidence": [
+          {
+            "source_id": "meta.brand_safety.inventory_filter",
+            "source_url": "https://www.facebook.com/business/help/3001448133206080",
+            "locator": null,
+            "source_site": "Meta Business Help Centre",
+            "source_title": "About inventory filter",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "pin.inventory-filters",
+        "name": "Brand safety inventory filters",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest's filters help advertisers understand what content appears near their ads and see exposure levels. Pinterest does not show tiers that match Maximum, Moderate and Limited.",
+        "context": "Useful as a brand safety reference point; do not assume the same tiers or controls.",
+        "evidence": [
+          {
+            "source_id": "pinterest.brand_safety.advertiser_controls",
+            "source_url": "https://business.pinterest.com/en-gb/brand-safety/",
+            "locator": null,
+            "source_site": "Pinterest Business Help",
+            "source_title": "Brand safety on Pinterest",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "tt.brand-safety-options-smart-plus",
+        "name": "Brand safety options (Smart+)",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok offers brand safety options during placement setup in the upgraded Smart+ experience. TikTok does not describe tiers, and this is set in the campaign flow rather than as an account-level setting.",
+        "context": "Related brand safety control in a different campaign setup flow.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.create_campaign",
+            "source_url": "https://ads.tiktok.com/resources/help/article/how-to-create-a-campaign-in-the-upgraded-smart-experience?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "How to create a campaign in the upgraded Smart+ experience",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.pmax.brand_suitability": "46feed61da710c04c6b1aadcf6c634d6025e24f2f83a948a095aa6a58f76e560+46feed61da710c04c6b1aadcf6c634d6025e24f2f83a948a095aa6a58f76e560+46feed61da710c04c6b1aadcf6c634d6025e24f2f83a948a095aa6a58f76e560+46feed61da710c04c6b1aadcf6c634d6025e24f2f83a948a095aa6a58f76e560+46feed61da710c04c6b1aadcf6c634d6025e24f2f83a948a095aa6a58f76e560"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T04:03:30.949286Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-18T04:03:30.949286Z"
+  }
+}

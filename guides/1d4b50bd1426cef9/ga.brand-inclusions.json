@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.brand-inclusions",
+    "name": "Brand inclusions",
+    "vendor": "Google Ads",
+    "platform": "Performance Max",
+    "capability_ids": [
+      "google.pmax.brand_settings.brand-inclusions"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Brand inclusions restrict a Search campaign so it only serves on queries tied to brands you choose. They are not available for Performance Max, which is the easy mistake to make.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "Brand inclusions",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is a control, not a signal: it limits where the campaign can serve. Google recommends using brand settings only on campaigns that really need them, so you do not cut off conversion opportunities.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "About brand settings for Search and Performance Max",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You pick brands from a brand list. The campaign then serves only for Search queries associated with those brands.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "Brand inclusions",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Brand lists are created at account level and applied to individual campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "How brand settings work",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Brands work differently from keywords. You do not need to enter misspellings, variants or other-language versions yourself.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "Brand versus keywords",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The brand library uses one global canonical brand rather than local variants. If a localised brand is unavailable, add the main brand name instead. The brand URL does not affect how branded traffic is filtered.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "How brand settings work",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you run a Search campaign that should only appear for queries about specific brands you are related to, such as a retailer promoting one stocked brand.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "Brand inclusions",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your campaign is Performance Max. Brand inclusions are for Search only, and Performance Max is not listed as supported. For Performance Max, only brand exclusions are available.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you want broad reach. Restricting to chosen brands can limit your conversion opportunities.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "About brand settings for Search and Performance Max",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Google Ads covers only the outline of the path. Exact menu locations and values are not documented here, so the steps stop at the outline.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Create a brand list at account level, adding the brands you want. If a brand is missing from the library, request it be added.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "How brand settings work",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Apply the brand list as an inclusion to your Search campaign. Do this on a Search campaign, not Performance Max.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "Apply brand inclusions to Search campaigns",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Conversion rate and CPA: if your Search campaign was spending on queries unrelated to the brands you sell, limiting it to chosen brands may raise conversion rate and lower CPA. The trade-off is lower impression volume and fewer conversion opportunities. Results are not guaranteed.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "Brand inclusions",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Impression share and total conversions: because the campaign serves only on selected brand queries, volume may fall if the list is narrow or incomplete. Check these metrics against your goals before and after applying it.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": "About brand settings for Search and Performance Max",
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "None of the candidate features from other platforms is a counterpart that restricts delivery to chosen brand queries, so no equivalent is stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-15.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — About brand settings for Search and Performance Max: https://support.google.com/google-ads/answer/13721847?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.brand_settings",
+                "source_url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About brand settings for Search and Performance Max",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.pmax.brand_settings": "3a68e4d39543d31e00ab21db77c31bd57252ef3e437049d454b95ba8011f9f2b+3a68e4d39543d31e00ab21db77c31bd57252ef3e437049d454b95ba8011f9f2b+3a68e4d39543d31e00ab21db77c31bd57252ef3e437049d454b95ba8011f9f2b+3a68e4d39543d31e00ab21db77c31bd57252ef3e437049d454b95ba8011f9f2b"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T04:03:30.949286Z",
+    "source_checked_at": "2026-11-15T22:30:36.891800Z",
+    "verified_at": "2026-11-18T04:03:30.949286Z"
+  }
+}

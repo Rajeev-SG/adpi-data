@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.performance-max-campaigns",
+    "name": "Performance Max campaigns",
+    "vendor": "Google Ads",
+    "platform": "Performance Max",
+    "capability_ids": [
+      "google.pmax.overview.performance-max-campaign-type",
+      "google.pmax.overview.performance-max-all-inventory-campaign"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Performance Max is a goal-based campaign type in Google Ads that reaches all Google Ads inventory — YouTube, Display, Search, Discover, Gmail, and Maps — from a single campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "Performance Max is a goal-based campaign type that allows you to access all Google Ads inventory, including YouTube, Display, Search, Discover, Gmail, and Maps, from a single campaign.",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google positions it as a complement to keyword-based Search campaigns, used to optimize performance toward specific goals and find additional conversions and value.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "About Performance Max campaigns",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Campaigns run through Google Ad Grants may not be eligible to serve on all inventory.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The advertiser supplies assets and settings (images, data feeds, bidding goals) and Google AI combines them to serve across all available inventory and automatically optimize toward the stated goals.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Conversion goals and values: you define which conversion actions matter and can assign an optional ROAS or CPA target; Smart Bidding then bids in real-time auctions based on conversion probability.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Creative assets: you provide text, images, and videos, and generative AI tools can combine those assets to produce new images and videos.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Audience signals are intent preferences you share to guide learning; Google AI uses high-intent audiences to accelerate campaign learning.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Budget and safety: you set daily spend targets and brand safety settings (brand exclusions, placement exclusions, content suitability filters), and the system automatically funnels budget toward the highest-performing inventory and placements.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to reach the full breadth of Google inventory from one campaign while optimizing toward a specific conversion goal, or to complement keyword-based Search campaigns with additional reach.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "About Performance Max campaigns",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when full inventory reach matters and your account is funded through Google Ad Grants, since such campaigns may not be eligible to serve on all inventory.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Create the campaign and define which conversion actions you care about, optionally assigning a ROAS or CPA target.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Provide text, image, and video assets, and optionally turn on text customization and brand guidelines.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Add audience signals by sharing customer intent preferences to guide learning.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Set daily spend targets and brand safety settings such as brand exclusions, placement exclusions, and content suitability filters.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Note: Google Ads' documentation describes what you build the campaign with, not the exact click path in the Google Ads interface; confirm the current menu navigation in the product before relying on it.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "About Performance Max campaigns",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Because Smart Bidding auctions in real time on conversion probability against your optional ROAS or CPA target, a useful metric to track is conversion value divided by cost (or cost per conversion) at the campaign level, so you can see whether the bidding target is achievable and whether budget shifts toward inventory that converts. Trade-off: a stricter target constrains bidding and may reduce reach, while a looser target may raise spend.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Holds only if conversions are measured consistently and the optional ROAS/CPA target is set appropriately",
+              "Ad Grants-funded accounts may not serve on all inventory, so volume comparisons against full-inventory advertisers can mislead"
+            ]
+          },
+          {
+            "text": "Reported conversions here are attributed outcomes, not proof of incremental lift; Google Ads publishes no uplift figures, so treat any uplift expectation as conditional on your own testing.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.overview",
+                "source_url": "https://support.google.com/google-ads/answer/10724817?hl=en",
+                "locator": "How Performance Max works",
+                "source_site": "Google Ads Help",
+                "source_title": "About Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-10-05.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.performance-plus-bidding",
+        "name": "Performance+ bidding (Pinterest / Performance+)",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest Performance+ bidding is an automatic bidding mode used to deliver Pinterest Performance+ campaigns for the most outcomes at the lowest cost; it is a platform-specific bidding tool, not a multi-channel campaign type covering Google Ads inventory.",
+        "context": "Performance Max is a Google Ads campaign type spanning all Google inventory; Performance+ bidding is Pinterest's automatic bidding mode within Pinterest Performance+ campaigns.",
+        "evidence": [
+          {
+            "source_id": "pinterest.performance_plus",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+            "locator": "Pinterest Performance+ campaigns use Pinterest Performance+ bidding to ensure the most outcomes for the lowest cost.",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Pinterest Performance+",
+            "raw_sha256": "0e92c1bacbdb7f2f9a11dd205ba73a63ba63bead41739e3519af7fb5b9252407",
+            "cleaned_sha256": "380b571546e1912ce95f4e93bc73db6a8b4fc0d018ef6c040241d2b7aaf9b339"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.pmax.overview": "36042cfa0b9ff791a188e300848f8f546e17118082e2da34e248f0d1eb0e071f+36042cfa0b9ff791a188e300848f8f546e17118082e2da34e248f0d1eb0e071f+83fb71f7169c48a873987261126661ed2fc682ef8a614eb77b6766c0c6ff87f7+36042cfa0b9ff791a188e300848f8f546e17118082e2da34e248f0d1eb0e071f+36042cfa0b9ff791a188e300848f8f546e17118082e2da34e248f0d1eb0e071f+83fb71f7169c48a873987261126661ed2fc682ef8a614eb77b6766c0c6ff87f7+83fb71f7169c48a873987261126661ed2fc682ef8a614eb77b6766c0c6ff87f7"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.639345Z",
+    "source_checked_at": "2026-10-05T06:04:47.965928Z",
+    "verified_at": "2026-11-17T23:26:30.639345Z"
+  }
+}

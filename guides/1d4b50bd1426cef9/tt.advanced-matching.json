@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "tt.advanced-matching",
+    "name": "Advanced matching",
+    "vendor": "TikTok",
+    "platform": "Events",
+    "capability_ids": [
+      "tiktok.advanced_matching.advanced-matching"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "What the feature does, per TikTok's own help article.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Advanced Matching matches customer information — such as email, phone number and other identifiers — with actions people take on the advertiser's website.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The matched information can be matched with events shared through the TikTok Pixel, the Events API or partner platforms.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "Two modes — manual and automatic — determine how customer information reaches TikTok.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You choose Manual or Automatic Advanced Matching when you set up the Events API or the TikTok Pixel on your web page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Manual Advanced Matching lets you control which Advanced Matching parameters you share with TikTok, using code for each event you want to track on your website; with a partner platform, you choose these events in the partner's data sharing settings.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Automatic Advanced Matching automatically identifies form fields on pages where the Pixel is installed, and hashes and collects the customer information entered on those pages to optimize targeting and measurement for ad campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Personally identifiable information such as name, zip, email and phone is collected securely and hashed with the industry-standard SHA-256 algorithm before reaching TikTok servers; TikTok states it is ISO 27001 certified in the US and UK.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "TikTok recommends using both Manual and Automatic Advanced Matching at the same time to get better results.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "Where the feature fits, including the vertical-specific caution TikTok itself raises.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want website actions tied to customer identifiers such as email and phone number so your events can be matched to those people for targeting and measurement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when your site has forms collecting contact details and you run events through the TikTok Pixel or Events API, since automatic mode detects form fields on Pixel-installed pages.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you operate in a more regulated or sensitive industry such as financial services or healthcare — TikTok suggests considering Manual Advanced Matching instead of Automatic in those cases.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prefer Manual mode when you want to control exactly which parameters are shared per event, rather than letting the Pixel automatically collect information from detected form fields.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Setup is documented at the level of choosing a mode and where it applies; the documentation stops there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Choose Manual or Automatic Advanced Matching when you set up the Events API or the TikTok Pixel on your web page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For Manual Advanced Matching on your website, use code for each event you want to track; if you use a partner platform, choose the events in that platform's data sharing settings.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For Automatic Advanced Matching, install the Pixel on the pages with the form fields you want identified; the Pixel then hashes and collects the information entered on those pages.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "TikTok also points to its Business Products (Data) Terms for learning how the collected information is used.",
+            "status": "not_documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "No vendor uplift figures are supplied; a useful KPI is inferred from the documented mechanism.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "TikTok documents that Advanced Matching data is used to optimize targeting and measurement for ad campaigns — it is a control-and-signal input, not a reporting-only setting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A sensible KPI to watch is attributed conversion volume (for example, purchases or lead events with better event match quality), since the causal path is conditional: more matchable identifiers shared with TikTok can mean more events attributed to people, not more conversions actually happening; the trade-off is sharing more customer data versus stricter Manual-only setups that share fewer parameters.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.advanced_matching",
+                "source_url": "https://ads.tiktok.com/help/article/advanced-matching-web?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Advanced Matching for Web",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Cross-platform alternatives are listed with their documented differences.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Official source used for this guide. Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.enhanced-match",
+        "name": "Enhanced match",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Enhanced match is an optional addition to the Pinterest tag that sends hashed email addresses to Pinterest to match site events and conversions with the person responsible when no Pinterest cookie is present, enabling cross-device checkout tracking — whereas Advanced Matching matches a broader set of customer identifiers (email, phone number and other identifiers) with website actions shared through the TikTok Pixel, Events API or partner platforms.",
+        "context": "Both are tag/pixel add-ons that send hashed first-party identifiers to improve event matching; the difference below comes from Pinterest's own documentation.",
+        "evidence": [
+          {
+            "source_id": "pinterest.measurement.tag.enhanced_match",
+            "source_url": "https://help.pinterest.com/en/business/article/enhanced-match",
+            "locator": "\"Enhanced match is an optional addition to your Pinterest tag that matches conversion data with the person responsible for the conversion.\"",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Enable optional enhanced match",
+            "raw_sha256": "0ebc73a4649efedaefe8e10d2a8404c4221e07cfa41ba4bb3c94b2758463c973",
+            "cleaned_sha256": "0bebd39a1e481037b03ed787142aab388a603015960cef02ad1ceec3c9dd1746"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.advanced_matching": "c9a2e545458f8edb201dc16e6467a32b1e8029712915f4167dcb99f722f06351+c9a2e545458f8edb201dc16e6467a32b1e8029712915f4167dcb99f722f06351+c9a2e545458f8edb201dc16e6467a32b1e8029712915f4167dcb99f722f06351"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.721005Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.721005Z"
+  }
+}

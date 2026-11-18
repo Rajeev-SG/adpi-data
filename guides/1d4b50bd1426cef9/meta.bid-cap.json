@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.bid-cap",
+    "name": "Bid cap",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.campaign_bid_strategy.lowest-cost-with-bid-cap"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Bid cap is a Meta bid strategy that tells the auction to chase the most results for your budget while never bidding above an amount you set. It caps your bid, not your average cost per result, which is the easy thing to confuse.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta also calls it manual maximum-cost bidding. In the Marketing API it appears as the LOWEST_COST_WITH_BID_CAP bid strategy.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is a control: it limits what you will bid in each auction, rather than being a signal or something the platform decides for you.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta still aims for the most results based on each ad set's optimisation goal, but it limits the actual bid to the amount you specify.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You must supply the cap as the bid amount on every ad set in the campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The campaign-level bid strategy applies when campaign budget optimisation is on and the buying type is Auction. Without campaign budget optimisation, the bid strategy is read at ad set level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Each bid strategy may be available only for certain optimisation goals, so check your goal supports bid cap before planning around it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when you know the most you can afford to pay per auction and would rather lose some volume than bid above that figure.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need to spend your full budget or maximise volume. Highest volume is Meta's option for that, and a low cap can leave budget unspent.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it to hold an average cost per result. Meta documents a separate cost cap strategy that limits average cost per optimisation event, whereas bid cap limits the bid.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not plan on editing the bid strategy or turning off campaign budget optimisation in a campaign with more than 70 ad sets using it. That is not allowed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents the API fields only. It does not give Ads Manager menu labels, so those steps are not reconstructed here.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use the Auction buying type.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Turn on campaign budget optimisation if you want the strategy set at campaign level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Set the campaign bid_strategy to LOWEST_COST_WITH_BID_CAP.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Enter your cap in the bid_amount field of each ad set in the campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per result: if your cap sits near what a result is worth, capping the bid can keep cost per result from drifting up when auctions get competitive. The trade-off is lower delivery and possibly unspent budget.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Results volume and budget spend: a cap set below what the auction needs can reduce wins, so volume and spend may fall. Raising the cap trades cost control for reach. This is a judgement, not a documented outcome.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Two partial counterparts exist on other platforms; none is a like-for-like match.",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-17.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta for Developers — Ad Campaign bid strategies: https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": null,
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — About highest volume bid strategy: https://www.facebook.com/business/help/721453268045071 It also lists a separate About bid cap article.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.highest_volume",
+                "source_url": "https://www.facebook.com/business/help/721453268045071",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About highest volume bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.manual-cpc",
+        "name": "Manual CPC",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Manual CPC lets you set your own maximum cost per click, with a default bid for the ad group and optional separate bids for keywords or placements. Meta's bid cap sets a bid limit per ad set against the ad set's optimisation goal, not specifically clicks.",
+        "context": "Both are manual maximum-bid controls. Compare them only where you want a hard bid ceiling; the bid unit and the level it is set at differ.",
+        "evidence": [
+          {
+            "source_id": "google.search.manual_cpc",
+            "source_url": "https://support.google.com/google-ads/answer/2390250?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "Manual CPC bidding",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.cost-cap",
+        "name": "Cost Cap",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok only says Cost Cap is an available bidding strategy for Smart+ Traffic Campaigns and gives no mechanism. Meta documents its own cost cap as limiting average cost per event, which differs from bid cap limiting the bid.",
+        "context": "Do not treat it as a bid cap equivalent without checking TikTok's own definition.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.traffic_campaigns",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Smart+ Traffic Campaigns",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.campaign_bid_strategy": "f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294",
+        "meta.guide.highest_volume": "e8f36e294fc1815a5c0613d49aec917f2581870a42983dc2c53e3081c2d624bd+e8f36e294fc1815a5c0613d49aec917f2581870a42983dc2c53e3081c2d624bd"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-17T23:15:01.670975Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

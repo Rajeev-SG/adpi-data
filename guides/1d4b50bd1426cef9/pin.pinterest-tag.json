@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.pinterest-tag",
+    "name": "Pinterest Tag",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.measurement.tag.pinterest-tag"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "What the Pinterest Tag is and what it does.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The Pinterest Tag is a piece of code you add to your website that lets Pinterest track visitors to your site and the actions they take after seeing your Pinterest ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "The Pinterest Tag is a piece of code that you add to your website...",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest positions the tag as the way to measure how effective Pinterest ads are, based on the website actions people take after seeing or engaging with an ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Track and optimise conversions; Measure campaign performance; Build audiences for targeting...",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "How the tag captures visitor and conversion data.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The tag works by sending Pinterest data about site visitors and their actions after they saw or engaged with a Pinterest ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "If you add the Pinterest tag to your website, you'll be able to: Track and optimise conversions...",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Event-level tracking implies additional event code on key pages; Pinterest points to a separate base-code article for manual setup but does not describe event-code details.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "What's next? If you've chosen to use manual setup, learn how to add the base code.",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest offers the Conversions API to use in addition to the tag to maximise visibility into conversions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "You also have the option to use the Pinterest Conversions API in addition to the Pinterest tag...",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "When the tag is the right tool, and when not.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to track and optimise conversions from Pinterest ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Track and optimise conversions",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you need to measure campaign performance or build audiences for targeting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Measure campaign performance; Build audiences for targeting",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need server-side or cross-platform conversion visibility — the tag is browser-based, which is why Pinterest offers the Conversions API as a supplement to maximise conversion visibility.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "This means you can measure how effective your Pinterest ads are...",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "How to install the tag, per Pinterest's documented steps.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "First, get a Pinterest business account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Before you can add the Pinterest Tag to your website, you need to: Get a Pinterest business account; Create an advertiser account",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Second, create an advertiser account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Create an advertiser account",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Third, log in to your Pinterest business account, open the collapsed menu in the top left, and under Business click Conversions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Log in to your Pinterest business account... Under Business, click Conversions",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Fourth, click Get started and choose one of three installation methods: an integration partner, emailing instructions to a developer or colleague, or manual setup.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Click Get started. Choose how you'd like to install the Pinterest Tag",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Fifth, for an integration partner: paste your website URL, click Check, and if eligible select a partner to view instructions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Use an integration partner: Paste your website URL... then click Check",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Sixth, alternatively click Email instruction to send steps to someone, or click Skip to proceed with manual setup yourself.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Email instructions: Click Email instruction... Use manual setup: Click Skip",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Seventh, install from desktop; Pinterest states installation currently requires a desktop device.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "At the moment, you'll need to use your desktop to install the Pinterest Tag",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Manual setup continues in a separate article on adding the base code; those specific steps are not covered by Pinterest's documentation.",
+            "status": "not_documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "What's next? If you've chosen to use manual setup, learn how to add the base code.",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "What to monitor once the tag is live; Pinterest gives no vendor uplift figures.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "A practical early indicator is that the tag appears in Ads Manager — but expect up to 24 hours after installation before it does; expect nothing meaningful before the tag is reflected.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "After you've installed the Pinterest Tag, it can take up to 24 hours to be reflected in Ads Manager.",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Once tracking is live, use conversion actions as your primary metric, since the tag's documented purpose is measuring on-site actions after ad exposure; treat reported conversions as attributed measurements, not proof of incremental lift, and weigh the trade-off that browser-based tracking may miss conversions the Conversions API would capture.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Track and optimise conversions; Measure campaign performance; Access Conversion Insights",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Not applicable here.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Official source used for this guide. Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Centre — Install the Pinterest tag: https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.measurement.tag",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/install-the-pinterest-tag",
+                "locator": "Pinterest help article: Install the Pinterest Tag",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Install the Pinterest tag",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.enhanced-conversions-web",
+        "name": "Enhanced conversions for web",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "The Pinterest Tag is Pinterest's on-site tracking code for measuring Pinterest ad performance; Enhanced conversions for web is a Google Ads feature that sends hashed first-party user-provided data at conversion time to improve online conversion measurement via signed-in account matching — a measurement-enhancement mechanism, not a site-wide tracking tag, and it belongs to a different ad platform.",
+        "context": "Website conversion tracking for Pinterest advertisers vs browser-event tracking for Google Ads advertisers",
+        "evidence": [
+          {
+            "source_id": "google.enhanced_conversions.web",
+            "source_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+            "locator": "* [About enhanced conversions](https://support.google.com/google-ads/answer/9888656)",
+            "source_site": "Google Ads Help",
+            "source_title": "About enhanced conversions for web",
+            "raw_sha256": "b95da4732eac500995dacd48a9a37d5ee094929fed861c17bd1a2c9161661c5a",
+            "cleaned_sha256": "ede89f94091d27e8426a3a3b3a35c29774e0b74bb47d4fc3fa8e7ef611d64679"
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "tt.events-api-first-party-cookie",
+        "name": "First-party cookies with Events API",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "The Events API first-party cookie (ttp) stores unique identifiers limited to the advertiser's domain and is shared with the TikTok Events API alongside the Pixel; the Pinterest Tag is Pinterest's own on-site code. Pinterest's documentation recommends its own Conversions API alongside the tag, but the TikTok cookie/API setup is platform-specific to TikTok and not interchangeable.",
+        "context": "Choosing between tag-only and tag-plus-server-event tracking on Pinterest",
+        "evidence": [
+          {
+            "source_id": "tiktok.events_api.matching",
+            "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-matching-events-with-events-api?lang=en",
+            "locator": "\"1st Party Cookie (if using with Pixel): Unique identifiers saved in the ttp first-party cookie and limited to the advertiser's domain\"",
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "How to set up matching events with Events API",
+            "raw_sha256": "2313c15f59f5998562821caa154e241786391aa7664ab6e70a118360ef39928c",
+            "cleaned_sha256": "653933a57f6ad15c1d7317601cf66b83622b227e003b60971d4ae9772b3594dd"
+          }
+        ],
+        "status": "inferred"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.measurement.tag": "3cc366bc60eff8f833469d07dc35e4e6babf0ac17bdeffa21ae8470d703a3ba9+3cc366bc60eff8f833469d07dc35e4e6babf0ac17bdeffa21ae8470d703a3ba9+3cc366bc60eff8f833469d07dc35e4e6babf0ac17bdeffa21ae8470d703a3ba9+3cc366bc60eff8f833469d07dc35e4e6babf0ac17bdeffa21ae8470d703a3ba9+3cc366bc60eff8f833469d07dc35e4e6babf0ac17bdeffa21ae8470d703a3ba9"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.600301Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-11-17T23:26:30.600301Z"
+  }
+}

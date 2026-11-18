@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.reels-brand-safety-tools",
+    "name": "Reels brand safety tools",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.reels.instagram.reels-brand-safety-tools"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta lets you apply brand safety tools, including block lists and publisher lists, to ads running on Instagram Reels. They are exclusion and suitability controls, not a guarantee that every reel next to your ad is on-brand.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram",
+                "source_url": "https://www.facebook.com/business/help/128078290241927",
+                "locator": "Publish ads on Instagram Reels",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Instagram Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta defines brand suitability controls as tools that help you place ads next to organic content that suits your brand, where organic means content not promoted as an ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": "Learn more",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Block lists and publisher lists are the tools named for Instagram Reels. Meta's help centre groups them with publisher and content block lists and partner-publisher lists.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram",
+                "source_url": "https://www.facebook.com/business/help/128078290241927",
+                "locator": "Publish ads on Instagram Reels",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Instagram Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta's Feed-ads suitability controls cover Reels feed ads. They give you more say over which organic content your ads can sit beside.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.reels_suitability",
+                "source_url": "https://www.facebook.com/business/help/401717758239899",
+                "locator": "Brand suitability controls for Feed ads",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Feed and in-content brand safety and suitability controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Ads can appear on reels from creators who do not earn money from ads. Creators must meet Meta's monetisation eligibility requirements and complete onboarding to earn.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram",
+                "source_url": "https://www.facebook.com/business/help/128078290241927",
+                "locator": "Publish ads on Instagram Reels",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Instagram Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta does not say which inventory filter tiers or exclusions apply to Instagram Reels specifically, so check the live help page before promising a client a particular setting.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when your brand has publishers or content you must keep away from, and you want to apply block lists or publisher lists to Instagram Reels placements.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram",
+                "source_url": "https://www.facebook.com/business/help/128078290241927",
+                "locator": "Publish ads on Instagram Reels",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Instagram Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need proof of exactly what each ad appeared beside. Ads can still appear on reels from non-monetising creators, and Meta does not document Reels-specific guarantees.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram",
+                "source_url": "https://www.facebook.com/business/help/128078290241927",
+                "locator": "Publish ads on Instagram Reels",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Instagram Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents only the entry point for inventory filter settings. It does not give the menu labels for block lists on Instagram Reels, so the path stops here.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Open Ads Manager and create a new ad set, or edit an existing one.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": "(none)",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In the ad set, select the inventory filter settings for Feed ads. Meta says these features are rolling out gradually, so you may not see them yet.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": "(none)",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For block lists and publisher lists, use Meta's help articles on applying a publisher block list in Ads Manager. The documented material does not include those steps.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": "Learn more",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Brand suitability or unsafe-adjacency incident rate: if the lists exclude the publishers and content you object to, fewer ads may appear beside them. The trade-off is that restricting inventory can shrink reach.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram",
+                "source_url": "https://www.facebook.com/business/help/128078290241927",
+                "locator": "Publish ads on Instagram Reels",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Instagram Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "CPM and cost per result: narrower eligible inventory can raise auction costs if the excluded reels would have delivered cheaply. Compare results before and after you add restrictions. This is not a guaranteed effect either way.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.reels_suitability",
+                "source_url": "https://www.facebook.com/business/help/401717758239899",
+                "locator": "Brand suitability controls for Feed ads",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Feed and in-content brand safety and suitability controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Each other platform has a partial counterpart, none interchangeable with Meta's Reels tools.",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-16.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — About ads on Instagram Reels: https://www.facebook.com/business/help/128078290241927",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.reels.instagram",
+                "source_url": "https://www.facebook.com/business/help/128078290241927",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About ads on Instagram Reels",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Use inventory filter in Meta Ads Manager: https://www.facebook.com/business/help/252190302162738",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — About Feed and in-content brand safety and suitability controls: https://www.facebook.com/business/help/401717758239899",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.reels_suitability",
+                "source_url": "https://www.facebook.com/business/help/401717758239899",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Feed and in-content brand safety and suitability controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.content-suitability-in-performance-max",
+        "name": "Content suitability in Performance Max",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Google sets inventory type (Maximum, Moderate, Limited) for YouTube, Display Network and Google Video Partners, plus content theme exclusions. Meta's documented Reels tools are block lists and publisher lists.",
+        "context": "Use Google's controls for YouTube and Display inventory. They do not control Instagram Reels.",
+        "evidence": [
+          {
+            "source_id": "google.pmax.brand_suitability",
+            "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "How to use brand suitability features in Performance Max",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.inventory-filters",
+        "name": "Brand safety inventory filters",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Pinterest filters show what content appears near ads, the exposure level per campaign and how policies affect settings. Meta's documented Reels tools are lists.",
+        "context": "Same goal of controlling adjacency, on a different platform and inventory.",
+        "evidence": [
+          {
+            "source_id": "pinterest.brand_safety.advertiser_controls",
+            "source_url": "https://business.pinterest.com/en-gb/brand-safety/",
+            "locator": null,
+            "source_site": "Pinterest Business Help",
+            "source_title": "Brand safety on Pinterest",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.brand-safety-options-smart-plus",
+        "name": "Brand safety options (Smart+)",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok offers brand safety options as part of placement setup in the upgraded Smart+ experience. The documented material does not detail the options, so match quality to Meta's lists cannot be confirmed.",
+        "context": "Related in purpose only. Check TikTok's own options before treating them as a substitute.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.create_campaign",
+            "source_url": "https://ads.tiktok.com/resources/help/article/how-to-create-a-campaign-in-the-upgraded-smart-experience?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "How to create a campaign in the upgraded Smart+ experience",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.guide.inventory_filter": "c881ed5905fc59e8c737eca58c3767d151716e7d7a0259ae646ea4cf39b7b370+c881ed5905fc59e8c737eca58c3767d151716e7d7a0259ae646ea4cf39b7b370",
+        "meta.guide.reels_suitability": "540eedcccb38f7f88937dc21fc2f8b887e2fd69479faed185a14fb61508851ae+540eedcccb38f7f88937dc21fc2f8b887e2fd69479faed185a14fb61508851ae",
+        "meta.reels.instagram": "d84ffbc4cf48184ec547b1ad06c8cc37938805b25ed55200b15a725c577962ad+d84ffbc4cf48184ec547b1ad06c8cc37938805b25ed55200b15a725c577962ad+d84ffbc4cf48184ec547b1ad06c8cc37938805b25ed55200b15a725c577962ad"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-16T06:03:04.022861Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

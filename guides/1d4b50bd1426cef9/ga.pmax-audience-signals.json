@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.pmax-audience-signals",
+    "name": "Performance Max audience signals",
+    "vendor": "Google Ads",
+    "platform": "Performance Max",
+    "capability_ids": [
+      "google.pmax.audience_signals.audience-signals"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Audience signals are optional audience suggestions added to Performance Max campaigns that help Google AI optimize for the campaign goals you select.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "Audience signals allow you to add audience suggestions that help Google AI optimize for the goals you select for your Performance Max campaigns",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Performance Max may still show ads to relevant audiences outside of your signals when they have a strong likelihood of converting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "Although adding audience signals is optional... Performance Max may show ads to relevant audiences outside of your signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Audience signals guide the machine learning models on the ideal way to optimize your campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "About audience signals for Performance Max campaigns",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because Performance Max serves beyond the signals, adding signals steers delivery rather than restricting it.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "How to add audience signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to guide Google AI's optimization toward your selected campaign goals with audience suggestions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "Audience signals allow you to add audience suggestions that help Google AI optimize for the goals you select for your Performance Max campaigns",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need to restrict delivery strictly to a defined audience, since Performance Max may serve to relevant audiences outside the signals.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "Although adding audience signals is optional... Performance Max may show ads to relevant audiences outside of your signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Navigate to the Audiences section beneath your asset group.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "How to add audience signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose Select an Audience (if audiences exist) or Create an Audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "How to add audience signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Create a unique name for your audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "How to add audience signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Add your data.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "How to add audience signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Add custom segments.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "How to add audience signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose Save Audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "How to add audience signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Optionally use the Demographics section and Additional segments to further customize; using search-term-based custom segments can enhance machine learning.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "How to add audience signals",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Metric to watch: conversions toward your campaign goals. Signals could improve goal-relevant conversions by guiding AI toward likely converters; no guaranteed uplift is documented, and because ads may serve outside the signals, attributed conversions may include traffic not driven by the signals themselves.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": "About audience signals for Performance Max campaigns",
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Not applicable here.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-10-05.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — About audience signals for Performance Max campaigns: https://support.google.com/google-ads/answer/14530785?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.audience_signals",
+                "source_url": "https://support.google.com/google-ads/answer/14530785?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About audience signals for Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tt.smart-plus-audience-suggestions",
+        "name": "Smart+ audience suggestions",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "Smart+ suggestions are optional demographic and interest settings that guide automatic targeting with audience expansion applied; Performance Max audience signals involve creating audiences from data and custom segments rather than only picking demographic options.",
+        "context": "Google Ads Performance Max vs TikTok Smart+ audience settings.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.targeting",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-targeting-for-your-upgraded-smart-experience",
+            "locator": "Optional additional audience settings the advertiser can choose to help guide Smart+ automatic targeting: Age (25-55+), Gender, Include Audience, and Interest & Behaviors. The options table shows audience expansion is applied (YES) for this option.",
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "Upgraded Smart+ targeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.pmax.audience_signals": "d9f6acfbd47a65ce41212484af76c2f392b02827d6eee245c3684dae2d20589a+d9f6acfbd47a65ce41212484af76c2f392b02827d6eee245c3684dae2d20589a+d9f6acfbd47a65ce41212484af76c2f392b02827d6eee245c3684dae2d20589a+d9f6acfbd47a65ce41212484af76c2f392b02827d6eee245c3684dae2d20589a"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-81b2feb0b391",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-81b2feb0b391"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:21:34.857787Z",
+    "source_checked_at": "2026-10-05T06:04:47.965928Z",
+    "verified_at": "2026-11-17T23:34:09.181080Z"
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.facebook-feed-placement",
+    "name": "Facebook Feed placement",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.image.facebook-feed-placement"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Facebook Feed is the placement that puts your ad in the stream of posts people see on their Facebook home page. It is one placement choice among many, so selecting it does not decide where else your ads run.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Choose your ad placement: 'Facebook Feed'",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "From March 2026, Meta says the Facebook Feed placement also includes the Facebook Friends tab.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placement_objectives",
+                "source_url": "https://www.facebook.com/business/help/279271845888065",
+                "locator": "Feeds",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available ad placements for marketing objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta's delivery system looks across all selected placements and picks the cheapest opportunities to get the most optimisation events overall. It does not aim for the lowest average cost in each placement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta recommends Advantage+ placements if you use the highest volume bid strategy.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta's worked example shows that a placement with a higher average cost per optimisation event is not necessarily inefficient. Removing the dearer placement in that example left the overall cost per event higher.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": "Understanding per-placement cost differences",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when you want your image, video, carousel or collection ads in the main Facebook news stream. It sits in Meta's feed placements group, alongside Instagram Feed and others.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placement_objectives",
+                "source_url": "https://www.facebook.com/business/help/279271845888065",
+                "locator": "Feeds",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available ad placements for marketing objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you judge placements only by their individual average cost. Switching off a placement that looks expensive can raise your overall cost per result, as Meta's own example shows.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": "Understanding per-placement cost differences",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not assume Facebook Feed covers every Facebook surface. Profile feed, Marketplace, right column and Business Explore are listed as separate placements, and profile feed needs a record of policy-compliant ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placement_objectives",
+                "source_url": "https://www.facebook.com/business/help/279271845888065",
+                "locator": "Feeds",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available ad placements for marketing objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The captured help pages document the image ad creation path in Ads Manager. They do not show where you tick or untick Facebook Feed, so the steps stop before placement selection.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Go to Ads Manager and click + Create.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.image",
+                "source_url": "https://www.facebook.com/business/help/1393077930949041",
+                "locator": "Before you create an image ad",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an image ad in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select your objective (Awareness, Traffic, Engagement, Leads, App promotion or Sales) and click Continue.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.image",
+                "source_url": "https://www.facebook.com/business/help/1393077930949041",
+                "locator": "Before you create an image ad",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an image ad in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Complete the creation steps until you reach the Ad setup section at ad level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.image",
+                "source_url": "https://www.facebook.com/business/help/1393077930949041",
+                "locator": "Before you create an image ad",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an image ad in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In Ad setup, choose Format and complete the Ad creative section. For Leads, App promotion or Sales, select Manual upload as the creative source first.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.image",
+                "source_url": "https://www.facebook.com/business/help/1393077930949041",
+                "locator": "Before you create an image ad",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an image ad in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In the Ad preview section, check how your ad looks across placements.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.image",
+                "source_url": "https://www.facebook.com/business/help/1393077930949041",
+                "locator": "Before you create an image ad",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an image ad in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Publish. Your ad then goes through ad review before it can run.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.image",
+                "source_url": "https://www.facebook.com/business/help/1393077930949041",
+                "locator": "Before you create an image ad",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an image ad in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per optimisation event: if you leave Facebook Feed in a broad placement set, delivery can shift towards the cheapest opportunities and may lower your blended cost per event. The trade-off is that Facebook's own average may look higher than other placements, and you give up per-placement control.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Number of optimisation events for a fixed budget: removing a placement can cut total events if the cheaper opportunities it supplied were needed to fill the budget. Read results across the whole placement mix. These are attributed results, not proof of incremental lift.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": "Understanding per-placement cost differences",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-09.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Image ad specifications: https://www.facebook.com/business/ads-guide/update/image",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create an image ad in Meta Ads Manager: https://www.facebook.com/business/help/1393077930949041",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.image",
+                "source_url": "https://www.facebook.com/business/help/1393077930949041",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an image ad in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — About Advantage+ placements: https://www.facebook.com/business/help/965529646866485",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placements",
+                "source_url": "https://www.facebook.com/business/help/965529646866485",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Advantage+ placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Available ad placements for marketing objectives: https://www.facebook.com/business/help/279271845888065",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.placement_objectives",
+                "source_url": "https://www.facebook.com/business/help/279271845888065",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available ad placements for marketing objectives",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.browse-placement",
+        "name": "Browse placement",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Pinterest's Browse placement shows ads as people browse home feeds and related Pins. It is one selectable ad group placement in Ads Manager and Bulk Editor. Facebook Feed is a separate Meta placement among many, and the two platforms' feeds and delivery logic differ.",
+        "context": "Both are feed-style placement choices. Use Browse as the nearest Pinterest counterpart, not a like-for-like swap.",
+        "evidence": [
+          {
+            "source_id": "pinterest.placements",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Ad placements",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "ga.discover-placement-demand-gen",
+        "name": "Discover placement (Demand Gen)",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Discover is a channel you can select in Demand Gen manual channel selection. Google Ads does not describe it as a Facebook-style home feed, so treat it as related only.",
+        "context": "Both let you choose a channel or placement manually. Compare them only at that level.",
+        "evidence": [
+          {
+            "source_id": "google.demand_gen.channels",
+            "source_url": "https://support.google.com/google-ads/answer/15973205?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "Demand Gen channel controls",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      },
+      {
+        "feature_id": "tt.automatic-placement",
+        "name": "Automatic placement",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "Automatic placement is the default for Smart+ ad groups, and TikTok selects placements unless you switch to Select placement. It is a selection mode, not a single feed placement like Facebook Feed.",
+        "context": "Compare it with Meta's Advantage+ placements, not with Facebook Feed itself.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.updates",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About upgrades to Smart+",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "inferred"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.image": "baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a",
+        "meta.guide.image": "f321f915f96a9b21f21810401d777aa39ed7cd60521504598a8748fbe2ca32c5+f321f915f96a9b21f21810401d777aa39ed7cd60521504598a8748fbe2ca32c5",
+        "meta.guide.placement_objectives": "83477a24126eba40eaf8d5d5b0b15a623aa04fd01df03d500ef2557aa66564cb+83477a24126eba40eaf8d5d5b0b15a623aa04fd01df03d500ef2557aa66564cb",
+        "meta.guide.placements": "d7b19703f595e90eabbd28b5ec1e5ef623424d08974c9d10e11c8e535db46cdd+d7b19703f595e90eabbd28b5ec1e5ef623424d08974c9d10e11c8e535db46cdd"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-09T06:09:44.472014Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "tt.broad-match",
+    "name": "Broad match",
+    "vendor": "TikTok",
+    "platform": "Search Ads Campaign",
+    "capability_ids": [
+      "tiktok.search.optimization.broad-match"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "What broad match is on TikTok Search Ads, per the vendor's optimization guidance.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Broad match is the TikTok Search Ads keyword match type with the highest reach.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Broad: highest reach; best for launch and learning.",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is recommended at launch and during learning to capture intent variants and learn quickly.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Keyword strategy",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "How broad match captures queries beyond your exact keywords.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Broad match is designed to surface queries that are variants of the advertiser's intent, which is why it delivers the highest coverage of the match types.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Key terms and concepts: Match Types & Coverage",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "When to use broad match, and when to prefer tighter match types.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you are launching a Search Ads campaign and want the highest volume of intent variants to learn from quickly.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Keyword strategy",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "during launch and learning phases"
+            ]
+          },
+          {
+            "text": "Do not rely on it when you need tight control on a proven, efficient term — the vendor recommends moving such terms to Phrase or Exact match after learning.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Key terms and concepts: Match Types & Coverage",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Overly strict match types at launch can constrain volume, so broad match is positioned as the remedy for under-delivery during learning.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Key terms and concepts: Match Types & Coverage",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The vendor's recommended three-phase keyword workflow that includes broad match.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Step 1: start your keyword set on Broad match to capture intent variants and learn quickly (the vendor's 'launch for scale' phase).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Keyword strategy",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: once terms are proven, promote them to Exact or Phrase match to lock in efficiency while maintaining reach (the 'optimize for precision' phase).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Keyword strategy",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: add negative keywords for irrelevant queries surfaced in the Search Terms report (the 'exclude noise' phase).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Keyword strategy",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Keep keyword–creative relevance high at each stage; the vendor notes relevancy is measured per keyword–creative pair.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Keyword strategy",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "What to monitor; note the vendor publishes no uplift numbers.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "A useful reporting-based check is the Search Terms report: because broad match adds variant queries, a rising share of irrelevant terms in that report is a conditional signal that noise is outweighing the learning benefit — the vendor does not publish any uplift figures, and more coverage is not an incremental outcome.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Keyword strategy",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "only if broad match is paired with a negative-keyword and promotion-to-exact workflow as the vendor recommends"
+            ]
+          },
+          {
+            "text": "Cost efficiency per promoted term is the trade-off metric to watch: the vendor's workflow implies broad match trades precision for scale, so efficiency should improve only after proven terms are moved to Exact or Phrase — this is reasoning from the documented mechanism, not a documented result.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Keyword strategy",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Cross-platform alternatives are listed in the relationships table above; each states its material difference.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Evidence notes for this guide. Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "TikTok Ads Help Center — Search Ads optimisation: https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en (match types, recommended three-phase keyword strategy, keyword–creative relevancy).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.optimization",
+                "source_url": "https://ads.tiktok.com/resources/help/article/search-ads-optimization?lang=en",
+                "locator": "Keyword strategy",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "Search Ads optimisation",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.broad-match",
+        "name": "Broad match (AI Max for Search)",
+        "vendor": "Google Ads / AI Max for Search",
+        "kind": "related_not_equivalent",
+        "difference": "Google's AI Max uses broad match within AI-driven query expansion to find untapped, performant queries; TikTok's broad match is a Search Ads match type recommended for launch and learning without any documented AI expansion feature.",
+        "context": "Google Ads Search with AI Max for Search",
+        "evidence": [
+          {
+            "source_id": "google.search.ai_max.about",
+            "source_url": "https://support.google.com/google-ads/answer/15910366?hl=en",
+            "locator": "Expand your keywords to find untapped, performant queries with broad match",
+            "source_site": "Google Ads Help",
+            "source_title": "About AI Max for Search campaigns",
+            "raw_sha256": "fc65b2d5efa423ee9207cb57e29d0cabbf72054e07fdccec7db2a7878423c459",
+            "cleaned_sha256": "c023bfbf3867395c2dba5a7576946245eaf39d619f9f4092046b55fec72c2b98"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.broad-match",
+        "name": "Broad match keywords",
+        "vendor": "Pinterest / Search",
+        "kind": "partial_alternative",
+        "difference": "Pinterest broad match is its default keyword match type covering the advertiser's own keyword, misspellings, synonyms and related terms with word order ignored; TikTok's documentation only states broad match has the highest reach for capturing intent variants and does not document misspelling or synonym coverage.",
+        "context": "Pinterest Search keyword targeting",
+        "evidence": [
+          {
+            "source_id": "pinterest.search.keywords",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+            "locator": "Target specific keyword match types — 'Broad match (default)': Pins appear for your own keyword as well as for misspellings, synonyms and other related search terms.",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Keyword targeting",
+            "raw_sha256": "236d5965bdff9db0b5fe8e73f00501da04177ff099fdd47536f355e7d3989191",
+            "cleaned_sha256": "da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.search.optimization": "da818697d90d03979f3e1541874e2e94f215238d390acd17bbcd515d88d038e4+da818697d90d03979f3e1541874e2e94f215238d390acd17bbcd515d88d038e4+da818697d90d03979f3e1541874e2e94f215238d390acd17bbcd515d88d038e4"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.475840Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.475840Z"
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.performance-plus-campaigns",
+    "name": "Performance+ campaigns",
+    "vendor": "Pinterest",
+    "platform": "Performance+",
+    "capability_ids": [
+      "pinterest.performance_plus.pinterest-performance-campaigns"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Performance+ campaigns bundle Pinterest's automation and AI features into a simplified campaign setup with 50% fewer inputs.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Performance+ is available in Ads Manager for the Consideration, Lead and Sales objectives.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For the Sales objective, Performance+ also includes additional creative optimisations via Performance+ creative.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Performance+ campaigns are activated with a toggle at the beginning of campaign creation.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Performance+ bidding is used to aim for the most outcomes at the lowest cost.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Ad groups are created automatically: one by default, a second remarketing ad group if a customer list is included, and for Sales campaigns a prospecting ad group plus a Dynamic Retargeting ad group (and a third ad group if a customer list is added).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You cannot opt out of the Dynamic Retargeting ad group or control the percentage of spend that goes to each ad group.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "After launch, campaigns enter Learning mode, shown by a Learning icon on the Ads Reporting dashboard, during which performance may fluctuate; making changes during Learning mode may reset it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want a simplified, lower-input campaign setup for Consideration, Lead or Sales objectives with automation handling bidding, ad groups and delivery.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want automated creative for Sales, such as AI-generated image backgrounds, image resizing, and creative optimisations that turn product Pins into Collections and Shopping ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need granular control over ad-group structure, spend allocation per ad group, product group selection or detailed targeting beyond country, simplified age and customer lists — these controls are removed or fixed by the automated setup.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need stable, changeable performance immediately after launch, since Learning mode can cause performance fluctuations and edits may reset it.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Step 1: In Ads Manager, start campaign creation for a Consideration, Lead or Sales campaign and activate Performance+ with the toggle at the beginning of the flow.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: Set Lifetime and Average Daily budgets only — these are the supported budget types, with no budget limit per campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: Choose simplified targeting — country picker, simplified age targeting, and optional customer lists (include/exclude).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 4: For Sales campaigns, optionally enable Performance+ creative (generate backgrounds, image resizing and/or creative optimisations), which can be used independently or together.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 5: Launch, then leave the campaign running during Learning mode and wait for the Learning indicator to disappear before assessing performance or making changes.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A Learning icon on the Ads Reporting dashboard indicates the campaign is still finding the right audience; its removal means conversion events have stabilised.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The Learning indicator typically disappears after an average of about two weeks, though timing varies with campaign spend, conversion events on your site and ad engagement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Leads and Sales campaigns can use conversions and add to basket as conversion events.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because Performance+ bidding aims to maximise outcomes at the lowest cost, watch reported cost per conversion and conversion volume as your core KPIs, conditioned on the campaign having exited Learning mode — these are attributed reporting metrics, and no uplift is guaranteed.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Assess only after the Learning indicator has disappeared",
+              "Applies to Leads and Sales campaigns with conversion events"
+            ]
+          },
+          {
+            "text": "Consider comparing automated ad-group delivery (prospecting vs Dynamic Retargeting) as a reporting signal, with the trade-off that you cannot control spend allocation between them.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Reporting-only observation; the guide contains no vendor uplift figures"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Pinterest does not document this.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "All claims in this guide come from a single official Pinterest help page covering Performance+ campaigns, ad groups, creative, setup and Learning mode. Source checked: 2026-09-20.",
+        "status": "not_applicable",
+        "claims": []
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.performance_plus": "380b571546e1912ce95f4e93bc73db6a8b4fc0d018ef6c040241d2b7aaf9b339+380b571546e1912ce95f4e93bc73db6a8b4fc0d018ef6c040241d2b7aaf9b339"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.455343Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:34:34.058988Z"
+  }
+}

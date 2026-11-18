@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.app-activity-custom-audiences",
+    "name": "App activity Custom Audiences",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.custom_audiences.app-activity-custom-audience"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "An app activity Custom Audience is a list of people built from what they do in your app, such as opening it or making a purchase. It is a targeting signal source, and it only works if your app is already sending events to Meta.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": "Create: Your Sources",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Audience options are limited when the audience includes people under 18 (or older in some countries).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You use the Meta SDK to pass app data to Meta, and that data decides who is included in the audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You choose the app, the app events to include or exclude, and a retention window based on when each event happened. For example, you can reach people who purchased in the past 30 days.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": "Create your custom audience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The audience size may shrink because some events from iOS 14 users may not be included. Using it as a Lookalike source does not shrink the lookalike.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In an Advantage+ app campaign, the audience can only be used as an audience suggestion, which steers delivery to people likely to respond rather than restricting it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": "Create your custom audience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you run a traffic or sales objective for app engagement and want to reach people who have already installed or used your app.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want a seed for a Lookalike Audience. You can create up to 500 custom audiences per ad account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your app is not measuring app events, or you lack ad account rights to the app. Without those, you cannot build the audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": "Create your custom audience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it as a hard targeting restriction in an Advantage+ app campaign, because there it only acts as a suggestion.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The documented path is for an App promotion campaign using Advantage+ app campaign. Other objectives are not covered here.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Meta Ads Manager, select App promotion as the ad objective and click Continue.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Complete the ad creation steps until you reach the Audience section at ad set level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In the Audience section, click Add suggestions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Suggest an audience, hover over Custom audience inclusions and click the Edit icon.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Create new and choose Custom audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select App activity as your source and click Next.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use the Source and Events drop-downs to pick your app and events. Use Include more people or Exclude people to refine them.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Audience retention, set how far back to look, for example the past 30 days.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Enter an Audience name and click Create audience. It is usable immediately but may take up to an hour to fill with past users. Check its size under Audiences in Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per app event (for example cost per purchase) may fall if the audience seeds delivery towards people who already took valuable in-app actions. Trade-off: a narrow event or short retention window gives a smaller pool and can raise frequency and limit scale. Nothing is guaranteed.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Reported audience size and reach may look smaller than expected if iOS 14 users' events are missing. Treat size as an attributed, incomplete count rather than your true user base.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — About custom audiences: https://www.facebook.com/business/help/744354708981227",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create an app activity custom audience: https://www.facebook.com/business/help/285857478228227",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.app_audience",
+                "source_url": "https://www.facebook.com/business/help/285857478228227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create an app activity custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tt.custom-audiences",
+        "name": "Custom Audiences (Audience Manager)",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok's Custom Audiences cover several sources (file upload, website or app activity, TikTok engagement, partners), so app activity is one option, not the whole feature.",
+        "context": "Use it for app retargeting or excluding recent customers on TikTok. Check TikTok's own app-event requirements first.",
+        "evidence": [
+          {
+            "source_id": "tiktok.custom_audiences",
+            "source_url": "https://ads.tiktok.com/help/article/custom-audiences?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Custom Audiences",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.website-visitor-audiences",
+        "name": "Website visitor audiences",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest's documentation describes building from website event tags or page visits, not app events, so it does not replace an app activity audience.",
+        "context": "Relevant if your conversions happen on a website rather than in an app.",
+        "evidence": [
+          {
+            "source_id": "pinterest.audience.targeting_setup",
+            "source_url": "https://help.pinterest.com/en/business/article/audience-targeting",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Set up audience targeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.custom_audiences": "8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d+8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d+8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d",
+        "meta.guide.app_audience": "7db008b78632b24d5e89f7ffab0c04f192e495d60d5ba8831c11b0850d579b0c+7db008b78632b24d5e89f7ffab0c04f192e495d60d5ba8831c11b0850d579b0c"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-18T07:42:13.794554Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

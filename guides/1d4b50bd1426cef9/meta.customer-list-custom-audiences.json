@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.customer-list-custom-audiences",
+    "name": "Customer list Custom Audiences",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.custom_audiences.customer-list-custom-audience"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A customer list Custom Audience lets you upload your own customer data so Meta can find those people across its technologies and target them in Ads Manager. Easy to get wrong: a match is not a guarantee that everyone on your list is reachable.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is built from your own customer data, which can be prepared with data formatting and hashed customer information.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "An exclusion-only variant exists. It is a customer list audience that can only be used to exclude people from your ad audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You upload a customer list. Meta hashes it, which turns identifiers into code that cannot be reversed and is unidentifiable at an individual level, then uses it to match customers to profiles. Hashing can take a few minutes depending on list size.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The audience shows as Populating in Audiences while creation finishes. You can then build an ad for it or create a lookalike audience from it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Audience options are limited where the audience includes people under 18 (or older in some countries). Campaigns reaching people in Europe may also be affected by privacy-related changes.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You can create up to 500 custom audiences per ad account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you hold first-party customer records and want to reach those existing customers on Meta, build a lookalike audience from them, or exclude them from prospecting.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you lack a legal basis for the data. Under GDPR, you act as data controller for any list you upload, so check Meta's terms first.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your audience includes under-18s or you advertise in Europe and expect full targeting options. Both can limit what you can do.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The documented steps cover creation up to the audience populating. The file upload and field-mapping screens are not documented by Meta, so this path stops there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Open Audiences in Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": "Create a customer list custom audience in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Create audience, then Custom audience. If you have not created an audience before, select Create a custom audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Customer list, then Next.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Import and create.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Return to Audiences and wait while the audience shows Populating.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per acquisition: excluding existing customers from prospecting may cut spend on people who would not be new buyers, if your list is large and well matched. The trade-off is a smaller eligible audience, which can raise CPMs or limit scale.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Return on ad spend on repeat purchase: targeting known customers may lift it if your offers suit them. The trade-off is frequency fatigue, and results depend on match rate and list quality, which are not documented here.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "New-customer conversion rate: a lookalike built from your best customers may improve prospecting efficiency. It depends on source quality and is not guaranteed. Reported conversions are attributed, not proof of incremental sales.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Create a customer list custom audience: https://www.facebook.com/business/help/170456843145568",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.customer_list",
+                "source_url": "https://www.facebook.com/business/help/170456843145568",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a customer list custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — About custom audiences: https://www.facebook.com/business/help/744354708981227",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.customer-match",
+        "name": "Customer Match",
+        "vendor": "Google Ads",
+        "kind": "equivalent_for_use",
+        "difference": "Same idea of using first-party customer data to target and re-engage customers. Google's version reaches people across Search, Shopping, Gmail, YouTube and Display, rather than Meta's technologies.",
+        "context": "Use for re-engaging existing customers; plan lists and consent separately per platform.",
+        "evidence": [
+          {
+            "source_id": "google.customer_match",
+            "source_url": "https://support.google.com/google-ads/answer/6379332?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "About Customer Match",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.customer-list-audiences",
+        "name": "Customer list audiences",
+        "vendor": "Pinterest",
+        "kind": "equivalent_for_use",
+        "difference": "Same upload-and-match idea. Pinterest's documentation describes emails or mobile ad IDs uploaded as a single-column CSV.",
+        "context": "Use for reaching existing customers on Pinterest; check input formats before reusing a Meta list.",
+        "evidence": [
+          {
+            "source_id": "pinterest.audience.targeting_setup",
+            "source_url": "https://help.pinterest.com/en/business/article/audience-targeting",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Set up audience targeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.custom-audiences",
+        "name": "Custom Audiences",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok's Custom Audiences cover file upload but also website or app activity, TikTok engagement and partner sources, so they are broader than a customer list alone.",
+        "context": "Use the file-upload route for a like-for-like match; it also supports retargeting, exclusions and lookalikes.",
+        "evidence": [
+          {
+            "source_id": "tiktok.custom_audiences",
+            "source_url": "https://ads.tiktok.com/help/article/custom-audiences?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Custom Audiences",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.custom_audiences": "8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d+8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d+8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d",
+        "meta.guide.customer_list": "e650deaaec3b7321ce1a8a6bf13576138ef39cab304e8a01d7156164e35b292d+e650deaaec3b7321ce1a8a6bf13576138ef39cab304e8a01d7156164e35b292d"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-18T07:42:13.794554Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

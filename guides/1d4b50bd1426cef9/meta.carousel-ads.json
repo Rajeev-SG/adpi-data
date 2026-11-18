@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.carousel-ads",
+    "name": "Carousel ads",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.carousel.carousel-ads"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Carousel ads put two or more images or videos in one ad, and people swipe or click through them. Each card has its own headline, description, link and call to action, so the key thing to get right is writing every card as its own landing point.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.carousel_creative",
+                "source_url": "https://www.facebook.com/business/help/927639917355563",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Best practices for carousel ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "On Facebook Feed, a carousel can hold 2 to 10 cards.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.carousel",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/carousel",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Carousel ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "This is a creative format, not a targeting or bidding control. It changes what people see and click, while audience, placement, budget and schedule are set at ad set level and shared by all ads in that ad set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You design the carousel at ad level, the bottom of the campaign, ad set and ad structure.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Viewers move through cards by swiping on mobile or clicking arrows on desktop.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.carousel_creative",
+                "source_url": "https://www.facebook.com/business/help/927639917355563",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Best practices for carousel ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta also documents an option to show best-performing cards first. Meta gives only the article title, so check how it behaves before relying on it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.carousel_creative",
+                "source_url": "https://www.facebook.com/business/help/927639917355563",
+                "locator": "Learn more",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Best practices for carousel ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when you want to show several products, features or steps in one ad and send each card to a different link with its own call to action.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.carousel_creative",
+                "source_url": "https://www.facebook.com/business/help/927639917355563",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Best practices for carousel ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Specs for Facebook Feed: images JPG or PNG up to 30 MB; videos MP4, MOV or GIF up to 4 GB and 1 second to 240 minutes; 3% aspect ratio tolerance. Other placements may differ, so check Meta's supported objectives and placements article.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.carousel",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/carousel",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Carousel ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on the carousel format if you only have one card. The Facebook Feed carousel specifications require at least two.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.carousel",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/carousel",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Carousel ad specifications",
+                "raw_sha256": "42c564f15abef6df38eb96fa3c32db9665001ca13d92e5633000c2c8949b7ebc",
+                "cleaned_sha256": "d605595de1eb383469d9a29579b080585f0eec9f8d9f7a97687ae0617d70d004"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta names the Ads Manager and Page creation routes but not their menu steps, so this path stops here.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Open Meta Ads Manager and work down to the ad level, where the ad creative is designed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Prepare 2 to 10 cards at 1:1, at least 1080 x 1080 pixels, in the file types above.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.carousel",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/carousel",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Carousel ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Write primary text up to 80 characters, headline up to 20 and description up to 18, and add the required landing page URL.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.carousel",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/carousel",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Carousel ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For the exact clicks, follow Meta's article 'Create a carousel ad from Meta Ads Manager'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.carousel_creative",
+                "source_url": "https://www.facebook.com/business/help/927639917355563",
+                "locator": "Learn more",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Best practices for carousel ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "If cards link to different destinations, compare clicks to those destinations separately. A total click count across the ad can hide which destination people chose.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.carousel_creative",
+                "source_url": "https://www.facebook.com/business/help/927639917355563",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Best practices for carousel ads",
+                "raw_sha256": "422538dd2a4d9f448b3c739eef5c1c820e8214fcb4234959ae62125103d7edb2",
+                "cleaned_sha256": "2f3939fff9e607baec8473af0e7a51047e6c428388fa387725c448d8367d57aa"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-09.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Carousel ad specifications: https://www.facebook.com/business/ads-guide/update/carousel",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.carousel",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/carousel",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Carousel ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Best practices for carousel ads: https://www.facebook.com/business/help/927639917355563",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.carousel_creative",
+                "source_url": "https://www.facebook.com/business/help/927639917355563",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Best practices for carousel ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create ad campaigns in Meta Ads Manager: https://www.facebook.com/business/help/621956575422138",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tt.carousel-ads",
+        "name": "Carousel Ads",
+        "vendor": "TikTok",
+        "kind": "related_not_equivalent",
+        "difference": "TikTok's documentation lists carousel image ads as one supported ad type within a Search Ads Campaign. Meta's carousel shows images or videos, each card with its own headline, link and call to action. Match on the TikTok side is only confirmed for image carousels in that campaign type.",
+        "context": "Compare only when planning TikTok Search Ads Campaign creative; do not assume Meta card limits or specs carry over.",
+        "evidence": [
+          {
+            "source_id": "tiktok.search.setup",
+            "source_url": "https://ads.tiktok.com/help/article/how-to-set-up-a-search-ads-campaign-in-tiktok-ads-manager?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "Set up a Search Ads Campaign",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.carousel": "d605595de1eb383469d9a29579b080585f0eec9f8d9f7a97687ae0617d70d004+d605595de1eb383469d9a29579b080585f0eec9f8d9f7a97687ae0617d70d004+d605595de1eb383469d9a29579b080585f0eec9f8d9f7a97687ae0617d70d004",
+        "meta.guide.ads": "b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e+b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e",
+        "meta.guide.carousel_creative": "2f3939fff9e607baec8473af0e7a51047e6c428388fa387725c448d8367d57aa+2f3939fff9e607baec8473af0e7a51047e6c428388fa387725c448d8367d57aa"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T09:05:42.588953Z",
+    "source_checked_at": "2026-11-09T06:09:44.472014Z",
+    "verified_at": "2026-11-18T09:05:42.588953Z"
+  }
+}

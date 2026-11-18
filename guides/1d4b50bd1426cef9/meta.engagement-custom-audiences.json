@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.engagement-custom-audiences",
+    "name": "Engagement Custom Audiences",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.custom_audiences.video-engagement-custom-audience",
+      "meta.custom_audiences.lead-form-engagement-custom-audience",
+      "meta.custom_audiences.facebook-page-engagement-custom-audience"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Engagement custom audiences let you retarget people who interacted with your content on Meta platforms. They are built from your videos, lead forms or Facebook Page, and they are a targeting source rather than a bidding goal or a guarantee of results.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Each source is its own audience type: video engagement, lead form engagement and Facebook Page engagement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "For video audiences, you choose an engagement level (all viewers, engaged viewers or highly engaged viewers), up to 200 videos, and a retention period in days.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": "Create a video engagement custom audience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "People leave the audience when the retention period passes unless they engage again. New engagers are added automatically, so the audience refreshes without you editing it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": "Create a video engagement custom audience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If a video was reused from a post, the audience is built only from the views recorded for that post. This can be far fewer than the campaign's total views.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": "Before you create a video engagement custom audience",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "An ad account can hold up to 500 custom audiences, and you can build a lookalike audience from one.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You can't create new ad sets with audiences based on a deleted Facebook Page. This also applies to its associated lookalike audiences, special ad audiences and saved audiences.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you have recent video, lead form or Page interactions and want to re-engage those people, or seed a lookalike audience from them.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your video views mostly came from reused posts, or when your Page has been deleted. The audience may be much smaller than your reported views, or unusable in new ad sets.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it for exclusions of customers you hold in a file. Meta documents a separate exclusion-only audience type for that.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": "Custom audiences of people who interacted with your business",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Only the video engagement path is documented step by step. Meta gives no click path for lead form or Facebook Page engagement audiences, so this guide stops there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Open Audiences in Ads Manager on desktop.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Create audience, then Custom audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Video, then Next.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Include, choose All video viewers, Engaged video viewers or Highly engaged video viewers.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click Select video and choose up to 200 videos. Use the Video sources menu to pick Facebook Page, Instagram professional account, Campaign or Video ID, then click Confirm.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In Keep people in this audience for, enter the number of days people stay after engaging.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Optionally add a name and description, then click Create audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "When Status shows Ready in Audiences, select the audience in the ad set targeting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Compare the size of video engagement audiences built with different viewer thresholds. The threshold changes who qualifies, so audience size measures how many people qualify under that definition rather than how many purchased.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": "bea4be319c7b42b3e358f254f869375d044fa3eb4e7610ac8e91b0803f09bcfa",
+                "cleaned_sha256": "69e2df52b1af23f1f066dca35d580fc558691dadc2bf7b4d545f3d27532ff9ca"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Pinterest and TikTok have partial counterparts, described in the relationships list. No Google counterpart is documented.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — About custom audiences: https://www.facebook.com/business/help/744354708981227",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.custom_audiences",
+                "source_url": "https://www.facebook.com/business/help/744354708981227",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About custom audiences",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create a video engagement custom audience: https://www.facebook.com/business/help/1099865760056389",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.engagement_audience",
+                "source_url": "https://www.facebook.com/business/help/1099865760056389",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a video engagement custom audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.engagement-audiences",
+        "name": "Engagement audiences",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Pinterest builds audiences from interactions with Pins, ads, campaigns or objectives, selected by ID. Meta builds them from video, lead form or Facebook Page engagement, with a retention window you set.",
+        "context": "Use it to retarget people who engaged with your content on Pinterest. Meta's equivalent covers different interaction types and sources.",
+        "evidence": [
+          {
+            "source_id": "pinterest.audience.targeting_setup",
+            "source_url": "https://help.pinterest.com/en/business/article/audience-targeting",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Set up audience targeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.custom-audiences",
+        "name": "Custom Audiences",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok Custom Audiences is a broader feature. Engagement on TikTok is one source alongside file upload, website or app activity and partner activation. Meta's engagement audiences are only the Meta-engagement subset.",
+        "context": "Compare TikTok's engagement source with Meta's engagement audiences when planning retargeting.",
+        "evidence": [
+          {
+            "source_id": "tiktok.custom_audiences",
+            "source_url": "https://ads.tiktok.com/help/article/custom-audiences?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Custom Audiences",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.custom_audiences": "8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d+8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d+8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d+8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d+8df17697abe0b1e64bfef66d2fd25c3dba67f778618fccebbe8635a1ccc6343d",
+        "meta.guide.engagement_audience": "69e2df52b1af23f1f066dca35d580fc558691dadc2bf7b4d545f3d27532ff9ca+69e2df52b1af23f1f066dca35d580fc558691dadc2bf7b4d545f3d27532ff9ca"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:58:39.259090Z",
+    "source_checked_at": "2026-11-18T07:42:13.794554Z",
+    "verified_at": "2026-11-18T08:58:39.259090Z"
+  }
+}

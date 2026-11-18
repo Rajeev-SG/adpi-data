@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "tt.spark-ads",
+    "name": "Spark Ads",
+    "vendor": "TikTok",
+    "platform": "Search Ads Campaign",
+    "capability_ids": [
+      "tiktok.search.overview.spark-ads"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Spark Ads is an ad format supported within TikTok's Search Ads Campaign, delivered on the TikTok Search Results Page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "The Search Ads Campaign supports Spark Ads",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The Search Ads Campaign is a TikTok ad campaign that uses keywords to reach people searching for terms related to your product or service, with ads targeted uniquely and exclusively to the TikTok Search Results Page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "keywords to help you reach people searching",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "When clicked or tapped, the search ad adopts the regular in-feed video format, appearing within Search stream ads inventory.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Ad Open",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "As users scroll the search results page, search ads can autoplay when visible on screen; an autoplayed video counts as both a view and an impression, while a still image ad counts only an impression.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Autoplay",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Autoplayed ads also contribute to video-view metrics (100%, 75%, 50%, 25%), serving as both an impression and a video view.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Autoplay",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Exact ad position (first, second, third, etc.) may vary based on relevancy and feature experimentation.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Ad Position",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Multiple creatives are supported within one ad group (multiple videos or a Carousel Image Ad), but only one video can be displayed (default selected).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Ad Format; Creative",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The video format mirrors in-feed video campaigns, so creative from in-feed campaigns can be repurposed for search campaigns; creative selection logic follows the same principles as feed-side logic.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Creative",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The interactive add-on for Search Ads Campaign currently supports only display cards and does not support stickers or other interactive add-ons.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Ad Preview for Search Campaign",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to reach people actively searching for terms related to your product or service on the TikTok Search Results Page, using keyword targeting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "keywords to help you reach people searching",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want to repurpose existing in-feed video creative for search placements, since the video format mirrors in-feed video campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Creative",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need guaranteed top ad placement, because exact ad position may vary based on relevancy and feature experimentation.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Ad Position",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your campaign depends on stickers or other interactive add-ons, since only display cards are supported for Search Ads Campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Ad Preview for Search Campaign",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Create a Search Campaign using the dedicated campaign creation flow in TikTok Ads Manager.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "dedicated campaign creation flow",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Set budgets and target specific keywords for the campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "manage budgets, target specific keywords",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Upload creative assets for the campaign; you do not need active ads in other campaigns to use the Search Ads Campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "upload creative assets; You don't need active ads in other campaigns",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use the Ad Preview feature in TikTok Ads Manager to check how the ad will appear; it shows only TikTok search result ads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Ad Preview for Search Campaign",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "TikTok does not document the specific Spark Ads selection steps within the Search Ads Campaign creation flow, so those steps cannot be described here.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Video view rate and video-view completion metrics (100%, 75%, 50%, 25%) are meaningful KPIs: because autoplayed search ads count as both an impression and a video view, higher visibility in the search stream should conditionally lift these metrics, with the trade-off that autoplay views may inflate view counts relative to deliberate engagement.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Autoplay",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Impressions are a core delivery metric for both video and still-image search ads, though for still image ads only an impression is counted (no view metrics).",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Autoplay",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Keyword-level creative performance is a useful KPI direction: the source recommends testing creatives tailored to specific keywords in each ad group, so comparing engagement by keyword-to-creative pairing can guide optimization.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "tiktok.search.overview",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-search-ads-campaign?lang=en",
+                "locator": "Creative",
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Search Ads Campaign",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "No vendor uplift figures or guaranteed performance outcomes are documented for Spark Ads in Search Ads Campaign.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Not applicable here.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": []
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "tiktok.search.overview": "a2952e772bb7ce38c35ee844f212ff37b94cd54826e977739db12a333c66303a+a2952e772bb7ce38c35ee844f212ff37b94cd54826e977739db12a333c66303a"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.455343Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.455343Z"
+  }
+}

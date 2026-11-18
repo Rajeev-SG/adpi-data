@@ -1,0 +1,409 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.attribution-model-setting",
+    "name": "Attribution model setting",
+    "vendor": "Google Ads",
+    "platform": "Google Ads",
+    "capability_ids": [
+      "google.ads.attribution.attribution-model-setting"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The attribution model setting decides how credit for a conversion is shared across ad interactions, one conversion action at a time. It changes how conversions are counted from now on, not your history.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is a control set on each conversion action. It only affects the action you apply it to, and it works for website and Google Analytics conversion actions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google no longer supports first click, linear, time decay and position-based models. Actions that used them were upgraded to data-driven attribution, and you can also choose last click.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "A customer may interact with several of your ads before converting. The model you pick sets how much credit each interaction gets.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Changing the model alters how conversions appear in the Conversions and All conversions columns going forward. Historic figures are not restated in those columns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The \"current model\" columns let you see how past data would look under the model you just selected. They exclude conversion actions not marked primary, include cross-device conversions by default, and include data your model choice does not affect, such as Display pay-for-conversions billing.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The article also covers setting a model for bidding. Google Ads does not detail how the model feeds bidding, so check that before assuming an effect on bids.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want a conversion action to credit ad interactions differently, for example moving an existing action to last click or data-driven attribution, and you want to preview the effect with the current model columns first.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need to restate past results, apply one choice across all conversion actions, or use an action type other than website or Google Analytics. It applies going forward and per action.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not plan around first click, linear, time decay or position-based models. They are no longer supported.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Google Ads covers choosing the model on an existing conversion action and comparing models. Setting it while creating a new action is mentioned but its steps are not documented.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Google Ads, open Goals, then Summary.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In the table, select the name of the conversion action you want to edit.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Edit settings.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Attribution model, then choose a model from the drop-down menu.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Save, then Done.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "To compare models first, open Goals, then Attribution, then Model comparison. Pick a Dimension, then choose models in the Compare and With drop-downs.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If you use cross-account conversion tracking at manager account level, select the attribution model in the manager account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Conversions and Cost / conv.: if you switch an action to a model that credits interactions differently, reported conversion counts for that action can shift, and Cost / conv. moves with them. The trade-off is that this is a change in attributed credit, not proof of extra incremental sales.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Trend comparisons: because the change applies only going forward, figures before and after the switch are not like for like. Use the current model columns to compare, remembering they include data your model choice does not affect.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "No comparable features on other platforms are documented, so no relationships are stated.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — About attribution models: https://support.google.com/google-ads/answer/6259715?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.ads.attribution",
+                "source_url": "https://support.google.com/google-ads/answer/6259715?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About attribution models",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.ads.attribution": "c8786d7a648e36e0ecd705fc98d6f342f41385515edb6163675cd8820386985b+c8786d7a648e36e0ecd705fc98d6f342f41385515edb6163675cd8820386985b+c8786d7a648e36e0ecd705fc98d6f342f41385515edb6163675cd8820386985b+c8786d7a648e36e0ecd705fc98d6f342f41385515edb6163675cd8820386985b"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T04:03:30.949286Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-18T04:03:30.949286Z"
+  }
+}

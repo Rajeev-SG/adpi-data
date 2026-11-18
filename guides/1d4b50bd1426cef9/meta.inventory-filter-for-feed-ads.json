@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.inventory-filter-for-feed-ads",
+    "name": "Inventory filter for Feed ads",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.brand_safety.inventory_filter.inventory-filter-for-feed-ads"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Inventory filter is a brand suitability control that sets how sensitive the surrounding content can be for your Feed ads. It steers placement next to organic content; it does not guarantee your brand standards are met.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For Feed ads it covers Facebook and Instagram feed ads, Reels feed ads and ads in Threads feed. You choose from three filter settings, and Expanded is the default.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.reels_suitability",
+                "source_url": "https://www.facebook.com/business/help/401717758239899",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Feed and in-content brand safety and suitability controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "On Facebook, Instagram and Threads, the filter excludes certain videos and Feed content according to the setting you pick.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Content that breaks Meta's Community Standards, such as full nudity, excessive violence, terrorist acts or fact-checked misinformation, is excluded by default whatever setting you choose.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta states there is no guarantee that all content and publishers will align with your own brand suitability standards.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The feature is rolling out gradually, so you may not see it in your account yet. Feed ads filtering is available only in 34 listed languages, including English, Spanish, French, German, Hindi, Japanese and Arabic; check the full list in the source before relying on it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Gradual rollout",
+              "Limited to 34 listed languages"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when your brand needs tighter control over how sensitive the organic content next to your Feed, Reels feed or Threads feed ads can be, and your ads run in a supported language.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.reels_suitability",
+                "source_url": "https://www.facebook.com/business/help/401717758239899",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Feed and in-content brand safety and suitability controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need guaranteed brand-safe delivery or exclusion of specific publishers, topics or content types. Meta says suitability controls offer no guarantee, and other tools such as block lists and topic exclusions exist separately.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.reels_suitability",
+                "source_url": "https://www.facebook.com/business/help/401717758239899",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Feed and in-content brand safety and suitability controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your audience is served in a language outside the supported list, or when the setting has not yet appeared in your account.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The Ads Manager path is documented only as far as opening the Inventory filter edit control; the names of the three settings other than the Expanded default are not given in Meta's documentation, so the steps stop there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager, create an ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In the ad set, under the Placements section, click Show more options.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Go to Inventory filter and click Edit.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Complete your ad as usual. Meta says this views or applies your settings. If you change nothing, you stay on the Expanded default.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Brand suitability: a stricter setting may reduce the share of impressions next to content you consider unsuitable, if that content is excluded by the chosen level. The trade-off is that it removes inventory, and Meta gives no guarantee of alignment.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "CPM, reach and cost per result: a stricter setting shrinks the eligible placements, so where auction competition for the remaining inventory rises, CPM and cost per result could rise and reach could fall. Test it against the default before applying it to all spend.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Two candidate features on other platforms are listed below; neither is a like-for-like match.",
+        "status": "inferred",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — About inventory filter: https://www.facebook.com/business/help/3001448133206080",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.brand_safety.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/3001448133206080",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About inventory filter",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Use inventory filter in Meta Ads Manager: https://www.facebook.com/business/help/252190302162738",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.inventory_filter",
+                "source_url": "https://www.facebook.com/business/help/252190302162738",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Use inventory filter in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — About Feed and in-content brand safety and suitability controls: https://www.facebook.com/business/help/401717758239899",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.reels_suitability",
+                "source_url": "https://www.facebook.com/business/help/401717758239899",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About Feed and in-content brand safety and suitability controls",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "ga.content-suitability-in-performance-max",
+        "name": "Content suitability in Performance Max",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Google's content theme exclusions set an inventory type (Maximum, Moderate or Limited) across YouTube, the Display Network and Google Video Partners, and channel exclusions cannot be applied at ad group or campaign level. Meta's filter applies to Feed ads placements with three settings.",
+        "context": "Both limit the sensitivity of content your ads can appear against, but they cover different inventory and have different levels, so do not treat the settings as interchangeable.",
+        "evidence": [
+          {
+            "source_id": "google.pmax.brand_suitability",
+            "source_url": "https://support.google.com/google-ads/answer/13607727?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "How to use brand suitability features in Performance Max",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.inventory-filters",
+        "name": "Brand safety inventory filters",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest's page describes letting advertisers understand what content appears near their ads, view campaign exposure levels and see how policies affect those settings. It does not state the same control levels or Feed-specific scope that Meta documents.",
+        "context": "Related brand safety idea, but Pinterest does not show an equivalent setting, so check Pinterest's own controls before planning around it.",
+        "evidence": [
+          {
+            "source_id": "pinterest.brand_safety.advertiser_controls",
+            "source_url": "https://business.pinterest.com/en-gb/brand-safety/",
+            "locator": null,
+            "source_site": "Pinterest Business Help",
+            "source_title": "Brand safety on Pinterest",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.brand_safety.inventory_filter": "195e18f527d64bcaa0b2b6efadf890d6da547878a492766ddc7f68ee298fa42c+195e18f527d64bcaa0b2b6efadf890d6da547878a492766ddc7f68ee298fa42c+195e18f527d64bcaa0b2b6efadf890d6da547878a492766ddc7f68ee298fa42c+195e18f527d64bcaa0b2b6efadf890d6da547878a492766ddc7f68ee298fa42c",
+        "meta.guide.inventory_filter": "c881ed5905fc59e8c737eca58c3767d151716e7d7a0259ae646ea4cf39b7b370+c881ed5905fc59e8c737eca58c3767d151716e7d7a0259ae646ea4cf39b7b370",
+        "meta.guide.reels_suitability": "540eedcccb38f7f88937dc21fc2f8b887e2fd69479faed185a14fb61508851ae+540eedcccb38f7f88937dc21fc2f8b887e2fd69479faed185a14fb61508851ae"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-18T07:53:57.111708Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.traffic-objective",
+    "name": "Traffic objective",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.image.traffic-objective"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Traffic is one of Meta's six Ads Manager campaign objectives. You choose it at campaign level to send people to a destination such as a website, app or messaging thread. It needs no conversion event, so it doesn't tell Meta to chase purchases or leads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Choose an objective",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Traffic",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Traffic is a supported objective for image ads. The objective you pick determines which placements and calls to action are available.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Supported objectives: 'Traffic'",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The old Traffic objective maps directly to the simplified Traffic objective, with no additional settings required.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The objective is set at campaign level, the top of the structure. Ad sets and ads beneath it share that overall goal, so you can test audiences, budgets and creatives inside one Traffic campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": "The three advertising levels in Meta Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": "How the advertising levels work together in Meta Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "With Traffic you choose a conversion location, which is where the outcome happens: Website, App, Messenger, WhatsApp, Calls or Instagram profile. No conversion event is required.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Traffic",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta also maps the old Messages objective to Traffic when the conversion location is Messenger or WhatsApp.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Ad goals in Ad Centre, Business Suite or Instagram, such as getting more website visitors, set the objective, conversion location and performance goal for you. In Ads Manager you choose these yourself.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Match ad goals to Ads Manager campaign objectives",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when your goal is to get people to a website, app, messaging thread, call or Instagram profile, and you have no conversion event set up or don't need one.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Traffic",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need purchases or leads. Those goals sit under Sales and Leads, which use conversion locations and events. Traffic needs no conversion event, so it isn't set up to optimise for them.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "(none)",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not assume Traffic recreates old Store traffic campaigns. Meta maps Store traffic to Awareness with Store locations features, and only for Pages with store locations set up.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents the objective choice and conversion location options only. It doesn't give the later menu paths, performance goal values or budget settings, so the steps stop there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager, create a new campaign and go to the campaign level, where the ad objective is set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": "Campaign level in Meta Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select Traffic from the six objectives offered: Awareness, Traffic, Engagement, Leads, App promotion and Sales.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Choose an objective",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose the conversion location where you want people to go: Website, App, Messenger, WhatsApp, Calls or Instagram profile.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Traffic",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Skip the conversion event. Traffic doesn't require one.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Traffic",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Assess visits when you select Website as the Traffic conversion location. This setup does not require a conversion event, so assess any follow-on sale separately.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": "da2a2d959695bf2784ac865c14e10a20d7313333f63ba8eab96c48ba4c463739",
+                "cleaned_sha256": "3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4"
+              },
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": "cd1534eaabc75aa08e3208b938809de1e4445098f6f7e7a84f6652effda15f78",
+                "cleaned_sha256": "bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "None of the other-platform candidates is a documented like-for-like counterpart to a destination-focused Traffic objective, so none is listed.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-09.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Image ad specifications: https://www.facebook.com/business/ads-guide/update/image",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — How to choose an ad objective in Meta Ads Manager: https://www.facebook.com/business/help/1438417719786914",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Available conversion locations and events by objective in Meta Ads Manager: https://www.facebook.com/business/help/2035196646663270",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create ad campaigns in Meta Ads Manager: https://www.facebook.com/business/help/621956575422138",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.image": "baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a",
+        "meta.guide.ads": "b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e+b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e",
+        "meta.guide.campaign": "3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4+3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4",
+        "meta.guide.conversion_locations": "bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88+bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:58:39.259090Z",
+    "source_checked_at": "2026-11-09T06:09:44.472014Z",
+    "verified_at": "2026-11-18T08:58:39.259090Z"
+  }
+}

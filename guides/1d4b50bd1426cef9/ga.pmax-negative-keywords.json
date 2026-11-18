@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.pmax-negative-keywords",
+    "name": "Negative keywords (Performance Max)",
+    "vendor": "Google Ads",
+    "platform": "Performance Max",
+    "capability_ids": [
+      "google.pmax.negative_keywords.performance-max-negative-keywords"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "What the feature is and where it applies.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Negative keywords in Performance Max prevent your ads from showing for search queries that contain those terms.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "They apply only to Search and Shopping inventory.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "How the exclusion works.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Queries that contain an added negative term are excluded from triggering your ads on Search and Shopping inventory, so the control works by excluding traffic rather than by bidding or signals you set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Because Performance Max automates where ads serve, negative keywords are the documented way to shape search query matching within the inventory they cover.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Whether negative keywords affect Performance Max placements outside Search and Shopping (for example other channels the campaign can serve on) is not stated by Google Ads.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "When exclusion is useful, drawn from the documented scope.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when queries containing certain terms are draining budget on Search or Shopping inventory and you want them excluded from future matching.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your concern is inventory outside Search and Shopping, since the control applies to Search and Shopping inventory only.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when a shared list of unwanted terms should apply account-wide, given the article documents both account-level and campaign-level addition.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The documented path to add and edit negative keywords.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Step 1: Go to Keywords within the Campaigns icon.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: Select the Negative keywords tab.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: Select the plus button to add negative keywords.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 4: Select your Performance Max campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 5: Add keywords one per line, or select an existing negative keyword list; a match type can be chosen using the appropriate symbols.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 6: Select Save to finish adding your keywords.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You can choose whether to add negative keywords to all campaigns or a specific Performance Max campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Editing is documented separately: select the keywords to modify, choose Edit, then Change keyword text, add keywords one per line, and select Apply.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "How to judge the control, with a conditional inference.",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Search terms report volume containing excluded terms: the causal path is that excluding queries containing your negative terms should reduce queries with those terms triggering your ads, so watch the share of impressions/clicks coming from queries containing excluded terms — but this is conditional, and any impression lost to exclusion is a potential reduction in volume, a real trade-off to monitor.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "No vendor uplift figures or benchmark outcomes are stated by Google Ads.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Cross-platform alternatives and related scoping notes.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The article documents adding negative keywords to a specific campaign, and documents account-level negative keywords as a separate topic.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-10-05.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — Negative keywords in Performance Max campaigns: https://support.google.com/google-ads/answer/15726455?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.pmax.negative_keywords",
+                "source_url": "https://support.google.com/google-ads/answer/15726455?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "Negative keywords in Performance Max campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.negative-keywords",
+        "name": "Negative keywords (Pinterest / Search)",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Same negative-keyword idea, but applied to a different platform's search inventory; a Pinterest negative keyword has no effect on Google queries.",
+        "context": "Both block ads from searches the advertiser names; the Pinterest feature controls Pinterest search only, while the Google Ads feature controls Google Search and Shopping queries served by Performance Max.",
+        "evidence": [
+          {
+            "source_id": "pinterest.search.keywords",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/keyword-targeting",
+            "locator": "Target specific keyword match types — 'Negative keywords let you exclude certain search terms from triggering your ads and can be set at the ad group.'",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Keyword targeting",
+            "raw_sha256": "236d5965bdff9db0b5fe8e73f00501da04177ff099fdd47536f355e7d3989191",
+            "cleaned_sha256": "da78602699f11a53974b173227e92c5ce82188552b19ae2ffbe300a93a39d3fa"
+          },
+          {
+            "source_id": "pinterest.brand_safety.advertiser_controls",
+            "source_url": "https://business.pinterest.com/en-gb/brand-safety/",
+            "locator": "\"Keyword exclusion: Brands can apply negative keywords to prevent their ads appearing in search queries that they don’t consider to be suitable to their brand.\"",
+            "source_site": "Pinterest Business Help",
+            "source_title": "Brand safety on Pinterest",
+            "raw_sha256": "775d8bd8ae701d1aad38642fabbe1bada714b8d298e0337a9f8ae31532634ac8",
+            "cleaned_sha256": "26be07c1099340664627c4bb4953c0aff1b77dec1c0dad374b2186a50b7101fd"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.search-negative-keywords",
+        "name": "Negative keywords (TikTok / Search Ads Campaign)",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "Same exclusion purpose on different platforms; the TikTok version is scoped per ad group with a documented 10,000-keyword cap.",
+        "context": "Both let advertisers exclude unwanted search queries; the TikTok feature caps the list at 10,000 per ad group, while Google Ads does not state a limit.",
+        "evidence": [
+          {
+            "source_id": "tiktok.search.keywords",
+            "source_url": "https://ads.tiktok.com/help/article/search-ads-keywords?lang=en",
+            "locator": "Negative keywords — \"Negative keywords ensure that no traffic is delivered to queries that match your selected negative keywords\"",
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "Search Ads keywords",
+            "raw_sha256": "62720eddeff562e9f3afb8c5867eaae32018039307f1ea02de3d786c88fede71",
+            "cleaned_sha256": "a66e27d43ffae5094233a1ba0c36cbb8a8f460fadcf1e94102adf3aa3fcd1465"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.pmax.negative_keywords": "a9b8473685d9bf84cdb92630ec4c791b83ec391e9d4ba5ace9ef029a718752a6+a9b8473685d9bf84cdb92630ec4c791b83ec391e9d4ba5ace9ef029a718752a6+a9b8473685d9bf84cdb92630ec4c791b83ec391e9d4ba5ace9ef029a718752a6+a9b8473685d9bf84cdb92630ec4c791b83ec391e9d4ba5ace9ef029a718752a6"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.796095Z",
+    "source_checked_at": "2026-10-05T06:04:47.965928Z",
+    "verified_at": "2026-11-17T23:26:30.796095Z"
+  }
+}

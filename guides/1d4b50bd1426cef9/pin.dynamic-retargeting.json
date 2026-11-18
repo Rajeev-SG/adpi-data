@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.dynamic-retargeting",
+    "name": "Dynamic retargeting",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.targeting.dynamic_retargeting.dynamic-retargeting-lookback-window"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "Dynamic retargeting lets advertisers re-engage Pinterest users who previously visited their site or left items in a basket.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Dynamic retargeting on Pinterest reaches people who have already visited your site or who have items sitting in their shopping basket.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It can retarget exact products or similar products to those a person engaged with while browsing on Pinterest.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "The Pinterest tag sends product-level events, and a lookback window decides who qualifies for retargeting.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The Pinterest tag tracks conversion events (Checkout, Addtocart, Pagevisit) and passes back product IDs that must match catalogue product IDs.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Retargeting is focused by a lookback timeframe made up of a start and end date and an event type to focus on.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The lookback value defines who is targeted: with a 7-day window, you target anyone who engaged with a Products page in the past 7 days.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "Best suited to advertisers with an active catalogue, tag events, and sufficient recent site activity.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want to re-engage shoppers who visited your site or abandoned a basket with the exact or similar products they viewed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your traffic volume is low: you must meet the required number of Pagevisit and Addtocart events in the last seven days before dynamic retargeting can run.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If you do not meet the requirements, the guide's fallback is adding the Pinterest Tag or using standard audience targeting instead.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Prerequisites are a verified catalogue, a correctly configured Pinterest tag and sufficient recent events; setup runs through Ads Manager or Bulk Editor.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Upload your catalogue and verify that it is active with your products.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Set up the Pinterest tag on your website, tracking Checkout, Addtocart and Pagevisit, with product ID event data matching your catalogue IDs.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Ensure you have met the necessary number of Pagevisit and Addtocart events in the last seven days.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In Ads Manager: under Ads, click Create campaign; select the Sales objective; under Targeting select Dynamic retargeting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select a lookback timeframe with a start and end date and an event type to focus on.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In Advanced options, set Ad group placement to All or Browse; dynamic retargeting is not available for Search.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Finish selecting Product groups, Budget and schedule, and Optimisation and delivery details, then review and click Publish.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Alternatively in Bulk Editor: download the sample shopping sheet, fill the Ad Placement column with ALL or BROWSE and the Dynamic Retargeting Lookback column with 7, 14, 30, 60 or 180 days, then upload the template.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "Optimisation choices and the reach trade-off of lookback windows give the measurable levers; no vendor uplift figures are documented.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "With a consideration objective you can optimise for Pin clicks or outbound clicks; with a leads objective you can optimise for leads.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The chosen lookback window should plausibly influence retargeting reach: a longer window covers more past engagers but may include less recent, possibly lower-intent shoppers, so watch audience changes and click/outbound-click performance when testing windows.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Potential audience size will not be available to view once dynamic retargeting is selected for a campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Not applicable here.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "All claims come from Pinterest's official Business Help article on setting up dynamic retargeting. Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Centre — Set up dynamic retargeting: https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.targeting.dynamic_retargeting",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+                "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Set up dynamic retargeting",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.website-custom-audience",
+        "name": "Website Custom Audiences",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Website Custom Audiences reaches people who visited the advertiser's site using Meta pixel tracking to build a targeted audience for a targeted ad; Pinterest dynamic retargeting additionally ties catalogue product IDs to tag events so exact or similar products can be retargeted on Pinterest.",
+        "context": "Reaching previous website visitors with product-focused ads on Meta vs Pinterest",
+        "evidence": [
+          {
+            "source_id": "meta.custom_audiences.website.about",
+            "source_url": "https://www.facebook.com/business/help/610516375684216",
+            "locator": null,
+            "source_site": "Meta Business Help Centre",
+            "source_title": "About Website Custom Audiences",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          },
+          {
+            "source_id": "pinterest.targeting.dynamic_retargeting",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/set-up-dynamic-retargeting",
+            "locator": "**Select a lookback timeframe** by choosing a start and end date and an event type to focus on",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Set up dynamic retargeting",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.targeting.dynamic_retargeting": "ad153001a1f12998d58bf6cfc34763f7a4914e784a873542af2a280b11abe8c0+ad153001a1f12998d58bf6cfc34763f7a4914e784a873542af2a280b11abe8c0"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.289231Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.289231Z"
+  }
+}

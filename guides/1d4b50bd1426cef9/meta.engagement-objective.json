@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.engagement-objective",
+    "name": "Engagement objective",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.image.engagement-objective"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Engagement is one of Meta's six campaign objectives. You pick it at campaign level, then choose where the engagement happens, such as on your ad or in a messaging app. The choice also decides which placements and calls to action you can use.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Supported objectives: 'Engagement'",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": "Campaign level in Meta Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It replaces the older Engagement objective one for one. Some older objectives also map onto it: video views (as engagement type), messages (messaging apps) and conversions (website or app).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Engagement is a goal you set at campaign level. It is not an audience restriction. Most objectives now ask for a conversion location, and some also ask for a conversion event.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": "Campaign level in Meta Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For Engagement, the conversion location can be on your ad (video views, post engagement or event response), a messaging app (Messenger, WhatsApp or Instagram Direct), your website, your app, or a Facebook Page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Engagement",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "On your ad, in a messaging app or on a Facebook Page, no conversion event is required. Website and app locations offer events such as add to wishlist, contact, subscribe or view content.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Engagement",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when your goal is interaction rather than a sale or lead: video views, post engagement, event responses, conversations in Messenger, WhatsApp or Instagram Direct, or lower-funnel website or app actions such as add to wishlist.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Engagement",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need purchases, leads or catalogue sales. The mapping table points those goals to the Sales and Leads objectives, and ThruPlay or 2-second video views can also sit under Awareness.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Check the objective before you build creative. The objective determines which placements and calls to action are available for an image ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Supported objectives: 'Engagement'",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta names the objective and the conversion location choices, but not the exact menu labels or defaults. This path stops where the documentation does.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager, create a new campaign and choose Engagement from the six objectives.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Choose an objective",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose the conversion location where you want the engagement to happen: on your ad, a messaging app, website, app or Facebook Page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Engagement",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If you chose on your ad, select an engagement type: video views, post engagement or event response.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Engagement",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If you chose a messaging app, select Messenger, WhatsApp or Instagram Direct.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Engagement",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If you chose website or app, select the conversion event you want people to take.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Engagement",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per engagement, such as cost per video view or per post interaction, may fall if you pick the engagement type that matches your real goal, because delivery is steered to that action. The trade-off is that it may bring fewer purchases or leads than a Sales or Leads campaign.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Engagement",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Conversation volume in messaging apps may rise if you set a messaging conversion location. Conversation quality and downstream sales are not covered by this objective, so check them separately. Nothing here guarantees an uplift.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": "Recreate a campaign that used an original ad objective in Ads Manager",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "The other-platform candidates cover other objectives or products, and none documents a like-for-like engagement objective on another platform.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-09.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Image ad specifications: https://www.facebook.com/business/ads-guide/update/image",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — How to choose an ad objective in Meta Ads Manager: https://www.facebook.com/business/help/1438417719786914",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.campaign",
+                "source_url": "https://www.facebook.com/business/help/1438417719786914",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "How to choose an ad objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Available conversion locations and events by objective in Meta Ads Manager: https://www.facebook.com/business/help/2035196646663270",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create ad campaigns in Meta Ads Manager: https://www.facebook.com/business/help/621956575422138",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.image": "baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a+baca566dc6b71fc6430c37359cfb24341622401824c6134d6925fa7ba961701a",
+        "meta.guide.ads": "b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e+b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e",
+        "meta.guide.campaign": "3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4+3b25796e9259fc6f5f7b25ce77914a1ed03af6eb93fc5c869f5dd05b98189bf4",
+        "meta.guide.conversion_locations": "bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88+bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-09T06:09:44.472014Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

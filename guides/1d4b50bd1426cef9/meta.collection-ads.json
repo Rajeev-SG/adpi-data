@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.collection-ads",
+    "name": "Collection ads",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.collection.collection-ad-format"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Collection ads pair a cover image or video with product images and open a full-screen Instant Experience when tapped. The Instant Experience is mandatory, so build it before the ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Facebook Feed",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In Facebook Feed, the ad shows a cover image or video followed by three product images. The cover image or video uses the first media asset from your Instant Experience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Facebook Feed",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is a creative format, not an audience or bidding control. It changes what people see and where they land, not who is targeted.",
+            "status": "inferred",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Tapping the cover image or video on mobile opens a full-screen Instant Experience where people can discover, browse and buy products.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Tapping one of the smaller product images opens a product page that you provide, which pushes people towards purchase.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You can build the Instant Experience from the Storefront, Lookbook or Customer Acquisition templates, or make a custom one.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Facebook Feed",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You set it at ad level. The objective is set at campaign level, and audience, placement and budget are shared at ad set level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you sell a range of products or services to mobile shoppers and want people to browse a visual, full-screen experience before reaching a product page.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Facebook Feed",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you cannot build or maintain an Instant Experience, or have no product pages to link to. The Instant Experience and a landing page URL are both required.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Technical requirements",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The Format option in Ad setup may no longer list collection for you. You can still select it in Ad creative under Format display options, so do not assume it has been withdrawn.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "The documented path covers the main steps. The Conversion options, template list and Ad creative fields are not itemised by Meta, so the steps stop there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Open Meta Ads Manager and click + Create.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": "Before you begin",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Select an objective: Awareness, Traffic, Engagement, Leads or Sales. Then click Continue.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": "Before you begin",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "At ad set level, in the Conversion section, select a conversion location or performance goal. Some objectives need extra settings.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": "Before you begin",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "At ad level, in Ad setup, select Single image or video or Carousel under Format.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": "Before you begin",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In the Destination section, search for an existing Instant Experience, or click + Create new and choose a template.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": "Before you begin",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Complete your Instant Experience and click Done.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": "Before you begin",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Complete the Ad creative section. Keep primary text to 125 characters, the headline to 40, and supply a landing page URL.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": "Text recommendations",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Check the Ad preview across placements, finish the remaining ad settings and click Publish.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": "Before you begin",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Click-through rate and product page visits: if the cover and product images match what shoppers want, more people may tap through. The trade-off is that a weak cover asset or a slow Instant Experience can waste those clicks.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Cost per purchase or lead: if the in-experience browsing shortens the path to a product page, conversion rate may rise and cost per result may fall. This depends on the product pages and the objective. The cost is extra build and maintenance effort, and nothing guarantees an uplift.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Pinterest and Google offer partial counterparts. No Microsoft counterpart is documented.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-18.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Collection ad specifications: https://www.facebook.com/business/ads-guide/update/collection",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.collection",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/collection",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Collection ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create a collection ad from Meta Ads Manager: https://www.facebook.com/business/help/1470043529695523",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.collection_creative",
+                "source_url": "https://www.facebook.com/business/help/1470043529695523",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create a collection ad from Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create ad campaigns in Meta Ads Manager: https://www.facebook.com/business/help/621956575422138",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "pin.max-width-collections-ads",
+        "name": "Max width collections ads",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Pinterest uses a full-width hero image or video with secondary pins beneath it. The hero and each secondary pin go to their own destination URLs. Meta's format instead opens a full-screen Instant Experience from the cover.",
+        "context": "Both pair a hero asset with secondary product items on mobile. Build the creative separately for each platform.",
+        "evidence": [
+          {
+            "source_id": "pinterest.formats.collection",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/max-width-collection-ads",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Max Width collection ads",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.shopping-ads",
+        "name": "Shopping ads",
+        "vendor": "Google Ads",
+        "kind": "related_not_equivalent",
+        "difference": "Google generates shopping ads from Merchant Center product data. They show a product photo, title, price and store name, and run in Shopping or Performance Max campaigns. Meta's collection ads use creative you design and a required Instant Experience.",
+        "context": "Both promote products, but the creative source and the experience after the click differ.",
+        "evidence": [
+          {
+            "source_id": "google.shopping.standard",
+            "source_url": "https://support.google.com/google-ads/answer/2454022?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "About Shopping ads",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.collection": "4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48+4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48+4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48+4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48+4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48+4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48+4e799b876d606da3f3ec74869c887c75e00d855bc6facffbcf6f81b514ef5d48",
+        "meta.guide.ads": "b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e+b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e",
+        "meta.guide.collection_creative": "e2a5ce240b0f300d6948da66560a6f31e99f5a980b2582443c1d45f77774af79+e2a5ce240b0f300d6948da66560a6f31e99f5a980b2582443c1d45f77774af79"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-18T07:53:57.111708Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}

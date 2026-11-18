@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.lookalike-segments",
+    "name": "Lookalike segments (Demand Gen)",
+    "vendor": "Google Ads",
+    "platform": "Demand Gen",
+    "capability_ids": [
+      "google.lookalike_segments.lookalike-as-a-suggestion",
+      "google.lookalike_segments.lookalike-segment-creation",
+      "google.lookalike_segments.lookalike-segment-creation-flow",
+      "google.lookalike_segments.constraint.lookalike-segments-as-targeting-constraint"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Lookalike segments in Demand Gen campaigns are evolving from being limited to similarity thresholds to acting as audience suggestions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "Use Lookalike segments to grow your audience",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The change applies only to Lookalike segments attached to Demand Gen campaigns in Google Ads; it does not affect Lookalike audiences on other campaign types such as Video brand campaigns or in other buying doors like Display & Video 360.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "How does this change affect the Lookalike segments used on other campaign types or platforms?",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The Lookalike-as-a-suggestion update becomes available to advertisers starting March 2026, via a phased rollout throughout 2026.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "applicable condition (market)",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In suggestion mode, the seed list behind the Lookalike segment acts as a signal for Google AI to optimize toward campaign goals such as conversions or CPA, instead of the segment being limited to similarity-threshold targeting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "The Lookalike flow for creating and appending to Demand Gen campaigns still remains the same as before...",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A newly created Lookalike segment takes about 72 hours to populate, regardless of whether it is targeted in an active campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "applicable condition (other)",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If the advertiser opts out of the suggestion-mode update, the original Lookalike behavior is retained as a Targeting Constraint rather than as an AI suggestion signal.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments.constraint",
+                "source_url": "https://support.google.com/google-ads/answer/16902001?hl=en",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments in Demand Gen campaigns as a Targeting Constraint",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when your goal is to find more valuable customers and grow your reach in Demand Gen campaigns, and you are comfortable letting the seed list guide Google AI toward your campaign goals.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "Use Lookalike segments to grow your audience",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need a segment that is immediately targetable: a newly created segment takes about 72 hours to populate even before it is used in an active campaign, so plan launches around that delay.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "The Lookalike flow for creating and appending to Demand Gen campaigns still remains the same as before...",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need the original similarity-threshold behavior as a hard targeting constraint without opting out — retaining that behavior requires submitting the opt-out form.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments.constraint",
+                "source_url": "https://support.google.com/google-ads/answer/16902001?hl=en",
+                "locator": "While the default behavior for Lookalike segments in Demand Gen campaigns will evolve towards a suggestion mode, you can retain the original Lookalike segments behavior as a Targeting Constraint by opting-out of the new update",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments in Demand Gen campaigns as a Targeting Constraint",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In the Demand Gen ad group's Audience settings, add an audience and select New Audience.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments.constraint",
+                "source_url": "https://support.google.com/google-ads/answer/16902001?hl=en",
+                "locator": "How to create Lookalike segments",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments in Demand Gen campaigns as a Targeting Constraint",
+                "raw_sha256": "e3c9340a3f97c4dbd9ad7d70bb5c93ae953724038cdf2196a4a62dcd56fd87fe",
+                "cleaned_sha256": "f94cb381274ffe7d2ce471e392984609b12443182b626f05a1ee0406601d0cff"
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Open Add or create Lookalike segment, then select New Segment in the dialog.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments.constraint",
+                "source_url": "https://support.google.com/google-ads/answer/16902001?hl=en",
+                "locator": "How to create Lookalike segments",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments in Demand Gen campaigns as a Targeting Constraint",
+                "raw_sha256": "e3c9340a3f97c4dbd9ad7d70bb5c93ae953724038cdf2196a4a62dcd56fd87fe",
+                "cleaned_sha256": "f94cb381274ffe7d2ce471e392984609b12443182b626f05a1ee0406601d0cff"
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Name the segment and choose or upload at least one seed list. You can add up to 10.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments.constraint",
+                "source_url": "https://support.google.com/google-ads/answer/16902001?hl=en",
+                "locator": "How to create Lookalike segments",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments in Demand Gen campaigns as a Targeting Constraint",
+                "raw_sha256": "e3c9340a3f97c4dbd9ad7d70bb5c93ae953724038cdf2196a4a62dcd56fd87fe",
+                "cleaned_sha256": "f94cb381274ffe7d2ce471e392984609b12443182b626f05a1ee0406601d0cff"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Google positions the update as helping advertisers find more valuable customers and improve campaign performance, with conversions and CPA named as optimization goals.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "Use Lookalike segments to grow your audience",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Track conversions and cost per acquisition (CPA) for Demand Gen campaigns using a Lookalike segment: the documented mechanism is that the seed list becomes a signal for AI optimization toward those goals, so conversion volume and CPA are the metrics most sensitive to how well the suggestion mode works.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "Use Lookalike segments to grow your audience",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Under the suggestion-mode behavior, where the seed list acts as a signal for AI optimization toward conversions or CPA"
+            ]
+          },
+          {
+            "text": "Treat reach growth as the trade-off: under suggestion mode the seed list guides optimization rather than constraining the audience to a similarity threshold, so you may gain broader reach but give up direct control over how closely the audience matches the seed — measure whether conversions and CPA hold or improve against that looser constraint. No vendor uplift figures are provided, so any improvement must be measured in your own campaign data.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "Use Lookalike segments to grow your audience",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Compared with the original similarity-threshold targeting behavior"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The prior minimum seed list size requirement of 100 users for Lookalike segment creation no longer applies, so smaller customer lists can now be used as seeds.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "The minimum seed list size requirement of 100 users for Lookalike segment creation is no longer true",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-10-05.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — Use Lookalike segments to grow your audience: https://support.google.com/google-ads/answer/13541369?hl=en States the transition of Demand Gen Lookalike segments to suggestion mode, the phased 2026 rollout, the March 2026 availability, the removal of the 100-user minimum seed requirement, the ~72-hour population time, and that the change is limited to Demand Gen campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments",
+                "source_url": "https://support.google.com/google-ads/answer/13541369?hl=en",
+                "locator": "Use Lookalike segments to grow your audience",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments to grow your audience",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google Ads Help — Use Lookalike segments in Demand Gen campaigns as a Targeting Constraint: https://support.google.com/google-ads/answer/16902001?hl=en States that opting out of the suggestion-mode update via the opt-out form retains the original Lookalike behavior as a Targeting Constraint.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.lookalike_segments.constraint",
+                "source_url": "https://support.google.com/google-ads/answer/16902001?hl=en",
+                "locator": "While the default behavior for Lookalike segments in Demand Gen campaigns will evolve towards a suggestion mode, you can retain the original Lookalike segments behavior as a Targeting Constraint by opting-out of the new update",
+                "source_site": "Google Ads Help",
+                "source_title": "Use Lookalike segments in Demand Gen campaigns as a Targeting Constraint",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.lookalike-audiences",
+        "name": "Lookalike Audiences",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Meta's Lookalike Audiences give the advertiser a percentage-range control over how closely the new audience matches the source audience, with smaller percentages matching the source more closely and larger ones creating a bigger, broader audience; Google Demand Gen Lookalike segments are evolving to suggestion mode where the seed list acts as a signal for AI optimization rather than a similarity-threshold control.",
+        "context": "Cross-platform comparison of lookalike-style prospecting features; different vendors and documentation.",
+        "evidence": [
+          {
+            "source_id": "meta.lookalike_audiences",
+            "source_url": "https://www.facebook.com/business/help/164749007013531",
+            "locator": "\"When you create your lookalike audience, you can use a percentage range to choose how closely you want your new audience to match your source audience.\"",
+            "source_site": "Meta Business Help Centre",
+            "source_title": "About Lookalike Audiences",
+            "raw_sha256": "c4bf5408484933d23a3d5594d2983698bedd0f7f27df37ddc589bd6d373b87aa",
+            "cleaned_sha256": "b35f1dac4558cdff800133aed1926d7f80d9f70f659f0bfc4bea5cc4b5a65d12"
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.actalike-audiences",
+        "name": "Actalike audiences",
+        "vendor": "Pinterest",
+        "kind": "partial_alternative",
+        "difference": "Pinterest's Actalike audiences let the advertiser select the country and a percentage range of people to target and exclude the source audience from the new audience; Google Demand Gen Lookalike segments in suggestion mode use the seed list as an AI signal for campaign goals instead of offering similarity-percentage targeting.",
+        "context": "Cross-platform comparison of lookalike-style prospecting features; different vendors and documentation.",
+        "evidence": [
+          {
+            "source_id": "pinterest.targeting.overview",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/targeting-overview",
+            "locator": "Targeting options table, row 'Actalike audience': \"Reach new people who behave similarly to one of your existing audiences.\"",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Targeting overview",
+            "raw_sha256": "f19bcdf212fb4a1fac559d18253664915ce45f59746d2a9fb49e1083b8e866e7",
+            "cleaned_sha256": "2416223d61580e410902c5f85e5f81518185ecba00b673f0fa88a90d032db5a1"
+          },
+          {
+            "source_id": "pinterest.audience.targeting_setup",
+            "source_url": "https://help.pinterest.com/en/business/article/audience-targeting",
+            "locator": "\"Actalike — Actalike targeting helps you reach people similar to one of your existing audiences.\"",
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Set up audience targeting",
+            "raw_sha256": "0f3b08d95b8f7d6cfe3d5ddfe2c64a7f9e90f7efcef996db71ec625ceb51da14",
+            "cleaned_sha256": "ad46a2f1300d3dac1d14d8ffbb8e547559fd968f7e4ad7f5e774213810f86f56"
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "google.lookalike_segments": "df6f213b5a69943c9643901a3f84cac1c877e4c11db67c62a9596584b0da3345+df6f213b5a69943c9643901a3f84cac1c877e4c11db67c62a9596584b0da3345+4dc8a5a9baf29f98850fa89aecbfb7705c9e78e4d34bf7bcaec40c8206ab52e0+4dc8a5a9baf29f98850fa89aecbfb7705c9e78e4d34bf7bcaec40c8206ab52e0+4dc8a5a9baf29f98850fa89aecbfb7705c9e78e4d34bf7bcaec40c8206ab52e0+4dc8a5a9baf29f98850fa89aecbfb7705c9e78e4d34bf7bcaec40c8206ab52e0+df6f213b5a69943c9643901a3f84cac1c877e4c11db67c62a9596584b0da3345+df6f213b5a69943c9643901a3f84cac1c877e4c11db67c62a9596584b0da3345+4dc8a5a9baf29f98850fa89aecbfb7705c9e78e4d34bf7bcaec40c8206ab52e0+4dc8a5a9baf29f98850fa89aecbfb7705c9e78e4d34bf7bcaec40c8206ab52e0",
+        "google.lookalike_segments.constraint": "f94cb381274ffe7d2ce471e392984609b12443182b626f05a1ee0406601d0cff+f94cb381274ffe7d2ce471e392984609b12443182b626f05a1ee0406601d0cff"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.399016Z",
+    "source_checked_at": "2026-10-05T06:04:47.965928Z",
+    "verified_at": "2026-11-17T23:38:24.273950Z"
+  }
+}

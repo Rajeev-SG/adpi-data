@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.browse-placement",
+    "name": "Browse placement",
+    "vendor": "Pinterest",
+    "platform": "Paid Media",
+    "capability_ids": [
+      "pinterest.placements.browse-placement"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Browse placement shows your Pinterest ads while people browse their home feeds and related Pins.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Browse: Show your ads as people browse their home feeds and related Pins",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is one of three ad group placement options on Pinterest: Browse, Search, or All (both).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Placement options list",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest recommends targeting all placements by default to maximise reach, and notes All is the default ad group setting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Note on default placement",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Placement targeting specifies where your ads appear on Pinterest; selecting Browse restricts delivery to browsing surfaces rather than search results.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Placement targeting intro",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "As a signal, targeting must comply with Pinterest Advertising Guidelines: non-compliant targeting triggers an Ads Manager notification and the ad is not distributed until re-approved, with review taking up to 24 hours.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Ad review process",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when you want to reach people while they passively explore their home feeds and related Pins, rather than while they search with a specific query in mind.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Browse placement description",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your goal depends on capturing search-driven intent; the Search placement or All (recommended) covers both contexts.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Note on default placement",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Restricting to Browse narrows reach compared with the default All setting, which is recommended to maximise chances of reaching people across all areas of Pinterest.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Note on default placement",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager, log in to your Pinterest business account and click the hamburger icon at the top left.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Add placement targeting in Ads Manager",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Under Manage campaigns, click Create campaign, then click Manual campaign and Get started.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Add placement targeting in Ads Manager",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Click New ad group from the left-hand side navigation, then click Targeting.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Add placement targeting in Ads Manager",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Scroll down to Advanced options, and under Ad group placement select All (recommended), Browse, or Search.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Advanced options",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Continue with Budget and schedule, Optimisation and delivery, and Ads, review your information, then click Publish.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Add placement targeting in Ads Manager",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "In Bulk Editor, download a sample sheet, fill in column Z (Ad placement) with SEARCH, BROWSE, or leave it blank to target all placements, then upload the template.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Add placement targeting in Bulk Editor",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "After launch, campaigns are reviewed against Pinterest Advertising Guidelines and distribution begins only once approved; review can take up to 24 hours.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Ad review process",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Region check: Pinterest Ads are not available in all regions, and the page may display a notice that Ads may not yet be available in your region.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Region availability notice",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Pinterest Ads are not available in all regions"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "A useful KPI to watch is impressions and delivery within browse placements: because this setting controls where ads are shown (home feeds and related Pins), a change in delivery reflects the narrower placement. The causal path is conditional: the mechanism affects where impressions serve, and any downstream performance effect on clicks or conversions should be verified in your own reporting rather than assumed.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Browse: Show your ads as people browse their home feeds and related Pins",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Trade-off: restricting to Browse may reduce total reach versus the default All placement, which Pinterest recommends to maximise chances of reaching people across all areas of Pinterest.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Note on default placement",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Centre — Ad placements: https://help.pinterest.com/en-gb/business/article/placement",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Placement targeting overview and setup steps",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest Help Centre — Ad placements: https://help.pinterest.com/en-gb/business/article/placement",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.placements",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/placement",
+                "locator": "Ad review process",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Ad placements",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "meta.facebook-feed-placement",
+        "name": "Facebook Feed placement",
+        "vendor": "Meta",
+        "kind": "partial_alternative",
+        "difference": "Facebook Feed is a selectable placement for image ads on Meta's platform, while Browse placement places ads in Pinterest home feeds and related Pins on Pinterest.",
+        "context": "Browse placement is Pinterest's feed-surfacing option; Facebook Feed is Meta's home-stream placement.",
+        "evidence": [
+          {
+            "source_id": "meta.ads.guide.image",
+            "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+            "locator": null,
+            "source_site": "Meta Business Help Centre",
+            "source_title": "Image ad specifications",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "tt.automatic-placement",
+        "name": "Automatic placement",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "Automatic placement is a default set for Smart+ ad groups with placements selected automatically, whereas Pinterest Browse is a manually selected specific placement (with Pinterest recommending All by default).",
+        "context": "Browse is a specific placement choice on Pinterest; TikTok's Automatic placement lets the platform choose placements.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.updates",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About upgrades to Smart+",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.placements": "a4e0b6054b12bdc6577b04ee0742267bc4fb1979507e082b7f4fb18e3b594d67+a4e0b6054b12bdc6577b04ee0742267bc4fb1979507e082b7f4fb18e3b594d67+a4e0b6054b12bdc6577b04ee0742267bc4fb1979507e082b7f4fb18e3b594d67+a4e0b6054b12bdc6577b04ee0742267bc4fb1979507e082b7f4fb18e3b594d67"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.455343Z",
+    "source_checked_at": "2026-09-20T10:43:14.625087Z",
+    "verified_at": "2026-11-17T23:26:30.455343Z"
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.conversion-location",
+    "name": "Conversion location",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.guide.image.on-ad-conversion-location"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Conversion location is where you want people to take the action your campaign is built around. For image ads it is 'On your ad', and for some objectives Meta picks it for you, so you may never see a choice.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "### Choose a conversion location: \"On your ad\"",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Most of the updated objectives require you to choose a conversion location and then a conversion event. Not every location needs an event.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The location tells Meta where your desired business outcome will happen. The conversion event then tells Meta which action you want your audience to take. The two are chosen in that order.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The options you see depend on your objective. Awareness, for example, uses 'On your ad' with no selection and no conversion event required.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Awareness",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "For some objectives the location is selected automatically, so it acts as an automatic setting rather than a buyer control there.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "applicable condition (other)",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Use it when you set up a new campaign and need to state where the result should happen, so the conversion event options that follow match your goal.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your objective is Awareness or another objective that auto-selects the location. There you have no choice to make, and it is not a lever for steering delivery.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": "Awareness",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "applicable condition (other)",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents the order of choices but not the exact screen or menu label where the location is set, so this path stops there.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "In Ads Manager, create a new campaign and choose your objective from the six available.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If your objective offers a choice, select the conversion location. For image ads this is 'On your ad'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": "Choose a conversion location",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "If your chosen location needs one, select the conversion event that matches the action you want.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Assess the count of the conversion event you select where one is supported. With Awareness, the location is On your ad and no conversion event is required, so use a measure of the Awareness goal instead.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": "cd1534eaabc75aa08e3208b938809de1e4445098f6f7e7a84f6652effda15f78",
+                "cleaned_sha256": "bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88"
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "The only candidate, Google Shopping location targeting, restricts where ads show geographically, which is a different idea from the place where a person takes action, so no real counterpart is supplied.",
+        "status": "not_documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-15.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta Business Help Centre — Image ad specifications: https://www.facebook.com/business/ads-guide/update/image",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.guide.image",
+                "source_url": "https://www.facebook.com/business/ads-guide/update/image",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Image ad specifications",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Available conversion locations and events by objective in Meta Ads Manager: https://www.facebook.com/business/help/2035196646663270",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.conversion_locations",
+                "source_url": "https://www.facebook.com/business/help/2035196646663270",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Available conversion locations and events by objective in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — Create ad campaigns in Meta Ads Manager: https://www.facebook.com/business/help/621956575422138",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.ads",
+                "source_url": "https://www.facebook.com/business/help/621956575422138",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "Create ad campaigns in Meta Ads Manager",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.guide.image": "d70b1bd61b013b84b77f7931eb09f99c0f6b8f9c51f7881ebc933567fd34c342+d70b1bd61b013b84b77f7931eb09f99c0f6b8f9c51f7881ebc933567fd34c342+d70b1bd61b013b84b77f7931eb09f99c0f6b8f9c51f7881ebc933567fd34c342+d70b1bd61b013b84b77f7931eb09f99c0f6b8f9c51f7881ebc933567fd34c342",
+        "meta.guide.ads": "b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e+b69cb470431f6ba931457e313eb6ba4bc74af0a34dd23513dc01441fd557d97e",
+        "meta.guide.conversion_locations": "bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88+bf7c5ec5af4268ed5717cd87931efdaf5608e7d00d8b8f189605044bde05bf88"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:58:39.259090Z",
+    "source_checked_at": "2026-11-15T22:30:36.891800Z",
+    "verified_at": "2026-11-18T08:58:39.259090Z"
+  }
+}

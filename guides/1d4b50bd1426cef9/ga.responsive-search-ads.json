@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "ga.responsive-search-ads",
+    "name": "Responsive search ads",
+    "vendor": "Google Ads",
+    "platform": "Search",
+    "capability_ids": [
+      "google.search.rsa.responsive-search-ads"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Responsive search ads let you create an ad that adapts to show more relevant messages to potential customers.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "About responsive search ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "You enter multiple headlines and descriptions, and Google Ads tests different combinations over time and learns which perform best.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "About responsive search ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "You provide up to 15 headlines and 4 descriptions (minimum 3 headlines and 2 descriptions) plus a final URL and display path.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "How it works",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google Ads assembles the text into multiple ad combinations, serving at least one headline and one description per ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "How it works",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Headline 1 and Description 1 usually appear when the ad is served; the second headline, third headline and second description may appear based on predicted performance or available space, and are not guaranteed.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Will all of the text appear",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "By default assets can appear in any order; pinning forces an asset into a specific position. Pinning reduces the number of assets matched to searches, is not recommended for most advertisers, and can lower Ad Strength.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Pin headlines and descriptions",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you want your ad text to adapt more closely to potential customers' search terms, which may improve campaign performance.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "About responsive search ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you need to guarantee specific text, such as a legal disclaimer, by pinning it to Headline position 1, Headline position 2, or Description position 1.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Pin headlines and descriptions",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when your messaging must always appear in a fixed order without variation — unpinned assets can appear in any combination, and pinning everything reduces the matching pool and can affect Ad Strength.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Pin headlines and descriptions",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when extended text fields must always show: Headline 2, Headline 3 and Description 2 are not guaranteed to appear and may be shortened, especially when call assets or the Display Network reduce space.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Will all of the text appear",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "To pin: create or edit a responsive search ad, select the pin icon next to the headline or description, choose the position, then select Save.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Pin headlines and descriptions",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Implement at least 2 responsive search ads with 'Good' or 'Excellent' Ad Strength per ad group, with a unique final URL for each ad.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "About responsive search ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Text that must appear in every ad must be included in Headline 1 or Description 1, or pinned to Headline position 1, Headline position 2, or Description position 1.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Will all of the text appear",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "On the 'Ads' page you can see the same performance metrics as other text ads; the stats table shows totals for all ad combinations created from your entered headlines and descriptions.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Report on performance",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "To isolate responsive search ads in reporting: go to Campaigns, use the dropdown to select Attributes, then Ad type, and check the box next to 'Responsive search ad'.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Report on performance",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Removing or editing headlines or descriptions can change which ads serve and may impact performance.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "Pin headlines and descriptions",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "A useful signal to watch is conversions and clicks per ad — because the system learns which combinations perform best, gradual improvement in conversions at a similar cost per conversion suggests the testing is working in your account; the trade-off is that heavy pinning limits this learning.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "About responsive search ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Google Ads' combination testing is learning-based; the payoff depends on query mix and enough serving volume for combinations to be tested."
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "No candidate alternatives are documented, so no cross-platform relationships can be stated.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-10-26.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Google Ads Help — About responsive search ads: https://support.google.com/google-ads/answer/7684791?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.rsa",
+                "source_url": "https://support.google.com/google-ads/answer/7684791?hl=en",
+                "locator": "About responsive search ads",
+                "source_site": "Google Ads Help",
+                "source_title": "About responsive search ads",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "google.search.rsa": "ac251844151614c5c8a66e8a26d15905ea5b7050df1724c03b8191c57d8c48ce+ac251844151614c5c8a66e8a26d15905ea5b7050df1724c03b8191c57d8c48ce+ac251844151614c5c8a66e8a26d15905ea5b7050df1724c03b8191c57d8c48ce"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.600301Z",
+    "source_checked_at": "2026-10-26T06:04:49.267270Z",
+    "verified_at": "2026-11-17T23:26:30.600301Z"
+  }
+}

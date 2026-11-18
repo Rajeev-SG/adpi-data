@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "pin.performance-plus-creative",
+    "name": "Performance+ creative",
+    "vendor": "Pinterest",
+    "platform": "Performance+",
+    "capability_ids": [
+      "pinterest.performance_plus.pinterest-performance-creative"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Performance+ creative provides automated creative solutions that create ads across multiple Pinterest formats and optimise ads according to campaign objectives.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Performance+ creative overview",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is available for both Performance+ Sales campaigns and standard (normal) Sales campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Availability note",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It bundles three features: creative optimisations, image resizing and AI-generated backgrounds, which can be used independently or together.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Note on independent use",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Creative optimisations automatically turn your product Pins into collections and shopping ads and deliver the best-performing versions to users at scale.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Creative optimisations",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Image resizing automatically crops and resizes eligible Pins to drive better performance.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Image resizing",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Generate backgrounds uses generative AI to apply backgrounds to your product images to help drive inspiration and engagement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Generate backgrounds",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Within a Performance+ Sales campaign, creative optimisations work from your product catalogue; a Sales campaign automatically includes a prospecting ad group on the All Products group and a Dynamic Retargeting ad group whose spend split you cannot control.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Ad groups",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you run Sales campaigns with a product catalogue and want collections and shopping ad variants created and delivered automatically from your product Pins.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Creative optimisations",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you need one set of assets adapted across formats — via automatic resizing and AI-generated backgrounds — without producing separate creatives for each placement.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Image resizing; Generate backgrounds",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Use it when you want to reduce manual creative work, since the features operate independently or together and within Performance+ setup reduces campaign inputs.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "50% fewer inputs; independent-use note",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Applies to Sales-objective campaigns"
+            ]
+          },
+          {
+            "text": "Do not rely on it when your campaign objective is Consideration or Lead rather than Sales, because the creative features are tied to the Sales objective and Sales-campaign availability.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Sales objective; availability",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when you need manual control over ad-group composition or spend allocation, because in Performance+ Sales campaigns the Dynamic Retargeting ad group cannot be opted out of and its spend percentage cannot be controlled.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Ad groups",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Step 1: Create a campaign with the Sales objective (Performance+ campaigns are set up in Ads Manager, where Performance+ is available for Consideration, Lead and Sales objectives; creative applies to Sales).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Setup; objectives",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 2: At the beginning of campaign creation, activate the Performance+ toggle for the Sales campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Simple activation",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Step 3: In the creative settings, choose to enable generate backgrounds, image resizing and/or creative optimisations.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Creative features available within Performance+ Sales campaigns",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Exact on-screen labels and option order are not documented by Pinterest; only the choice between the three features is stated."
+            ]
+          },
+          {
+            "text": "Step 4: Alternatively, for a standard (non-Performance+) Sales campaign, use Performance+ creative features directly, as availability extends to normal Sales campaigns.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Availability for normal Sales campaigns",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest does not document whether the three creative features can be enabled after a campaign launches, nor any asset requirements (minimum image sizes, catalogue feed setup) for each feature.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Track click-through rate on Sales campaigns as a conditional signal of the AI-background and resizing features: better-matched, correctly sized creatives can earn more engagement, but this depends on audience and creative quality and is not guaranteed.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Generate backgrounds; Image resizing",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Attributed engagement metric, not an incremental uplift measurement",
+              "Expect fluctuations while the campaign is in Learning mode; assess performance after the Learning indicator disappears"
+            ]
+          },
+          {
+            "text": "Track cost per conversion (conversions and add-to-basket events are the supported conversion events for Sales campaigns) to judge whether creative optimisations deliver the best-performing ad variants at a competitive cost — the trade-off is reduced manual control over which variants and ad groups receive spend.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": "Optimisation & delivery; Creative optimisations; Ad groups",
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": [
+              "Conversions and add-to-basket are the documented conversion events for Leads and Sales campaigns",
+              "Attributed conversions are not a measure of incremental impact"
+            ]
+          },
+          {
+            "text": "Pinterest publishes no vendor-published uplift figures or benchmarks for Performance+ creative features.",
+            "status": "not_documented",
+            "evidence": [],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "No candidate alternative features are documented, so no cross-platform relationship can be stated.",
+        "status": "not_applicable",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-09-20.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Pinterest Help Centre — Pinterest Performance+: https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest Help Centre — Pinterest Performance+: https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.performance_plus",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/pinterest-performance-plus",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Pinterest Performance+",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "dependencies": {
+      "source_versions": {
+        "pinterest.performance_plus": "380b571546e1912ce95f4e93bc73db6a8b4fc0d018ef6c040241d2b7aaf9b339+380b571546e1912ce95f4e93bc73db6a8b4fc0d018ef6c040241d2b7aaf9b339"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "z-ai/glm-5.3-flash",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-17T23:26:30.721005Z",
+    "source_checked_at": "2026-09-20T18:59:39.748108Z",
+    "verified_at": "2026-11-17T23:26:30.721005Z"
+  }
+}

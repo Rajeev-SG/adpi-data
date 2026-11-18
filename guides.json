@@ -1,0 +1,2167 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "generated_at": "2026-11-18T11:19:04.043088+00:00",
+  "freshness_note": "generated_at is publication time, never evidence freshness. Per guide, generated_at is when the prose was written, source_checked_at is when its sources were last examined, and verified_at is when an independent check ran; these are deliberately distinct.",
+  "coverage_note": "substantive_count counts sections with at least one claim. An explicit not_documented/not_applicable section is honest but is not substantive coverage, so an all-abstaining guide cannot look complete here.",
+  "detail_dir": "guides/1d4b50bd1426cef9",
+  "guide_count": 73,
+  "guides": [
+    {
+      "feature_id": "ga.attribution-model-setting",
+      "name": "Attribution model setting",
+      "vendor": "Google Ads",
+      "platform": "Google Ads",
+      "summary": "The attribution model setting decides how credit for a conversion is shared across ad interactions, one conversion action at a time. It changes how conversions are counted from now on, not your history.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.attribution-model-setting",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T04:03:30.949286+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-18T04:03:30.949286+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.attribution-model-setting.json",
+      "category": "Measurement and conversions",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "ga.brand-exclusions",
+      "name": "Brand exclusions",
+      "vendor": "Google Ads",
+      "platform": "Performance Max",
+      "summary": "What brand exclusions is, per the campaign overview documentation.",
+      "availability": "inferred",
+      "coverage": {
+        "feature_id": "ga.brand-exclusions",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.247329+00:00",
+      "source_checked_at": "2026-10-19T06:10:49.245475+00:00",
+      "verified_at": "2026-11-17T23:26:30.247329+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.brand-exclusions.json",
+      "category": "Brand safety",
+      "control_mode": "control",
+      "search_terms": [
+        "brand safety",
+        "brand lists"
+      ]
+    },
+    {
+      "feature_id": "ga.brand-inclusions",
+      "name": "Brand inclusions",
+      "vendor": "Google Ads",
+      "platform": "Performance Max",
+      "summary": "Brand inclusions restrict a Search campaign so it only serves on queries tied to brands you choose. They are not available for Performance Max, which is the easy mistake to make.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.brand-inclusions",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T04:03:30.949286+00:00",
+      "source_checked_at": "2026-11-15T22:30:36.891800+00:00",
+      "verified_at": "2026-11-18T04:03:30.949286+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.brand-inclusions.json",
+      "category": "Brand safety",
+      "control_mode": "control",
+      "search_terms": [
+        "brand lists",
+        "brand targeting"
+      ]
+    },
+    {
+      "feature_id": "ga.content-suitability-in-performance-max",
+      "name": "Content suitability in Performance Max",
+      "vendor": "Google Ads",
+      "platform": "Performance Max",
+      "summary": "Content suitability sets how much sensitive content your Performance Max ads can sit next to on YouTube, Display and Google Video Partners. It is an account-level control, and it is easy to forget that it cannot be set per campaign or ad group.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.content-suitability-in-performance-max",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T04:03:30.949286+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-18T04:03:30.949286+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.content-suitability-in-performance-max.json",
+      "category": "Brand safety",
+      "control_mode": "control",
+      "search_terms": [
+        "brand safety",
+        "inventory filter",
+        "content exclusions"
+      ]
+    },
+    {
+      "feature_id": "ga.customer-match",
+      "name": "Customer Match",
+      "vendor": "Google Ads",
+      "platform": "Google Ads",
+      "summary": "Customer Match lets you upload your own customer data to reach and re-engage those customers on Google surfaces. Easy to miss: it needs an uploaded list, and ads only reach people signed in to their Google account.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.customer-match",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T04:03:30.949286+00:00",
+      "source_checked_at": "2026-10-12T06:04:49.234932+00:00",
+      "verified_at": "2026-11-18T04:03:30.949286+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.customer-match.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control",
+      "search_terms": [
+        "customer list",
+        "crm audience",
+        "first-party audience"
+      ]
+    },
+    {
+      "feature_id": "ga.demand-gen-channel-controls",
+      "name": "Demand Gen channel controls",
+      "vendor": "Google Ads",
+      "platform": "Demand Gen",
+      "summary": "Channel controls are a Demand Gen setting that decides which Google surfaces your ads can appear on.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.demand-gen-channel-controls",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.134821+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.134821+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.demand-gen-channel-controls.json",
+      "category": "Placements",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "ga.enhanced-conversions-web",
+      "name": "Enhanced conversions for web",
+      "vendor": "Google Ads",
+      "platform": "Google Ads",
+      "summary": "Enhanced conversions for web is a Google Ads feature for advertisers tracking sales and events that happen on a website.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.enhanced-conversions-web",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.639345+00:00",
+      "source_checked_at": "2026-11-02T06:10:46.198802+00:00",
+      "verified_at": "2026-11-17T23:26:30.639345+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.enhanced-conversions-web.json",
+      "category": "Measurement and conversions",
+      "control_mode": "control",
+      "search_terms": [
+        "advanced matching",
+        "hashed first-party data",
+        "conversion tracking"
+      ],
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "ga.lookalike-segments",
+      "name": "Lookalike segments (Demand Gen)",
+      "vendor": "Google Ads",
+      "platform": "Demand Gen",
+      "summary": "Lookalike segments in Demand Gen campaigns are evolving from being limited to similarity thresholds to acting as audience suggestions.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.lookalike-segments",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 7
+      },
+      "generated_at": "2026-11-17T23:26:30.399016+00:00",
+      "source_checked_at": "2026-10-05T06:04:47.965928+00:00",
+      "verified_at": "2026-11-17T23:38:24.273950+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.lookalike-segments.json",
+      "category": "Targeting and audiences",
+      "control_mode": "signal",
+      "search_terms": [
+        "lookalike audience",
+        "similar audience",
+        "actalike",
+        "seed audience"
+      ]
+    },
+    {
+      "feature_id": "ga.performance-max-campaigns",
+      "name": "Performance Max campaigns",
+      "vendor": "Google Ads",
+      "platform": "Performance Max",
+      "summary": "Performance Max is a goal-based campaign type in Google Ads that reaches all Google Ads inventory — YouTube, Display, Search, Discover, Gmail, and Maps — from a single campaign.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.performance-max-campaigns",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.639345+00:00",
+      "source_checked_at": "2026-10-05T06:04:47.965928+00:00",
+      "verified_at": "2026-11-17T23:26:30.639345+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.performance-max-campaigns.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "control",
+      "search_terms": [
+        "pmax",
+        "automated multi-channel campaigns"
+      ],
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "ga.pmax-audience-signals",
+      "name": "Performance Max audience signals",
+      "vendor": "Google Ads",
+      "platform": "Performance Max",
+      "summary": "Audience signals are optional audience suggestions added to Performance Max campaigns that help Google AI optimize for the campaign goals you select.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.pmax-audience-signals",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:21:34.857787+00:00",
+      "source_checked_at": "2026-10-05T06:04:47.965928+00:00",
+      "verified_at": "2026-11-17T23:34:09.181080+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.pmax-audience-signals.json",
+      "category": "Targeting and audiences",
+      "control_mode": "signal",
+      "search_terms": [
+        "pmax audience",
+        "audience suggestion",
+        "seed audience"
+      ]
+    },
+    {
+      "feature_id": "ga.pmax-negative-keywords",
+      "name": "Negative keywords (Performance Max)",
+      "vendor": "Google Ads",
+      "platform": "Performance Max",
+      "summary": "What the feature is and where it applies.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.pmax-negative-keywords",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 7
+      },
+      "generated_at": "2026-11-17T23:26:30.796095+00:00",
+      "source_checked_at": "2026-10-05T06:04:47.965928+00:00",
+      "verified_at": "2026-11-17T23:26:30.796095+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.pmax-negative-keywords.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control",
+      "search_terms": [
+        "negative match",
+        "keyword exclusion",
+        "pmax negatives"
+      ]
+    },
+    {
+      "feature_id": "ga.responsive-display-ads",
+      "name": "Responsive display ads",
+      "vendor": "Google Ads",
+      "platform": "Google Ads",
+      "summary": "Responsive display ads are the ad format used in Google Ads Display campaigns; you upload assets (images, headlines, logos, videos, descriptions) and Google AI determines the optimal combination, size, appearance, and format to fit available ad spaces.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.responsive-display-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.399016+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-17T23:26:30.399016+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.responsive-display-ads.json",
+      "category": "Ad formats",
+      "control_mode": "automatic",
+      "search_terms": [
+        "rda",
+        "display creative"
+      ]
+    },
+    {
+      "feature_id": "ga.responsive-search-ads",
+      "name": "Responsive search ads",
+      "vendor": "Google Ads",
+      "platform": "Search",
+      "summary": "Responsive search ads let you create an ad that adapts to show more relevant messages to potential customers.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.responsive-search-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.600301+00:00",
+      "source_checked_at": "2026-10-26T06:04:49.267270+00:00",
+      "verified_at": "2026-11-17T23:26:30.600301+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.responsive-search-ads.json",
+      "category": "Ad formats",
+      "control_mode": "control",
+      "search_terms": [
+        "rsa",
+        "text ads"
+      ]
+    },
+    {
+      "feature_id": "ga.shopping-ads",
+      "name": "Shopping ads",
+      "vendor": "Google Ads",
+      "platform": "Standard Shopping",
+      "summary": "Shopping ads show a product photo, title, price, store name and more, giving users a clear view of the product before they click.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.shopping-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.289231+00:00",
+      "source_checked_at": "2026-11-02T06:10:46.198802+00:00",
+      "verified_at": "2026-11-17T23:26:30.289231+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.shopping-ads.json",
+      "category": "Ad formats",
+      "control_mode": "automatic",
+      "search_terms": [
+        "product listing ads",
+        "catalog ads"
+      ],
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "ga.target-roas-shopping",
+      "name": "Target ROAS (Shopping)",
+      "vendor": "Google Ads",
+      "platform": "Standard Shopping",
+      "summary": "Target ROAS is a Smart Bidding strategy for Shopping campaigns that sets bids to maximize conversion value while reaching an average return on ad spend the advertiser chooses.",
+      "availability": "inferred",
+      "coverage": {
+        "feature_id": "ga.target-roas-shopping",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 7
+      },
+      "generated_at": "2026-11-17T23:26:30.475840+00:00",
+      "source_checked_at": "2026-10-05T06:04:47.965928+00:00",
+      "verified_at": "2026-11-17T23:26:30.475840+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.target-roas-shopping.json",
+      "category": "Bidding",
+      "control_mode": "automatic",
+      "search_terms": [
+        "troas",
+        "return on ad spend",
+        "value bidding"
+      ]
+    },
+    {
+      "feature_id": "ga.youtube-shorts-placements",
+      "name": "YouTube Shorts placements",
+      "vendor": "Google Ads",
+      "platform": "Demand Gen",
+      "summary": "YouTube Shorts placements is a channel placement option in Demand Gen campaigns that lets advertisers serve ads specifically on YouTube Shorts.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "ga.youtube-shorts-placements",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.721005+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.721005+00:00",
+      "detail": "guides/1d4b50bd1426cef9/ga.youtube-shorts-placements.json",
+      "category": "Placements",
+      "control_mode": "control",
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "meta.advantage-plus-placements",
+      "name": "Advantage+ placements",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Advantage+ placements lets Meta decide where your ads run across its placements instead of you picking them one by one. The easy mistake is judging each placement by its own cost per result and switching some off.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.advantage-plus-placements",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-15T22:30:36.891800+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.advantage-plus-placements.json",
+      "category": "Placements",
+      "control_mode": "automatic",
+      "search_terms": [
+        "automatic placements",
+        "auto placements"
+      ]
+    },
+    {
+      "feature_id": "meta.app-activity-custom-audiences",
+      "name": "App activity Custom Audiences",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "An app activity Custom Audience is a list of people built from what they do in your app, such as opening it or making a purchase. It is a targeting signal source, and it only works if your app is already sending events to Meta.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.app-activity-custom-audiences",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-18T07:42:13.794554+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.app-activity-custom-audiences.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.awareness-objective",
+      "name": "Awareness objective",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Awareness is the Meta campaign objective for building reach and recall rather than driving a click or purchase. You choose it at campaign level, and the performance goal you pick later decides what Meta actually optimises for.",
+      "availability": "inferred",
+      "coverage": {
+        "feature_id": "meta.awareness-objective",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.awareness-objective.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.bid-cap",
+      "name": "Bid cap",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Bid cap is a Meta bid strategy that tells the auction to chase the most results for your budget while never bidding above an amount you set. It caps your bid, not your average cost per result, which is the easy thing to confuse.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.bid-cap",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-17T23:15:01.670975+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.bid-cap.json",
+      "category": "Bidding",
+      "control_mode": "control",
+      "search_terms": [
+        "manual bid cap",
+        "maximum bid",
+        "lowest cost with bid cap"
+      ]
+    },
+    {
+      "feature_id": "meta.campaign-budget",
+      "name": "Campaign budget sharing",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "You set one budget on the campaign and Meta shares it across the ad sets underneath. This is an automated allocation: spend is not split evenly, so judge results at campaign level, not ad set by ad set.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.campaign-budget",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-17T23:15:01.670975+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.campaign-budget.json",
+      "category": "Bidding",
+      "control_mode": "control",
+      "search_terms": [
+        "campaign budget optimisation",
+        "advantage campaign budget",
+        "CBO"
+      ]
+    },
+    {
+      "feature_id": "meta.carousel-ads",
+      "name": "Carousel ads",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Carousel ads put two or more images or videos in one ad, and people swipe or click through them. Each card has its own headline, description, link and call to action, so the key thing to get right is writing every card as its own landing point.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.carousel-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T09:05:42.588953+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-18T09:05:42.588953+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.carousel-ads.json",
+      "category": "Ad formats",
+      "control_mode": "control",
+      "search_terms": [
+        "multi-image ads"
+      ]
+    },
+    {
+      "feature_id": "meta.collection-ads",
+      "name": "Collection ads",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Collection ads pair a cover image or video with product images and open a full-screen Instant Experience when tapped. The Instant Experience is mandatory, so build it before the ad.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.collection-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-18T07:53:57.111708+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.collection-ads.json",
+      "category": "Ad formats",
+      "control_mode": "control",
+      "search_terms": [
+        "catalog ads",
+        "product gallery"
+      ]
+    },
+    {
+      "feature_id": "meta.conversion-location",
+      "name": "Conversion location",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Conversion location is where you want people to take the action your campaign is built around. For image ads it is 'On your ad', and for some objectives Meta picks it for you, so you may never see a choice.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.conversion-location",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-15T22:30:36.891800+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.conversion-location.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.cost-cap",
+      "name": "Cost cap bidding",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Cost cap is a Meta bid strategy that tries to get the most results from your budget while keeping the average cost per optimisation event at or near an amount you set. It is a limit on average cost, not a guarantee of a fixed cost on every result.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.cost-cap",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-17T23:15:01.670975+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.cost-cap.json",
+      "category": "Bidding",
+      "control_mode": "control",
+      "search_terms": [
+        "cost per result goal",
+        "target CPA"
+      ]
+    },
+    {
+      "feature_id": "meta.custom-audiences",
+      "name": "Custom Audiences",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Custom Audiences are lists of people you build from your own data or from Meta engagement, so you can target them again or exclude them. They define who you can reach; they do not decide how your campaign bids or optimises.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.custom-audiences",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T09:03:47.970984+00:00",
+      "source_checked_at": "2026-11-18T07:42:13.794554+00:00",
+      "verified_at": "2026-11-18T09:03:47.970984+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.custom-audiences.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.customer-list-custom-audiences",
+      "name": "Customer list Custom Audiences",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "A customer list Custom Audience lets you upload your own customer data so Meta can find those people across its technologies and target them in Ads Manager. Easy to get wrong: a match is not a guarantee that everyone on your list is reachable.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.customer-list-custom-audiences",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-18T07:42:13.794554+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.customer-list-custom-audiences.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control",
+      "search_terms": [
+        "customer list",
+        "crm audience",
+        "first-party audience"
+      ]
+    },
+    {
+      "feature_id": "meta.engagement-custom-audiences",
+      "name": "Engagement Custom Audiences",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Engagement custom audiences let you retarget people who interacted with your content on Meta platforms. They are built from your videos, lead forms or Facebook Page, and they are a targeting source rather than a bidding goal or a guarantee of results.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.engagement-custom-audiences",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-18T07:42:13.794554+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.engagement-custom-audiences.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.engagement-objective",
+      "name": "Engagement objective",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Engagement is one of Meta's six campaign objectives. You pick it at campaign level, then choose where the engagement happens, such as on your ad or in a messaging app. The choice also decides which placements and calls to action you can use.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.engagement-objective",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.engagement-objective.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.facebook-feed-placement",
+      "name": "Facebook Feed placement",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Facebook Feed is the placement that puts your ad in the stream of posts people see on their Facebook home page. It is one placement choice among many, so selecting it does not decide where else your ads run.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.facebook-feed-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.facebook-feed-placement.json",
+      "category": "Placements",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.instagram-feed-placement",
+      "name": "Instagram Feed placement",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Instagram Feed is a placement you choose for where Meta shows your ad, including video ads. It is a delivery location, not a creative format, so check that your objective supports Instagram before you plan around it.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.instagram-feed-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-15T22:30:36.891800+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.instagram-feed-placement.json",
+      "category": "Placements",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.instagram-reels-placement",
+      "name": "Instagram Reels placement",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Instagram Reels is a placement you can include in a Meta campaign so your ads run in the Reels tab on Instagram. It is a delivery surface, not a bidding or audience setting, and with Advantage+ placements on, Reels is included for you.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.instagram-reels-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 7
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.instagram-reels-placement.json",
+      "category": "Placements",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.instagram-stories-placement",
+      "name": "Instagram Stories placement",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Instagram Stories is a placement you can choose for your Meta ads, so your creative runs in the full-screen Stories format. It is a delivery location, not an audience or targeting control, and it is one of several placements you can pick.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.instagram-stories-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.instagram-stories-placement.json",
+      "category": "Placements",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.instant-experience",
+      "name": "Instant Experience",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Instant Experience is the full-screen mobile landing page that opens when someone taps a collection ad. It replaces an external page as the destination, so you build it inside Meta rather than send people to your site.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.instant-experience",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T09:05:42.588953+00:00",
+      "source_checked_at": "2026-11-18T07:53:57.111708+00:00",
+      "verified_at": "2026-11-18T09:05:42.588953+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.instant-experience.json",
+      "category": "Ad formats",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.inventory-filter-for-feed-ads",
+      "name": "Inventory filter for Feed ads",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Inventory filter is a brand suitability control that sets how sensitive the surrounding content can be for your Feed ads. It steers placement next to organic content; it does not guarantee your brand standards are met.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.inventory-filter-for-feed-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-18T07:53:57.111708+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.inventory-filter-for-feed-ads.json",
+      "category": "Brand safety",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.inventory-filter-for-in-content-ads",
+      "name": "Inventory filter for in-content ads",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Inventory filter for in-content ads lets you set how sensitive the content next to your ads can be on Facebook in-stream reels and Facebook Reels. It is a placement-suitability control, and it does not guarantee that every adjacent piece of content matches your brand standards.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.inventory-filter-for-in-content-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-18T07:53:57.111708+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.inventory-filter-for-in-content-ads.json",
+      "category": "Brand safety",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.leads-objective",
+      "name": "Leads objective",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Leads is a campaign objective you pick at campaign level in Meta Ads Manager. It replaces the old Lead generation objective, and you must also choose a conversion location, which decides where the lead is captured.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.leads-objective",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.leads-objective.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.lookalike-audiences",
+      "name": "Lookalike Audiences",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "A Lookalike Audience lets your ads reach new people who resemble a source audience you choose. Meta recommends choosing a source aligned with your goal.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.lookalike-audiences",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-16T06:03:04.022861+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.lookalike-audiences.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control",
+      "search_terms": [
+        "lookalike",
+        "similar audience",
+        "actalike",
+        "seed audience"
+      ]
+    },
+    {
+      "feature_id": "meta.lowest-cost-bidding",
+      "name": "Lowest cost bidding",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Lowest cost bidding tells Meta to get the most results from your budget without capping what it bids. It is a bid strategy, not a targeting control, and your costs can swing as you spend.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.lowest-cost-bidding",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-17T23:15:01.670975+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.lowest-cost-bidding.json",
+      "category": "Bidding",
+      "control_mode": "control",
+      "search_terms": [
+        "highest volume",
+        "automatic bidding",
+        "maximize results"
+      ]
+    },
+    {
+      "feature_id": "meta.publisher-block-lists",
+      "name": "Publisher block lists",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Publisher block lists let you name the publishers whose content your Facebook reel in-stream ads must not run next to. It is an exclusion control, so it narrows delivery and does not target anyone.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.publisher-block-lists",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-18T07:53:57.111708+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.publisher-block-lists.json",
+      "category": "Brand safety",
+      "control_mode": "control",
+      "search_terms": [
+        "placement exclusions",
+        "brand suitability"
+      ]
+    },
+    {
+      "feature_id": "meta.reels-brand-safety-tools",
+      "name": "Reels brand safety tools",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Meta lets you apply brand safety tools, including block lists and publisher lists, to ads running on Instagram Reels. They are exclusion and suitability controls, not a guarantee that every reel next to your ad is on-brand.",
+      "availability": "inferred",
+      "coverage": {
+        "feature_id": "meta.reels-brand-safety-tools",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-16T06:03:04.022861+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.reels-brand-safety-tools.json",
+      "category": "Brand safety",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.sales-objective",
+      "name": "Sales objective",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Sales is the campaign objective you pick when you want people to complete a purchase-type action. You set it at campaign level, and it only works well once you also choose where the outcome happens and which event counts.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.sales-objective",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.sales-objective.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.teen-targeting-restrictions",
+      "name": "Teen targeting restrictions",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Meta automatically removes some audience and campaign options when your ads can reach people under 18 (older in some countries). The easy mistake is assuming a setup that works for adults will carry over unchanged to teens.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.teen-targeting-restrictions",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-18T08:15:35.271451+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.teen-targeting-restrictions.json",
+      "category": "Targeting and audiences",
+      "control_mode": "automatic"
+    },
+    {
+      "feature_id": "meta.traffic-objective",
+      "name": "Traffic objective",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Traffic is one of Meta's six Ads Manager campaign objectives. You choose it at campaign level to send people to a destination such as a website, app or messaging thread. It needs no conversion event, so it doesn't tell Meta to chase purchases or leads.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.traffic-objective",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-09T06:09:44.472014+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.traffic-objective.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.value-based-lookalike-audiences",
+      "name": "Value-based Lookalike Audiences",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "A value-based Lookalike Audience finds new people who resemble your existing customers, using a source audience that carries a value column. Choose a source that reflects the customers you want more of, because source quality shapes the result.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.value-based-lookalike-audiences",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:26:40.867820+00:00",
+      "source_checked_at": "2026-11-18T07:42:13.794554+00:00",
+      "verified_at": "2026-11-18T08:26:40.867820+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.value-based-lookalike-audiences.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.video-ads",
+      "name": "Video ads",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "Video is one of Meta's core ad formats, alongside image, carousel and collection. Check the format specifications before you upload: the Feed footer (headline, description, button) can disappear for awareness and reach-style goals.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.video-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T09:03:47.970984+00:00",
+      "source_checked_at": "2026-11-18T07:53:57.111708+00:00",
+      "verified_at": "2026-11-18T09:03:47.970984+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.video-ads.json",
+      "category": "Ad formats",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "meta.website-custom-audience",
+      "name": "Website Custom Audiences",
+      "vendor": "Meta",
+      "platform": "Paid Social",
+      "summary": "A website custom audience is a Meta audience of people who visited your site, which you can then target with ads. It only works if the Meta pixel is tracking your visitors, and it starts filling from creation, not from past traffic.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "meta.website-custom-audience",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-18T08:58:39.259090+00:00",
+      "source_checked_at": "2026-11-18T07:42:13.794554+00:00",
+      "verified_at": "2026-11-18T08:58:39.259090+00:00",
+      "detail": "guides/1d4b50bd1426cef9/meta.website-custom-audience.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control",
+      "search_terms": [
+        "website retargeting",
+        "remarketing"
+      ]
+    },
+    {
+      "feature_id": "pin.browse-placement",
+      "name": "Browse placement",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "Browse placement shows your Pinterest ads while people browse their home feeds and related Pins.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.browse-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.455343+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-11-17T23:26:30.455343+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.browse-placement.json",
+      "category": "Placements",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "pin.collage-ads",
+      "name": "Collage ads",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "Collage ads let advertisers combine multiple product cutouts into one interactive image on Pinterest.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.collage-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.231154+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.231154+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.collage-ads.json",
+      "category": "Ad formats",
+      "control_mode": "control",
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "pin.dynamic-retargeting",
+      "name": "Dynamic retargeting",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "Dynamic retargeting lets advertisers re-engage Pinterest users who previously visited their site or left items in a basket.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.dynamic-retargeting",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.289231+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.289231+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.dynamic-retargeting.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control",
+      "search_terms": [
+        "dynamic remarketing",
+        "product retargeting"
+      ]
+    },
+    {
+      "feature_id": "pin.enhanced-match",
+      "name": "Enhanced match",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "Enhanced match is an optional addition to the Pinterest tag that matches conversion data with the person responsible for the conversion.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.enhanced-match",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.289231+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.289231+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.enhanced-match.json",
+      "category": "Measurement and conversions",
+      "control_mode": "control",
+      "search_terms": [
+        "advanced matching",
+        "enhanced conversions"
+      ],
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "pin.inventory-filters",
+      "name": "Brand safety inventory filters",
+      "vendor": "Pinterest",
+      "platform": "Paid Social",
+      "summary": "Inventory filters are Pinterest's advertiser-facing brand safety controls for understanding the content that appears near ads.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.inventory-filters",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.399016+00:00",
+      "source_checked_at": "2026-11-17T23:15:01.670975+00:00",
+      "verified_at": "2026-11-17T23:26:30.399016+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.inventory-filters.json",
+      "category": "Brand safety",
+      "control_mode": "control",
+      "search_terms": [
+        "content suitability",
+        "brand suitability",
+        "inventory filter"
+      ],
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "pin.keyword-targeting",
+      "name": "Keyword targeting",
+      "vendor": "Pinterest",
+      "platform": "Search",
+      "summary": "Keyword targeting reaches people as they search for a specific idea on Pinterest, using keywords related to the promoted ad.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.keyword-targeting",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.475840+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.475840+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.keyword-targeting.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "pin.lead-ads",
+      "name": "Lead ads",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "Lead ads are a Pinterest ad format that delivers an in-ad form, so people can submit their information without leaving Pinterest.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.lead-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.494551+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.494551+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.lead-ads.json",
+      "category": "Ad formats",
+      "control_mode": "control",
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "pin.leads-objective",
+      "name": "Leads objective",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "Leads campaigns drive non-transactional outcomes such as sign-ups and leads.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.leads-objective",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.654345+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.654345+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.leads-objective.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "control",
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "pin.performance-plus-campaigns",
+      "name": "Performance+ campaigns",
+      "vendor": "Pinterest",
+      "platform": "Performance+",
+      "summary": "Performance+ campaigns bundle Pinterest's automation and AI features into a simplified campaign setup with 50% fewer inputs.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.performance-plus-campaigns",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.455343+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:34:34.058988+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.performance-plus-campaigns.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "automatic"
+    },
+    {
+      "feature_id": "pin.performance-plus-creative",
+      "name": "Performance+ creative",
+      "vendor": "Pinterest",
+      "platform": "Performance+",
+      "summary": "Performance+ creative provides automated creative solutions that create ads across multiple Pinterest formats and optimise ads according to campaign objectives.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.performance-plus-creative",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.721005+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.721005+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.performance-plus-creative.json",
+      "category": "Ad formats",
+      "control_mode": "automatic"
+    },
+    {
+      "feature_id": "pin.pinterest-tag",
+      "name": "Pinterest Tag",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "What the Pinterest Tag is and what it does.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.pinterest-tag",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.600301+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-11-17T23:26:30.600301+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.pinterest-tag.json",
+      "category": "Measurement and conversions",
+      "control_mode": "automatic",
+      "search_terms": [
+        "pixel",
+        "conversion tracking",
+        "website events"
+      ]
+    },
+    {
+      "feature_id": "pin.search-placement",
+      "name": "Search placement",
+      "vendor": "Pinterest",
+      "platform": "Paid Media",
+      "summary": "Search placement shows your ads in Pinterest search results and related Pins.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.search-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.639345+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-11-17T23:26:30.639345+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.search-placement.json",
+      "category": "Placements",
+      "control_mode": "control",
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "pin.shopping-ads",
+      "name": "Shopping ads",
+      "vendor": "Pinterest",
+      "platform": "Shopping",
+      "summary": "Shopping ads are Pinterest ad units created from product groups in Catalogues.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "pin.shopping-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.247329+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.247329+00:00",
+      "detail": "guides/1d4b50bd1426cef9/pin.shopping-ads.json",
+      "category": "Ad formats",
+      "control_mode": "control",
+      "search_terms": [
+        "product listing ads",
+        "catalog ads"
+      ],
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "tt.advanced-matching",
+      "name": "Advanced matching",
+      "vendor": "TikTok",
+      "platform": "Events",
+      "summary": "What the feature does, per TikTok's own help article.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.advanced-matching",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.721005+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.721005+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.advanced-matching.json",
+      "category": "Measurement and conversions",
+      "control_mode": "control",
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "tt.automatic-placement",
+      "name": "Automatic placement",
+      "vendor": "TikTok",
+      "platform": "Smart+",
+      "summary": "Automatic placement is a Smart+ ad group setting in which TikTok selects the placements for your ads automatically.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.automatic-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.399016+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.399016+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.automatic-placement.json",
+      "category": "Placements",
+      "control_mode": "automatic",
+      "search_terms": [
+        "automatic placements",
+        "auto placements"
+      ],
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "tt.automatic-search-placement",
+      "name": "Automatic Search Placement",
+      "vendor": "TikTok",
+      "platform": "Automatic Search Placement",
+      "summary": "Automatic Search Placement (formerly called Search Ads Toggle) is a campaign-setup setting that lets your ads be considered for placement against TikTok search queries.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.automatic-search-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 7
+      },
+      "generated_at": "2026-11-17T23:26:30.654345+00:00",
+      "source_checked_at": "2026-09-21T06:02:46.863349+00:00",
+      "verified_at": "2026-11-17T23:26:30.654345+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.automatic-search-placement.json",
+      "category": "Placements",
+      "control_mode": "automatic",
+      "search_terms": [
+        "search placements",
+        "automatic search"
+      ]
+    },
+    {
+      "feature_id": "tt.broad-match",
+      "name": "Broad match",
+      "vendor": "TikTok",
+      "platform": "Search Ads Campaign",
+      "summary": "What broad match is on TikTok Search Ads, per the vendor's optimization guidance.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.broad-match",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.475840+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.475840+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.broad-match.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "tt.carousel-ads",
+      "name": "Carousel Ads",
+      "vendor": "TikTok",
+      "platform": "Search Ads Campaign",
+      "summary": "Carousel image ads are one of the ad formats supported inside TikTok's Search Ads Campaign.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.carousel-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "relationships",
+          "sources"
+        ],
+        "substantive_count": 7
+      },
+      "generated_at": "2026-11-17T23:26:30.796095+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.796095+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.carousel-ads.json",
+      "category": "Ad formats",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "tt.instant-form",
+      "name": "Instant Form",
+      "vendor": "TikTok",
+      "platform": "Lead Generation",
+      "summary": "Instant Form is a native in-app lead capture form for TikTok Lead Generation ads that lets customers share contact information, answer your questions, and learn about your business.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.instant-form",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.231154+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-11-17T23:26:30.231154+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.instant-form.json",
+      "category": "Ad formats",
+      "control_mode": "control",
+      "search_terms": [
+        "lead forms",
+        "instant lead forms"
+      ],
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "tt.interest-targeting",
+      "name": "Interest targeting",
+      "vendor": "TikTok",
+      "platform": "Paid Social",
+      "summary": "Interest targeting delivers ads to people based on their higher interaction with certain interests, such as gaming.",
+      "availability": "inferred",
+      "coverage": {
+        "feature_id": "tt.interest-targeting",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.480578+00:00",
+      "source_checked_at": "2026-10-12T06:04:49.234932+00:00",
+      "verified_at": "2026-11-17T23:26:30.480578+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.interest-targeting.json",
+      "category": "Targeting and audiences",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "tt.pangle-placement",
+      "name": "Pangle placement",
+      "vendor": "TikTok",
+      "platform": "Smart+",
+      "summary": "Pangle placement is a placement option within TikTok Smart+ Web Campaigns, which are AI-powered campaigns for website conversion goals.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.pangle-placement",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.289231+00:00",
+      "source_checked_at": "2026-09-20T10:43:14.625087+00:00",
+      "verified_at": "2026-11-17T23:26:30.289231+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.pangle-placement.json",
+      "category": "Placements",
+      "control_mode": "automatic",
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "tt.search-ads-campaign",
+      "name": "Search Ads Campaign",
+      "vendor": "TikTok",
+      "platform": "Search Ads Campaign",
+      "summary": "A TikTok Ads Manager campaign type that uses keywords to reach people searching for terms related to your product or service.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.search-ads-campaign",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.289231+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.289231+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.search-ads-campaign.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "control"
+    },
+    {
+      "feature_id": "tt.smart-plus-audience-suggestions",
+      "name": "Smart+ audience suggestions",
+      "vendor": "TikTok",
+      "platform": "Smart+",
+      "summary": "Audience suggestions are optional settings in the upgraded Smart+ experience that advertisers can choose to help guide automatic targeting.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.smart-plus-audience-suggestions",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.134821+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:34:22.248889+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.smart-plus-audience-suggestions.json",
+      "category": "Targeting and audiences",
+      "control_mode": "signal",
+      "search_terms": [
+        "audience signal",
+        "seed audience"
+      ]
+    },
+    {
+      "feature_id": "tt.smart-plus-traffic-campaigns",
+      "name": "Smart+ Traffic Campaigns",
+      "vendor": "TikTok",
+      "platform": "Smart+",
+      "summary": "Smart+ Traffic Campaigns are TikTok's AI-powered automation solution for driving quality traffic to a website at scale under the Traffic objective.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.smart-plus-traffic-campaigns",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis",
+          "sources"
+        ],
+        "substantive_count": 6
+      },
+      "generated_at": "2026-11-17T23:26:30.480578+00:00",
+      "source_checked_at": "2026-10-12T06:04:49.234932+00:00",
+      "verified_at": "2026-11-17T23:34:14.266273+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.smart-plus-traffic-campaigns.json",
+      "category": "Campaign types and objectives",
+      "control_mode": "automatic"
+    },
+    {
+      "feature_id": "tt.spark-ads",
+      "name": "Spark Ads",
+      "vendor": "TikTok",
+      "platform": "Search Ads Campaign",
+      "summary": "Spark Ads is an ad format supported within TikTok's Search Ads Campaign, delivered on the TikTok Search Results Page.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.spark-ads",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.455343+00:00",
+      "source_checked_at": "2026-09-20T18:59:39.748108+00:00",
+      "verified_at": "2026-11-17T23:26:30.455343+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.spark-ads.json",
+      "category": "Ad formats",
+      "control_mode": "control",
+      "search_terms": [
+        "boosted posts",
+        "organic post ads"
+      ],
+      "retained_from": "8088372c301979b6"
+    },
+    {
+      "feature_id": "tt.split-testing-in-smart-plus-traffic",
+      "name": "Split testing in Smart+ Traffic",
+      "vendor": "TikTok",
+      "platform": "Smart+",
+      "summary": "Split testing is available for Smart+ Traffic campaigns, run through Experiment Manager or the Campaign List using a multi-variable test.",
+      "availability": "documented",
+      "coverage": {
+        "feature_id": "tt.split-testing-in-smart-plus-traffic",
+        "section_count": 7,
+        "substantive_sections": [
+          "definition",
+          "mechanism",
+          "use_cases",
+          "setup",
+          "kpis"
+        ],
+        "substantive_count": 5
+      },
+      "generated_at": "2026-11-17T23:26:30.494551+00:00",
+      "source_checked_at": "2026-10-12T06:04:49.234932+00:00",
+      "verified_at": "2026-11-17T23:26:30.494551+00:00",
+      "detail": "guides/1d4b50bd1426cef9/tt.split-testing-in-smart-plus-traffic.json",
+      "category": "Measurement and conversions",
+      "control_mode": "control",
+      "retained_from": "8088372c301979b6"
+    }
+  ],
+  "retained_previous_release": {
+    "release": "8088372c301979b6",
+    "feature_ids": [
+      "ga.enhanced-conversions-web",
+      "ga.performance-max-campaigns",
+      "ga.shopping-ads",
+      "ga.youtube-shorts-placements",
+      "pin.collage-ads",
+      "pin.enhanced-match",
+      "pin.inventory-filters",
+      "pin.lead-ads",
+      "pin.leads-objective",
+      "pin.search-placement",
+      "pin.shopping-ads",
+      "tt.advanced-matching",
+      "tt.automatic-placement",
+      "tt.instant-form",
+      "tt.pangle-placement",
+      "tt.spark-ads",
+      "tt.split-testing-in-smart-plus-traffic"
+    ]
+  }
+}

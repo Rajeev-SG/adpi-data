@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "release": "1d4b50bd1426cef9",
+  "guide": {
+    "feature_id": "meta.cost-cap",
+    "name": "Cost cap bidding",
+    "vendor": "Meta",
+    "platform": "Paid Social",
+    "capability_ids": [
+      "meta.ads.campaign_bid_strategy.cost-cap-bidding"
+    ],
+    "sections": [
+      {
+        "kind": "definition",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Cost cap is a Meta bid strategy that tries to get the most results from your budget while keeping the average cost per optimisation event at or near an amount you set. It is a limit on average cost, not a guarantee of a fixed cost on every result.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal works",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "It is a bidding control: you supply the cost ceiling and Meta decides bids auction by auction. Your actual weekly average cost per result may vary from the amount you set.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal works",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "mechanism",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "The cost cap value is stored in the bid amount field of each ad set in the campaign, so each ad set carries its own cap.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "The campaign-level strategy applies when campaign budget optimisation is on and the buying type is Auction. Without campaign budget optimisation, the bid strategy is read at ad set level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta's AI raises or lowers the bid per auction to maximise conversions while aiming to keep the weekly average cost near your goal. Day-to-day cost will fluctuate, so judge it on weekly averages.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal works",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Each bid strategy may only be available for certain optimisation goals, so check that your ad set's goal supports it.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Campaigns with more than 70 ad sets using campaign budget optimisation cannot edit the bid strategy or turn off campaign budget optimisation.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "use_cases",
+        "summary": "",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Use it when you have a firm CPA target and want to scale conversions with a cost guardrail, and when each ad set can reach roughly 50-100 conversions a week.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal works",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when spending your full budget matters more than cost. In a competitive market it may underspend to protect the cost target; Highest volume prioritises full spend instead.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal and Highest volume bid strategies differ",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Do not rely on it when conversion volume is low. Below the 50-100 weekly conversions threshold, Meta suggests broadening the audience, raising the budget or raising your cost goal.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal works",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "setup",
+        "summary": "Meta documents the required settings by their API field names, not the Ads Manager menu path, so the exact interface labels are not covered here.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Create the campaign with the Auction buying type.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Turn on campaign budget optimisation so the bid strategy is set at campaign level.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Set the campaign bid strategy to COST_CAP (cost cap).",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Choose an optimisation goal for each ad set that supports cost cap.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (eligibility)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Enter your cost cap in the bid amount field of every ad set in the campaign.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "applicable condition (prerequisite)",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Wait at least 7 days after any change before re-evaluating, and judge results on weekly averages.",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal works",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "kpis",
+        "summary": "",
+        "status": "inferred",
+        "claims": [
+          {
+            "text": "Cost per result (CPA): if your cap is realistic for the auction, the cap can hold weekly average CPA closer to target than uncapped lowest cost. Trade-off: a tight cap can reduce delivery and conversion volume.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": "Field bid_strategy",
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              },
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal and Highest volume bid strategies differ",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Budget delivery (spend and conversion volume): because the strategy may spend less than your full budget to protect the target, spend can fall short when the market is competitive. Raising the cap may recover volume at a higher cost.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal and Highest volume bid strategies differ",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Cost stability: with enough weekly conversions the system has more data to control cost, so weekly averages may be steadier. With few conversions, expect more variance from your goal. These are attributed results, not proven incremental outcomes.",
+            "status": "inferred",
+            "evidence": [
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": "How Cost per result goal works",
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "kind": "relationships",
+        "summary": "Closest counterparts on the other platforms are partial matches only.",
+        "status": "documented",
+        "claims": []
+      },
+      {
+        "kind": "sources",
+        "summary": "Source checked: 2026-11-17.",
+        "status": "documented",
+        "claims": [
+          {
+            "text": "Meta for Developers — Ad Campaign bid strategies: https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.ads.campaign_bid_strategy",
+                "source_url": "https://developers.facebook.com/docs/graph-api/reference/adcampaigngroup/",
+                "locator": null,
+                "source_site": "Meta for Developers",
+                "source_title": "Ad Campaign bid strategies",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Meta Business Help Centre — About cost per result goal bid strategy: https://www.facebook.com/business/help/272336376749096",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "meta.guide.cost_per_result_goal",
+                "source_url": "https://www.facebook.com/business/help/272336376749096",
+                "locator": null,
+                "source_site": "Meta Business Help Centre",
+                "source_title": "About cost per result goal bid strategy",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "TikTok Ads Help Center — About Smart+ Traffic Campaigns: https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "tiktok.smart_plus.traffic_campaigns",
+                "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+                "locator": null,
+                "source_site": "TikTok Ads Help Center",
+                "source_title": "About Smart+ Traffic Campaigns",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Google Ads Help — About Target ROAS bidding: https://support.google.com/google-ads/answer/6268637?hl=en",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "google.search.troas",
+                "source_url": "https://support.google.com/google-ads/answer/6268637?hl=en",
+                "locator": null,
+                "source_site": "Google Ads Help",
+                "source_title": "About Target ROAS bidding",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "text": "Pinterest Help Centre — Create an ad group: https://help.pinterest.com/en-gb/business/article/create-ad-group",
+            "status": "documented",
+            "evidence": [
+              {
+                "source_id": "pinterest.structure.ad_groups",
+                "source_url": "https://help.pinterest.com/en-gb/business/article/create-ad-group",
+                "locator": null,
+                "source_site": "Pinterest Help Centre",
+                "source_title": "Create an ad group",
+                "raw_sha256": null,
+                "cleaned_sha256": null
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "feature_id": "tt.cost-cap",
+        "name": "Cost Cap (TikTok Smart+)",
+        "vendor": "TikTok",
+        "kind": "partial_alternative",
+        "difference": "TikTok's page only confirms Cost Cap is an available bidding strategy for Smart+ Traffic Campaigns. It does not describe how it behaves, so do not assume it matches Meta's average-cost limit.",
+        "context": "Smart+ Traffic Campaigns on TikTok; Meta's applies to Auction campaigns with campaign budget optimisation.",
+        "evidence": [
+          {
+            "source_id": "tiktok.smart_plus.traffic_campaigns",
+            "source_url": "https://ads.tiktok.com/resources/help/article/about-smart-plus-traffic-campaigns?lang=en",
+            "locator": null,
+            "source_site": "TikTok Ads Help Center",
+            "source_title": "About Smart+ Traffic Campaigns",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "ga.target-cpa-bidding",
+        "name": "Target CPA",
+        "vendor": "Google Ads",
+        "kind": "partial_alternative",
+        "difference": "Target CPA maximises conversions at a target CPA and treats all conversions equally. Meta's cost cap limits average cost per optimisation event while seeking the most results. Both aim at a CPA, but the capture does not show they enforce it the same way.",
+        "context": "Google Search bidding where you prioritise conversions at a specific CPA.",
+        "evidence": [
+          {
+            "source_id": "google.search.troas",
+            "source_url": "https://support.google.com/google-ads/answer/6268637?hl=en",
+            "locator": null,
+            "source_site": "Google Ads Help",
+            "source_title": "About Target ROAS bidding",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      },
+      {
+        "feature_id": "pin.custom-bidding",
+        "name": "Custom bidding",
+        "vendor": "Pinterest",
+        "kind": "related_not_equivalent",
+        "difference": "Pinterest's Custom option lets you manually control how much you bid in Optimisation and delivery settings. Meta's cost cap limits average cost per result and leaves per-auction bids to the system.",
+        "context": "Pinterest ad group optimisation and delivery settings.",
+        "evidence": [
+          {
+            "source_id": "pinterest.structure.ad_groups",
+            "source_url": "https://help.pinterest.com/en-gb/business/article/create-ad-group",
+            "locator": null,
+            "source_site": "Pinterest Help Centre",
+            "source_title": "Create an ad group",
+            "raw_sha256": null,
+            "cleaned_sha256": null
+          }
+        ],
+        "status": "documented"
+      }
+    ],
+    "dependencies": {
+      "source_versions": {
+        "meta.ads.campaign_bid_strategy": "f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294+f60bbb67ef1f60798b024f841eac77fef6dafa347cbc3c058499ff940c52d294",
+        "meta.guide.cost_per_result_goal": "c973926bdd5c43b3dbda98e76de49424b993c2a56088c8d97424a4da27d77ec9+c973926bdd5c43b3dbda98e76de49424b993c2a56088c8d97424a4da27d77ec9"
+      },
+      "grouping_version": "2026-11-17",
+      "prompt_version": "writer-shared-579f20b9065c",
+      "schema_version": "2",
+      "model": "claude-code:sonnet",
+      "verifier_model": "deepseek/deepseek-v4.1-flash",
+      "verifier_prompt_version": "verifier-v4",
+      "section_prompt_versions": {
+        "definition": "writer-definition-5bc7cc283105",
+        "kpis": "writer-kpis-fcfc751f8359",
+        "mechanism": "writer-mechanism-e4408a5399ab",
+        "relationships": "writer-relationships-ecfd6985fb41",
+        "setup": "writer-setup-3d1f6a765fad",
+        "sources": "writer-sources-0dd311f7372a",
+        "use_cases": "writer-use-cases-fcfc751f8359"
+      },
+      "related_feature_ids": []
+    },
+    "schema_version": 1,
+    "generated_at": "2026-11-18T08:26:40.867820Z",
+    "source_checked_at": "2026-11-17T23:15:01.670975Z",
+    "verified_at": "2026-11-18T08:26:40.867820Z"
+  }
+}
